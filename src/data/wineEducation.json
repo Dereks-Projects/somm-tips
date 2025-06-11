@@ -1,0 +1,237 @@
+[
+  {
+    "category":"White Grapes",
+    "topic":"Chardonnay",
+    "info":"Chardonnay is one of the most widely planted and versatile white wine grapes in the world, capable of producing styles ranging from crisp, mineral-driven Chablis to rich, buttery California wines. Its neutral character allows winemakers to shape it through choices like oak aging and malolactic fermentation, making it a favorite in both still and sparkling wines (including Champagne). Chardonnay thrives in cool climates like Burgundy and the Sonoma Coast, where it often expresses citrus and green apple notes, while warmer regions produce tropical fruit and creamy textures."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Sauvignon Blanc",
+    "info":"Sauvignon Blanc is a high-acid white grape known for its vivid aromatics\u2014think grapefruit, gooseberry, lime, and freshly cut grass\u2014especially in cooler climates like the Loire Valley and New Zealand. It typically produces dry, zesty wines with sharp freshness, though it can also be aged in oak (like in Bordeaux\u2019s white blends) to add texture and complexity. Loved for its mouthwatering brightness, Sauvignon Blanc pairs well with foods like goat cheese, salads, and seafood thanks to its refreshing, palate-cleansing acidity."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Riesling",
+    "info":"Riesling is a highly aromatic grape variety that ranges in style from bone-dry to lusciously sweet, often showcasing flavors of green apple, lime, jasmine, and a signature hint of petrol as it ages. It performs best in cool climates like Germany\u2019s Mosel and the Alsace region of France, where its naturally high acidity preserves the wine's structure and aging potential. Riesling is a sommelier favorite because its balance of sweetness and acidity makes it incredibly food-friendly\u2014especially with spicy cuisine like Thai or Indian dishes."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Pinot Gris",
+    "info":"Pinot Gris (also known as Pinot Grigio in Italy) is a grayish-purple mutation of Pinot Noir that produces light to medium-bodied wines with flavors that range from crisp green apple and lemon zest to richer notes of ripe pear and spice, depending on where it's grown. In Italy, it\u2019s typically made in a light, refreshing style, while in Alsace or Oregon, it often takes on more weight, texture, and stone fruit character. Though it\u2019s often underestimated, well-made Pinot Gris can offer excellent food-pairing versatility and surprising depth."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Gewurtztraminer",
+    "info":"Gew\u00fcrztraminer is one of the most aromatic white grapes, instantly recognizable for its exotic perfume of lychee, rose petals, ginger, and spice, often accompanied by a slightly oily texture and low acidity. It thrives in cooler climates like Alsace and parts of Germany, where its richness is balanced by moderate sugar and alcohol levels, often resulting in off-dry styles. Gew\u00fcrztraminer is a bold partner for pungent cheeses and spicy dishes, as its expressive aromatics and slight sweetness complement intense flavors."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Chenin Blanc",
+    "info":"Chenin Blanc is a chameleon-like grape that can produce dry, off-dry, sparkling, and sweet wines, with hallmark notes of green apple, quince, honey, and sometimes a lanolin or wool-like nuance. It is most famously grown in the Loire Valley\u2014particularly Vouvray and Savenni\u00e8res\u2014but also thrives in South Africa, where it is the most widely planted grape. Known for its high acidity and aging potential, Chenin Blanc is a sommelier favorite for pairing with a wide range of dishes, from roast poultry to Asian cuisine."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Albari\u00f1o",
+    "info":"Albari\u00f1o is a crisp, aromatic white grape native to Galicia in northwest Spain, particularly in the R\u00edas Baixas region, where it thrives in coastal climates and produces wines with zesty acidity and flavors of lime, peach, and saline minerality. It often has a slightly waxy texture and floral notes, making it both refreshing and subtly complex. Albari\u00f1o is a natural match for seafood\u2014especially shellfish\u2014due to its bright, ocean-kissed character."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Gr\u00fcner Veltliner",
+    "info":"Gr\u00fcner Veltliner is Austria\u2019s signature white grape, prized for its vibrant acidity, white pepper spice, and flavors of green apple, lime, and radish, often with a mineral backbone. It can range from light and zippy to fuller-bodied and age-worthy, with top expressions coming from regions like Wachau, Kamptal, and Kremstal. Gr\u00fcner is a favorite among sommeliers for its ability to pair with tricky vegetables like asparagus and its adaptability across a wide range of cuisines."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Viognier",
+    "info":"Viognier is a lush, full-bodied white grape known for its seductive aromatics\u2014think honeysuckle, apricot, and ripe peach\u2014with a rounded, sometimes oily texture and lower acidity. It is traditionally associated with the Rh\u00f4ne Valley in France, particularly Condrieu, but is also grown successfully in California and Australia. Viognier shines when served slightly chilled and pairs well with richly spiced dishes, creamy sauces, and roasted poultry."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Cabernet Sauvignon",
+    "info":"Cabernet Sauvignon is the most widely planted red grape in the world, known for its bold tannins, deep color, and classic flavors of blackcurrant, cedar, and tobacco. It thrives in warm climates like Napa Valley and Bordeaux\u2019s Left Bank, where it produces structured wines with excellent aging potential. Its strong character makes it a popular blending grape and a natural partner for grilled meats and hearty dishes.\n"
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Merlot",
+    "info":"Merlot is a soft, approachable red grape that produces medium to full-bodied wines with plush tannins and flavors of plum, black cherry, and chocolate. Often used in blends with Cabernet Sauvignon\u2014especially in Bordeaux\u2019s Right Bank\u2014it also stands beautifully on its own, offering a more supple and fruit-forward alternative. Merlot\u2019s easygoing style makes it a favorite among new wine drinkers and a reliable pairing for roasted poultry, pork, and pasta dishes."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Pinot Noir",
+    "info":"Pinot Noir is a thin-skinned, temperamental grape that produces light to medium-bodied red wines with high acidity and flavors of red cherry, raspberry, and earthy undertones like mushroom or forest floor. It excels in cool climates such as Burgundy, Oregon, and New Zealand, where it reflects subtle nuances of terroir with elegance and finesse. Pinot Noir\u2019s bright acidity and gentle tannins make it a versatile pairing for everything from salmon to duck."
+  },
+  {
+    "category":"Red Grapes ",
+    "topic":"Syrah",
+    "info":"Syrah (called Shiraz in Australia) produces bold, dark wines with flavors of blackberry, black pepper, smoked meat, and olive tapenade, often with a velvety texture and firm tannins. In France\u2019s Rh\u00f4ne Valley, it\u2019s the star of Hermitage and C\u00f4te-R\u00f4tie; in Australia, it yields more fruit-forward and robust versions from regions like Barossa Valley. Syrah\u2019s intensity and savory character make it a great companion for grilled meats, stews, and hearty fare."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Grenache",
+    "info":"Grenache (Garnacha in Spain) is a warm-climate red grape known for its juicy red fruit flavors\u2014like strawberry and raspberry\u2014along with hints of white pepper and dried herbs. It plays a central role in Southern Rh\u00f4ne blends and Spanish regions like Priorat, where it contributes body, sweetness, and alcohol. Despite its softness, Grenache can age well and pairs beautifully with Mediterranean cuisine, grilled vegetables, and spicy dishes.\n"
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Tempranillo",
+    "info":"Tempranillo is Spain\u2019s signature red grape, central to the wines of Rioja and Ribera del Duero, offering flavors of red cherry, plum, tobacco, and leather with a medium to full body. It often sees aging in American oak, which imparts notes of vanilla and dill, especially in traditional Rioja styles. Known for its food-friendliness, Tempranillo pairs wonderfully with grilled meats, tapas, and cured ham."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Malbec",
+    "info":"Malbec is a deeply colored, fruit-forward red grape originally from France but now most famously grown in Argentina, where it thrives in the high-altitude vineyards of Mendoza. Its bold flavors of blackberry, plum, cocoa, and spice are often accompanied by smooth tannins and a velvety finish. Malbec is a crowd-pleaser and pairs effortlessly with grilled steaks, barbecue, and robust dishes."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Sangiovese",
+    "info":"Sangiovese is Italy\u2019s most planted red grape and the backbone of Chianti, Brunello di Montalcino, and other Tuscan wines, known for its high acidity, firm tannins, and flavors of sour cherry, tomato leaf, and herbs. It often expresses a savory, earthy character that reflects the rustic charm of central Italian cuisine. Sangiovese is a natural match for tomato-based dishes, grilled vegetables, and aged cheeses."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Nebbiolo",
+    "info":"Nebbiolo is a high-tannin, high-acid grape responsible for some of Italy\u2019s most powerful and long-lived wines, including Barolo and Barbaresco, with distinctive aromas of tar, roses, cherry, and truffle. Despite its pale color, Nebbiolo wines are full-bodied and structured, often requiring aging to soften their intensity. It is a classic match for rich Northern Italian cuisine, especially braised meats and truffle-infused dishes."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Zinfandel",
+    "info":"Zinfandel, known as Primitivo in Italy, is a bold, fruit-driven grape that produces wines bursting with blackberry, plum, black pepper, and spice, often with a jammy richness and elevated alcohol. In California, it has become a signature variety, especially in regions like Sonoma and Lodi, where old vines produce concentrated, complex wines. Zinfandel\u2019s ripe, spicy profile makes it a great partner for barbecue, burgers, and dishes with smoky or sweet elements."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Bordeaux, France",
+    "info":"Located in southwest France near the Atlantic Ocean, Bordeaux has a temperate maritime climate with gravel, clay, and limestone soils. It is world-renowned for its age-worthy red blends (primarily Cabernet Sauvignon and Merlot) and for setting the global standard in fine wine production."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Champagne, France",
+    "info":"Northeast of Paris, Champagne has a cold, northern climate and chalky soils that help retain moisture and heat. It is the birthplace of sparkling wine made using the traditional method, with Chardonnay, Pinot Noir, and Pinot Meunier as the dominant grapes."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Burgundy, France",
+    "info":"Located in eastern France, Burgundy\u2019s continental climate and varied limestone-rich soils create distinct vineyard sites (terroirs). This region produces some of the world\u2019s most revered Pinot Noir and Chardonnay, with a classification system based on vineyard hierarchy."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Napa Valley, California",
+    "info":"Situated north of San Francisco, Napa Valley has a Mediterranean climate with significant diurnal temperature shifts and diverse soils. Known for powerful, fruit-driven Cabernet Sauvignon, Napa is America\u2019s most prestigious wine region and a leader in premium winemaking."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Rioja, Spain",
+    "info":"In northern Spain along the Ebro River, Rioja features a mix of continental and Atlantic influences, with clay and calcareous soils. It\u2019s famous for long-aged Tempranillo-based reds, often matured in American oak, and is considered Spain\u2019s flagship wine region."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Tuscany, Italy ",
+    "info":"Situated in central Italy with rolling hills and a warm, dry Mediterranean climate moderated by altitude. Tuscany is the home of Sangiovese, producing iconic wines like Chianti Classico and Brunello di Montalcino, and is known for blending tradition with innovation (Super Tuscans)."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Barossa Valley, Australia",
+    "info":"Located in South Australia, Barossa has a warm, dry climate ideal for ripening grapes fully, with sandy and clay loam soils. It\u2019s best known for bold, concentrated Shiraz and old-vine plantings, making it a cornerstone of Australia\u2019s fine wine identity."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Willamette Valley, Oregon",
+    "info":"In the Pacific Northwest, Willamette Valley has a cool, wet climate moderated by coastal mountain ranges. This region has earned acclaim for its elegant, Burgundian-style Pinot Noir and is one of America\u2019s top cool-climate wine areas."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Mendoza, Argentina ",
+    "info":"Nestled in the foothills of the Andes Mountains, Mendoza has high-altitude vineyards with sunny days, cool nights, and minimal rainfall. It is Argentina\u2019s largest and most important region, producing structured, expressive Malbecs and increasingly high-quality Cabernet and Chardonnay."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Dry",
+    "info":"A dry wine contains little to no residual sugar, meaning all or nearly all of the grape\u2019s natural sugar has been fermented into alcohol. This results in a crisp, clean finish with no perception of sweetness on the palate."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Sweet",
+    "info":"Sweet wines retain a noticeable amount of residual sugar, either from halted fermentation or grape concentration techniques like drying or freezing. This sugar creates a dessert-like quality, balancing acidity and often amplifying fruit flavors."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Off-Dry",
+    "info":"Off-dry wines have a small but perceptible amount of residual sugar\u2014more than dry, but less than sweet. This slight sweetness can soften acidity and enhance approachability, especially in aromatic white wines like Riesling."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Bone Dry",
+    "info":"Bone dry wines have zero detectable residual sugar and often a high level of acidity or tannin. They can feel austere or sharp on the palate, emphasizing minerality, citrus, or savory flavors."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Viscous",
+    "info":"Viscous wines are thick and syrupy in texture, often due to high sugar or alcohol content. This mouth-coating quality contributes to a rich, lingering finish and a perception of weight and opulence."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Light Body",
+    "info":"Light-bodied wines feel thin and delicate on the palate, often with lower alcohol and tannin. This makes them refreshing and easy to drink, ideal for pairing with lighter foods or serving chilled."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Full Body",
+    "info":"Full-bodied wines are dense and weighty, typically with higher alcohol, tannins, or extract. They create a bold, mouth-filling experience and are well-suited to rich or fatty dishes that can stand up to their intensity."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Legs\/Tears",
+    "info":"Legs (or tears) are the droplets that form and slowly run down the inside of a wine glass after swirling. While they\u2019re often misunderstood, they generally indicate higher alcohol or sugar levels, which can relate to body and viscosity."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Fruit-forward",
+    "info":"Wines that are riper in style often have more prolific fruit aromas and flavors. These wines usually come from regions that are warmer, with more ripeness in the grapes at harvest."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Residual Sugar",
+    "info":"Residual sugar is the unfermented natural grape sugar that remains in the wine after fermentation. It directly affects the sweetness level and can also contribute to the wine\u2019s texture and perceived richness."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Tannin",
+    "info":"Tannins are natural compounds found in grape skins, seeds, and stems, contributing a drying, astringent sensation in the mouth. They add structure and bitterness to red wines, helping them age and pair well with protein-rich foods."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Acidity",
+    "info":"The fresh, tart component of wine that gives it lift and balance, often perceived as mouthwatering sharpness."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"ABV (Alcohol by Volume)",
+    "info":"The percentage of alcohol in a wine, which affects its body, warmth, and perceived sweetness."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Oak Treatment",
+    "info":"The use of oak barrels (or alternatives) to age wine, which can add flavors like vanilla, spice, toast, or smoke."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Fermentation",
+    "info":"The process where yeast converts grape sugar into alcohol and carbon dioxide, turning grape juice into wine."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Malolactic Fermentation",
+    "info":"A secondary fermentation that softens a wine\u2019s acidity by converting tart malic acid into creamy lactic acid\u2014common in many Chardonnays."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Lees",
+    "info":"Dead yeast cells and grape particles that settle during fermentation; aging on the lees can add texture and a toasty, nutty flavor."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Body",
+    "info":"The weight or fullness of a wine in your mouth, often influenced by alcohol, sugar, and tannin levels."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Vintage",
+    "info":"The year the grapes were harvested, which can influence the wine\u2019s style and quality depending on the weather that season."
+  }
+]

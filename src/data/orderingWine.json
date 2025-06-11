@@ -1,0 +1,92 @@
+[
+  {
+    "category":"New World Light Body Whites",
+    "preferred":"Style: White wines that are lighter on the palate, have little to no oak treatment, moderate dryness and have less color in the glass.",
+    "traits":"Traits: These drinkers tend to enjoy wines such as Sauvignon Blanc from New Zealand, Pinot Gris from Oregon, Unoaked Chardonnay from California and other white wines that are lighter on the palate.",
+    "recommendations":[
+      "Pinot Gris from Oregon",
+      "Sauvignon Blanc from New Zealand ",
+      "Unoaked Chardonnay"
+    ]
+  },
+  {
+    "category":"New World Full Body Whites",
+    "preferred":"Style: White wines that are heavier on the palate, have light to moderate levels of oak treatment, moderate dryness and have more color in the glass.",
+    "traits":"Traits: These drinkers tend to enjoy wines such as California Chardonnay, California Viognier, Australian Chardonnay and other white wines that are heavier on the palate.",
+    "recommendations":[
+      "Chardonnay from California",
+      "Viognier from California",
+      "Chardonnay from Australia"
+    ]
+  },
+  {
+    "category":"Off-Dry Whites",
+    "preferred":"Style: White wines that are less dry, with considerably more fruit flavors than most white wines. ",
+    "traits":"Traits: These drinkers tend to enjoy wines that have less dryness and prolific levels of fruit, such as certain offerings of Riesling, Gewurztraminer and Pinot Gris.",
+    "recommendations":[
+      "Riesling from Germany",
+      "Riesling from Washington State",
+      "Chenin Blanc from the Loire Valley"
+    ]
+  },
+  {
+    "category":"Old World Light Body Whites",
+    "preferred":"Style: White wines that are lighter on the palate, have little to no oak treatment, are more dry and have less color in the glass.",
+    "traits":"Traits: These drinkers tend to enjoy wines that are lighter in body style and have a dry finish, such as Pinot Grigio from Italy, Chablis from France and other unoaked European white wines. ",
+    "recommendations":[
+      "Sauvignon Blanc from France (Sancerre)",
+      "Pinot Grigio from Italy",
+      "Albari\u00f1o from Spain"
+    ]
+  },
+  {
+    "category":"Old World Full Body Whites",
+    "preferred":"Style: White wines that are heavier on the palate, have light to moderate levels of oak treatment, considerable dryness and have more color in the glass.",
+    "traits":"Traits: These drinkers tend to enjoy white wines with more richness and elevated dryness, such as White Burgundy, White Bordeaux and other European white offerings that have oak treatment.",
+    "recommendations":[
+      "Chardonnay from France (White Burgundy)",
+      "Whites from the Rh\u00f4ne Valley",
+      "Whites from the Jura Region (France)"
+    ]
+  },
+  {
+    "category":"New World Light Body Reds",
+    "preferred":"Style: Red wines that lighter on the palate, have moderate levels of oak, less dryness, and have elevated levels of fruit flavors.",
+    "traits":"Traits: These drinkers tend to enjoy wines that are lighter in the glass and have less dryness, such as California Pinot Noir and Australian Grenache.",
+    "recommendations":[
+      "Pinot Noir from California",
+      "Pinot Noir from Oregon",
+      "Grenache from Australia"
+    ]
+  },
+  {
+    "category":"New World Full Bodied Reds",
+    "preferred":"Style: Red wines that are heavier and richer on the palate, have perceivable oak treatment, and have elevated levels of fruit flavors.",
+    "traits":"Traits: These drinkers tend to enjoy wines that are darker in the glass and have elevated levels of fruit flavor, such as California Cabernet Sauvignon, California Merlot, Australian Shiraz and Argentinean Malbec. ",
+    "recommendations":[
+      "Cabernet Sauvignon from California",
+      "Red Blends from California",
+      "Cabernet Sauvignon from Washington State"
+    ]
+  },
+  {
+    "category":"Old World Light Body Reds",
+    "preferred":"Style: Red wines that lighter on the palate, have moderate levels of oak, more dryness, and have elevated levels of earthy flavors.",
+    "traits":"Traits: These drinkers tend to enjoy wines that are lighter in the glass and have more dryness, such as Pinot Noir and Gamay from Burgundy. ",
+    "recommendations":[
+      "Pinot Noir from Burgundy (Red Burgundy)",
+      "Cabernet Franc from the Loire Valley",
+      "Gamay from Burgundy"
+    ]
+  },
+  {
+    "category":"Old World Full Bodied Reds",
+    "preferred":"Style: Red wines that are heavier on the palate, have perceivable oak treatment, and have elevated levels of dryness.",
+    "traits":"Traits: These drinkers tend to enjoy wines that are fuller bodied on the palate with more dryness, such as red offerings from Bordeaux, France and Tuscany, Italy.",
+    "recommendations":[
+      "Red Blends from Bordeaux",
+      "Red Blends from Tuscany or Veneto",
+      "Red Blends from Rioja or Ribera del Duero"
+    ]
+  }
+]

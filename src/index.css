@@ -1,0 +1,245 @@
+/* 📄 FILE: index.css */
+
+/* Global Theme */
+:root {
+  --primary-blue: #00004d;
+  --light-gray: #fafafa;
+  font-family: 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  background-color: var(--light-gray);
+  color: var(--primary-blue);
+
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+ 
+  font-family: inherit;
+  color: var(--primary-blue);
+  min-height: 100vh;
+
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url('/src/assets/somm-homepage-hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-color: var(--light-gray); /* Fallback */
+}
+
+html {
+  height: 100%;
+}
+
+
+
+/* HOMEPAGE BACKGROUND IMAGE STYLE */
+.homepage-web-container {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* ✅ Vertically center the content */
+  align-items: center;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url('/src/assets/somm-homepage-hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  overflow: hidden; /* ✅ Prevent scrolling */
+  transform: translateY(-7vh);
+
+}
+
+
+.homepage-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fafafa;
+  text-align: center;
+  margin: 1rem 0 0.25rem;
+}
+
+.homepage-subtitle {
+  font-size: 1.4rem;
+  color: #fafafa;
+  text-align: center;
+  margin-bottom: 2rem;
+  max-width: 90%;
+  line-height: 1.5;
+}
+
+/* HOMEPAGE BUTTON LAYOUT */
+.homepage-button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* ✅ UNIVERSAL BUTTON BASE STYLE */
+.somm-button,
+.toggle-button,
+.reset-button,
+.home-button {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid var(--primary-blue);
+  background-color: #fafafa;
+  color: var(--primary-blue);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* ✅ HOVER & ACTIVE STATES */
+.somm-button:hover,
+.toggle-button:hover,
+.reset-button:hover,
+.home-button:hover {
+  background-color: var(--primary-blue);
+  color: #ffffff;
+}
+
+.toggle-button.active {
+  background-color: var(--primary-blue);
+  color: white;
+}
+
+/* ✅ WIDTH CUSTOMIZATION */
+.somm-button {
+  width: 100%;
+  max-width: 260px;
+}
+
+.toggle-button {
+  min-width: 120px;
+  width: auto;
+}
+
+.reset-button,
+.home-button {
+  width: 240px;
+  margin: 0.75rem auto;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .homepage-title {
+    font-size: 2.2rem;
+  }
+  .homepage-subtitle {
+    font-size: 1rem;
+  }
+  .homepage-button {
+    width: 100%;
+  }
+}
+
+/* Wines Page Layout */
+.wines-page-container {
+  padding: 2rem 1rem;
+  max-width: 700px;
+  margin: 0 auto; /* removes vertical space above/below */
+  text-align: center;
+
+  
+  background-color: #fafafa;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.page-wrapper {
+  padding: 6vh 0;
+  background: transparent;
+}
+
+
+/* Filter Button Grid */
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+/* Wine List Styling */
+.wine-list ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-top: 1rem;
+}
+
+.accordion-list {
+  margin-top: 2rem;
+}
+
+/* 🌄 Universal background image for all pages */
+.app-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url('/src/assets/somm-homepage-hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2rem;
+}
+
+@media (max-width: 500px) {
+  .wines-page-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+
+.wines-subtitle {
+  font-size: 1.1rem;
+  color: var(--primary-blue);
+  text-align: center;
+  margin: 0 auto 2rem;       /* Centers and gives bottom margin */
+  max-width: 520px;          /* ✅ Keeps the text between those red lines you drew */
+  line-height: 1.6;          /* Improves readability */
+}
+
+/* 🟦 Custom Inverse Home Button Style */
+.inverse-home-button {
+  background-color: var(--primary-blue);   /* default: dark blue */
+  color: #fafafa;                          /* text: light */
+  border: 2px solid var(--primary-blue);
+}
+
+.inverse-home-button:hover {
+  background-color: #e0e0e0;               /* hover: light gray */
+  color: var(--primary-blue);              /* text turns dark */
+  border-color: #e0e0e0;
+}

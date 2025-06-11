@@ -1,0 +1,324 @@
+[
+  {
+    "continent": "Americas",
+    "food": "Arepas",
+    "about": "Arepas are Venezuelan and Colombian corn cakes filled with meats, cheeses, or beans. They have a crispy crust and fluffy interior.",
+    "pairing": "Try a Tannat from Uruguay or a Syrah from Argentina.",
+    "why": "Wine that hails from the area the food is derived from is always a great idea. For this dish, the heavier the filling, the heavier the wine."
+  },
+  {
+    "continent": "Europe",
+    "food": "Bangers and Mash",
+    "about": "This British dish consists of sausages and mashed potatoes. It\u2019s hearty, savory, and often served with onion gravy.",
+    "pairing": "Try a Cabernet Franc from France (Chinon).",
+    "why": "A medium boded Cabernet Franc from the Loire valley works here, as the higher acidity is refreshing, while the touch of savoriness in both the food and the wine match well."
+  },
+  {
+    "continent": "Americas",
+    "food": "BBQ Ribs",
+    "about": "This classic southern pork dish often found in the low country of the United States has bold flavors of sweetness, savory and smoke.",
+    "pairing": "Try a California Zinfandel or Paso Robles red blend.",
+    "why": "The Zinfandel grape is fuller bodied, and can handle bold flavors like spice and barbeque sauce"
+  },
+  {
+    "continent": "Asia",
+    "food": "Beef Rendang",
+    "about": "Beef Rendang hails from Indonesia and is a slow-cooked dry curry. It offers deep, spicy, and coconut-rich flavors from hours of simmering aromatic spices.",
+    "pairing": "Try a Sonoma County Zinfandel or a Dry German Riesling.",
+    "why": "Zinfandel, preferably one that has less oak treatment, works for a red pairing. However, an aged German Riesling is perfect here."
+  },
+  {
+    "continent": "Europe",
+    "food": "Beef Stroganoff",
+    "about": "A creamy, savory dish from Russia made with saut\u00e9ed beef, mushrooms, and sour cream, often served over noodles or rice. Its flavor is rich, tangy, and earthy.",
+    "pairing": "Try a White Burgundy or an Eastern European Red Blend.",
+    "why": "White Burgundy has elevated acidity, giving a refreshing side to this heavy dish. A red blend from Austria or Hungary would work nicely here as well."
+  },
+  {
+    "continent": "Asia",
+    "food": "Biryani",
+    "about": "Biryani is a fragrant rice dish from the Indian subcontinent, layered with meat and spices. It features bold, spicy, and aromatic flavors.",
+    "pairing": "Try a Chenin Blanc (Vouvray) or an Australian Grenache.",
+    "why": "Vouvray from the Loire Valley matches well with spice, especially examples with a touch of residual sugar (sweetness)."
+  },
+  {
+    "continent": "Africa",
+    "food": "Bobotie",
+    "about": "Bobotie is a South African spiced meat casserole with an egg topping. It combines sweet and savory with curry, raisins, and baked custard.",
+    "pairing": "Try a South African Chenin Blanc.",
+    "why": "Chenin Blanc, also known as \"Steen\", from South Africa works well here, with some of these wines being truly great finds."
+  },
+  {
+    "continent": "Europe",
+    "food": "Brie",
+    "about": "Originating from the \u00cele-de-France region in France, Brie is a soft-ripened cheese with a bloomy rind and a buttery, mildly nutty interior.",
+    "pairing": "Try a Champagne or Chablis.",
+    "why": "Wine that hails from the area the food is derived from is always a great idea."
+  },
+  {
+    "continent": "Europe",
+    "food": "Cassoulet",
+    "about": "A hearty, slow-cooked casserole from southern France, traditionally made with white beans, duck confit, and sausage. It has a deeply savory, herby flavor with rich textures.",
+    "pairing": "Try a Ros\u00e9 or a Red Blend from Provence.",
+    "why": "A ros\u00e9 from the area this dish is derived from is a great pairing, as are the diverse array of great reds found in this region."
+  },
+  {
+    "continent": "Europe",
+    "food": "Ceviche",
+    "about": "Ceviche is a refreshing seafood dish popular in coastal Peru. It features raw fish marinated in citrus juice, yielding a bright, zesty, and slightly spicy flavor.",
+    "pairing": "Try a Albari\u00f1o or Verdejo from Spain.",
+    "why": "Light, bright and refreshing (with no oak) is what we look for when pairing with delicate dishes. "
+  },
+  {
+    "continent": "Asia",
+    "food": "Chicken Tikka Masala",
+    "about": "This Indian fusion dish consists of grilled chicken in a creamy tomato sauce. It is mildly spicy, rich, and comforting.",
+    "pairing": "Try a Dry German Riesling or Beaujolais from France.",
+    "why": "Germany produces outstanding dry Riesling that would be great with this dish, as would Gamay from Beaujolais."
+  },
+  {
+    "continent": "Americas",
+    "food": "Chiles en Nogada",
+    "about": "A patriotic dish from Mexico, Chiles en Nogada features poblano peppers stuffed with meat and covered in walnut sauce. It balances sweet, savory, and creamy flavors.",
+    "pairing": "Try a Chenin Blanc or Chardonnay from Baja California.",
+    "why": "The Baja region of Mexico produces some great wines that would pair well with this dish."
+  },
+  {
+    "continent": "Europe",
+    "food": "Coq au Vin",
+    "about": "Originating in France, Coq au Vin is a classic French stew of chicken braised in wine. It features rich, savory flavors with earthy notes from mushrooms and aromatic herbs.",
+    "pairing": "Try a Burgundy Pinot Noir.",
+    "why": "Red Burgundy (Pinot Noir) or C\u00f4tes du Rh\u00f4ne would perform well here, as the savory flavors of the wine match the dish."
+  },
+  {
+    "continent": "Americas",
+    "food": "Empanadas",
+    "about": "Empanadas are pastries stuffed with meat, cheese, or vegetables, common across Latin America. They are savory, flaky, and deeply satisfying.",
+    "pairing": "Try a Malbec from Argentina or a Tannat from Uruguay.",
+    "why": "A red wine from South America is called for. Choose a heavier wine if the filling is heartier."
+  },
+  {
+    "continent": "Americas",
+    "food": "Feijoada",
+    "about": "Feijoada is a traditional Brazilian black bean stew with pork and beef. It's hearty and rich with smoky, meaty flavors.",
+    "pairing": "Try a Portuguese White or Red.",
+    "why": "Vinho Verde for a refreshing white wine, or a deep red from the Dao region, either will pair well here."
+  },
+  {
+    "continent": "Europe",
+    "food": "Feta",
+    "about": "Originating in Greece, feta is a brined white cheese traditionally made from sheep's milk or a mix of sheep and goat's milk. It has a crumbly texture and a tangy, salty flavor with a slightly creamy finish.",
+    "pairing": "Try a white wine from Greece (Moscofilero or Assyrtiko).",
+    "why": "The salty aromas and flavors of the cheese are found in some of the white wine offerings from around the country."
+  },
+  {
+    "continent": "Europe",
+    "food": "Fish and Chips",
+    "about": "A classic British dish that emerged in the 19th century, fish and chips consists of battered white fish\u2014typically cod or haddock\u2014served with deep-fried potato slices. The flavor is a comforting blend of crispy, golden batter, flaky mild fish, and rich, savory fried potatoes.",
+    "pairing": "Try a Sauvignon Blanc or Muscadet.",
+    "why": "A crisp white wine will work here, as it brings freshness to a plate of fried food."
+  },
+  {
+    "continent": "Europe",
+    "food": "Gouda",
+    "about": "Hailing from the Netherlands, Gouda is a semi-hard to hard cow\u2019s milk cheese named after the Dutch town of Gouda. Young Gouda is smooth and mild with a buttery sweetness, while aged versions develop caramel-like notes, nuttiness, and crystalline texture.",
+    "pairing": "Try a White or Red wine from the Jura regions of France.",
+    "why": "This rich cheese pairs well with a wine that has similar characteristics, while maintaining freshness on the palate."
+  },
+  {
+    "continent": "Europe",
+    "food": "Goulash",
+    "about": "Goulash is a Hungarian beef stew with paprika and other spices. It is robust, peppery, and soul-warming.",
+    "pairing": "Try an old world Pinot Noir or Merlot.",
+    "why": "An earthy red wine, preferably from Hungary, works well here."
+  },
+  {
+    "continent": "Europe",
+    "food": "Gruy\u00e8re",
+    "about": "Produced in Switzerland\u2019s Gruy\u00e8re region, this cow's milk cheese is aged in caves and often used in fondue and French onion soup. It has a dense, creamy body with nutty, slightly earthy flavors that intensify with age.",
+    "pairing": "Try a lighter Red Wine from France or Switzerland.",
+    "why": "A wine with lower levels of oak and a touch of earthiness perform well with this cheese."
+  },
+  {
+    "continent": "Americas",
+    "food": "Jerk Chicken",
+    "about": "A fiery, aromatic dish from Jamaica, jerk chicken is marinated in a blend of Scotch bonnet peppers, allspice, thyme, and other spices before being grilled or smoked. The flavor is bold and smoky with a balance of heat, sweetness, and fragrant herbs.",
+    "pairing": "Try a Zinfandel or Australian Grenache.",
+    "why": "Spice and intense flavors are balanced with the fruit-forward nature of these red wine offerings."
+  },
+  {
+    "continent": "Africa",
+    "food": "Jollof Rice",
+    "about": "Jollof Rice is a West African tomato-based rice dish with onions and chili. It has smoky, spicy, and savory flavors.",
+    "pairing": "Try a Zinfandel or Australian Grenache.",
+    "why": "Spice and intense flavors are balanced with the fruit-forward nature of these red wine offerings."
+  },
+  {
+    "continent": "Asia",
+    "food": "Kebab",
+    "about": "Kebabs come from the Middle East and South Asia, featuring skewered grilled meats. They are smoky, spiced, and often served with flatbread.",
+    "pairing": "Try a German Riesling or Australian Grenache.",
+    "why": "The smokiness and spice of the meat is well matched with a fruit-forward wine."
+  },
+  {
+    "continent": "Asia",
+    "food": "Khao Soi",
+    "about": "Khao Soi is a Thai curry noodle soup with coconut milk and crispy noodles. It\u2019s creamy, spicy, and fragrant.",
+    "pairing": "Try a, Argentinian Torront\u00e9s or Aussie Chardonnay.",
+    "why": "The Torront\u00e9s brings aromatics to this intensely flavored dish, while the Chardonnay meets with the creaminess of the soup nicely."
+  },
+  {
+    "continent": "Asia",
+    "food": "Kimchi Jjigae",
+    "about": "This Korean stew is made with aged kimchi, tofu, and pork or tuna. It has a tangy, spicy, and umami-packed flavor profile.",
+    "pairing": "Try an off-dry Alsatian Pinot Gris or Gew\u00fcrztraminer.",
+    "why": "A public service announcement: When a dish is really intense and the pairing is difficult, turn to the wines of Alsace, France."
+  },
+  {
+    "continent": "Africa",
+    "food": "Lamb Tagine",
+    "about": "Originating from North Africa, particularly Morocco, lamb tagine is a slow-cooked stew named after the traditional earthenware pot it's prepared in. It features tender lamb infused with warm spices like cinnamon, cumin, and ginger, balanced by sweet notes from dried fruits and a rich, aromatic sauce.",
+    "pairing": "Try a Syrah from France or California.",
+    "why": "If the dish is heavily spiced, try the California version of Syrah, as it is slightly more full bodied and less dry that their French counterparts."
+  },
+  {
+    "continent": "Americas",
+    "food": "Lobster Roll",
+    "about": "The Lobster Roll is a New England favorite, served in a buttered bun. It offers delicate, sweet lobster flavor with rich buttery or tangy mayo dressing.",
+    "pairing": "Try a Chardonnay from Burgundy or Oregon.",
+    "why": "The creaminess of the wine matches well with the rich and creamy aspects of this dish."
+  },
+  {
+    "continent": "Europe",
+    "food": "Manchego",
+    "about": "Originating from the La Mancha region of Spain, Manchego is a sheep\u2019s milk cheese aged from 2 months to over a year. It offers a firm yet buttery texture with flavors ranging from mild and nutty in younger wheels to sharp, grassy, and tangy as it matures.",
+    "pairing": "Try a Cava or a Spanish White Wine.",
+    "why": "For younger version soft this cheese, try a sparkling wine from Spain. If the cheese is aged, move to a Godello or Chardonnay."
+  },
+  {
+    "continent": "Europe",
+    "food": "Moussaka",
+    "about": "Moussaka is a layered eggplant and meat dish from Greece, often topped with b\u00e9chamel sauce. It offers warm Mediterranean spices, savory ground meat, and creamy textures.",
+    "pairing": "Try a Moscofilero or Xinomavro.",
+    "why": "Choose a wine from Greece here, or an old world example that has low oak and earthiness."
+  },
+  {
+    "continent": "Europe",
+    "food": "Mushroom Risotto",
+    "about": "An Italian rice dish rooted in northern Italy, mushroom risotto is made with arborio rice slowly cooked in broth and enriched with saut\u00e9ed mushrooms, onions, and Parmesan. It has a creamy, luxurious texture with earthy, umami-rich flavors from the mushrooms and a subtle nuttiness from the cheese.",
+    "pairing": "Try a Lighter White or Red wine from Northern Italy.",
+    "why": "A lighter style wine goes well with risotto, as the dish is inherently heavier and needs a textural balance."
+  },
+  {
+    "continent": "Asia",
+    "food": "Okonomiyaki",
+    "about": "This Japanese savory pancake is made with cabbage and various toppings. It\u2019s umami-rich, slightly sweet, and often drizzled with mayonnaise and sauce.",
+    "pairing": "Try a Junmai Sake or Champagne.",
+    "why": "Many Japanese dishes pair well with Sake or a glass of Champagne."
+  },
+  {
+    "continent": "Asia",
+    "food": "Pad Thai",
+    "about": "Pad Thai is a signature dish from Thailand known for its stir-fried noodles. It balances sweet, sour, and salty flavors with a hint of umami from tamarind and fish sauce.",
+    "pairing": "Try a German Riesling or a Vouvray (Chenin Blanc).",
+    "why": "The sweet and spicy flavors of the Pad Thai are matched well with a white wine that has higher acidity and hint of sweetness."
+  },
+  {
+    "continent": "Europe",
+    "food": "Parmigiano-Reggiano",
+    "about": "Made exclusively in specific regions of northern Italy, Parmigiano Reggiano is a hard, aged cheese crafted from raw cow\u2019s milk and matured for 12 to 36 months. Its flavor is deeply savory, nutty, and crystalline, with a complex umami richness ideal for grating.",
+    "pairing": "Try a Vermentino or Sangiovese from Tuscany.",
+    "why": "Match the richness of this dish with a wine that can stand up to the bold, rich flavors."
+  },
+  {
+    "continent": "Asia",
+    "food": "Peking Duck",
+    "about": "Peking Duck is a traditional Chinese dish originating from Beijing. It has crispy skin and tender meat, usually paired with sweet hoisin sauce and soft pancakes.",
+    "pairing": "Try a California Pinot Noir.",
+    "why": "A fruit-forward red wine from the new world will perform well with this dish."
+  },
+  {
+    "continent": "Asia",
+    "food": "Pho",
+    "about": "Pho is a Vietnamese noodle soup with aromatic broth, rice noodles, and herbs. It delivers savory and herbaceous flavors, often enhanced by lime and chili.",
+    "pairing": "Try a Dry Riesling or a Beaujolais (Gamay).",
+    "why": "Germany produces outstanding dry Riesling that would be great with this dish, as would Gamay from Beaujolais."
+  },
+  {
+    "continent": "Europe",
+    "food": "Pierogi",
+    "about": "Pierogi are Polish dumplings typically filled with cheese, potatoes, or meat. They're buttery, hearty, and often served with sour cream.",
+    "pairing": "Try a Gr\u00fcner Veltliner or Red Blend from Austria.",
+    "why": "A white wine is preferred here, showing some earthiness to balance the sour cream finish of the dish."
+  },
+  {
+    "continent": "Europe",
+    "food": "Ratatouille",
+    "about": "A Proven\u00e7al vegetable dish from southern France, ratatouille features a medley of eggplant, zucchini, bell peppers, tomatoes, and herbs simmered in olive oil. It offers a rustic, earthy flavor with a balance of sweetness, acidity, and herbal depth.",
+    "pairing": "Try a Ros\u00e9 or a Red Blend from Provence.",
+    "why": "A ros\u00e9 from the area this dish is derived from is a great pairing, as are the diverse array of great reds found in this region."
+  },
+  {
+    "continent": "Europe",
+    "food": "Roquefort",
+    "about": "Produced in southern France from sheep\u2019s milk, Roquefort is one of the world\u2019s oldest blue cheeses and is aged in natural limestone caves. It has a creamy, crumbly texture with a sharp, tangy, and distinctly salty flavor marked by pungent blue mold.",
+    "pairing": "Try a Sauternes or Alsatian Pinot Gris.",
+    "why": "The intensity of the cheese needs to be balanced, and a white wine with sweetness and texture does just that."
+  },
+  {
+    "continent": "Europe",
+    "food": "Sauerbraten",
+    "about": "Sauerbraten is a German pot roast marinated in vinegar and spices. It has a tangy, sweet-savory flavor.",
+    "pairing": "Try a Sp\u00e4tburgunder (Pinot Noir from Germany).",
+    "why": "Riesling or Sp\u00e4tburgunder matches flavor profiles while maintaining freshness on the palate."
+  },
+  {
+    "continent": "Africa",
+    "food": "Shakshuka",
+    "about": "Shakshuka is a North African and Middle Eastern dish of poached eggs in spicy tomato sauce. It is vibrant, savory, and slightly sweet with warming spices.",
+    "pairing": "Try a White or Red C\u00f4tes du Rh\u00f4ne.",
+    "why": "With heavily spiced dishes, seek out wines with low oak treatment and elevated ripeness levels."
+  },
+  {
+    "continent": "Africa",
+    "food": "Shawarma",
+    "about": "Shawarma is a Middle Eastern wrap made from spiced meat shaved from a rotisserie. It's intensely seasoned, juicy, and often accompanied by garlic sauce.",
+    "pairing": "Try a White or Red C\u00f4tes du Rh\u00f4ne.",
+    "why": "With heavily spiced dishes, seek out wines with low oak treatment and elevated ripeness levels."
+  },
+  {
+    "continent": "Europe",
+    "food": "Spaghetti Bolognese",
+    "about": "Originating from Bologna, Italy, Bolognese is a slow-cooked meat sauce traditionally made with ground beef or pork, tomatoes, wine, and milk. It has a rich, savory flavor with deep umami notes and a smooth, velvety texture that clings to pasta.",
+    "pairing": "Try a Vermentino or Chianti Classico from Tuscany.",
+    "why": "Match the richness of this dish with a wine that can stand up to the bold, rich flavors."
+  },
+  {
+    "continent": "Europe",
+    "food": "Spaghetti Carbonara",
+    "about": "A Roman classic from Italy, Spaghetti Carbonara features pasta tossed with egg, cheese, pancetta, and pepper. The dish is creamy, salty, and rich with umami from the pork.",
+    "pairing": "Try a Vermentino or Sangiovese from Tuscany.",
+    "why": "Match the richness of this dish with a wine that can stand up to the bold, rich flavors."
+  },
+  {
+    "continent": "Asia",
+    "food": "Sushi",
+    "about": "Sushi originates from Japan and consists of vinegared rice with raw fish or vegetables. It\u2019s known for clean, delicate flavors with umami and subtle sweetness.",
+    "pairing": "Try a Riesling or Junmai Sake.",
+    "why": "Choose something delicate, preferably white and without oak treatment."
+  },
+  {
+    "continent": "Africa",
+    "food": "Tagine",
+    "about": "Tagine is a slow-cooked stew from Morocco named after the conical clay pot used. It blends sweet and savory notes with spices like cinnamon, saffron, and ginger.",
+    "pairing": "Try a White Blend or Red Blend from the Rh\u00f4ne Valley.",
+    "why": "This smoky and spicy dish benefits from an heavier white wine or a red with ."
+  },
+  {
+    "continent": "Asia",
+    "food": "Tandoori Chicken",
+    "about": "Tandoori Chicken comes from India, traditionally cooked in a clay oven called a tandoor. It's marinated in yogurt and spices, delivering smoky, spicy, and tangy flavors.",
+    "pairing": "Try a Riesling or a California Zinfandel.",
+    "why": "This smoky and spicy dish benefits from an off-dry white wine or a red with less oak treatment."
+  }
+]
