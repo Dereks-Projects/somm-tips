@@ -144,10 +144,12 @@ html {
 /* Responsive adjustments */
 @media (max-width: 500px) {
   .homepage-title {
-    font-size: 2.2rem;
+    font-size: 3.5rem;
   }
   .homepage-subtitle {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    max-width: 300px;
+    min-width: 280px;
   }
   .homepage-button {
     width: 100%;
