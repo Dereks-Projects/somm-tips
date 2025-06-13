@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <div className="homepage-web-container">
       <h1 className="homepage-title">Somm Tips</h1>
-      <p className="homepage-subtitle">Tools that help you pick a great bottle of wine.</p>
+      <p className="homepage-subtitle">Smart recommendations for wine lovers<br />and curious drinkers.</p>
 
       <div className="homepage-button-group">
         <button className="somm-button" onClick={() => navigate('/wines-for-me')}>
@@ -28,8 +28,8 @@ function HomePage() {
           Wine Education
         </button>
 
-        <button className="somm-button" onClick={() => navigate('/wines-near-me')}>
-          Wine Shops Near Me
+        <button className="somm-button" onClick={() => navigate('/cocktails')}>
+          Cocktails
         </button>
       </div>
     </div>

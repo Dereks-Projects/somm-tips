@@ -26,7 +26,7 @@ function WineAccordion({ name, description, title, line1, line2, line3, isOpen, 
             )
           )}
 
-          {content2 && <p style={{ fontWeight: '600', marginBottom: '0.5rem' }}>{content2}</p>}
+          {content2 && <p style={{ marginBottom: '0.5rem' }}>{content2}</p>}
           {content3 && <p>{content3}</p>}
         </div>
       )}
