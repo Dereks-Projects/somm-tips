@@ -59,7 +59,7 @@ html {
   background-repeat: no-repeat;
   
   overflow: hidden; /* ✅ Prevent scrolling */
-  transform: translateY(-7vh);
+  transform: translateY(-9vh);
 
 }
 
@@ -148,7 +148,7 @@ html {
   }
   .homepage-subtitle {
     font-size: 1.2rem;
-    max-width: 300px;
+    max-width: 350px;
     min-width: 280px;
   }
   .homepage-button {
