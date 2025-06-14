@@ -19,7 +19,7 @@ function OrderingWinePage() {
 
         {/* 🧾 Page Tagline */}
         <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto 2rem' }}>
-          Enlisting the assistance of a professional? Knowing your “archetype” can help them make a better recommendation.
+          Enlisting the sommelier to guide you? Knowing your preferred wine style guides them to making a better recommendation.
         </p>
 
         {/* 🔽 Accordions for each wine archetype */}
@@ -47,6 +47,10 @@ function OrderingWinePage() {
             />
           ))}
         </div>
+        <br />
+        <p className="section-subtitle">
+          The next time you are searching for a bottle of wine, let the server, bartender or sommelier know your archetype.
+        </p>
 
         {/* ⬅️ Home Button (same as all other sections) */}
         <div className="home-button-container">

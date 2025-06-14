@@ -18,8 +18,8 @@ function ClassicPairingsPage() {
     <div className="page-wrapper">
       <div className="wines-page-container">
         <h1 className="wines-title">Classic Pairings</h1>
-        <p className="wines-subtitle">
-          Here you will find some of the classic dishes from around the world and some great ideas for pairing them with wine.
+        <p className="section-subtitle">
+          Here you will find some classic dishes from around the world and some great ideas for pairing them with wine.
         </p>
 
         {/* 🌍 Filter Buttons (2x2 Grid) */}

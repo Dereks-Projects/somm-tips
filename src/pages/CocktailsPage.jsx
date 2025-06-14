@@ -26,7 +26,9 @@ function CocktailsPage() {
     <div className="page-wrapper">
       <div className="wines-page-container">
         <h1 className="wines-title">Cocktails</h1>
-
+        <p className="wines-description">
+          Explore our selection of cocktails based on your favorite base spirit.
+        </p>
         <div className="filter-grid">
           {spiritOptions.map(spirit => (
             <button

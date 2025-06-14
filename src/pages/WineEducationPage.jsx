@@ -34,6 +34,9 @@ function WineEducationPage() {
       <div className="wines-page-container">
         {/* 📍 Page Title */}
         <h1 className="wines-title">Wine Education</h1>
+        <p className="wines-description">
+          Explore our educational content on wine, from grape varieties to tasting terms. 
+          </p>
 
         {/* 🎛️ Filter Button Grid */}
         <div className="filter-grid">

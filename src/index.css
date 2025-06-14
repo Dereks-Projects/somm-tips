@@ -81,6 +81,17 @@ html {
   line-height: 1.5;
 }
 
+/* Section Titles */
+.section-subtitle {
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: var(--primary-blue);
+}
+
+
 /* HOMEPAGE BUTTON LAYOUT */
 .homepage-button-group {
   display: flex;
