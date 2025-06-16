@@ -147,7 +147,7 @@ html {
 
 .reset-button,
 .home-button {
-  width: 240px;
+  width: 285px;
   margin: 0.75rem auto;
   display: block;
 }
@@ -193,7 +193,7 @@ html {
   grid-template-columns: repeat(2, auto);
   gap: 1rem;
   justify-content: center;
-  margin: 2rem 0;
+  margin: 1.2rem 0;
 }
 
 /* Wine List Styling */
@@ -256,3 +256,14 @@ html {
   color: var(--primary-blue);              /* text turns dark */
   border-color: #e0e0e0;
 }
+
+@media (max-width: 500px) {
+  .homepage-web-container {
+    justify-content: flex-start;
+    padding-top: 4vh;
+    transform: none;
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
