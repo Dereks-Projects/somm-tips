@@ -36,7 +36,14 @@ function HomePage() {
           Cocktails
         </button>
       </div>
-
+      
+      <footer style={{ marginTop: '2rem', textAlign: 'center', fontSize: '0.9rem', color: '#fafafa' }}>
+        <p>Somm Tips - Beta version 1.0</p>
+        <p>
+          Created by <a href="https://www.derekengles.com" style={{ color: '#fafafa', textDecoration: 'underline' }}>Derek Engles</a>
+        </p>
+        
+      </footer>
       
     </div>
   );

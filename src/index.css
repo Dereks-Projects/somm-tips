@@ -59,17 +59,17 @@ html {
   background-repeat: no-repeat;
   
   overflow: hidden; /* ✅ Prevent scrolling */
-  transform: translateY(-6vh);
+  transform: translateY(-1vh);
 
 }
 
 
 .homepage-title {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 700;
   color: #fafafa;
   text-align: center;
-  margin: 1.5rem 0 0.1rem;
+  margin: 1.2rem 0 0.1rem;
 }
 
 .homepage-subtitle {
@@ -147,7 +147,7 @@ html {
 
 .reset-button,
 .home-button {
-  width: 285px;
+  width: 280px;
   margin: 0.75rem auto;
   display: block;
 }
@@ -260,10 +260,28 @@ html {
 @media (max-width: 500px) {
   .homepage-web-container {
     justify-content: flex-start;
-    padding-top: 4vh;
+    padding-top: 5vh;
     transform: none;
     height: auto;
     min-height: 100vh;
   }
 }
 
+@media (max-width: 500px) {
+  body:has(.homepage-web-container) {
+    overflow: hidden;
+    height: 100vh;
+  }
+}
+
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: .7rem;
+  color: #fafafa;
+}
+.footer a {
+  color: #fafafa;
+  text-decoration: underline;
+}
