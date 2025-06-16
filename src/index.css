@@ -260,7 +260,7 @@ html {
 @media (max-width: 500px) {
   .homepage-web-container {
     justify-content: flex-start;
-    padding-top: 5vh;
+    padding-top: 7vh;
     transform: none;
     height: auto;
     min-height: 100vh;
@@ -274,7 +274,7 @@ html {
   }
 }
 
-
+/* Footer Style */
 .footer {
   margin-top: 2rem;
   text-align: center;
