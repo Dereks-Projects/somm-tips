@@ -59,7 +59,7 @@ html {
   background-repeat: no-repeat;
   
   overflow: hidden; /* ✅ Prevent scrolling */
-  transform: translateY(-9vh);
+  transform: translateY(-6vh);
 
 }
 
@@ -69,16 +69,16 @@ html {
   font-weight: 700;
   color: #fafafa;
   text-align: center;
-  margin: 1rem 0 0.25rem;
+  margin: 1.5rem 0 0.1rem;
 }
 
 .homepage-subtitle {
   font-size: 1.4rem;
   color: #fafafa;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.3rem;
   max-width: 400px;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 /* Section Titles */
@@ -97,7 +97,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1rem;
   max-width: 400px;
   width: 100%;
 }

@@ -11,6 +11,7 @@ import ClassicPairingsPage from './pages/classicPairingsPage';
 import WineEducationPage from './pages/WineEducationPage';
 import OrderingWinePage from './pages/OrderingWinePage';
 import CocktailsPage from './pages/CocktailsPage'; // ✅ NEW
+import VintagesPage from './pages/VintagesPage';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
 
         {/* 🧾 Ordering Wine */}
         <Route path="/ordering-wine" element={<OrderingWinePage />} />
+
+        {/* 📅 Vintages */}
+        <Route path="/vintages" element={<VintagesPage />} />
 
         {/* 🍸 Cocktails */}
         <Route path="/cocktails" element={<CocktailsPage />} /> {/* ✅ NEW */}

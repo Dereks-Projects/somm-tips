@@ -1,0 +1,86 @@
+[
+  {
+    "region":"Napa Valley, California",
+    "greatVintages":"Quality Vintages: 2023 - 2021, 2019, 2018, 2016, 2014, 2013",
+    "poorVintages":"Not the Best: 2020, 2011",
+    "notes":"This area has seen a number of quality vintages over the past decade."
+  },
+  {
+    "region":"Sonoma County, California",
+    "greatVintages":"Quality Vintages: 2021, 2019, 2016",
+    "poorVintages":"Not the Best: 2020, 2015, 2012, 2011",
+    "notes":"This area has had some poor vintages over the last decade."
+  },
+  {
+    "region":"Willamette Valley, Oregon",
+    "greatVintages":"Quality Vintages: 2023, 2022, 2021, 2019 - 2015",
+    "poorVintages":"Not the Best: 2020, 2011",
+    "notes":"This area has had some excellent vintages over the past 10 years."
+  },
+  {
+    "region":"Columbia Valley, Washington",
+    "greatVintages":"Quality Vintages: 2021, 2019, 2018, 2012",
+    "poorVintages":"Not the Best: 2011",
+    "notes":"This area has had a very good run of vintages over the past decade."
+  },
+  {
+    "region":"Mendoza, Argentina",
+    "greatVintages":"Quality Vintages: 2021, 2019, 2018, 2016",
+    "poorVintages":"Not the Best: 2016 - 2014",
+    "notes":"A wide range of vintages has hit this region over the past decade."
+  },
+  {
+    "region":"South Australia",
+    "greatVintages":"Quality Vintages: 2022, 2020, 2019, 2018, 2016, 2015",
+    "poorVintages":"Not the Best: 2011, 2007",
+    "notes":"A great run of vintages has hit this area over the past decade."
+  },
+  {
+    "region":"New Zealand",
+    "greatVintages":"Quality Vintages: 2023, 2021, 2020, 2019",
+    "poorVintages":"Not the Best: 2009",
+    "notes":"A run of quality vintages has benefitted New Zealand over the past 10 years."
+  },
+  {
+    "region":"Burgundy, France",
+    "greatVintages":"Quality Vintages: 2022, 2020, 2019, 2018, 2016, 2015, 2014",
+    "poorVintages":"Not the Best: 2011",
+    "notes":"A run of quality vintages has benefitted Burgundy over the past 10 years."
+  },
+  {
+    "region":"Left Bank Bordeaux, France",
+    "greatVintages":"Quality Vintages: 2022, 2020, 2019, 2018, 2016 - 2014, 2010",
+    "poorVintages":"Not the Best: 2021, 2013, 2012",
+    "notes":"A run of quality vintages has benefitted Bordeaux over the past decade."
+  },
+  {
+    "region":"Right Bank Bordeaux, France",
+    "greatVintages":"Quality Vintages: 2022, 2020 - 2015",
+    "poorVintages":"Not the Best: 2021",
+    "notes":"A run of quality vintages has benefitted Bordeaux over the past 10 years."
+  },
+  {
+    "region":"Champagne, France",
+    "greatVintages":"Quality Vintages: 2020, 2019, 2018, 2016 - 2012",
+    "poorVintages":"Not the Best: 2021, 2017, 2011, 2010",
+    "notes":"This area has a greater quality variance than most other wine regions."
+  },
+  {
+    "region":"Rioja, Spain",
+    "greatVintages":"Quality Vintages: 2021, 2020, 2016, 2010",
+    "poorVintages":"Not the Best: 2018, 2017, 2014, 2013",
+    "notes":"This area has had a mix of quality over the last decade."
+  },
+  {
+    "region":"Tuscany, Italy",
+    "greatVintages":"Quality Vintages: 2021 - 2015",
+    "poorVintages":"Not the Best: 2014, 2012",
+    "notes":"Other than a few random years, this area has enjoyed a nice run of quality vintages."
+  },
+  {
+    "region":"Piedmont, Italy",
+    "greatVintages":"Quality Vintages: 2021 - 2015, 2013, 2010",
+    "poorVintages":"Not the Best: 2014",
+    "notes":"Other than a few random years, this area has enjoyed a nice run of quality vintages."
+  }
+]

@@ -28,10 +28,16 @@ function HomePage() {
           Wine Education
         </button>
 
+      <button className="somm-button" onClick={() => navigate('/vintages')}>
+          Vintages
+        </button>
+
         <button className="somm-button" onClick={() => navigate('/cocktails')}>
           Cocktails
         </button>
       </div>
+
+      
     </div>
   );
 }
