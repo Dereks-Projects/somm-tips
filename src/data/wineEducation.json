@@ -71,6 +71,11 @@
   },
   {
     "category":"Red Grapes",
+    "topic":"Syrah",
+    "info":"Syrah, also known as Shiraz in Australia, is a dark-skinned grape believed to have originated in France's Rhône Valley, where it produces bold, spicy, and full-bodied red wines. It thrives in warm to moderate climates such as the Northern Rhône, Barossa Valley in Australia, and parts of California and South Africa, expressing flavors that range from black pepper and plum to smoked meat and herbs. Syrah pairs exceptionally well with grilled meats, lamb dishes, and hearty stews, complementing richly flavored, savory foods."
+  },
+  {
+    "category":"Red Grapes",
     "topic":"Tempranillo",
     "info":"Tempranillo is Spain\u2019s signature red grape, central to the wines of Rioja and Ribera del Duero, offering flavors of red cherry, plum, tobacco, and leather with a medium to full body. It often sees aging in American oak, which imparts notes of vanilla and dill, especially in traditional Rioja styles. Known for its food-friendliness, Tempranillo pairs wonderfully with grilled meats, tapas, and cured ham."
   },
@@ -95,9 +100,14 @@
     "info":"Zinfandel, known as Primitivo in Italy, is a bold, fruit-driven grape that produces wines bursting with blackberry, plum, black pepper, and spice, often with a jammy richness and elevated alcohol. In California, it has become a signature variety, especially in regions like Sonoma and Lodi, where old vines produce concentrated, complex wines. Zinfandel\u2019s ripe, spicy profile makes it a great partner for barbecue, burgers, and dishes with smoky or sweet elements."
   },
   {
+    "category":"Red Grapes",
+    "topic":"Gamay",
+    "info":"Gamay is a light-bodied red grape primarily associated with Beaujolais in eastern France, known for producing fresh, fruit-forward wines with vibrant acidity and low tannins. It thrives in granitic soils and cooler climates, particularly in Beaujolais crus like Morgon and Fleurie, and is also grown in parts of the Loire Valley and increasingly in Oregon and Canada. Gamay pairs beautifully with roast chicken, charcuterie, grilled vegetables, and dishes featuring mushrooms or earthy herbs."
+  },
+  {
     "category":"Wine Regions",
     "topic":"Bordeaux, France",
-    "info":"Located in southwest France near the Atlantic Ocean, Bordeaux has a temperate maritime climate with gravel, clay, and limestone soils. It is world-renowned for its age-worthy red blends (primarily Cabernet Sauvignon and Merlot) and for setting the global standard in fine wine production."
+    "info":"Bordeaux, located in southwestern France, is one of the world’s most famous wine regions, known for its elegant and age-worthy red blends. The region is divided by the Gironde River into the Left Bank (featuring Cabernet Sauvignon–dominant wines from areas like Médoc and Graves) and the Right Bank (with Merlot-driven wines from places like Saint-Émilion and Pomerol). Bordeaux also produces exceptional dry whites and sweet wines, particularly from the Sauternes region. These wines pair beautifully with everything from roast meats and stews to seafood and rich cheeses, making Bordeaux a versatile and essential region for any wine lover to explore."
   },
   {
     "category":"Wine Regions",
@@ -111,8 +121,8 @@
   },
   {
     "category":"Wine Regions",
-    "topic":"Napa Valley, California",
-    "info":"Situated north of San Francisco, Napa Valley has a Mediterranean climate with significant diurnal temperature shifts and diverse soils. Known for powerful, fruit-driven Cabernet Sauvignon, Napa is America\u2019s most prestigious wine region and a leader in premium winemaking."
+    "topic":"Rhône Valley, France ",
+    "info":"The Rhône Valley in France is a renowned wine region divided into two distinct parts: the Northern Rhône and the Southern Rhône. The north is famous for single-varietal Syrah wines from subregions like Côte-Rôtie and Hermitage, which are bold, peppery, and elegant. In the south, blends dominate—Grenache leads the way in warm, fruit-forward wines from areas like Châteauneuf-du-Pape and Côtes du Rhône. Rhône wines pair well with grilled meats, hearty stews, and Mediterranean dishes, making them approachable and food-friendly for wine lovers at any level."
   },
   {
     "category":"Wine Regions",
@@ -126,8 +136,18 @@
   },
   {
     "category":"Wine Regions",
-    "topic":"Barossa Valley, Australia",
-    "info":"Located in South Australia, Barossa has a warm, dry climate ideal for ripening grapes fully, with sandy and clay loam soils. It\u2019s best known for bold, concentrated Shiraz and old-vine plantings, making it a cornerstone of Australia\u2019s fine wine identity."
+    "topic":"Piedmont, Italy ",
+    "info":"Piedmont, located in northwestern Italy, is a prestigious wine region best known for its powerful red wines made from the Nebbiolo grape. Two of its most famous wines, Barolo and Barbaresco, come from neighboring areas and offer bold, complex flavors with notes of cherry, rose, and earthy spice. These wines pair wonderfully with rich dishes like braised meats, mushroom risotto, and aged cheeses, making them ideal for special meals or thoughtful sipping."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Napa Valley, California",
+    "info":"Situated north of San Francisco, Napa Valley has a Mediterranean climate with significant diurnal temperature shifts and diverse soils. Known for powerful, fruit-driven Cabernet Sauvignon, Napa is America\u2019s most prestigious wine region and a leader in premium winemaking."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Sonoma County, California ",
+    "info":"Sonoma County is one of California’s most diverse wine regions, known for producing high-quality wines in a relaxed, approachable setting. Within Sonoma, the Russian River Valley stands out for its cool climate, which is ideal for growing elegant Pinot Noir and crisp Chardonnay. These wines often have bright fruit flavors and balanced acidity, making them great choices to enjoy with dishes like salmon, roast chicken, or creamy pasta."
   },
   {
     "category":"Wine Regions",
@@ -139,6 +159,17 @@
     "topic":"Mendoza, Argentina ",
     "info":"Nestled in the foothills of the Andes Mountains, Mendoza has high-altitude vineyards with sunny days, cool nights, and minimal rainfall. It is Argentina\u2019s largest and most important region, producing structured, expressive Malbecs and increasingly high-quality Cabernet and Chardonnay."
   },
+  {
+    "category":"Wine Regions",
+    "topic":"Barossa Valley, Australia",
+    "info":"Located in South Australia, Barossa has a warm, dry climate ideal for ripening grapes fully, with sandy and clay loam soils. It\u2019s best known for bold, concentrated Shiraz and old-vine plantings, making it a cornerstone of Australia\u2019s fine wine identity."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Coastal Region, South Africa ",
+    "info":"The Coastal Region of South Africa is the country’s most important wine-producing area, home to historic regions like Stellenbosch, Paarl, and Swartland. Thanks to the cooling influence of nearby oceans, the area produces balanced wines with bright acidity, including bold Cabernet Sauvignon, refined Chenin Blanc, and spicy Syrah. These wines are versatile and pair well with everything from grilled meats and braised dishes to seafood and spicy cuisine."
+  },
+
   {
     "category":"Tasting Terms",
     "topic":"Dry",

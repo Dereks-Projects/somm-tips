@@ -18,7 +18,7 @@ function ClassicPairingsPage() {
     <div className="page-wrapper">
       <div className="wines-page-container">
         <h1 className="wines-title">Classic Pairings</h1>
-        <p className="section-subtitle">
+        <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '450px', margin: '0 auto 2rem' }}>
           Here you will find some classic dishes from around the world and some great ideas for pairing them with wine.
         </p>
 

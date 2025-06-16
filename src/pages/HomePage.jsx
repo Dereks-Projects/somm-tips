@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <div className="homepage-web-container">
       <h1 className="homepage-title">Somm Tips</h1>
-      <p className="homepage-subtitle">Smart recommendations for wine lovers<br />and curious drinkers.</p>
+      <p className="homepage-subtitle">Smart recommendations for<br />wine lovers and curious drinkers.</p>
 
       <div className="homepage-button-group">
         <button className="somm-button" onClick={() => navigate('/wines-for-me')}>

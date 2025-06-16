@@ -18,7 +18,7 @@ function OrderingWinePage() {
         <h1 className="wines-title">Ordering Wine</h1>
 
         {/* 🧾 Page Tagline */}
-        <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto 2rem' }}>
+        <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '500px', margin: '0 auto 2rem' }}>
           Enlisting the sommelier to guide you? Knowing your preferred wine style guides them to making a better recommendation.
         </p>
 

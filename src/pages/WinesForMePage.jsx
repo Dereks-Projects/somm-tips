@@ -52,8 +52,8 @@ function WinesForMePage() {
     <div className="page-wrapper">
       <div className="wines-page-container">
         <h1 className="wines-title">Wine Recommendations</h1>
-        <p className="wines-subtitle">
-          Choose from the filters below to find the perfect wine!
+        <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '550px', margin: '0 auto 2rem' }}>
+          Explore the world of wine with confidence, as our suggestions are curated to match your taste, mood, or meal. Use the filters below to find your next great bottle.
         </p>
 
         {/* 🎛️ Filters */}
