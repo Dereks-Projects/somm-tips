@@ -22,7 +22,7 @@ function WineEducationPage() {
   // 🧱 Reusable button component
   const CategoryButton = ({ label }) => (
     <button
-      className={`toggle-button ${selectedCategory === label ? 'active' : ''}`}
+      className={`somm-button ${selectedCategory === label ? 'active' : ''}`}
       onClick={() => setSelectedCategory(label)}
     >
       {label}

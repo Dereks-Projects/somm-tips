@@ -69,13 +69,14 @@ html {
   font-weight: 700;
   color: #fafafa;
   text-align: center;
-  margin: 1.2rem 0 0.1rem;
+  margin: 1.3rem 0 0.05rem;
 }
 
 .homepage-subtitle {
   font-size: 1.4rem;
   color: #fafafa;
   text-align: center;
+  margin-top: 0.5rem;
   margin-bottom: 1.3rem;
   max-width: 400px;
   line-height: 1.2;
@@ -176,7 +177,7 @@ html {
 
   
   background-color: #fafafa;
-  border-radius: 16px;
+  border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   border: 1px solid #e0e0e0;
 }
@@ -185,6 +186,20 @@ html {
   padding: 6vh 0;
   background: transparent;
 }
+.wines-title {
+  font-size: 2.7rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: .3rem;  /* ⬅️ Adjust this value to reduce space */
+  margin-bottom: 1rem;
+}
+@media (max-width: 500px) {
+  .wines-title {
+    font-size: 2.2rem;
+  }
+}
+
+
 
 
 /* Filter Button Grid */

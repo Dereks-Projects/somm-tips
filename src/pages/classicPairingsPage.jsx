@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import pairings from '../data/classicPairings.json';
 import WineAccordion from '../components/WineAccordion';
 
+
 function ClassicPairingsPage() {
   const navigate = useNavigate();
   const [selectedContinent, setSelectedContinent] = useState(null);
