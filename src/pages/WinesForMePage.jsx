@@ -1,5 +1,3 @@
-// 📁 FILE: src/pages/WinesForMePage.jsx
-
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import allWines from '../data/wineRecommendations.json';
@@ -58,14 +56,14 @@ function WinesForMePage() {
 
         {/* 🎛️ Filters */}
         <div className="filter-grid">
-          <ToggleButton label="White" value="White" selected={color === 'White'} onClick={setColor} />
-          <ToggleButton label="Red" value="Red" selected={color === 'Red'} onClick={setColor} />
-          <ToggleButton label="Lighter Body" value="Lighter Body" selected={body === 'Lighter Body'} onClick={setBody} />
-          <ToggleButton label="Fuller Body" value="Fuller Body" selected={body === 'Fuller Body'} onClick={setBody} />
-          <ToggleButton label="Less Dry" value="Less Dry" selected={dryness === 'Less Dry'} onClick={setDryness} />
-          <ToggleButton label="More Dry" value="More Dry" selected={dryness === 'More Dry'} onClick={setDryness} />
-          <ToggleButton label="New World" value="New World" selected={origin === 'New World'} onClick={setOrigin} />
-          <ToggleButton label="Old World" value="Old World" selected={origin === 'Old World'} onClick={setOrigin} />
+          <ToggleButton label="White" value="White" selected={color === 'White'} onClick={(val) => { setColor(val); setOpenIndex(null); }} />
+          <ToggleButton label="Red" value="Red" selected={color === 'Red'} onClick={(val) => { setColor(val); setOpenIndex(null); }} />
+          <ToggleButton label="Lighter Body" value="Lighter Body" selected={body === 'Lighter Body'} onClick={(val) => { setBody(val); setOpenIndex(null); }} />
+          <ToggleButton label="Fuller Body" value="Fuller Body" selected={body === 'Fuller Body'} onClick={(val) => { setBody(val); setOpenIndex(null); }} />
+          <ToggleButton label="Less Dry" value="Less Dry" selected={dryness === 'Less Dry'} onClick={(val) => { setDryness(val); setOpenIndex(null); }} />
+          <ToggleButton label="More Dry" value="More Dry" selected={dryness === 'More Dry'} onClick={(val) => { setDryness(val); setOpenIndex(null); }} />
+          <ToggleButton label="New World" value="New World" selected={origin === 'New World'} onClick={(val) => { setOrigin(val); setOpenIndex(null); }} />
+          <ToggleButton label="Old World" value="Old World" selected={origin === 'Old World'} onClick={(val) => { setOrigin(val); setOpenIndex(null); }} />
         </div>
 
         {/* 🔄 Reset */}
