@@ -41,7 +41,7 @@ function WinesForMePage() {
 
   const ToggleButton = ({ label, value, selected, onClick }) => (
     <button
-      className={`somm-button ${selected ? 'active' : ''}`}
+      className={`toggle-button ${selected ? 'active' : ''}`}
       onClick={() => onClick(selected ? null : value)}
     >
       {label}

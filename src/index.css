@@ -59,7 +59,7 @@ html {
   background-repeat: no-repeat;
   
   overflow: hidden; /* ✅ Prevent scrolling */
-  transform: translateY(-1vh);
+  
 
 }
 

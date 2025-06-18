@@ -13,9 +13,13 @@ import OrderingWinePage from './pages/OrderingWinePage';
 import CocktailsPage from './pages/CocktailsPage'; // ✅ NEW
 import VintagesPage from './pages/VintagesPage';
 
+// ✅ Scroll-to-top behavior on route change
+import ScrollToTop from './components/ScrollToTop';
+
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         {/* 🏠 Homepage */}
         <Route path="/" element={<HomePage />} />

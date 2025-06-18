@@ -33,7 +33,7 @@ function CocktailsPage() {
           {spiritOptions.map(spirit => (
             <button
               key={spirit}
-              className="somm-button"
+              className="toggle-button"
               onClick={() => {
                 setSelectedSpirit(spirit);
                 setOpenIndex(null); // Reset any open accordion when switching filters
