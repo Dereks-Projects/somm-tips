@@ -16,6 +16,11 @@ import VintagesPage from './pages/VintagesPage';
 // ✅ Scroll-to-top behavior on route change
 import ScrollToTop from './components/ScrollToTop';
 
+// ✅ Google Analytics (Basic Site Tracking)
+import ReactGA from 'react-ga4';
+ReactGA.initialize('G-4JT9FBG39M'); // ← replace with your actual Measurement ID
+ReactGA.send({ hitType: 'pageview', page: '/' });
+
 function App() {
   return (
     <BrowserRouter>
