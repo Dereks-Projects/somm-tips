@@ -24,6 +24,14 @@
     "description": "Sancerre is a Sauvignon Blanc from the Loire Valley in France known for its zesty acidity, grassy notes, and flinty minerality. The region's limestone soils contribute to its crisp, refreshing character."
   },
   {
+    "name": "Aligoté",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "description": "Aligoté is a lesser-known white grape from Burgundy, France, traditionally grown in cooler sites and overshadowed by Chardonnay, yet it produces lively, high-acid wines ideal for apéritifs like the Kir cocktail. Its flavor profile typically includes green apple, citrus, and subtle herbal notes, with some modern examples—especially from Bouzeron—showing more texture and finesse."
+  },
+  {
     "name": "Australian Chardonnay",
     "color": "White",
     "body": "Fuller Body",
@@ -62,6 +70,14 @@
     "dryness": "Less Dry",
     "origin": "Old World",
     "description": "German Riesling is renowned for its balance of sweetness and acidity, often featuring notes of green apple, lime, and petrol in aged examples. Grown along the Mosel and Rhine rivers, these wines reflect the steep slate vineyards and cool climate."
+  },
+  {
+    "name": "Alsatian Riesling",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "Less Dry",
+    "origin": "Old World",
+    "description": "Alsatian Riesling hails from France’s Alsace region, where the Vosges Mountains create a dry, sunny climate ideal for producing intensely aromatic, bone-dry white wines. Known for its purity and precision, Alsatian Riesling often exhibits notes of lime, green apple, and flint, with age bringing out petrol nuances and layered complexity. These wines come in a range of styles, but are usually slightly off-dry."
   },
   {
     "name": "Oregon Pinot Gris",
@@ -104,6 +120,14 @@
     "description": "White Bordeaux is a blend often made with Sauvignon Blanc and Semillon, offering grapefruit, herbs, and a touch of oak. These wines hail from regions like Pessac-L\u00e9ognan and Graves and balance acidity with richness."
   },
   {
+    "name": "White Rioja (blend)",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "description": "White Rioja (Rioja Blanca) is produced primarily from the Viura grape (also known as Macabeo), often blended with Malvasía or Garnacha Blanca, and hails from Spain’s renowned Rioja region. Styles range from fresh and citrusy young wines to richly textured, oak-aged versions with flavors of baked apple, nuts, vanilla, and a distinct oxidative character when aged traditionally."
+  },
+  {
     "name": "Muscadet (Loire Valley)",
     "color": "White",
     "body": "Lighter Body",
@@ -118,6 +142,22 @@
     "dryness": "Less Dry",
     "origin": "Old World",
     "description": "Condrieu is a Viognier-based wine from the Rh\u00f4ne Valley, featuring lush flavors of apricot, peach, and floral notes with a full, oily texture. It's a rare and aromatic white from steep granite slopes."
+  },
+{
+    "name": "Rueda (Verdejo)",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "description": "Rueda is a Spanish wine region in Castilla y León, best known for its crisp, aromatic white wines made primarily from the native Verdejo grape, which thrives in the region’s high-altitude, continental climate. These wines are typically fresh and zesty with notes of lime, fennel, and bitter almond, often showing a slight herbaceous edge and excellent value for everyday enjoyment. "
+  },
+  {
+    "name": "Vermentino",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "description": "Vermentino is a Mediterranean white grape grown extensively in coastal regions of Italy, especially Sardinia, Liguria, and Tuscany’s Maremma. It yields vibrant, saline-driven wines with notes of citrus, green herbs, and almond, often carrying a subtle bitterness and refreshing minerality that reflect its seaside terroir."
   },
   {
     "name": "Ch\u00e2teauneuf-du-Pape (white blend)",
@@ -251,7 +291,7 @@
     "name": "Argentinian Malbec",
     "color": "Red",
     "body": "Fuller Body",
-    "dryness": "Less Dry",
+    "dryness": "More Dry",
     "origin": "New World",
     "description": "Argentinian Malbec is known for its deep color, rich blackberry and plum flavors, and smooth, velvety tannins. Mendoza's high-altitude vineyards provide the intensity and balance that define its style."
   },
@@ -304,23 +344,32 @@
     "description": "California Cabernet Sauvignon is rich and full-bodied with flavors of blackcurrant, cedar, and toasted oak. Napa Valley versions are especially known for their power, depth, and long aging potential."
   },
   {
-    "name": "Italian Sangiovese (Chianti Classico)",
+    "name": "Chianti Classico (Sangiovese)",
     "color": "Red",
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Italian Sangiovese, especially from Chianti Classico, shows cherry, dried herbs, and leather with bright acidity and firm tannins. These wines are central to Tuscany and pair beautifully with tomato-based cuisine."
+    "description": "Chianti Classico is a historic wine region in Tuscany, Italy, centered between Florence and Siena, where Sangiovese is the dominant grape required by law to make up at least 80% of the blend. These wines are known for their bright acidity, firm tannins, and flavors of sour cherry, dried herbs, and earthy spice, often gaining complexity with age and oak maturation."
   },
-  {
-    "name": "Italian Nebbiolo (Barolo)",
+    {
+    "name": "Brunello di Montalcino (Sangiovese)",
     "color": "Red",
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Italian Nebbiolo from Barolo is known for its powerful tannins, high acidity, and flavors of tar, roses, and dried cherry. Grown in Piedmont, it's one of Italy's most age-worthy and structured wines."
+    "description": "Brunello di Montalcino comes from the hilltop town of Montalcino in southern Tuscany and is made exclusively from a specific clone of Sangiovese called Sangiovese Grosso, locally known as Brunello. It produces powerful, age-worthy reds with deep flavors of dark cherry, leather, tobacco, and dried herbs, often requiring several years of aging to reveal their full elegance and structure."
+  },
+
+  {
+    "name": "Barolo (Nebbiolo)",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "description": "Barolo is a prestigious red wine from Piedmont in northwestern Italy, made exclusively from the Nebbiolo grape and often referred to as the “King of Wines.” Known for its firm tannins, high acidity, and complex aromas of rose, tar, cherry, and truffle, Barolo demands aging and rewards patience with remarkable depth and longevity."
   },
   {
-    "name": "Spanish Tempranillo (Rioja)",
+    "name": "Rioja (Tempranillo)",
     "color": "Red",
     "body": "Fuller Body",
     "dryness": "More Dry",
