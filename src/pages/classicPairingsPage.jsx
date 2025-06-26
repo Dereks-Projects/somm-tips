@@ -28,7 +28,7 @@ function ClassicPairingsPage() {
           {['Americas', 'Europe', 'Asia', 'Africa'].map(continent => (
             <button
               key={continent}
-              className="somm-button"
+              className="toggle-button"
               onClick={() => setSelectedContinent(continent)}
             >
               {continent}

@@ -24,10 +24,6 @@ function HomePage() {
           Ordering Wine
         </button>
 
-        <button className="somm-button" onClick={() => navigate('/wine-education')}>
-          Wine Education
-        </button>
-
       <button className="somm-button" onClick={() => navigate('/vintages')}>
           Vintages
         </button>
@@ -35,6 +31,12 @@ function HomePage() {
         <button className="somm-button" onClick={() => navigate('/cocktails')}>
           Cocktails
         </button>
+
+        <button className="somm-button" onClick={() => navigate('/wine-education')}>
+          Wine Education
+        </button>
+
+
       </div>
       
       <footer style={{ marginTop: '2rem', textAlign: 'center', fontSize: '0.9rem', color: '#fafafa' }}>

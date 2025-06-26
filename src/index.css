@@ -104,14 +104,13 @@ html {
 }
 
 /* ✅ UNIVERSAL BUTTON BASE STYLE */
+/* ✅ BASE BUTTON STYLE: somm-button + home-button */
 .somm-button,
-.toggle-button,
-.reset-button,
 .home-button {
   padding: 0.75rem 1.25rem;
   font-size: 1rem;
   font-weight: 600;
-  border: 1px solid var(--primary-blue);
+  border: none;
   background-color: #fafafa;
   color: var(--primary-blue);
   border-radius: 15px;
@@ -120,6 +119,23 @@ html {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   text-align: center;
 }
+
+/* ✅ FILTER + RESET BUTTON STYLE */
+.toggle-button,
+.reset-button {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #dfdede;
+  background-color: #e4e2e2;
+  color: var(--primary-blue);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
 
 /* ✅ HOVER & ACTIVE STATES */
 .somm-button:hover,

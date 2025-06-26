@@ -88,7 +88,10 @@ function WinesForMePage() {
 
         {/* 🏠 Home */}
         <div className="home-button-container">
-          <button className="home-button inverse-home-button" onClick={() => navigate('/')}>Home</button>
+          <button className="home-button inverse-home-button" onClick={() => navigate('/')}>
+            Home
+          </button>
+
         </div>
       </div>
     </div>
