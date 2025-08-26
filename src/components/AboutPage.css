@@ -1,0 +1,74 @@
+/* 📄 FILE: src/components/AboutPage.css */
+/* 💅 Styling for About, Privacy, and Terms pages */
+
+.about-page-container {
+  background-color: #fafafa; /* ✅ Light gray background */
+  color: #000;               /* ✅ Black text */
+  padding: 2rem 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: var(--font);
+  line-height: 1.6;
+  min-height: 100vh;         /* Full height layout */
+  position: relative;
+}
+
+/* Section spacing and structure */
+.about-page-container h1,
+.about-page-container h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.about-page-container h1 {
+  font-size: 2rem;
+}
+
+.about-page-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-page-container section {
+  margin-bottom: 1.5rem;
+}
+
+.about-page-container a {
+  color: var(--primary-blue); /* Matches app's theme */
+  text-decoration: underline;
+}
+
+.legal-links button {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  background: none;
+  color: var(--primary-blue);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ✅ Desktop Home button (hidden on mobile) */
+.desktop-home-button {
+  display: none;
+}
+
+/* ✅ Desktop only: show home button */
+@media (min-width: 768px) {
+  .desktop-home-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .desktop-home-button button {
+    background-color: var(--primary-blue);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+}

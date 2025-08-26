@@ -3,18 +3,20 @@
 
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import BottomNav from "./components/BottomNav"; // ✅ Bottom nav bar
+import ScrollToTop from './components/ScrollToTop'; // ✅ Scroll restoration
 
-// Pages (importing each page as a component)
+// 📄 Pages
 import HomePage from './pages/HomePage';
 import WinesForMePage from './pages/WinesForMePage';
 import ClassicPairingsPage from './pages/classicPairingsPage';
 import WineEducationPage from './pages/WineEducationPage';
 import OrderingWinePage from './pages/OrderingWinePage';
-import CocktailsPage from './pages/CocktailsPage'; // ✅ NEW
+import CocktailsPage from './pages/CocktailsPage';
 import VintagesPage from './pages/VintagesPage';
-
-// ✅ Scroll-to-top behavior on route change
-import ScrollToTop from './components/ScrollToTop';
+import AboutPage from './pages/AboutPage'; // ✅ NEW
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage'; // ✅ NEW
+import TermsOfUsePage from './pages/TermsOfUsePage'; // ✅ NEW
 
 // ✅ Google Analytics (Basic Site Tracking)
 import ReactGA from 'react-ga4';
@@ -25,6 +27,7 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
+
       <Routes>
         {/* 🏠 Homepage */}
         <Route path="/" element={<HomePage />} />
@@ -45,8 +48,20 @@ function App() {
         <Route path="/vintages" element={<VintagesPage />} />
 
         {/* 🍸 Cocktails */}
-        <Route path="/cocktails" element={<CocktailsPage />} /> {/* ✅ NEW */}
+        <Route path="/cocktails" element={<CocktailsPage />} />
+
+        {/* 📘 About Page */}
+        <Route path="/about" element={<AboutPage />} />
+
+        {/* 🔒 Privacy Policy */}
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+
+        {/* 📄 Terms of Use */}
+        <Route path="/terms-of-use" element={<TermsOfUsePage />} />
       </Routes>
+
+      {/* ✅ Bottom navigation bar (visible only on mobile) */}
+      <BottomNav />
     </BrowserRouter>
   );
 }

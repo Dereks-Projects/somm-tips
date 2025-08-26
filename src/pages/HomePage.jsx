@@ -40,7 +40,7 @@ function HomePage() {
       </div>
       
       <footer style={{ marginTop: '2rem', textAlign: 'center', fontSize: '0.9rem', color: '#fafafa' }}>
-        <p>Somm Tips - Beta version 1.0</p>
+        <p>Get our new book here: <a href="https://www.amazon.com/dp/B0FMQMRSXZ" style={{ color: '#fafafa', textDecoration: 'underline' }}>Amazon Kindle</a></p>
         <p>
           Presented by <a href="https://www.derekengles.com" style={{ color: '#fafafa', textDecoration: 'underline' }}>Derek Engles</a>
         </p>
