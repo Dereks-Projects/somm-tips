@@ -67,11 +67,15 @@ function HomePage() {
         ))}
       </div>
       
-      <footer className="footer">
-        <p>Get our new book here: <a href="https://www.amazon.com/dp/B0FMQMRSXZ" target="_blank" rel="noopener noreferrer" style={{ color: '#fafafa', textDecoration: 'underline' }}>Amazon Kindle</a></p>
-        <p>
-          Presented by <a href="https://www.derekengles.com" target="_blank" rel="noopener noreferrer" style={{ color: '#fafafa', textDecoration: 'underline' }}>Derek Engles</a>
-        </p>
+      {/* Desktop-only footer links */}
+      <footer className="footer desktop-only">
+        <a href="/about" onClick={(e) => { e.preventDefault(); navigate('/about'); }}>
+          About this App
+        </a>
+        <span className="footer-divider"> | </span>
+        <a href="https://www.amazon.com/dp/B0FMQMRSXZ" target="_blank" rel="noopener noreferrer">
+          Get the Book
+        </a>
       </footer>
     </div>
   );

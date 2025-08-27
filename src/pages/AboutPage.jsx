@@ -1,66 +1,112 @@
-// 📄 FILE: src/pages/AboutPage.jsx
-// 🧠 PURPOSE: App info and legal links for store compliance
-
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../components/AboutPage.css"; // ✅ Updated path for correct CSS location
+import "../components/AboutPage.css";
 
 function AboutPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="about-page-container">
-      <h1>Somm Tips</h1>
-      <h2>About</h2>
+    <div className="about-page-wrapper">
+      <div className="about-page-container">
+        {/* Hero Section */}
+        <div className="about-hero">
+          <h1>Somm Tips</h1>
+          <p className="tagline">Demystifying wine, one recommendation at a time.</p>
+        </div>
 
-      <section>
-        <h3>About the App</h3>
-        <p>Somm Tips offers users the ability to select wines that align with their tastes with ease.</p>
-      </section>
+        {/* Main Content */}
+        <div className="about-content">
+          <section className="about-section">
+            <h2>About the App</h2>
+            <p>
+              Somm Tips transforms the often intimidating world of wine into an accessible, 
+              enjoyable experience. Whether you're ordering at a restaurant, shopping for 
+              a dinner party, or simply curious about wine, our app provides clear, 
+              practical guidance without the pretension.
+            </p>
+            <p>
+              Using simple filters and straightforward language, we help you discover wines 
+              that match your taste preferences, learn classic food pairings, and understand 
+              what makes certain vintages special—all in the palm of your hand.
+            </p>
+          </section>
 
-      <section>
-        <h3>Website</h3>
-        <p>
-          <a
-            href="https://www.somm.tips"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            www.somm.tips
-          </a>
-        </p>
-      </section>
+          <section className="about-section">
+            <h2>The Book</h2>
+            <div className="book-content">
+              <p>
+                Take your wine knowledge further with our comprehensive guide, now available 
+                on Amazon Kindle. The book expands on the app's foundation with detailed 
+                tasting notes, regional guides, and insider tips from years of sommelier experience.
+              </p>
+              <a 
+                href="https://www.amazon.com/dp/B0FMQMRSXZ" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="book-link"
+              >
+                Get the Book on Amazon →
+              </a>
+            </div>
+          </section>
 
-      <section>
-        <h3>Privacy & Terms</h3>
-        <p className="legal-links">
-          <button onClick={() => navigate("/privacy-policy")}>Privacy Policy</button>
-          <br />
-          <button onClick={() => navigate("/terms-of-use")}>Terms of Use</button>
-        </p>
-      </section>
+          <section className="about-section">
+            <h2>Our Philosophy</h2>
+            <p>
+              Wine should be a pleasure, not a puzzle. We believe everyone deserves to feel 
+              confident when choosing wine, whether you're a complete beginner or an enthusiastic 
+              amateur. Our approach strips away unnecessary jargon while preserving the knowledge 
+              that actually matters for your enjoyment.
+            </p>
+          </section>
 
-      <section>
-        <h3>App Version</h3>
-        <p>1.0</p>
-      </section>
+          <section className="about-section">
+            <h2>Created By</h2>
+            <p>
+              Derek Engles brings years of wine expertise and a passion for making wine 
+              approachable to everyone. His experience spans from restaurant service to 
+              wine education, always with a focus on practical, real-world application.
+            </p>
+            <a 
+              href="https://www.derekengles.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="creator-link"
+            >
+              Learn more at derekengles.com
+            </a>
+          </section>
+        </div>
 
-      <section>
-        <h3>Developer</h3>
-        <p>
-          <a
-            href="https://www.derekengles.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            www.derekengles.com
-          </a>
-        </p>
-      </section>
+        {/* Footer Info */}
+        <div className="about-footer">
+          <div className="footer-links">
+            <button onClick={() => navigate("/privacy-policy")} className="footer-link">
+              Privacy Policy
+            </button>
+            <span className="divider">•</span>
+            <button onClick={() => navigate("/terms-of-use")} className="footer-link">
+              Terms of Use
+            </button>
+            <span className="divider">•</span>
+            <a 
+              href="https://www.somm.tips" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="footer-link"
+            >
+              somm.tips
+            </a>
+          </div>
+          <p className="version">Version 1.0</p>
+        </div>
 
-      {/* ✅ Desktop-only Home button (not visible on mobile due to media query) */}
-      <div className="desktop-home-button">
-        <button onClick={() => navigate("/")}>Home</button>
+        {/* Desktop Home Button */}
+        <div className="desktop-home-button">
+          <button onClick={() => navigate("/")} className="home-btn">
+            Back to Home
+          </button>
+        </div>
       </div>
     </div>
   );

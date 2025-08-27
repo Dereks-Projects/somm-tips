@@ -58,7 +58,7 @@ html {
   font-weight: 700;
   color: #fafafa;
   text-align: center;
-  margin: 0rem 0 0.05rem;
+  margin: -1rem 0 0.05rem;
 }
 
 .homepage-subtitle {
@@ -335,15 +335,37 @@ html {
 */
 
 /* Footer Style */
+/* Footer Style */
 .footer {
   margin-top: 2rem;
   text-align: center;
-  font-size: .9rem;
+  font-size: 1rem;
   color: #fafafa;
 }
+
 .footer a {
   color: #fafafa;
+  text-decoration: none;
+  padding: 0 0.5rem;
+}
+
+.footer a:hover {
   text-decoration: underline;
+}
+
+.footer-divider {
+  color: #fafafa;
+}
+
+/* Hide footer on mobile */
+.desktop-only {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .desktop-only {
+    display: block;
+  }
 }
 
 /* DESKTOP GRID LAYOUT - Homepage only */

@@ -1,74 +1,233 @@
-/* 📄 FILE: src/components/AboutPage.css */
-/* 💅 Styling for About, Privacy, and Terms pages */
-
-.about-page-container {
-  background-color: #fafafa; /* ✅ Light gray background */
-  color: #000;               /* ✅ Black text */
+/* About Page Wrapper - Full viewport background */
+.about-page-wrapper {
+  min-height: 100vh;
+  background: #00004d;
   padding: 2rem 1rem;
-  max-width: 600px;
-  margin: 0 auto;
-  font-family: var(--font);
-  line-height: 1.6;
-  min-height: 100vh;         /* Full height layout */
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-/* Section spacing and structure */
-.about-page-container h1,
-.about-page-container h2 {
+/* Main Container */
+.about-page-container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(135deg, #00004d 0%, #000080 100%);
+  color: #ffffff;
+  padding: 3rem 2rem;
   text-align: center;
-  margin-bottom: 0.5rem;
 }
 
-.about-page-container h1 {
-  font-size: 2rem;
+.about-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.5px;
 }
 
-.about-page-container h2 {
+.tagline {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  margin: 0;
+  font-weight: 300;
+}
+
+/* Main Content */
+.about-content {
+  padding: 2.5rem 2rem;
+}
+
+.about-section {
+  margin-bottom: 2.5rem;
+}
+
+.about-section:last-child {
+  margin-bottom: 0;
+}
+
+.about-section h2 {
+  color: #00004d;
   font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  position: relative;
+  padding-bottom: 0.5rem;
 }
 
-.about-page-container section {
-  margin-bottom: 1.5rem;
+.about-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2px;
 }
 
-.about-page-container a {
-  color: var(--primary-blue); /* Matches app's theme */
-  text-decoration: underline;
-}
-
-.legal-links button {
+.about-section p {
+  color: #333;
   font-size: 1rem;
-  margin-bottom: 0.5rem;
-  padding: 0.3rem 0.6rem;
-  border: none;
-  background: none;
-  color: var(--primary-blue);
-  text-decoration: underline;
-  cursor: pointer;
+  line-height: 1.7;
+  margin: 0 0 1rem 0;
 }
 
-/* ✅ Desktop Home button (hidden on mobile) */
+.about-section p:last-child {
+  margin-bottom: 0;
+}
+
+/* Book Section */
+.book-content {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.book-link, .creator-link {
+  display: inline-block;
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.book-link:hover, .creator-link:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+/* Footer Section */
+.about-footer {
+  background: #f8f9fa;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #e9ecef;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  color: #666;
+  font-size: 0.9rem;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding: 0;
+}
+
+.footer-link:hover {
+  color: #00004d;
+  text-decoration: underline;
+}
+
+.divider {
+  color: #ccc;
+  font-size: 0.8rem;
+}
+
+.version {
+  color: #999;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* Desktop Home Button */
 .desktop-home-button {
   display: none;
 }
 
-/* ✅ Desktop only: show home button */
+/* Desktop Styles */
 @media (min-width: 768px) {
+  .about-page-wrapper {
+    padding: 3rem 2rem;
+    align-items: center;
+  }
+  
+  .about-hero {
+    padding: 4rem 3rem;
+  }
+  
+  .about-hero h1 {
+    font-size: 3rem;
+  }
+  
+  .tagline {
+    font-size: 1.25rem;
+  }
+  
+  .about-content {
+    padding: 3rem;
+  }
+  
+  .about-section {
+    margin-bottom: 3rem;
+  }
+  
   .desktop-home-button {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    padding: 2rem;
+    background: #f8f9fa;
   }
-
-  .desktop-home-button button {
-    background-color: var(--primary-blue);
-    color: #fff;
+  
+  .home-btn {
+    background: linear-gradient(135deg, #00004d 0%, #000080 100%);
+    color: white;
     border: none;
-    padding: 0.75rem 1.5rem;
+    padding: 0.875rem 2rem;
     font-size: 1rem;
-    border-radius: 0.5rem;
+    font-weight: 600;
+    border-radius: 8px;
     cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .home-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 77, 0.2);
+  }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 767px) {
+  .about-page-container {
+    border-radius: 0;
+    margin-bottom: 80px;
+  }
+  
+  .about-hero {
+    padding: 2rem 1.5rem;
+  }
+  
+  .about-content {
+    padding: 2rem 1.5rem;
+  }
+  
+  .footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .divider {
+    display: none;
   }
 }
