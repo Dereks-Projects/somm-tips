@@ -109,6 +109,40 @@ html {
   text-align: center;
 }
 
+/* Card button styling for mobile and desktop */
+.card-button {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 1rem 1.25rem;
+  width: 100%;
+  max-width: 290px;
+}
+
+.button-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.button-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.button-subtitle {
+  font-size: 0.85rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
 /* ✅ FILTER + RESET BUTTON STYLE */
 .toggle-button,
 .reset-button {
@@ -143,7 +177,7 @@ html {
 /* ✅ WIDTH CUSTOMIZATION */
 .somm-button {
   width: 100%;
-  max-width: 290px;
+  max-width: 340px;
 }
 
 .toggle-button {
@@ -171,6 +205,11 @@ html {
   .homepage-button {
     width: 100%;
   }
+  /* Add this to allow wider buttons on mobile */
+  .homepage-button-group {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
 }
 
 /* Wines Page Layout */
@@ -181,10 +220,7 @@ html {
   text-align: center;
 
   
-  background-color: #fafafa;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid #e0e0e0;
+
 }
 
 .page-wrapper {
@@ -298,10 +334,41 @@ html {
 .footer {
   margin-top: 2rem;
   text-align: center;
-  font-size: .7rem;
+  font-size: .9rem;
   color: #fafafa;
 }
 .footer a {
   color: #fafafa;
   text-decoration: underline;
+}
+
+/* DESKTOP GRID LAYOUT - Homepage only */
+@media (min-width: 768px) {
+  .desktop-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 800px;
+    width: 100%;
+  }
+
+  .card-button {
+    padding: 1.5rem;
+    max-width: none;
+    height: 100px;
+  }
+
+  .button-icon {
+    font-size: 2.5rem;
+  }
+
+  .button-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .button-subtitle {
+    font-size: 0.9rem;
+  }
 }
