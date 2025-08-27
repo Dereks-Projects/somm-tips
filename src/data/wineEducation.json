@@ -131,13 +131,33 @@
   },
   {
     "category":"Wine Regions",
-    "topic":"Tuscany, Italy ",
+    "topic":"Ribera del Duero, Spain",
+    "info":"Ribera del Duero stretches along the Duero River valley in north-central Spain's Castile and León region, situated on an elevated plateau at 750-900 meters altitude with stark, arid landscapes punctuated by river valleys. The extreme continental climate with 40°C summer days and near-freezing nights creates high-stress conditions for Tempranillo vines, which combined with limestone-clay soils produce intensely concentrated wines with powerful tannins requiring extensive oak aging, typically 12-24 months in American and French barrels. These bold, structured reds are perfectly matched with the region's traditional roasted lamb (lechazo), blood sausage (morcilla de Burgos), and aged Castilian cheeses, with locals preferring to pair older vintages with game meats and slow-cooked stews during the harsh plateau winters."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Tuscany, Italy",
     "info":"Tuscany is in central Italy, with vineyards spread across rolling hills and sun-drenched slopes between Florence and Siena. The region benefits from a Mediterranean climate and clay-limestone soils, offering optimal conditions for the Sangiovese grape. Chianti (and Chianti Classico) tends to be bright and food-friendly, while Brunello di Montalcino and Vino Nobile of the Montelpuciano area offer more power, depth, and aging potential—each expressing Sangiovese differently through their local terroirs. These wines complement classic Italian fare like Bistecca alla Fiorentina, tomato-based pastas, aged Pecorino, and roasted game meats."
   },
   {
     "category":"Wine Regions",
     "topic":"Piedmont, Italy ",
     "info":"Piedmont is located in northwestern Italy at the foothills of the Alps, with Barolo and Barbaresco centered around the Langhe hills near Alba. The region has a continental climate with foggy mornings and calcareous marl soils ideal for the finicky Nebbiolo grape. Barolo and Barbaresco are both powerful and complex red wines, marked by firm tannins, high acidity, and aromas of rose, tar, cherry, and truffle. These wines are best with rich, earthy dishes like braised beef, wild mushroom risotto, truffle pasta, or aged cheeses such as Parmigiano-Reggiano."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Austria",
+    "info":"Austria's wine regions concentrate along the eastern borders with Hungary, Slovakia, and Slovenia, particularly in Lower Austria, Burgenland, and Styria, where the Danube River and Pannonian Plain create diverse microclimates ranging from cool continental to warm, lake-influenced conditions. The country's wine revolution has focused on strict quality controls and indigenous varieties grown on complex soils including loess, primary rock, and limestone, with producers championing precise, dry styles using controlled fermentation in stainless steel and neutral oak, plus the DAC (Districtus Austriae Controllatus) classification system emphasizing regional typicity. Austrian wines are inseparable from the country's cuisine, with crisp Grüner Veltliner perfectly cutting through Wiener Schnitzel and creamy Tafelspitz, while richer Rieslings and elegant Blaufränkisch match heartier fare like goulash and roasted pork, and locals religiously pair sweet Ausbruch and Beerenauslese wines with Sachertorte and Apfelstrudel in Vienna's traditional coffee houses."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Germany",
+    "info":"Germany's wine regions stretch along steep river valleys, primarily the Rhine and Mosel rivers, where south-facing slopes in the country's southwest capture maximum sunlight at these northern latitudes of 49-50°N, making it one of the world's most northerly wine regions. The combination of slate soils in the Mosel and varied limestone, loess, and volcanic soils along the Rhine, coupled with long, cool growing seasons, produces wines of exceptional acidity and mineral precision, with producers ranging from traditional sweet wine specialists to modern dry wine innovators using both stainless steel and old oak casks. German Rieslings, from bone-dry Trocken to lusciously sweet Auslese styles, are legendary with local cuisine: dry versions accompanying white asparagus with hollandaise, schnitzel, and river fish, while sweeter styles balance the richness of pork knuckle, sauerbraten, and strong German cheeses, with locals particularly enjoying Spätlese with spicy Asian cuisine."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Hungary",
+    "info":"Hungary's wine regions span from the volcanic hills of Tokaj in the northeast to the warm shores of Lake Balaton in the west, with diverse terroirs including the limestone-rich Villány in the south and the historic Eger region in the northern mountains, all influenced by the continental Pannonian climate. The country balances ancient winemaking traditions, particularly the legendary botrytized Tokaji Aszú wines made from volcanic soils using centuries-old methods of adding noble-rotted berry paste to base wine, with a modern revolution in dry wines from indigenous varieties like Furmint and Kékfrankos (Blaufränkisch), produced in both traditional oak casks and modern temperature-controlled facilities. Hungarian wines shine with the nation's paprika-spiced cuisine, with dry Furmint and crisp Olaszrizling cutting through rich goulash and fisherman's soup (halászlé), while Tokaji Aszú traditionally accompanies foie gras (Hungary is the world's second-largest producer) and desserts like Dobos torte, though locals increasingly enjoy it with blue cheese and spicy Asian dishes."
   },
   {
     "category":"Wine Regions",
@@ -169,7 +189,16 @@
     "topic":"Coastal Region, South Africa ",
     "info":"South Africa’s Coastal Region encompasses areas like Stellenbosch, Paarl, and Swartland, all near the cooling influence of the Atlantic and False Bay. The region’s Mediterranean climate, mountain slopes, and diverse soils contribute to fresh acidity and bold structure across both red and white wines. The area is known for Chenin Blanc, Cabernet Sauvignon, and Syrah, along with increasingly respected Pinotage and Bordeaux-style blends. These wines pair well with grilled game, peri-peri chicken, Cape Malay curry, and dishes with earthy spices or fruit-based sauces."
   },
-
+  {
+    "category":"Wine Regions",
+    "topic":"Chile",
+    "info":"Chile's wine regions form a narrow 1,200-kilometer strip between the Pacific Ocean and the Andes Mountains, with most premium vineyards concentrated in the Central Valley between Santiago and Concepción, where transverse river valleys channel cooling Pacific breezes inland. The Mediterranean climate with virtually no rain during growing season eliminates disease pressure, while dramatic diurnal temperature shifts from hot days to cold nights (often 20°C variation) preserve acidity, with producers increasingly focusing on cool-climate sites, hillside plantings, and dry-farming old vines to create more elegant, terroir-driven wines beyond the fruit-forward style of the 1990s. Chilean wines pair naturally with the country's seafood-centric cuisine, with crisp Sauvignon Blanc and coastal Chardonnay accompanying ceviche and grilled fish, while Carmenère and Cabernet-based blends complement traditional dishes like pastel de choclo (corn pie), empanadas, and asado (grilled meats), with locals often enjoying young, fruit-forward wines rather than extensively aged bottles."
+  },
+    {
+    "category":"Wine Regions",
+    "topic":"Uruguay",
+    "info":"Uruguay's wine regions cluster along the Atlantic coast and Rio de la Plata estuary, primarily around Montevideo and the beach resort areas of Canelones and Maldonado, where maritime influence moderates temperatures at this subtropical latitude of 35°S. The humid Atlantic climate presents viticulture challenges with harvest-time rains and disease pressure, requiring careful canopy management and site selection on well-drained clay-limestone soils, with producers increasingly embracing sustainable practices and focusing on maritime-influenced sites that showcase minerality over power. Uruguay's signature Tannat pairs perfectly with the nation's beef-obsessed cuisine, particularly asado barbecues featuring every cut imaginable, blood sausage, and grilled provolone, while lighter Albariño and fresh Tannat rosés complement the coastal seafood culture, with locals preferring young, juicy reds served slightly chilled for their legendary weekend parrilladas."
+  },
   {
     "category":"Tasting Terms",
     "topic":"Dry",

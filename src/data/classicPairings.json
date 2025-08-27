@@ -7,13 +7,6 @@
     "why": "Wine that hails from the area the food is derived from is always a great idea. For this dish, the heavier the filling, the heavier the wine."
   },
   {
-    "continent": "Europe",
-    "food": "Bangers and Mash",
-    "about": "This British dish consists of sausages and mashed potatoes. It\u2019s hearty, savory, and often served with onion gravy.",
-    "pairing": "Try a Cabernet Franc from France (Chinon).",
-    "why": "A medium boded Cabernet Franc from the Loire valley works here, as the higher acidity is refreshing, while the touch of savoriness in both the food and the wine match well."
-  },
-  {
     "continent": "Americas",
     "food": "BBQ Ribs",
     "about": "This classic southern pork dish often found in the low country of the United States has bold flavors of sweetness, savory and smoke.",
@@ -320,5 +313,12 @@
     "about": "Tandoori Chicken comes from India, traditionally cooked in a clay oven called a tandoor. It's marinated in yogurt and spices, delivering smoky, spicy, and tangy flavors.",
     "pairing": "Try a Riesling or a California Zinfandel.",
     "why": "This smoky and spicy dish benefits from an off-dry white wine or a red with less oak treatment."
+  },
+  {
+    "continent": "Europe",
+    "food": "Bangers and Mash",
+    "about": "This British dish consists of sausages and mashed potatoes. It\u2019s hearty, savory, and often served with onion gravy.",
+    "pairing": "Try a Cabernet Franc from France (Chinon).",
+    "why": "A medium boded Cabernet Franc from the Loire valley works here, as the higher acidity is refreshing, while the touch of savoriness in both the food and the wine match well."
   }
 ]

@@ -5,7 +5,7 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "California Chardonnay typically offers ripe tropical fruit flavors, creamy texture, and noticeable oak from barrel aging. Produced in regions like Napa and Sonoma, it's known for its bold, rich style influenced by California's warm climate."
+    "description": "California Chardonnay typically offers ripe tropical fruit flavors, creamy texture, and noticeable oak from barrel aging. Produced in regions like Napa and Sonoma, it's known for its bold, rich style influenced by California's warm climate. Examples of this grape that see oak treatment will have the buttery and creamy aromas and flavors often associated with California Chardonnay."
   },
   {
     "name": "White Burgundy (Chardonnay)",
@@ -13,7 +13,7 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "White Burgundy, made from Chardonnay grapes in France's Burgundy region, features notes of citrus, green apple, and a distinct minerality. These wines often reflect a cooler climate with refined acidity and complex structure, especially in areas like Chablis or Meursault."
+    "description": "White Burgundy, made from Chardonnay grapes in France's Burgundy region, features notes of citrus, green apple, and a distinct minerality. These wines often reflect a cooler climate with refined acidity and complex structure, especially in areas like Chablis or Meursault. These wines can have some buttery and creamy notes, but never to the degree that California Chardonnay exhibits."
   },
   {
     "name": "Sancerre (Sauvignon Blanc)",
@@ -21,15 +21,7 @@
     "body": "Lighter Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Sancerre is a Sauvignon Blanc from the Loire Valley in France known for its zesty acidity, grassy notes, and flinty minerality. The region's limestone soils contribute to its crisp, refreshing character."
-  },
-  {
-    "name": "Aligoté",
-    "color": "White",
-    "body": "Lighter Body",
-    "dryness": "More Dry",
-    "origin": "Old World",
-    "description": "Aligoté is a lesser-known white grape from Burgundy, France, traditionally grown in cooler sites and overshadowed by Chardonnay, yet it produces lively, high-acid wines ideal for apéritifs like the Kir cocktail. Its flavor profile typically includes green apple, citrus, and subtle herbal notes, with some modern examples—especially from Bouzeron—showing more texture and finesse."
+    "description": "Sancerre is a Sauvignon Blanc from the Loire Valley in France known for its zesty acidity, grassy notes, and flinty minerality. The region's limestone soils contribute to its crisp, refreshing character, and are best suited for those who enjoy a lighter, unoaed style of white wine."
   },
   {
     "name": "Australian Chardonnay",
@@ -160,6 +152,14 @@
     "description": "Vermentino is a Mediterranean white grape grown extensively in coastal regions of Italy, especially Sardinia, Liguria, and Tuscany’s Maremma. It yields vibrant, saline-driven wines with notes of citrus, green herbs, and almond, often carrying a subtle bitterness and refreshing minerality that reflect its seaside terroir."
   },
   {
+    "name": "Aligoté",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "description": "Aligoté is a lesser-known white grape from Burgundy, France, traditionally grown in cooler sites and overshadowed by Chardonnay, yet it produces lively, high-acid wines ideal for apéritifs like the Kir cocktail. Its flavor profile typically includes green apple, citrus, and subtle herbal notes, with some modern examples—especially from Bouzeron—showing more texture and finesse."
+  },
+  {
     "name": "Ch\u00e2teauneuf-du-Pape (white blend)",
     "color": "White",
     "body": "Fuller Body",
@@ -173,7 +173,7 @@
     "body": "Lighter Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "Willamette Valley Pinot Noir is known for its elegance, red fruit flavors, and earthy undertones. Oregon's cool climate and volcanic soils help produce balanced wines with finesse and complexity."
+    "description": "Willamette Valley Pinot Noir is known for its elegance, red fruit flavors, and earthy undertones. Oregon's cool climate and volcanic soils help produce balanced wines with finesse and complexity. These wines are some of the best examples of Pinot Noir produced in America."
   },
   {
     "name": "California  Pinot Noir",
@@ -181,7 +181,7 @@
     "body": "Lighter Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "California Pinot Noir offers ripe cherry, raspberry, and cola flavors with varying levels of oak and spice. Grown in coastal regions like Sonoma and Santa Barbara, it tends to be more fruit-forward than Old World versions."
+    "description": "California Pinot Noir offers ripe cherry, raspberry, and cola flavors with varying levels of oak and spice. Grown in coastal regions like Russian River Valley, Sonoma Coast and Santa Barbara, it tends to be more fruit-forward than examples found in Oregon and in Burgundy, France."
   },
   {
     "name": "Red Burgundy (Pinot Noir)",
@@ -189,7 +189,7 @@
     "body": "Lighter Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Red Burgundy, made from Pinot Noir, comes from France's Cote d'Or and shows flavors of tart cherry, mushroom, and forest floor. The cooler climate and limestone soils give it a refined, earthy structure and aging potential."
+    "description": "Red Burgundy, made from Pinot Noir, comes from France's Cote d'Or and shows flavors of tart cherry, mushroom, and forest floor. The cooler climate and limestone soils give it a refined, earthy structure and aging potential. Red burgundy is the benchmark for great Pinot Noir, and the villages that are off the beaten path are best for value and quality to price point."
   },
   {
     "name": "New Zealand Pinot Noir",
@@ -197,7 +197,7 @@
     "body": "Lighter Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "New Zealand Pinot Noir, particularly from Central Otago and Martinborough, offers red fruit flavors with herbal and spice notes. The wines have bright acidity and a smooth texture, shaped by a cool, maritime climate."
+    "description": "New Zealand Pinot Noir, particularly from Central Otago and Martinborough, offers red fruit flavors with herbal and spice notes. The wines have bright acidity and a smooth texture, shaped by a cool, maritime climate. These wines can be a great find, and are highly recommended for Pinor Noir lovers to try."
   },
   {
     "name": "Loire Valley Cabernet Franc (Chinon)",
@@ -229,7 +229,7 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Red Bordeaux blends combine Merlot, Cabernet Sauvignon, and other varietals to create structured, age-worthy wines with flavors of blackcurrant, plum, and graphite. These wines hail from both Left Bank and Right Bank regions of Bordeaux."
+    "description": "Red Bordeaux blends combine Merlot, Cabernet Sauvignon, and other varietals to create structured, age-worthy wines with flavors of blackcurrant, plum, and graphite. These wines hail from both Left Bank (Cabernet Sauvignon) and Right Bank (Merlot) regions of Bordeaux. Not all Red Bordeaux's are expensive, and there are many examples of high-quality reds from here that are attractive in price. However, don't be shocked to see many offerings well over $1000."
   },
   {
     "name": "California Cabernet Sauvignon",
@@ -237,7 +237,7 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "California Cabernet Sauvignon is known for its bold structure, ripe blackberry and cassis flavors, and firm tannins. Regions like Napa Valley produce powerful, age-worthy versions with oak and spice."
+    "description": "California Cabernet Sauvignon is known for its bold structure, ripe blackberry and cassis flavors, and firm tannins. Regions like Napa Valley produce powerful, age-worthy versions with oak and spice. These wines are less dry than their Bordeaux counterparts, and are usually defined by their power and weight on the palate. Areas in Sonoma County and the Central Coast produce a slightly lighter version, with a lower pricetag than Napa Valley."
   },
   {
     "name": "California Merlot",
@@ -253,7 +253,7 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "California Zinfandel is a bold red wine with jammy blackberry fruit, spice, and sometimes a touch of sweetness or heat. It thrives in regions like Lodi and Sonoma, often producing high-alcohol, fruit-driven wines."
+    "description": "California Zinfandel is a bold red wine with jammy blackberry fruit, spice, and sometimes a touch of sweetness. It thrives in regions like Lodi and Sonoma, often producing high-alcohol, fruit-driven wines."
   },
   {
     "name": "Australian Shiraz",
@@ -269,7 +269,7 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Ch\u00e2teauneuf-du-Pape red blends are Grenache-based wines from the southern Rh\u00f4ne Valley with ripe red fruit, herbs, and spice. These wines are powerful, complex, and often blended with up to a dozen varietals."
+    "description": "Ch\u00e2teauneuf-du-Pape red blends are Grenache-based wines from the southern Rh\u00f4ne Valley with ripe red fruit, herbs, and spice. These wines can be powerful, very complex, and are often blended with up to a dozen different grape varietals."
   },
   {
     "name": "Australian Cabernet Sauvignon",
