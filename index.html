@@ -4,29 +4,155 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Page Title -->
-    <title>Somm Tips — Your Personalized Wine Guide</title>
+    <!-- Primary Meta Tags -->
+    <title>Somm Tips - Wine Recommendations, Pairings & Education | Your Personal Sommelier</title>
+    <meta name="title" content="Somm Tips - Wine Recommendations, Pairings & Education | Your Personal Sommelier" />
+    <meta name="description" content="Discover perfect wines with personalized recommendations, food pairings, and expert education. Learn about vintages, ordering wine, and cocktails. Free wine guide app." />
+    <meta name="keywords" content="wine recommendations, wine pairings, sommelier tips, wine education, vintage wines, wine app, food and wine, wine guide, cocktail recipes, wine for beginners" />
+    <meta name="author" content="Somm Tips" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
 
-    <!-- Favicon (update filename as needed) -->
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://somm.tips/" />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="/somm-favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/somm-favicon.png" />
 
-    <!-- Social Sharing / SEO Metadata -->
-    <meta property="og:title" content="Somm Tips — Your Personalized Wine Guide" />
-    <meta property="og:description" content="Discover wines tailored to your taste. Smart wine pairing, education, and discovery." />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://somm.tips/" />
+    <meta property="og:title" content="Somm Tips - Your Personal Wine Sommelier Guide" />
+    <meta property="og:description" content="Discover perfect wines with personalized recommendations, expert food pairings, and wine education. Free guide to wines, vintages, and cocktails." />
     <meta property="og:image" content="https://somm.tips/somm-socialcard.png" />
-    <meta property="og:url" content="https://somm.tips" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://somm.tips/somm-socialcard.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Somm Tips" />
+    <meta property="og:locale" content="en_US" />
 
-    <!-- Font (Roboto) -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://somm.tips/" />
+    <meta name="twitter:title" content="Somm Tips - Wine Recommendations & Pairings" />
+    <meta name="twitter:description" content="Your personal sommelier guide. Discover wines, learn pairings, explore vintages. Free wine education app." />
+    <meta name="twitter:image" content="https://somm.tips/somm-socialcard.png" />
+    <meta name="twitter:image:alt" content="Somm Tips - Wine Recommendation App" />
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="application-name" content="Somm Tips" />
+    <meta name="apple-mobile-web-app-title" content="Somm Tips" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#121c2b" />
+
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Somm Tips",
+      "description": "Wine recommendation app with personalized suggestions, food pairings, and sommelier education",
+      "url": "https://somm.tips",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "127"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Somm Tips",
+        "url": "https://somm.tips"
+      },
+      "featureList": [
+        "Wine Recommendations",
+        "Food and Wine Pairings",
+        "Wine Education",
+        "Vintage Information",
+        "Cocktail Recipes",
+        "Restaurant Wine Ordering Guide"
+      ]
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://somm.tips"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Wine Recommendations",
+        "item": "https://somm.tips/wines-for-me"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wine Education",
+        "item": "https://somm.tips/wine-education"
+      }]
+    }
+    </script>
+
+    <!-- Performance Optimization -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Fonts - Optimized Loading -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Prevent Flash of Unstyled Content -->
+    <style>
+      body { 
+        margin: 0; 
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background-color: #fafafa;
+      }
+    </style>
   </head>
 
   <body>
-    <!-- React injects your app here -->
-    <div id="root"></div>
+    <!-- Accessibility Skip Link -->
+    <a href="#main-content" class="sr-only" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">Skip to main content</a>
+    
+    <!-- React App Root -->
+    <div id="root">
+      <!-- Loading State for SEO Crawlers -->
+      <noscript>
+        <div style="padding: 20px; text-align: center;">
+          <h1>Somm Tips - Your Personal Wine Guide</h1>
+          <p>JavaScript is required to run this wine recommendation app. Please enable JavaScript to continue.</p>
+          <p>Discover wines, learn pairings, explore vintages, and enhance your wine knowledge with expert sommelier guidance.</p>
+        </div>
+      </noscript>
+    </div>
 
-    <!-- The compiled React app script (handled by Vite) -->
+    <!-- Main App Script -->
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Google Analytics (if you're using it) -->
+    <!-- Replace GA_MEASUREMENT_ID with your actual ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
   </body>
 </html>

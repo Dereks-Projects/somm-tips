@@ -9,11 +9,19 @@
 }
 
 /* Page wrapper - controls overall page spacing */
+/* Page wrapper - controls overall page spacing */
 .page-wrapper {
-  padding: 0 0 0 0;      /* No top padding (header sits flush), 6vh bottom */
+  padding: 0 0 120px 0;     /* Bottom padding for mobile BottomNav (75px + 10px space) */
   background: transparent;
   max-width: 100%;         /* Prevent overflow */
   overflow-x: hidden;      /* No horizontal scroll */
+}
+
+/* Desktop adjustments - remove bottom padding when footer is present */
+@media (min-width: 768px) {
+  .page-wrapper {
+    padding-bottom: 0;     /* No padding on desktop (DesktopFooter handles spacing) */
+  }
 }
 
 /* Page title styling */
