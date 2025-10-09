@@ -29,8 +29,8 @@ function CocktailsPage() {
       <Header />
       <div className="wines-page-container">
         <div className="wines-title">Cocktails</div>
-        <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '450px', margin: '0 auto 2rem' }}>
-          Explore our selection of cocktails based on your preferred base spirit. Choose from the filters below.
+        <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '490px', margin: '0 auto 2rem' }}>
+          Choose your base spirit and explore our selection of cocktails.
         </p>
         <div className="filter-grid">
           {spiritOptions.map(spirit => (

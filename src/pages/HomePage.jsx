@@ -19,12 +19,6 @@ function HomePage() {
       subtitle: 'Enlisting the service team.'
     },
     {
-      path: '/cocktails',
-      icon: '🍹',
-      title: 'Cocktails',
-      subtitle: 'A collection of libations.'
-    },
-    {
       path: '/classic-pairings',
       icon: '🍖',
       title: 'Classic Pairings',
@@ -41,7 +35,13 @@ function HomePage() {
       icon: '💡',
       title: 'Wine Education',
       subtitle: 'Level-up your knowledge.'
-    }
+    },
+    {
+      path: '/cocktails',
+      icon: '🍹',
+      title: 'Cocktails',
+      subtitle: 'A collection of libations.'
+    },
   ];
 
   return (
