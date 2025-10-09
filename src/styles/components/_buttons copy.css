@@ -1,0 +1,157 @@
+.somm-button {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid var(--primary-blue);
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: var(--primary-blue);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.somm-button:hover {
+  background-color: var(--primary-blue);
+  color: #ffffff;
+  transform: scale(1.02);
+}
+
+.somm-button.active {
+  background-color: var(--primary-blue);
+  color: #ffffff;
+}
+
+/* BASE BUTTON STYLES */
+.somm-button,
+.home-button {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  background-color: #fafafa;
+  color: var(--primary-blue);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Card button styling */
+.card-button {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 1rem 1.25rem;
+  width: 100%;
+  max-width: 290px;
+}
+
+.button-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.button-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.button-subtitle {
+  font-size: 0.85rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+/* FILTER + RESET BUTTON STYLE */
+.toggle-button,
+.reset-button {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #dfdede;
+  background-color: #e4e2e2;
+  color: var(--primary-blue);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* HOVER & ACTIVE STATES */
+.somm-button:hover,
+.toggle-button:hover,
+.reset-button:hover,
+.home-button:hover {
+  background-color: var(--primary-blue);
+  color: #ffffff;
+}
+
+.toggle-button.active {
+  background-color: var(--primary-blue);
+  color: white;
+}
+
+/* WIDTH CUSTOMIZATION */
+.somm-button {
+  width: 100%;
+  max-width: 340px;
+}
+
+.toggle-button {
+  min-width: 120px;
+  width: auto;
+}
+
+.reset-button,
+.home-button {
+  width: 280px;
+  margin: 0.75rem auto;
+  display: block;
+}
+
+/* Custom Inverse Home Button Style */
+.inverse-home-button {
+  background-color: var(--primary-blue);
+  color: #fafafa;
+  border: 2px solid var(--primary-blue);
+}
+
+.inverse-home-button:hover {
+  background-color: #e0e0e0;
+  color: var(--primary-blue);
+  border-color: #e0e0e0;
+}
+
+/* Desktop adjustments for card buttons */
+@media (min-width: 768px) {
+  .card-button {
+    padding: 1.5rem;
+    max-width: none;
+    height: 100px;
+  }
+
+  .button-icon {
+    font-size: 2.5rem;
+  }
+
+  .button-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .button-subtitle {
+    font-size: 0.9rem;
+  }
+}

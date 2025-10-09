@@ -2,7 +2,7 @@
 import React from 'react'; // React core library
 import ReactDOM from 'react-dom/client'; // DOM manipulation for React
 import App from './App'; // Main App component
-import './index.css'; // Global styles
+import './styles/main.css';
 
 /**
  * This is the main entry point for your React app.

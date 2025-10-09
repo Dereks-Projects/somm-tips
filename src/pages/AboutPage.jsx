@@ -1,16 +1,17 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../components/AboutPage.css";
+
 
 function AboutPage() {
   const navigate = useNavigate();
 
   return (
     <div className="about-page-wrapper">
+      
       <div className="about-page-container">
         {/* Hero Section */}
         <div className="about-hero">
-          <h1>Somm Tips</h1>
+          <div className="about-hero-title">Somm Tips</div>
           <p className="tagline">Demystifying wine, one recommendation at a time.</p>
         </div>
 
@@ -88,15 +89,8 @@ function AboutPage() {
             <button onClick={() => navigate("/terms-of-use")} className="footer-link">
               Terms of Use
             </button>
-            <span className="divider">•</span>
-            <a 
-              href="https://www.somm.tips" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="footer-link"
-            >
-              somm.tips
-            </a>
+            
+         
           </div>
           <p className="version">Version 1.0</p>
         </div>

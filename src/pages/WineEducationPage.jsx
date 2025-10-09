@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import wineEducationData from '../data/wineEducation.json';
 import WineAccordion from '../components/WineAccordion';
+import Header from '../components/Header';
+import DesktopFooter from '../components/DesktopFooter';
 
 function WineEducationPage() {
   const navigate = useNavigate();
@@ -26,9 +28,10 @@ function WineEducationPage() {
 
   return (
     <div className="page-wrapper">
+      <Header />
       <div className="wines-page-container">
-        <h1 className="wines-title">Wine Education</h1>
-        <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '450px', margin: '0 auto 2rem' }}>
+        <div className="wines-title">Wine Education</div>
+        <p className="wines-subtitle">
           Explore our educational content on wine, from grape varieties to tasting terms. 
         </p>
 
@@ -59,6 +62,7 @@ function WineEducationPage() {
           </button>
         </div>
       </div>
+      <DesktopFooter /> 
     </div>
   );
 }

@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import allWines from '../data/wineRecommendations.json';
 import WineAccordion from '../components/WineAccordion';
+import Header from '../components/Header';
+import DesktopFooter from '../components/DesktopFooter';
+
 
 function WinesForMePage() {
   const navigate = useNavigate();
@@ -48,9 +51,10 @@ function WinesForMePage() {
 
   return (
     <div className="page-wrapper">
+      <Header />
       <div className="wines-page-container">
-        <h1 className="wines-title">Wine Recommendations</h1>
-        <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '500px', margin: '0 auto 2rem' }}>
+        <div className="wines-title">Wine Recommendations</div>
+        <p className="wines-subtitle">
           Explore the world of wine with confidence. Use the filters below to find your next great bottle.
         </p>
 
@@ -94,6 +98,7 @@ function WinesForMePage() {
 
         </div>
       </div>
+      <DesktopFooter /> 
     </div>
   );
 }

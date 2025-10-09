@@ -4,7 +4,6 @@
 
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./BottomNav.css"; // CSS will be created in the next step
 
 function BottomNav() {
   const navigate = useNavigate();
@@ -15,7 +14,10 @@ function BottomNav() {
         🏠<span>Home</span>
       </button>
       <button className="nav-button" onClick={() => navigate("/wines-for-me")}>
-        ✅<span>Recommendations</span>
+        🍷<span>Wine</span>
+      </button>
+      <button className="nav-button" onClick={() => navigate("/cocktails")}>
+        🍸<span>Cocktails</span>
       </button>
       <button className="nav-button" onClick={() => navigate("/wine-education")}>
         📚<span>Education</span>

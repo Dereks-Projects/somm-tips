@@ -1,0 +1,14 @@
+:root {
+  --primary-blue: #121c2b;
+  --light-gray: #fafafa;
+  font-family: 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  background-color: var(--light-gray);
+  color: var(--primary-blue);
+
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

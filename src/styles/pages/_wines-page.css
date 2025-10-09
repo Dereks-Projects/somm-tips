@@ -1,0 +1,93 @@
+/* WINES PAGE SPECIFIC STYLES */
+
+/* Main container for wines page content */
+.wines-page-container {
+  padding: 2rem 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Page wrapper - controls overall page spacing */
+.page-wrapper {
+  padding: 0 0 0 0;      /* No top padding (header sits flush), 6vh bottom */
+  background: transparent;
+  max-width: 100%;         /* Prevent overflow */
+  overflow-x: hidden;      /* No horizontal scroll */
+}
+
+/* Page title styling */
+.wines-title {
+  font-size: 2rem;         /* Smaller since we have header above */
+  font-weight: bold;
+  text-align: center;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+/* Page subtitle styling */
+.wines-subtitle {
+  font-size: 1.1rem;
+  color: var(--primary-blue);
+  text-align: center;
+  margin: 0 auto 2rem;
+  max-width: 520px;
+  line-height: 1.6;
+}
+
+/* Filter buttons layout */
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1rem;
+  justify-content: center;
+  margin: 1.2rem 0;
+  max-width: 100%;         /* Prevent overflow */
+}
+
+/* Wine list display */
+.wine-list ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-top: 1rem;
+}
+
+/* Accordion container spacing */
+.accordion-list {
+  margin-top: 2rem;
+}
+
+/* Background image for app pages (if used) */
+.app-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url('/src/assets/somm-homepage-hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2rem;
+}
+
+/* MOBILE STYLES - Phones (500px and below) */
+@media (max-width: 500px) {
+  /* Smaller title on mobile */
+  .wines-title {
+    font-size: 1.5rem;
+  }
+  
+  /* Adjust container spacing for mobile */
+  .wines-page-container {
+    padding-left: 1rem;    /* Reduced padding */
+    padding-right: 1rem;
+    margin-left: 0;         /* No margin (was causing overflow) */
+    margin-right: 0;
+    max-width: 100%;        /* Full width on mobile */
+  }
+}

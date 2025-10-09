@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import pairings from '../data/classicPairings.json';
 import WineAccordion from '../components/WineAccordion';
+import Header from '../components/Header';
+import DesktopFooter from '../components/DesktopFooter';
 
 
 function ClassicPairingsPage() {
@@ -17,8 +19,9 @@ function ClassicPairingsPage() {
 
   return (
     <div className="page-wrapper">
+      <Header />
       <div className="wines-page-container">
-        <h1 className="wines-title">Classic Pairings</h1>
+        <div className="wines-title">Classic Pairings</div>
         <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '450px', margin: '0 auto 2rem' }}>
           Here you will find some classic dishes from around the world and some great ideas for pairing them with wine.
         </p>
@@ -61,6 +64,7 @@ function ClassicPairingsPage() {
           </button>
         </div>
       </div>
+      <DesktopFooter />
     </div>
   );
 }

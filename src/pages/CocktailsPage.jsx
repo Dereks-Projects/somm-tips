@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import cocktailData from '../data/cocktails.json';
 import WineAccordion from '../components/WineAccordion';
+import Header from '../components/Header';
+import DesktopFooter from '../components/DesktopFooter';
 
 function CocktailsPage() {
   const navigate = useNavigate();
@@ -24,8 +26,9 @@ function CocktailsPage() {
 
   return (
     <div className="page-wrapper">
+      <Header />
       <div className="wines-page-container">
-        <h1 className="wines-title">Cocktails</h1>
+        <div className="wines-title">Cocktails</div>
         <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '450px', margin: '0 auto 2rem' }}>
           Explore our selection of cocktails based on your preferred base spirit. Choose from the filters below.
         </p>
@@ -70,6 +73,7 @@ function CocktailsPage() {
           </button>
         </div>
       </div>
+      <DesktopFooter />
     </div>
   );
 }

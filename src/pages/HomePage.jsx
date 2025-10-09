@@ -74,7 +74,11 @@ function HomePage() {
         </a>
         <span className="footer-divider"> | </span>
         <a href="https://www.amazon.com/dp/B0FMQMRSXZ" target="_blank" rel="noopener noreferrer">
-          Get the Book
+          Get the Book on Amazon
+        </a>
+        <span className="footer-divider"> | </span>
+        <a href="https://www.derekengles.com" target="_blank" rel="noopener noreferrer">
+          About the Developer
         </a>
       </footer>
     </div>

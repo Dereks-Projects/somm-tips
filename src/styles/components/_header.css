@@ -1,0 +1,45 @@
+/* MOBILE-FIRST HEADER STYLES */
+/* Base styles = Mobile */
+.app-header {
+  background-color: #121c2b;
+  color: #fafafa;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-title {
+  font-size: 1.85rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.header-subtitle {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin: 0.5rem 0 0;
+  opacity: 0.95;
+  line-height: 1.4;
+}
+
+/* TABLET AND DESKTOP STYLES */
+@media (min-width: 768px) {
+  .app-header {
+    padding: 2rem 1.5rem;
+  }
+  
+  .header-title {
+    font-size: 2.7rem;
+  }
+  
+  .header-subtitle {
+    font-size: 1.2rem;
+    margin-top: 0.25rem;
+  }
+}

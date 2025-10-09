@@ -1,7 +1,7 @@
 // 📄 FILE: src/components/WineAccordion.jsx
 
 import React from 'react';
-import './WineAccordion.css';
+
 
 function WineAccordion({ name, description, title, line1, line2, line3, isOpen, onClick }) {
   const heading = title || name;

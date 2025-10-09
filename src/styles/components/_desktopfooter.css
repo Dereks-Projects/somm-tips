@@ -1,0 +1,82 @@
+/* 📄 FILE: src/styles/components/_desktopfooter.css
+   🎯 PURPOSE: Desktop-only footer styling that matches header design */
+
+/* Desktop Footer - Hidden on Mobile */
+.desktop-footer {
+  display: none; /* Hidden by default (mobile-first) */
+}
+
+/* Desktop-Only Display */
+@media (min-width: 768px) {
+  .desktop-footer {
+    display: block;
+    background-color: #121c2b; /* Same navy as header */
+    color: #ffffff;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    width: 100%;
+  }
+
+  .desktop-footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  /* Navigation Links */
+  .desktop-footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .desktop-footer-link {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    transition: opacity 0.3s ease;
+  }
+
+  .desktop-footer-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+
+  /* Separator Dots */
+  .footer-separator {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.8rem;
+    user-select: none;
+  }
+
+  /* Copyright Text */
+  .desktop-footer-copyright {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 0.5rem;
+  }
+}
+
+/* Ensure footer stays at bottom for shorter pages */
+@media (min-width: 768px) {
+  .page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Push footer to bottom if content is short */
+  .page-wrapper > *:last-child {
+    margin-top: auto;
+  }
+}

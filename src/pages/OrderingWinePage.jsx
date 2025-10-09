@@ -6,6 +6,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import orderingData from '../data/orderingWine.json'; // ✅ new JSON source
 import WineAccordion from '../components/WineAccordion'; // ✅ reused component
+import Header from '../components/Header';
+import DesktopFooter from '../components/DesktopFooter';
 
 function OrderingWinePage() {
   const navigate = useNavigate();
@@ -13,9 +15,10 @@ function OrderingWinePage() {
 
   return (
     <div className="page-wrapper">
+      <Header />
       <div className="wines-page-container">
         {/* 📍 Page Title */}
-        <h1 className="wines-title">Ordering Wine</h1>
+        <div className="wines-title">Ordering Wine</div>
 
         {/* 🧾 Page Tagline */}
         <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '500px', margin: '0 auto 2rem' }}>
@@ -59,6 +62,7 @@ function OrderingWinePage() {
           </button>
         </div>
       </div>
+      <DesktopFooter /> 
     </div>
   );
 }

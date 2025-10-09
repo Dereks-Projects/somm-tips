@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import vintagesData from '../data/vintages.json';
 import WineAccordion from '../components/WineAccordion';
+import Header from '../components/Header';
+import DesktopFooter from '../components/DesktopFooter';
 
 function VintagesPage() {
   const navigate = useNavigate();
@@ -15,8 +17,9 @@ function VintagesPage() {
 
   return (
     <div className="page-wrapper">
+      <Header />
       <div className="wines-page-container">
-        <h1 className="wines-title">Vintages</h1>
+        <div className="wines-title">Vintages</div>
 
         <p className="wines-subtitle">
           Here is a collection of some of the great wine regions from around the globe, and their best vintages over the past decade.
@@ -42,6 +45,7 @@ function VintagesPage() {
           </button>
         </div>
       </div>
+      <DesktopFooter /> 
     </div>
   );
 }
