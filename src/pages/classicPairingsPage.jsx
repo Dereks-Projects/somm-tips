@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import pairings from '../data/classicPairings.json';
 import WineAccordion from '../components/WineAccordion';
-import Header from '../components/Header';
 import DesktopFooter from '../components/DesktopFooter';
 
 
@@ -19,7 +18,7 @@ function ClassicPairingsPage() {
 
   return (
     <div className="page-wrapper">
-      <Header />
+      
       <div className="wines-page-container">
         <div className="wines-title">Classic Pairings</div>
         <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '450px', margin: '0 auto 2rem' }}>

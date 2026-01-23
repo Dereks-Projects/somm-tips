@@ -1,146 +1,145 @@
 // 📄 FILE: src/pages/TermsOfUsePage.jsx
+// 🎯 PURPOSE: Terms of Use legal page
+// 📍 LOCATION: src/pages/
 
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import DesktopFooter from "../components/DesktopFooter";
 
 function TermsOfUsePage() {
   const navigate = useNavigate();
 
   return (
-    <div className="page-wrapper">
-      <div className="about-page-wrapper">
-        <div className="about-page-container">
-          <div className="about-hero">
-            <h1 className="about-hero-title">Terms of Use</h1>
-            <p className="tagline">Please read these terms carefully</p>
+    <>
+      <div className="legal-page-wrapper">
+        <div className="legal-page-container">
+          
+          {/* Hero Section */}
+          <div className="legal-hero">
+            <h1 className="legal-hero-title">Terms of Use</h1>
+            <p className="legal-updated">Last Updated: January 2026</p>
           </div>
 
-          <div className="about-content">
-            <div className="about-section">
+          {/* Main Content */}
+          <div className="legal-content">
+            
+            <section className="legal-section">
               <h2>Acceptance of Terms</h2>
               <p>
-                By downloading, installing, or using Somm Tips ("the App"), you agree to be bound by 
-                these Terms of Use. If you do not agree to these terms, please do not use the App.
+                By accessing and using Somm Tips ("the Application"), you accept and agree 
+                to be bound by these Terms of Use and all applicable laws and regulations. 
+                If you do not agree with any of these terms, you are prohibited from using 
+                or accessing this Application.
               </p>
-              <p>
-                Somm Tips is provided for personal, educational, and non-commercial use only. 
-                The App is designed to enhance your wine knowledge and appreciation through 
-                curated educational content.
-              </p>
-            </div>
+            </section>
 
-            <div className="about-section">
+            <section className="legal-section">
               <h2>Use License</h2>
               <p>
-                We grant you a limited, non-exclusive, non-transferable, revocable license to use 
-                Somm Tips on your personal devices for your personal, non-commercial use. This license 
-                does not include the right to:
+                Permission is granted to temporarily access and use the Application for 
+                personal, non-commercial purposes only. This is the grant of a license, 
+                not a transfer of title, and under this license you may not modify or copy 
+                the materials, use the materials for any commercial purpose, attempt to 
+                reverse engineer any software contained in the Application, remove any 
+                copyright or proprietary notations, or transfer the materials to another 
+                person or "mirror" the materials on any other server.
               </p>
-              <ul style={{ marginLeft: '1.5rem', color: '#333', lineHeight: '1.7' }}>
-                <li>Modify, copy, or create derivative works from the App</li>
-                <li>Reverse engineer or attempt to extract source code</li>
-                <li>Sell, rent, lease, or sublicense the App</li>
-                <li>Use the App for commercial purposes</li>
-                <li>Remove or alter any proprietary notices or labels</li>
-              </ul>
-            </div>
+              <p>
+                This license shall automatically terminate if you violate any of these 
+                restrictions and may be terminated by Somm Tips at any time.
+              </p>
+            </section>
 
-            <div className="about-section">
-              <h2>Intellectual Property</h2>
+            <section className="legal-section">
+              <h2>Disclaimer</h2>
               <p>
-                All content within Somm Tips, including but not limited to text, graphics, logos, 
-                images, and software, is the property of Somm Tips or its content suppliers and is 
-                protected by intellectual property laws. The compilation of all content in this App 
-                is the exclusive property of Somm Tips.
+                The information and recommendations provided through Somm Tips are for 
+                general educational and entertainment purposes only. The materials are 
+                provided on an "as is" basis. Somm Tips makes no warranties, expressed 
+                or implied, and hereby disclaims and negates all other warranties including, 
+                without limitation, implied warranties or conditions of merchantability, 
+                fitness for a particular purpose, or non-infringement of intellectual property.
               </p>
               <p>
-                Wine recommendations, educational content, and pairing suggestions are provided for 
-                informational purposes and represent curated knowledge from various sources in the 
-                wine industry.
+                Wine and beverage recommendations are subjective and based on general 
+                characteristics. Individual tastes and preferences vary, and we cannot 
+                guarantee that any recommendation will suit your specific preferences.
               </p>
-            </div>
+            </section>
 
-            <div className="about-section">
-              <h2>User Conduct</h2>
+            <section className="legal-section">
+              <h2>Alcohol-Related Content</h2>
               <p>
-                You agree to use Somm Tips responsibly and in compliance with all applicable laws. 
-                You must be of legal drinking age in your jurisdiction to use this App. The App is 
-                for educational purposes only and does not promote excessive alcohol consumption.
+                The Application provides information about alcoholic beverages. By using 
+                this Application, you confirm that you are of legal drinking age in your 
+                jurisdiction. We encourage responsible consumption of alcohol. The information 
+                provided is not intended to encourage excessive or underage drinking.
               </p>
-              <p>
-                You agree not to:
-              </p>
-              <ul style={{ marginLeft: '1.5rem', color: '#333', lineHeight: '1.7' }}>
-                <li>Use the App in any way that violates applicable laws or regulations</li>
-                <li>Attempt to interfere with the proper functioning of the App</li>
-                <li>Use the App to infringe upon the rights of others</li>
-                <li>Redistribute content from the App without permission</li>
-              </ul>
-            </div>
+            </section>
 
-            <div className="about-section">
-              <h2>Disclaimer of Warranties</h2>
+            <section className="legal-section">
+              <h2>Limitations</h2>
               <p>
-                Somm Tips is provided "as is" and "as available" without warranties of any kind, 
-                either express or implied. We do not warrant that the App will be uninterrupted, 
-                error-free, or free from viruses or other harmful components.
+                In no event shall Somm Tips or its suppliers be liable for any damages 
+                (including, without limitation, damages for loss of data or profit, or 
+                due to business interruption) arising out of the use or inability to use 
+                the Application, even if Somm Tips has been notified of the possibility 
+                of such damage.
               </p>
-              <p>
-                Wine information and recommendations are educational in nature and should not replace 
-                professional sommelier advice for specific occasions or health considerations. Always 
-                drink responsibly and in accordance with local laws.
-              </p>
-            </div>
+            </section>
 
-            <div className="about-section">
-              <h2>Limitation of Liability</h2>
+            <section className="legal-section">
+              <h2>Accuracy of Materials</h2>
               <p>
-                To the fullest extent permitted by law, Somm Tips and its creators shall not be liable 
-                for any indirect, incidental, special, consequential, or punitive damages resulting from 
-                your use or inability to use the App.
+                The materials appearing in the Application may include technical, 
+                typographical, or photographic errors. Somm Tips does not warrant that 
+                any of the materials are accurate, complete, or current. We may make 
+                changes to the materials at any time without notice.
               </p>
-            </div>
+            </section>
 
-            <div className="about-section">
-              <h2>Modifications to Terms</h2>
+            <section className="legal-section">
+              <h2>Links</h2>
               <p>
-                We reserve the right to modify these Terms of Use at any time. Changes will be effective 
-                immediately upon posting. Your continued use of the App following any changes constitutes 
-                acceptance of the new terms.
+                Somm Tips has not reviewed all sites linked to its Application and is 
+                not responsible for the contents of any such linked site. The inclusion 
+                of any link does not imply endorsement by Somm Tips. Use of any linked 
+                website is at the user's own risk.
               </p>
-            </div>
+            </section>
 
-            <div className="about-section">
+            <section className="legal-section">
+              <h2>Modifications</h2>
+              <p>
+                Somm Tips may revise these Terms of Use at any time without notice. By 
+                using this Application, you agree to be bound by the current version of 
+                these Terms of Use.
+              </p>
+            </section>
+
+            <section className="legal-section">
               <h2>Governing Law</h2>
               <p>
-                These Terms of Use shall be governed by and construed in accordance with the laws of 
-                the United States, without regard to conflict of law principles. Any disputes arising 
-                from these terms shall be resolved through binding arbitration.
+                These terms and conditions are governed by and construed in accordance 
+                with applicable laws, and you irrevocably submit to the exclusive 
+                jurisdiction of the courts in that location.
               </p>
-            </div>
+            </section>
 
-            <div className="about-section">
-              <h2>Contact Information</h2>
-              <p>
-                For questions about these Terms of Use, please contact us through the App Store 
-                or visit our website at somm.tips.
-              </p>
-            </div>
           </div>
 
-          <div className="about-footer">
-            <p className="version">Last Updated: January 2025</p>
-            <p className="version">Version 1.0</p>
-          </div>
-
-          <div className="desktop-home-button">
-            <button className="home-btn" onClick={() => navigate('/')}>
-              Back to Home
+          {/* Back Button */}
+          <div className="legal-back-button">
+            <button onClick={() => navigate(-1)} className="back-btn">
+              ← Back
             </button>
           </div>
+
         </div>
       </div>
-    </div>
+
+      <DesktopFooter />
+    </>
   );
 }
 

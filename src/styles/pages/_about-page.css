@@ -1,48 +1,60 @@
-/* About Page Wrapper - Full viewport background */
+/* 📄 FILE: src/styles/pages/_about-page.css
+   🎯 PURPOSE: About page styling
+   📍 LOCATION: src/styles/pages/
+   
+   APPROACH: Mobile-first
+   COLORS: Consistent with site - #f5f5f5 background, #121c2b navy, #F4C542 gold
+*/
+
+/* ============================================
+   BASE STYLES (Mobile)
+   ============================================ */
+
+/* Page Wrapper */
 .about-page-wrapper {
-  min-height: 100vh;
-  background: #121c2b;
-  padding: 2rem 1rem;
+  min-height: calc(100vh - 60px);
+  background-color: #f5f5f5;
+  padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Main Container */
 .about-page-container {
   background-color: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   max-width: 700px;
   width: 100%;
-  overflow: hidden;
+  margin-bottom: 80px; /* Space for mobile bottom nav */
 }
 
-/* Hero Section */
+/* Hero Section - Dark Gray */
 .about-hero {
-  background: linear-gradient(135deg, #121c2b 0%, #0d0d70 100%);
+  background-color: #161616;
   color: #ffffff;
-  padding: 3rem 2rem;
+  padding: 2rem 1.5rem;
   text-align: center;
 }
 
 .about-hero-title {
-  font-size: 2.5rem;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 2.2rem;
   font-weight: 700;
   margin: 0 0 0.5rem 0;
   letter-spacing: -0.5px;
 }
 
 .tagline {
-  font-size: 1.1rem;
-  opacity: 0.95;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.8rem;
+  opacity: 0.9;
   margin: 0;
   font-weight: 300;
 }
 
 /* Main Content */
 .about-content {
-  padding: 2.5rem 2rem;
+  padding: 2rem 1.5rem;
 }
 
 .about-section {
@@ -54,7 +66,8 @@
 }
 
 .about-section h2 {
-  color: #00004d;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #121c2b;
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0 0 1rem 0;
@@ -69,11 +82,12 @@
   left: 0;
   width: 40px;
   height: 3px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-color: #F4C542;
   border-radius: 2px;
 }
 
 .about-section p {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: #333;
   font-size: 1rem;
   line-height: 1.7;
@@ -84,34 +98,55 @@
   margin-bottom: 0;
 }
 
-/* Book Section */
-.book-content {
-  background: #f8f9fa;
+/* Ecosystem Section */
+.ecosystem-content {
+  background-color: #f5f5f5;
   padding: 1.5rem;
   border-radius: 12px;
   margin-top: 1rem;
 }
 
-.book-link, .creator-link {
+.ecosystem-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.ecosystem-link {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #121c2b;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.ecosystem-link:hover {
+  color: #F4C542;
+}
+
+/* Creator Link */
+.creator-link {
   display: inline-block;
-  color: #667eea;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #121c2b;
   font-weight: 600;
   text-decoration: none;
   margin-top: 0.5rem;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
-.book-link:hover, .creator-link:hover {
-  color: #764ba2;
-  text-decoration: underline;
+.creator-link:hover {
+  color: #F4C542;
 }
 
 /* Footer Section */
 .about-footer {
-  background: #f8f9fa;
-  padding: 2rem;
+  background-color: #f5f5f5;
+  padding: 2rem 1.5rem;
   text-align: center;
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid #e0e0e0;
 }
 
 .footer-links {
@@ -119,24 +154,23 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  gap: 0.75rem;
 }
 
 .footer-link {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: #666;
   font-size: 0.9rem;
   text-decoration: none;
   background: none;
   border: none;
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
   padding: 0;
 }
 
 .footer-link:hover {
-  color: #00004d;
-  text-decoration: underline;
+  color: #121c2b;
 }
 
 .divider {
@@ -144,29 +178,32 @@
   font-size: 0.8rem;
 }
 
-.version {
-  color: #999;
-  font-size: 0.85rem;
-  margin: 0;
-}
-
 /* Desktop Home Button */
 .desktop-home-button {
   display: none;
 }
 
-/* Desktop Styles */
+/* ============================================
+   DESKTOP (768px+)
+   ============================================ */
 @media (min-width: 768px) {
   .about-page-wrapper {
-    padding: 3rem 2rem;
+    padding: 2rem;
     align-items: center;
   }
   
-  .about-hero {
-    padding: 4rem 3rem;
+  .about-page-container {
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    margin-bottom: 0;
   }
   
-  .about-hero h1 {
+  .about-hero {
+    padding: 3rem;
+    border-radius: 16px 16px 0 0;
+  }
+  
+  .about-hero-title {
     font-size: 3rem;
   }
   
@@ -182,46 +219,46 @@
     margin-bottom: 3rem;
   }
   
+  .about-footer {
+    padding: 2rem 3rem;
+  }
+  
+  .footer-links {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
   .desktop-home-button {
     display: flex;
     justify-content: center;
     padding: 2rem;
-    background: #f8f9fa;
+    background-color: #f5f5f5;
+    border-radius: 0 0 16px 16px;
   }
   
   .home-btn {
-    background: linear-gradient(135deg, #00004d 0%, #000080 100%);
-    color: white;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #121c2b;
+    color: #ffffff;
     border: none;
     padding: 0.875rem 2rem;
     font-size: 1rem;
     font-weight: 600;
     border-radius: 8px;
     cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: opacity 0.2s ease, transform 0.2s ease;
   }
   
   .home-btn:hover {
+    opacity: 0.9;
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(0, 0, 77, 0.2);
   }
 }
 
-/* Mobile-specific adjustments */
+/* ============================================
+   MOBILE ADJUSTMENTS
+   ============================================ */
 @media (max-width: 767px) {
-  .about-page-container {
-    border-radius: 0;
-    margin-bottom: 80px;
-  }
-  
-  .about-hero {
-    padding: 2rem 1.5rem;
-  }
-  
-  .about-content {
-    padding: 2rem 1.5rem;
-  }
-  
   .footer-links {
     flex-direction: column;
     gap: 0.5rem;

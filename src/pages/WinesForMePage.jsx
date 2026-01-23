@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import allWines from '../data/wineRecommendations.json';
 import WineAccordion from '../components/WineAccordion';
-import Header from '../components/Header';
 import DesktopFooter from '../components/DesktopFooter';
 
 
@@ -51,7 +50,7 @@ function WinesForMePage() {
 
   return (
     <div className="page-wrapper">
-      <Header />
+      
       <div className="wines-page-container">
         <div className="wines-title">Wine Recommendations</div>
         <p className="wines-subtitle">

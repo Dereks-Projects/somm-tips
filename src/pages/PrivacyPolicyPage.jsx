@@ -1,100 +1,135 @@
 // 📄 FILE: src/pages/PrivacyPolicyPage.jsx
+// 🎯 PURPOSE: Privacy Policy legal page
+// 📍 LOCATION: src/pages/
 
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import DesktopFooter from "../components/DesktopFooter";
 
 function PrivacyPolicyPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="page-wrapper">
-      
-      <div className="about-page-wrapper">
-        <div className="about-page-container">
-          <div className="about-hero">
-            <h1 className="about-hero-title">Privacy Policy</h1>
-            <p className="tagline">Your privacy matters to us</p>
+    <>
+      <div className="legal-page-wrapper">
+        <div className="legal-page-container">
+          
+          {/* Hero Section */}
+          <div className="legal-hero">
+            <h1 className="legal-hero-title">Privacy Policy</h1>
+            <p className="legal-updated">Last Updated: January 2026</p>
           </div>
 
-          <div className="about-content">
-            <div className="about-section">
+          {/* Main Content */}
+          <div className="legal-content">
+            
+            <section className="legal-section">
+              <h2>Introduction</h2>
+              <p>
+                Somm Tips ("we," "our," or "us") respects your privacy and is committed to 
+                protecting your personal information. This Privacy Policy explains how we 
+                collect, use, disclose, and safeguard your information when you use our 
+                application and related services.
+              </p>
+              <p>
+                By accessing or using Somm Tips, you agree to the terms of this Privacy Policy. 
+                If you do not agree with the practices described herein, please do not use our services.
+              </p>
+            </section>
+
+            <section className="legal-section">
               <h2>Information We Collect</h2>
               <p>
-                Somm Tips is designed with your privacy in mind. We collect minimal information to provide 
-                you with the best wine education experience possible. We do not collect, store, or share 
-                any personal identifying information.
+                We may collect information that you voluntarily provide when using our application, 
+                including but not limited to preferences, selections, and interactions with our 
+                recommendation features. We may also automatically collect certain technical 
+                information such as device type, browser type, operating system, and general 
+                usage patterns to improve our services.
               </p>
               <p>
-                We may collect anonymous usage analytics to understand how the app is used and to improve 
-                features. This data includes general information such as app opens, feature usage patterns, 
-                and device type, but never includes names, emails, or other personal identifiers.
+                We use common tracking technologies such as cookies and analytics tools to 
+                understand how users interact with our application. This helps us enhance 
+                user experience and improve our content and features.
               </p>
-            </div>
+            </section>
 
-            <div className="about-section">
-              <h2>How We Use Information</h2>
+            <section className="legal-section">
+              <h2>How We Use Your Information</h2>
               <p>
-                Any anonymous data collected is used solely to:
+                We may use the information we collect to operate and maintain our application, 
+                improve and personalize your experience, understand and analyze usage trends, 
+                develop new features and functionality, and communicate with you about updates 
+                or changes to our services.
               </p>
-              <ul style={{ marginLeft: '1.5rem', color: '#333', lineHeight: '1.7' }}>
-                <li>Improve app functionality and user experience</li>
-                <li>Identify and fix technical issues</li>
-                <li>Understand which features are most valuable to users</li>
-                <li>Guide future development priorities</li>
-              </ul>
-            </div>
+              <p>
+                We do not sell your personal information to third parties. We may share 
+                aggregated, non-identifiable information for analytical purposes.
+              </p>
+            </section>
 
-            <div className="about-section">
+            <section className="legal-section">
               <h2>Data Security</h2>
               <p>
-                Since we don't collect personal data, there's no personal information to secure. 
-                The app operates entirely on your device without transmitting personal information 
-                to external servers. Your wine preferences and browsing within the app remain 
-                completely private to you.
+                We implement reasonable security measures to protect your information from 
+                unauthorized access, alteration, disclosure, or destruction. However, no 
+                method of transmission over the internet or electronic storage is completely 
+                secure, and we cannot guarantee absolute security.
               </p>
-            </div>
+            </section>
 
-            <div className="about-section">
+            <section className="legal-section">
               <h2>Third-Party Services</h2>
               <p>
-                We may use third-party analytics services that comply with privacy regulations. 
-                These services help us understand app usage patterns without identifying individual users. 
-                We do not sell, trade, or transfer any information to third parties.
+                Our application may contain links to third-party websites or services that 
+                are not operated by us. We have no control over and assume no responsibility 
+                for the content, privacy policies, or practices of any third-party sites or 
+                services. We encourage you to review the privacy policies of any third-party 
+                sites you visit.
               </p>
-            </div>
+            </section>
 
-            <div className="about-section">
+            <section className="legal-section">
+              <h2>Children's Privacy</h2>
+              <p>
+                Our services are not intended for individuals under the age of 21. We do not 
+                knowingly collect personal information from anyone under 21 years of age. If 
+                you are a parent or guardian and believe your child has provided us with 
+                personal information, please contact us.
+              </p>
+            </section>
+
+            <section className="legal-section">
               <h2>Changes to This Policy</h2>
               <p>
-                We may update this Privacy Policy from time to time. Any changes will be reflected 
-                in the app with an updated revision date. Continued use of Somm Tips after any 
-                modifications indicates acceptance of the updated policy.
+                We may update this Privacy Policy from time to time. Any changes will be 
+                posted on this page with an updated revision date. Your continued use of 
+                our services after any modifications indicates your acceptance of the 
+                updated Privacy Policy.
               </p>
-            </div>
+            </section>
 
-            <div className="about-section">
+            <section className="legal-section">
               <h2>Contact Us</h2>
               <p>
-                If you have questions about this Privacy Policy or how Somm Tips handles information, 
-                please contact us through the App Store or visit our website at somm.tips.
+                If you have questions or concerns about this Privacy Policy or our data 
+                practices, please contact us through the information provided on our website.
               </p>
-            </div>
+            </section>
+
           </div>
 
-          <div className="about-footer">
-            <p className="version">Last Updated: January 2025</p>
-            <p className="version">Effective Date: January 2025</p>
-          </div>
-
-          <div className="desktop-home-button">
-            <button className="home-btn" onClick={() => navigate('/')}>
-              Back to Home
+          {/* Back Button */}
+          <div className="legal-back-button">
+            <button onClick={() => navigate(-1)} className="back-btn">
+              ← Back
             </button>
           </div>
+
         </div>
       </div>
-    </div>
+
+      <DesktopFooter />
+    </>
   );
 }
 

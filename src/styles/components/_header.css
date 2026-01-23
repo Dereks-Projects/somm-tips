@@ -1,45 +1,248 @@
-/* MOBILE-FIRST HEADER STYLES */
-/* Base styles = Mobile */
-.app-header {
+/* 📄 FILE: src/styles/components/_header.css
+   🎯 PURPOSE: Sticky header with hamburger menu and slide-out panel
+   📍 LOCATION: This file goes in your src/styles/components/ folder
+   
+   STRUCTURE:
+   - Sticky header bar (navy)
+   - Overlay (dark, covers screen below header)
+   - Slide-out panel (navy with white text)
+*/
+
+/* ============================================
+   STICKY HEADER BAR
+   ============================================ */
+.site-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Above everything else */
   background-color: #121c2b;
-  color: #fafafa;
-  padding: 1.5rem 1rem;
-  text-align: center;
-  width: 100%;
+  height: 60px;
 }
 
 .header-content {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 1.25rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header-title {
-  font-size: 1.85rem;
+/* ============================================
+   BRAND NAME - Left Side
+   ============================================ */
+.header-brand {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 1.4rem;
   font-weight: 700;
-  margin: 0;
-  line-height: 1.2;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.2s ease;
 }
 
-.header-subtitle {
-  font-size: 1.1rem;
-  font-weight: 300;
-  margin: 0.5rem 0 0;
-  opacity: 0.95;
-  line-height: 1.4;
+.header-brand:hover {
+  opacity: 0.8;
 }
 
-/* TABLET AND DESKTOP STYLES */
+/* ============================================
+   HAMBURGER / CLOSE BUTTON - Right Side
+   ============================================ */
+.header-menu-toggle {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease;
+}
+
+.header-menu-toggle:hover {
+  opacity: 0.7;
+}
+
+.menu-icon {
+  display: block;
+}
+
+/* ============================================
+   OVERLAY - Covers screen below header
+   ============================================ */
+.header-overlay {
+  position: fixed;
+  top: 60px; /* Below the header */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.header-overlay.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ============================================
+   SLIDE-OUT PANEL - Navy with White Text
+   ============================================ */
+.header-panel {
+  position: fixed;
+  top: 60px; /* Below the header */
+  right: 0;
+  bottom: 0;
+  width: 75%; /* Mobile: 3/4 of screen */
+  max-width: 400px; /* Desktop: cap at 400px */
+  background-color: #121c2b;
+  z-index: 999;
+  transform: translateX(100%); /* Hidden off-screen to the right */
+  transition: transform 0.3s ease;
+  overflow-y: auto;
+}
+
+.header-panel.is-open {
+  transform: translateX(0); /* Slide into view */
+}
+
+/* ============================================
+   PANEL CONTENT
+   ============================================ */
+.panel-content {
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* ============================================
+   PANEL NAVIGATION LINKS
+   ============================================ */
+.panel-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.panel-nav-link {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 0.1rem 0;
+  text-align: left;
+  transition: opacity 0.2s ease;
+}
+
+.panel-nav-link:hover {
+  opacity: 0.6;
+}
+
+/* ============================================
+   INSTAGRAM LINK
+   ============================================ */
+.panel-social-link {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  transition: opacity 0.2s ease;
+}
+
+.panel-social-link:hover {
+  opacity: 0.6;
+}
+
+.instagram-icon {
+  display: block;
+}
+
+/* ============================================
+   DIVIDER LINE - Gold Accent
+   ============================================ */
+.panel-divider {
+  width: 100%;
+  height: 2px;
+  background-color: #F4C542;
+  margin-bottom: 1.5rem;
+}
+
+/* ============================================
+   PARTNER SITES SECTION
+   ============================================ */
+.panel-partners {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.panel-partners-label {
+  color: #ffffff;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.panel-partner-link {
+  color: #ffffff;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.panel-partner-link:hover {
+  opacity: 0.6;
+}
+
+/* ============================================
+   DESKTOP ADJUSTMENTS (768px+)
+   ============================================ */
 @media (min-width: 768px) {
-  .app-header {
-    padding: 2rem 1.5rem;
-  }
   
-  .header-title {
-    font-size: 2.7rem;
+  .header-content {
+    padding: 0 2rem;
   }
+
+  .header-brand {
+    font-size: 1.5rem;
+  }
+
+  .panel-content {
+    padding: 2.5rem 2rem;
+  }
+
+  .panel-nav-link {
+    font-size: 1.05rem;
+  }
+
+}
+
+/* ============================================
+   LARGE DESKTOP (1024px+)
+   ============================================ */
+@media (min-width: 1024px) {
   
-  .header-subtitle {
-    font-size: 1.2rem;
-    margin-top: 0.25rem;
+  .header-content {
+    padding: 0 1rem;
   }
+
 }

@@ -6,7 +6,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import orderingData from '../data/orderingWine.json'; // ✅ new JSON source
 import WineAccordion from '../components/WineAccordion'; // ✅ reused component
-import Header from '../components/Header';
 import DesktopFooter from '../components/DesktopFooter';
 
 function OrderingWinePage() {
@@ -15,7 +14,7 @@ function OrderingWinePage() {
 
   return (
     <div className="page-wrapper">
-      <Header />
+      
       <div className="wines-page-container">
         {/* 📍 Page Title */}
         <div className="wines-title">Ordering Wine</div>

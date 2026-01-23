@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import vintagesData from '../data/vintages.json';
 import WineAccordion from '../components/WineAccordion';
-import Header from '../components/Header';
 import DesktopFooter from '../components/DesktopFooter';
 
 function VintagesPage() {
@@ -17,7 +16,7 @@ function VintagesPage() {
 
   return (
     <div className="page-wrapper">
-      <Header />
+  
       <div className="wines-page-container">
         <div className="wines-title">Vintages</div>
 

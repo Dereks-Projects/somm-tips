@@ -1,10 +1,19 @@
+// 📄 FILE: src/pages/HomePage.jsx
+// 🎯 PURPOSE: Main landing page with navigation tiles
+// 📍 LOCATION: This file goes in your src/pages/ folder
+// 📝 NOTE: Header is now rendered globally in App.jsx, not here
+
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import DesktopFooter from '../components/DesktopFooter';
 
 function HomePage() {
   const navigate = useNavigate();
 
-  // Button data with icons, titles, and subtitles
+  // ============================================
+  // NAVIGATION BUTTONS - Main app sections
+  // Each button navigates to a different feature
+  // ============================================
   const navigationButtons = [
     {
       path: '/wines-for-me',
@@ -46,11 +55,7 @@ function HomePage() {
 
   return (
     <div className="homepage-web-container">
-      <h1 className="homepage-title">Somm Tips</h1>
-      <p className="homepage-subtitle">
-        Smart recommendations for wine lovers and curious drinkers.
-      </p>
-
+      {/* Navigation Tiles */}
       <div className="homepage-button-group desktop-grid">
         {navigationButtons.map((button, index) => (
           <button
@@ -66,21 +71,9 @@ function HomePage() {
           </button>
         ))}
       </div>
-      
-      {/* Desktop-only footer links */}
-      <footer className="footer desktop-only">
-        <a href="/about" onClick={(e) => { e.preventDefault(); navigate('/about'); }}>
-          About this App
-        </a>
-        <span className="footer-divider"> | </span>
-        <a href="https://www.amazon.com/dp/B0FMQMRSXZ" target="_blank" rel="noopener noreferrer">
-          Get the Book on Amazon
-        </a>
-        <span className="footer-divider"> | </span>
-        <a href="https://www.derekengles.com" target="_blank" rel="noopener noreferrer">
-          About the Developer
-        </a>
-      </footer>
+
+      {/* Desktop Footer - hidden on mobile, shows nav + ecosystem links */}
+      <DesktopFooter />
     </div>
   );
 }

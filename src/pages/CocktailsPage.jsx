@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import cocktailData from '../data/cocktails.json';
 import WineAccordion from '../components/WineAccordion';
-import Header from '../components/Header';
 import DesktopFooter from '../components/DesktopFooter';
 
 function CocktailsPage() {
@@ -26,7 +25,7 @@ function CocktailsPage() {
 
   return (
     <div className="page-wrapper">
-      <Header />
+     
       <div className="wines-page-container">
         <div className="wines-title">Cocktails</div>
         <p className="wines-subtitle" style={{ textAlign: 'center', maxWidth: '490px', margin: '0 auto 2rem' }}>

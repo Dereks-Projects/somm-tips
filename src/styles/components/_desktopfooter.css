@@ -1,82 +1,227 @@
 /* 📄 FILE: src/styles/components/_desktopfooter.css
-   🎯 PURPOSE: Desktop-only footer styling that matches header design */
+   🎯 PURPOSE: Desktop-only footer styling with main section and ecosystem strip
+   📍 LOCATION: This file goes in your src/styles/components/ folder
+   
+   STRUCTURE:
+   - Main section (navy #121c2b): nav links (2 columns), brand, legal, copyright, back to top
+   - Ecosystem strip (dark gray): portfolio site links
+*/
 
-/* Desktop Footer - Hidden on Mobile */
+/* ============================================
+   BASE FOOTER - Hidden on Mobile
+   ============================================ */
 .desktop-footer {
-  display: none; /* Hidden by default (mobile-first) */
+  display: none; /* Hidden by default (mobile-first approach) */
 }
 
-/* Desktop-Only Display */
+/* ============================================
+   DESKTOP STYLES - Show on 768px and up
+   ============================================ */
 @media (min-width: 768px) {
+  
   .desktop-footer {
     display: block;
-    background-color: #121c2b; /* Same navy as header */
-    color: #ffffff;
-    padding: 2rem 0;
-    margin-top: 3rem;
     width: 100%;
+    margin-top: 3rem; /* Space between page content and footer */
+  }
+
+  /* ==========================================
+     MAIN FOOTER SECTION - Navy Background
+     ========================================== */
+  .desktop-footer-main {
+    background-color: #121c2b;
+    color: #ffffff;
+    padding: 2.5rem 0 2.5rem 0;
   }
 
   .desktop-footer-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
-    text-align: center;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Left-aligned as per mockup */
   }
 
-  /* Navigation Links */
-  .desktop-footer-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+  /* ==========================================
+     NAVIGATION LINKS - Two Column Layout
+     Column 1: Home, Recommendations, Ordering, Pairings
+     Column 2: Vintages, Education, Cocktails, About Us
+     ========================================== */
+  .desktop-footer-nav {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* Two columns */
+    grid-template-rows: repeat(4, auto);    /* Four rows */
+    grid-auto-flow: column;                 /* Fill columns first (top to bottom, then next column) */
+    column-gap: 3rem;                       /* Space between columns */
+    row-gap: 0.5rem;                        /* Space between rows */
     margin-bottom: 1rem;
   }
 
-  .desktop-footer-link {
+  .desktop-footer-nav-link {
     background: none;
     border: none;
     color: #ffffff;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 0.95rem;
+    font-size: .8rem;
     font-weight: 400;
     cursor: pointer;
-    padding: 0.25rem 0.5rem;
-    transition: opacity 0.3s ease;
+    padding: 0rem 0;
+    transition: opacity 0.2s ease;
+    text-align: left;
   }
 
-  .desktop-footer-link:hover {
+  .desktop-footer-nav-link:hover {
+    opacity: 0.7;
+  }
+
+  /* ==========================================
+     BRAND NAME - Large Bold Title
+     ========================================== */
+  .desktop-footer-brand {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 2.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0;
+    margin: 1rem 0 1.5rem 0;
+    transition: opacity 0.2s ease;
+    text-align: left;
+  }
+
+  .desktop-footer-brand:hover {
     opacity: 0.8;
-    text-decoration: underline;
   }
 
-  /* Separator Dots */
-  .footer-separator {
+  /* ==========================================
+     LEGAL LINKS - Horizontal Row
+     ========================================== */
+  .desktop-footer-legal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .desktop-footer-legal-link {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .desktop-footer-legal-link:hover {
+    opacity: 0.6;
+  }
+
+  .legal-separator {
     color: rgba(255, 255, 255, 0.4);
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     user-select: none;
   }
 
-  /* Copyright Text */
+  /* ==========================================
+     COPYRIGHT TEXT
+     ========================================== */
   .desktop-footer-copyright {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.7);
-    margin-top: 0.5rem;
+    margin: 0 0 1.25rem 0;
   }
-}
 
-/* Ensure footer stays at bottom for shorter pages */
-@media (min-width: 768px) {
+  /* ==========================================
+     BACK TO TOP - Gold Accent Color
+     ========================================== */
+  .desktop-footer-back-to-top {
+    background: none;
+    border: none;
+    color: #F4C542; /* Gold accent */
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .desktop-footer-back-to-top:hover {
+    opacity: 0.7;
+  }
+
+  /* ==========================================
+     ECOSYSTEM STRIP - Dark Gray Bar
+     ========================================== */
+  .desktop-footer-ecosystem {
+    background-color: #1c1d20; /* Dark gray, slightly lighter than navy */
+    padding: 1rem 0;
+  }
+
+  .desktop-footer-ecosystem-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .desktop-footer-ecosystem-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+
+  .desktop-footer-ecosystem-link:hover {
+    opacity: 0.7;
+  }
+
+  .ecosystem-separator {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.6rem;
+    user-select: none;
+  }
+
+  /* ==========================================
+     PUSH FOOTER TO BOTTOM ON SHORT PAGES
+     Add .page-wrapper class to your page containers
+     ========================================== */
   .page-wrapper {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
   }
-  
-  /* Push footer to bottom if content is short */
-  .page-wrapper > *:last-child {
+
+  .page-wrapper .desktop-footer {
     margin-top: auto;
   }
+
+}
+
+/* ============================================
+   LARGE DESKTOP ADJUSTMENTS (1024px+)
+   ============================================ */
+@media (min-width: 1024px) {
+  
+  .desktop-footer-content {
+    padding: 0 1rem;
+  }
+
+  .desktop-footer-ecosystem-content {
+    padding: 0 1rem;
+  }
+
 }
