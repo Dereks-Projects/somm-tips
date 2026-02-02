@@ -5,7 +5,15 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "California Chardonnay typically offers ripe tropical fruit flavors, creamy texture, and noticeable oak from barrel aging. Produced in regions like Napa and Sonoma, it's known for its bold, rich style influenced by California's warm climate. Examples of this grape that see oak treatment will have the buttery and creamy aromas and flavors often associated with California Chardonnay."
+    "description": "California Chardonnay typically offers ripe tropical fruit flavors, creamy texture, and noticeable oak from barrel aging. Produced in regions like Napa and Sonoma counties, it's known for its bold, rich style influenced by California's warm climate. Examples of this grape that see oak treatment will have the buttery and creamy aromas and flavors often associated with California Chardonnay."
+  },
+    {
+    "name": "California Viognier",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "description": "California Viognier typically offers very ripe tropical fruit flavors, high-tone floral aromas, and noticeable oak from barrel aging. Produced in regions like the Central Coast and Sonoma County, it's known for its bold, aromatic style influenced by California's warm climate. Examples of this grape that see oak treatment will have the buttery and creamy aromas and flavors often associated with California Chardonnay."
   },
   {
     "name": "White Burgundy (Chardonnay)",
@@ -14,6 +22,14 @@
     "dryness": "More Dry",
     "origin": "Old World",
     "description": "White Burgundy, made from Chardonnay grapes in France's Burgundy region, features notes of citrus, green apple, and a distinct minerality. These wines often reflect a cooler climate with refined acidity and complex structure, especially in areas like Chablis or Meursault. These wines can have some buttery and creamy notes, but never to the degree that California Chardonnay exhibits."
+  },
+  {
+    "name": "White Bordeaux (blend)",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "description": "White Bordeaux is a blend often made with Sauvignon Blanc and Semillon, offering grapefruit, herbs, and a touch of oak. These wines hail from regions like Pessac-L\u00e9ognan and Graves and balance acidity with richness."
   },
   {
     "name": "Sancerre (Sauvignon Blanc)",
@@ -48,13 +64,14 @@
     "description": "New Zealand Sauvignon Blanc, particularly from Marlborough, bursts with aromas of passionfruit, gooseberry, and citrus zest. It's celebrated for its sharp acidity and bold, aromatic character shaped by the cool maritime climate."
   },
   {
-    "name": "South African Chenin Blanc",
+    "name": "Oregon Pinot Gris",
     "color": "White",
-    "body": "Fuller Body",
-    "dryness": "More Dry",
+    "body": "Lighter Body",
+    "dryness": "Less Dry",
     "origin": "New World",
-    "description": "South African Chenin Blanc, also known as Steen, showcases flavors of yellow apple, honey, and sometimes tropical fruit. Grown primarily in the Western Cape, it can range from fresh and crisp to rich and barrel-aged."
+    "description": "Oregon Pinot Gris offers flavors of pear, apple, and citrus with a creamy or slightly spicy finish. The Willamette Valley's cool climate helps retain the grape's natural acidity, producing fresh and food-friendly wines."
   },
+
   {
     "name": "German Riesling",
     "color": "White",
@@ -71,14 +88,7 @@
     "origin": "Old World",
     "description": "Alsatian Riesling hails from France’s Alsace region, where the Vosges Mountains create a dry, sunny climate ideal for producing intensely aromatic, bone-dry white wines. Known for its purity and precision, Alsatian Riesling often exhibits notes of lime, green apple, and flint, with age bringing out petrol nuances and layered complexity. These wines come in a range of styles, but are usually slightly off-dry."
   },
-  {
-    "name": "Oregon Pinot Gris",
-    "color": "White",
-    "body": "Lighter Body",
-    "dryness": "Less Dry",
-    "origin": "New World",
-    "description": "Oregon Pinot Gris offers flavors of pear, apple, and citrus with a creamy or slightly spicy finish. The Willamette Valley's cool climate helps retain the grape's natural acidity, producing fresh and food-friendly wines."
-  },
+
   {
     "name": "Argentinian Torront\u00e9s",
     "color": "White",
@@ -103,14 +113,7 @@
     "origin": "Old World",
     "description": "Vouvray is a Chenin Blanc from the Loire Valley offering flavors of quince, apple, and honey, often with a waxy texture. It can be dry, off-dry, or sparkling, depending on the producer and vintage."
   },
-  {
-    "name": "White Bordeaux (blend)",
-    "color": "White",
-    "body": "Fuller Body",
-    "dryness": "More Dry",
-    "origin": "Old World",
-    "description": "White Bordeaux is a blend often made with Sauvignon Blanc and Semillon, offering grapefruit, herbs, and a touch of oak. These wines hail from regions like Pessac-L\u00e9ognan and Graves and balance acidity with richness."
-  },
+
   {
     "name": "White Rioja (blend)",
     "color": "White",
@@ -118,6 +121,14 @@
     "dryness": "More Dry",
     "origin": "Old World",
     "description": "White Rioja (Rioja Blanca) is produced primarily from the Viura grape (also known as Macabeo), often blended with Malvasía or Garnacha Blanca, and hails from Spain’s renowned Rioja region. Styles range from fresh and citrusy young wines to richly textured, oak-aged versions with flavors of baked apple, nuts, vanilla, and a distinct oxidative character when aged traditionally."
+  },
+    {
+    "name": "South African Chenin Blanc",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "New World",
+    "description": "South African Chenin Blanc, also known as Steen, showcases flavors of yellow apple, honey, and sometimes tropical fruit. Grown primarily in the Western Cape, it can range from fresh and crisp to rich and barrel-aged."
   },
   {
     "name": "Muscadet (Loire Valley)",
