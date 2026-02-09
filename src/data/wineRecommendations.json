@@ -432,16 +432,7 @@
     "description": "Washington State Cabernet Sauvignon is structured and intense, offering flavors of blackcurrant, cocoa, and herbs.", 
     "description2": "Known for its balance of fruit and acidity, it is grown widely in Columbia Valley. Slightly dryer than Napa Valley examples."
   },
-  {
-    "name": "California Cabernet Sauvignon",
-    "color": "Red",
-    "body": "Fuller Body",
-    "dryness": "More Dry",
-    "origin": "New World",
-    "style notes": ["full body", "ripe fruit", "powerful"],
-    "description": "California Cabernet Sauvignon is rich and full-bodied with flavors of blackcurrant, cedar, and toasted oak.", 
-    "description2": "Napa Valley versions are especially known for their power, depth, and long aging potential."
-  },
+
   {
     "name": "Chianti Classico (Sangiovese)",
     "color": "Red",
