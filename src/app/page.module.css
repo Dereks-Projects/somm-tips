@@ -1,0 +1,205 @@
+/* ============================================
+   Homepage — page.module.css
+   ============================================
+   Mobile-first layout:
+   - Hero tagline
+   - Full-width Wine Recommendations card (dominant)
+   - 2-column grid of secondary cards
+   
+   Desktop: cards get slightly larger, grid stays 2-col
+   ============================================ */
+
+.main {
+  padding-top: calc(var(--header-height) + var(--space-xl));
+  padding-bottom: calc(var(--bottom-nav-height) + var(--space-xl));
+  padding-left: var(--space-lg);
+  padding-right: var(--space-lg);
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+/* --- Hero Section --- */
+.hero {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.tagline {
+  font-size: 1.625rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+  line-height: 1.25;
+}
+
+/* --- Primary Card (Wine Recommendations) --- */
+.primarySection {
+  margin-bottom: var(--space-lg);
+}
+
+.primaryCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-lg);
+  background: var(--color-surface-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  transition: background-color var(--transition-base),
+    border-color var(--transition-base),
+    transform var(--transition-base);
+}
+
+.primaryCard:hover {
+  background: var(--color-surface-hover);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.primaryCard:active {
+  transform: translateY(0);
+}
+
+.primaryContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.primaryIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  color: var(--color-accent);
+  margin-bottom: var(--space-sm);
+}
+
+.primaryTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--color-text-primary);
+}
+
+.primaryDesc {
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+}
+
+.primaryArrow {
+  flex-shrink: 0;
+  color: var(--color-text-muted);
+  transition: color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.primaryCard:hover .primaryArrow {
+  color: var(--color-accent);
+  transform: translateX(3px);
+}
+
+/* --- Secondary Cards Grid --- */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-lg) var(--space-md);
+  min-height: 140px;
+  background: var(--color-surface-card);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  transition: background-color var(--transition-base),
+    border-color var(--transition-base),
+    transform var(--transition-base);
+}
+
+.card:hover {
+  background: var(--color-surface-hover);
+  border-color: var(--color-border);
+  transform: translateY(-2px);
+}
+
+.card:active {
+  transform: translateY(0);
+}
+
+.cardIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-sm);
+  transition: color var(--transition-fast);
+}
+
+.card:hover .cardIcon {
+  color: var(--color-accent);
+}
+
+.cardTitle {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 2px;
+}
+
+.cardDesc {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  line-height: 1.35;
+}
+
+/* --- Desktop adjustments --- */
+@media (min-width: 769px) {
+  .main {
+    padding-top: calc(var(--header-height) + var(--space-3xl));
+    padding-bottom: var(--space-3xl);
+  }
+
+  .tagline {
+    font-size: 2rem;
+  }
+
+  .primaryCard {
+    padding: var(--space-xl);
+  }
+
+  .primaryTitle {
+    font-size: 1.375rem;
+  }
+
+  .grid {
+    gap: var(--space-lg);
+  }
+
+  .card {
+    min-height: 160px;
+    padding: var(--space-xl) var(--space-lg);
+  }
+
+  .cardTitle {
+    font-size: 1rem;
+  }
+
+  .cardDesc {
+    font-size: 0.8125rem;
+  }
+}
+
+/* Odd card (5th) spans full width on mobile to avoid orphan */
+.card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}

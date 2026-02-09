@@ -1,0 +1,150 @@
+/* ============================================
+   Header — Header.module.css
+   ============================================
+   Fixed at top. Three-column grid:
+   left (ecosystem dropdown), center (title), right (hamburger).
+   Glassmorphic backdrop blur for depth.
+   ============================================ */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: var(--header-height);
+  display: grid;
+  grid-template-columns: 48px 1fr 48px;
+  align-items: center;
+  padding: 0 var(--space-md);
+  background: rgba(26, 31, 54, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+/* --- Center Title --- */
+.title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: var(--color-text-primary);
+  transition: opacity var(--transition-fast);
+}
+
+.title:hover {
+  opacity: 0.8;
+}
+
+/* --- Icon Buttons (chevron & hamburger) --- */
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  color: var(--color-text-secondary);
+  transition: color var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+.iconButton:hover {
+  color: var(--color-text-primary);
+  background: var(--color-surface);
+}
+
+/* --- Dropdown Wrapper (positions the dropdown relative to the button) --- */
+.dropdownWrapper {
+  position: relative;
+}
+
+/* --- Dropdown Panel --- */
+.dropdown {
+  position: absolute;
+  top: calc(100% + var(--space-sm));
+  left: 0;
+  min-width: 220px;
+  padding: var(--space-sm);
+  background: var(--color-primary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  animation: dropdownFade 200ms ease;
+}
+
+/* Right-aligned dropdown (for hamburger) */
+.dropdownRight {
+  left: auto;
+  right: 0;
+}
+
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --- Dropdown Label (e.g. "Explore") --- */
+.dropdownLabel {
+  display: block;
+  padding: var(--space-xs) var(--space-sm);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+
+/* --- Dropdown Links --- */
+.dropdownLink {
+  display: block;
+  padding: var(--space-sm);
+  border-radius: var(--radius-sm);
+  transition: background-color var(--transition-fast);
+}
+
+.dropdownLink:hover {
+  background: var(--color-surface);
+}
+
+.linkTitle {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.linkDesc {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 1px;
+}
+
+/* --- Dropdown Divider --- */
+.dropdownDivider {
+  height: 1px;
+  background: var(--color-border-light);
+  margin: var(--space-xs) var(--space-sm);
+}
+
+/* --- Small link (Informative Media corporate) --- */
+.dropdownLinkSmall {
+  display: block;
+  padding: var(--space-xs) var(--space-sm);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  border-radius: var(--radius-sm);
+  transition: color var(--transition-fast);
+}
+
+.dropdownLinkSmall:hover {
+  color: var(--color-text-secondary);
+}

@@ -5,7 +5,9 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "California Chardonnay typically offers ripe tropical fruit flavors, creamy texture, and noticeable oak from barrel aging. Produced in regions like Napa and Sonoma counties, it's known for its bold, rich style influenced by California's warm climate. Examples of this grape that see oak treatment will have the buttery and creamy aromas and flavors often associated with California Chardonnay."
+    "style notes": ["fuller body", "bold flavors", "oak treatment"],	
+    "description": "California Chardonnay typically offers ripe tropical fruit flavors, creamy texture, and noticeable oak from barrel aging. Produced in regions like Napa and Sonoma counties, it's known for its bold, rich style influenced by California's warm climate.",
+    "description2": "Examples of this grape that see oak treatment will have the buttery and creamy aromas and flavors often associated with California Chardonnay."
   },
     {
     "name": "California Viognier",
@@ -13,7 +15,9 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "California Viognier typically offers very ripe tropical fruit flavors, high-tone floral aromas, and noticeable oak from barrel aging. Produced in regions like the Central Coast and Sonoma County, it's known for its bold, aromatic style influenced by California's warm climate. Examples of this grape that see oak treatment will have the buttery and creamy aromas and flavors often associated with California Chardonnay."
+    "style notes": ["fuller body", "fruit flavors", "rich texture"],
+    "description": "California Viognier typically offers very ripe tropical fruit flavors, high-tone floral aromas, and noticeable oak from barrel aging. Produced in regions like the    Central Coast and Sonoma County, it's known for its bold, aromatic style influenced by California's warm climate.",
+    "description2":"If this wine sees oak treatment, it will have the buttery and creamy aromas and flavors often associated with California Chardonnay."
   },
   {
     "name": "White Burgundy (Chardonnay)",
@@ -21,7 +25,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "White Burgundy, made from Chardonnay grapes in France's Burgundy region, features notes of citrus, green apple, and a distinct minerality. These wines often reflect a cooler climate with refined acidity and complex structure, especially in areas like Chablis or Meursault. These wines can have some buttery and creamy notes, but never to the degree that California Chardonnay exhibits."
+    "style notes": ["medium body", "dry finish", "rich texture"],
+    "description": "White Burgundy, made from Chardonnay grapes in France's Burgundy region, features notes of citrus, green apple, and a distinct minerality. These wines often reflect a cooler climate with refined acidity and complex structure, especially in areas like Chablis or Meursault.",
+    "description2":"These wines can have some buttery and creamy notes, as they do often see oak treatment. They tend to be slightly lighter and noticeably drier than California Chardonnay."
   },
   {
     "name": "White Bordeaux (blend)",
@@ -29,7 +35,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "White Bordeaux is a blend often made with Sauvignon Blanc and Semillon, offering grapefruit, herbs, and a touch of oak. These wines hail from regions like Pessac-L\u00e9ognan and Graves and balance acidity with richness."
+    "style notes": ["full body", "non-fruit aromas", "oak treatment"],
+    "description": "White Bordeaux is a blend often made with Sauvignon Blanc and Semillon, offering grapefruit, herbs, and a touch of oak. ",
+    "description2": "These wines hail from regions like Pessac-L\u00e9ognan and Graves and balance acidity with richness. These wines can be extremely aromatic, and are usually an acquired taste."
   },
   {
     "name": "Sancerre (Sauvignon Blanc)",
@@ -37,7 +45,9 @@
     "body": "Lighter Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Sancerre is a Sauvignon Blanc from the Loire Valley in France known for its zesty acidity, grassy notes, and flinty minerality. The region's limestone soils contribute to its crisp, refreshing character, and are best suited for those who enjoy a lighter, unoaed style of white wine."
+    "style notes": ["lighter body", "crisp and refreshing", "moderately dry"],
+    "description": "Sancerre is a Sauvignon Blanc from the Loire Valley in France known for its zesty acidity, grassy notes, and flinty minerality.",
+    "description2": "The region's limestone soils contribute to its crisp, refreshing character, and are best suited for those who enjoy a lighter, unoaked style of white wine."
   },
   {
     "name": "Australian Chardonnay",
@@ -45,7 +55,9 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "Australian Chardonnay ranges from lean and mineral in regions like Margaret River to rich and oaky in places like the Hunter Valley. Common flavors include peach, melon, and vanilla with a warm-climate ripeness."
+    "style notes": ["Full body", "rich texture", "oak treatment"],
+    "description": "Australian Chardonnay ranges from lean and mineral in regions like Margaret River to rich and oaky in places like the Hunter Valley.",
+    "description2":"Common flavors include peach, melon, and vanilla with a warm-climate ripeness."
   },
   {
     "name": "California Sauvignon Blanc",
@@ -53,7 +65,9 @@
     "body": "Lighter Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "California Sauvignon Blanc is vibrant and fruit-forward with flavors of lime, grapefruit, and sometimes tropical notes. Produced throughout California, especially in Napa and Sonoma, it often exhibits a zippy, refreshing acidity."
+    "style notes": ["medium body", "expressive fruit", "moderately dry"],
+    "description": "California Sauvignon Blanc is vibrant and fruit-forward with flavors of lime, grapefruit, and sometimes tropical notes.",
+    "description2": "Produced throughout California, especially in Napa and Sonoma, it often exhibits a zippy, refreshing acidity."
   },
   {
     "name": "New Zealand Sauvignon Blanc",
@@ -61,7 +75,9 @@
     "body": "Lighter Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "New Zealand Sauvignon Blanc, particularly from Marlborough, bursts with aromas of passionfruit, gooseberry, and citrus zest. It's celebrated for its sharp acidity and bold, aromatic character shaped by the cool maritime climate."
+    "style notes": ["light body", "expressive fruit", "moderately dry"],
+    "description": "New Zealand Sauvignon Blanc, particularly from Marlborough, bursts with aromas of passionfruit, gooseberry, and citrus zest.", 
+    "description2": "It's celebrated for its sharp acidity and bold, aromatic character shaped by the cool maritime climate."
   },
   {
     "name": "Oregon Pinot Gris",
@@ -69,7 +85,9 @@
     "body": "Lighter Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "Oregon Pinot Gris offers flavors of pear, apple, and citrus with a creamy or slightly spicy finish. The Willamette Valley's cool climate helps retain the grape's natural acidity, producing fresh and food-friendly wines."
+    "style notes": ["light body", "moderately dry", "moderately expressive"],
+    "description": "Please note: this offering is slightly different than Pinot Grigio from Italy, stylistically speaking.",
+    "description2": "Oregon Pinot Gris offers flavors of pear, apple, and citrus with a creamy or slightly spicy finish. This areas cooler climate helps retain the grape's natural acidity, producing fresh and food-friendly wines."
   },
 
   {
@@ -78,7 +96,9 @@
     "body": "Lighter Body",
     "dryness": "Less Dry",
     "origin": "Old World",
-    "description": "German Riesling is renowned for its balance of sweetness and acidity, often featuring notes of green apple, lime, and petrol in aged examples. Grown along the Mosel and Rhine rivers, these wines reflect the steep slate vineyards and cool climate."
+    "style notes": ["light body", "elevated acidity", "wide array of styles"],
+    "description": "German Riesling is renowned for its balance of sweetness and acidity, often featuring notes of green apple, lime, and petrol in aged examples.",
+    "description2": "Grown along the Mosel and Rhine rivers, these wines reflect the steep slate vineyards and cool climate. While many German rieslings are sweet, the country produces many dry examples of the grape, and they are becoming more popular and have a wider distribution now."
   },
   {
     "name": "Alsatian Riesling",
@@ -86,7 +106,9 @@
     "body": "Lighter Body",
     "dryness": "Less Dry",
     "origin": "Old World",
-    "description": "Alsatian Riesling hails from France’s Alsace region, where the Vosges Mountains create a dry, sunny climate ideal for producing intensely aromatic, bone-dry white wines. Known for its purity and precision, Alsatian Riesling often exhibits notes of lime, green apple, and flint, with age bringing out petrol nuances and layered complexity. These wines come in a range of styles, but are usually slightly off-dry."
+    "style notes": ["medium body", "wide array of styles", "rich texture"],
+    "description": "Hailing from France’s Alsace region, where the Vosges Mountains create a dry, sunny climate ideal for producing intensely aromatic white wines.",
+    "description2": "Known for its purity and precision, Alsatian Riesling often exhibits notes of lime, green apple, and flint, with age bringing out petrol nuances and layered complexity. These wines come in a range of styles, but are usually slightly off-dry."
   },
 
   {
@@ -95,7 +117,9 @@
     "body": "Lighter Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "Argentinian Torrontes is highly aromatic with floral notes of jasmine, rose petal, and flavors of stone fruit. Grown mainly in the high-altitude vineyards of Salta, it's crisp, dry, and refreshing despite its perfumed nose."
+    "style notes": ["light body", "high aromatics", "moderately dry"],
+    "description": "Argentinian Torrontes is highly aromatic with floral notes of jasmine, rose petal, and flavors of stone fruit.", 
+    "description2": "Grown mainly in the high-altitude vineyards of Salta, it's crisp, dry, and refreshing despite its perfumed nose."
   },
   {
     "name": "New Zealand Chardonnay",
@@ -103,7 +127,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "New Zealand Chardonnay typically exhibits fresh citrus and stone fruit flavors, with restrained oak and vibrant acidity. Regions like Hawke's Bay and Marlborough produce styles that balance fruitiness with minerality."
+    "style notes": ["medium body", "rich texture", "moderately dry"],
+    "description": "New Zealand Chardonnay typically exhibits fresh citrus and stone fruit flavors, with restrained oak and vibrant acidity.",
+    "description2": "Regions like Hawke's Bay and Marlborough produce styles that balance fruitiness with minerality."
   },
   {
     "name": "Vouvray (Chenin Blanc)",
@@ -111,7 +137,9 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "Old World",
-    "description": "Vouvray is a Chenin Blanc from the Loire Valley offering flavors of quince, apple, and honey, often with a waxy texture. It can be dry, off-dry, or sparkling, depending on the producer and vintage."
+    "style notes": ["range of styles", "rich texture", "higher acidity"],
+    "description": "Vouvray is a Chenin Blanc from the Loire Valley offering flavors of quince, apple, and honey, often with a waxy texture.",
+    "description2": "It can be dry, off-dry, or sparkling, depending on the producer and vintage."
   },
 
   {
@@ -120,7 +148,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "White Rioja (Rioja Blanca) is produced primarily from the Viura grape (also known as Macabeo), often blended with Malvasía or Garnacha Blanca, and hails from Spain’s renowned Rioja region. Styles range from fresh and citrusy young wines to richly textured, oak-aged versions with flavors of baked apple, nuts, vanilla, and a distinct oxidative character when aged traditionally."
+    "style notes": ["full body", "rich texture", "oak treatment"],
+    "description": "White Rioja (Rioja Blanca) is produced primarily from the Viura grape (aka Macabeo), and often blended with Malvasía or Garnacha Blanca.",
+    "description2": "Styles range from fresh and citrusy young wines to richly textured, oak-aged versions with flavors of baked apple, nuts, vanilla, and a distinct oxidative character when aged traditionally."
   },
     {
     "name": "South African Chenin Blanc",
@@ -128,7 +158,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "South African Chenin Blanc, also known as Steen, showcases flavors of yellow apple, honey, and sometimes tropical fruit. Grown primarily in the Western Cape, it can range from fresh and crisp to rich and barrel-aged."
+    "style notes": ["medium body", "rich texture", "higher acidity"],
+    "description": "South African Chenin Blanc, aka Steen, showcases flavors of yellow apple, honey, and sometimes tropical fruit.", 
+    "description2": "Grown primarily in the Western Cape, it can range from fresh and crisp to rich and barrel-aged."
   },
   {
     "name": "Muscadet (Loire Valley)",
@@ -136,7 +168,9 @@
     "body": "Lighter Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Muscadet from the Loire Valley is made from the Melon de Bourgogne grape and is known for its light body, briny minerality, and citrusy freshness. It pairs perfectly with shellfish and reflects the maritime climate of the Pays Nantais."
+    "style notes": ["light body", "crisp and refreshing", "higher acidity"],
+    "description": "Muscadet from the Loire Valley is made from the Melon de Bourgogne grape and is known for its light body, briny minerality, and citrusy freshness.", 
+    "description2": "It pairs perfectly with shellfish and reflects the maritime climate of the Pays Nantais region well."
   },
   {
     "name": "Condrieu (Viognier)",
@@ -144,7 +178,9 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "Old World",
-    "description": "Condrieu is a Viognier-based wine from the Rh\u00f4ne Valley, featuring lush flavors of apricot, peach, and floral notes with a full, oily texture. It's a rare and aromatic white from steep granite slopes."
+    "style notes": ["medium body", "rich texture", "moderate acidity"],
+    "description": "Condrieu is a Viognier-based wine from the Rh\u00f4ne Valley, featuring lush flavors of apricot, peach, and floral notes with a full, oily texture.", 
+    "description2": "It's an expressive white grape, made in a range of styles, and is usually rich on the palate and highly aromatic."
   },
 {
     "name": "Rueda (Verdejo)",
@@ -152,7 +188,9 @@
     "body": "Lighter Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Rueda is a Spanish wine region in Castilla y León, best known for its crisp, aromatic white wines made primarily from the native Verdejo grape, which thrives in the region’s high-altitude, continental climate. These wines are typically fresh and zesty with notes of lime, fennel, and bitter almond, often showing a slight herbaceous edge and excellent value for everyday enjoyment. "
+    "style notes": ["light body", "moderate aromatics", "elevated acidity"],
+    "description": "Rueda is a Spanish wine region in Castilla y León, best known for its crisp, aromatic white wines made primarily from the native Verdejo grape, which thrives in the region’s high-altitude, continental climate.",
+    "description2": "These wines are typically fresh and zesty with notes of lime, fennel, and bitter almond, often showing a slight herbaceous edge and excellent value for everyday enjoyment. "
   },
   {
     "name": "Vermentino",
@@ -160,7 +198,9 @@
     "body": "Lighter Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Vermentino is a Mediterranean white grape grown extensively in coastal regions of Italy, especially Sardinia, Liguria, and Tuscany’s Maremma. It yields vibrant, saline-driven wines with notes of citrus, green herbs, and almond, often carrying a subtle bitterness and refreshing minerality that reflect its seaside terroir."
+    "style notes": ["medium body", "moderate aromatics", "elevated acidity"],
+    "description": "Vermentino is a Mediterranean white grape grown extensively in coastal regions of Italy, especially Sardinia, Liguria, and Tuscany’s Maremma.",
+    "description2": "It yields vibrant, saline-driven wines with notes of citrus, green herbs, and almond, often carrying a subtle bitterness and refreshing minerality that reflect its seaside terroir."
   },
   {
     "name": "Aligoté",
@@ -168,7 +208,9 @@
     "body": "Lighter Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Aligoté is a lesser-known white grape from Burgundy, France, traditionally grown in cooler sites and overshadowed by Chardonnay, yet it produces lively, high-acid wines ideal for apéritifs like the Kir cocktail. Its flavor profile typically includes green apple, citrus, and subtle herbal notes, with some modern examples—especially from Bouzeron—showing more texture and finesse."
+    "style notes": ["medium body", "moderate aromatics", "elevated acidity"],
+    "description": "Aligoté is a lesser-known white grape from Burgundy, traditionally grown in cooler sites and overshadowed by Chardonnay, producing lively, high-acid wines.", 
+    "description2": "Its flavor profile typically includes green apple, citrus, and subtle herbal notes, with some modern examples showing more texture and finesse."
   },
   {
     "name": "Ch\u00e2teauneuf-du-Pape (white blend)",
@@ -176,7 +218,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Ch\u00e2teauneuf-du-Pape white blends include grapes like Grenache Blanc, Roussanne, and Clairette, yielding full-bodied wines with notes of stone fruit, herbs, and honey. These Rh\u00f4ne Valley whites are rich, textural, and age-worthy."
+    "style notes": ["full body", "moderate aromatics", "rich texture"],
+    "description": "Ch\u00e2teauneuf-du-Pape white blends include grapes like Grenache Blanc, Roussanne, and Clairette, yielding full-bodied wines with notes of stone fruit, herbs, and honey.", 
+    "description2": "These Rh\u00f4ne Valley whites are rich, textural, and age-worthy, and are great for chardonnay drinkers and those wanting white wine with heavier dishes."
   },
   {
     "name": "Willamette Valley Pinot Noir",
@@ -184,7 +228,9 @@
     "body": "Lighter Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "Willamette Valley Pinot Noir is known for its elegance, red fruit flavors, and earthy undertones. Oregon's cool climate and volcanic soils help produce balanced wines with finesse and complexity. These wines are some of the best examples of Pinot Noir produced in America."
+    "style notes": ["medium body", "elevated acidity", "moderately dry"],
+    "description": "Willamette Valley Pinot Noir is known for its elegance, red fruit flavors, and earthy undertones. ",
+    "description2": "Oregon's cool climate and volcanic soils help produce balanced wines with finesse and complexity. These wines are some of the best examples of Pinot Noir produced in America."
   },
   {
     "name": "California  Pinot Noir",
@@ -192,7 +238,9 @@
     "body": "Lighter Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "California Pinot Noir offers ripe cherry, raspberry, and cola flavors with varying levels of oak and spice. Grown in coastal regions like Russian River Valley, Sonoma Coast and Santa Barbara, it tends to be more fruit-forward than examples found in Oregon and in Burgundy, France."
+    "style notes": ["medium body", "elevated acidity", "moderately dry"],
+    "description": "California Pinot Noir offers ripe red fruit and cola flavors with varying levels of oak and spice.",
+    "description2": "Grown in coastal regions like Russian River Valley, Sonoma Coast and Santa Barbara, it tends to be more fruit-forward than examples found in Oregon and in Burgundy, France."
   },
   {
     "name": "Red Burgundy (Pinot Noir)",
@@ -200,7 +248,9 @@
     "body": "Lighter Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Red Burgundy, made from Pinot Noir, comes from France's Cote d'Or and shows flavors of tart cherry, mushroom, and forest floor. The cooler climate and limestone soils give it a refined, earthy structure and aging potential. Red burgundy is the benchmark for great Pinot Noir, and the villages that are off the beaten path are best for value and quality to price point."
+    "style notes": ["medium body", "elevated acidity", "elevated dryness"],
+    "description": "Red Burgundy, made from Pinot Noir, comes from France's Cote d'Or and shows flavors of tart cherry, mushroom, and forest floor.",
+    "description2": "The cooler climate and limestone soils give it a refined, earthy structure and aging potential. Red burgundy is the benchmark for great Pinot Noir, and the villages that are off the beaten path are best for value and quality to price point."
   },
   {
     "name": "New Zealand Pinot Noir",
@@ -208,7 +258,9 @@
     "body": "Lighter Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "New Zealand Pinot Noir, particularly from Central Otago and Martinborough, offers red fruit flavors with herbal and spice notes. The wines have bright acidity and a smooth texture, shaped by a cool, maritime climate. These wines can be a great find, and are highly recommended for Pinor Noir lovers to try."
+    "style notes": ["medium body", "elevated acidity", "moderately dry"],
+    "description": "New Zealand Pinot Noir, particularly from Central Otago and Martinborough, offers red fruit flavors with herbal and spice notes. ",
+    "description2": "The wines have bright acidity and a smooth texture, shaped by a cool, maritime climate. These wines can be a great find, and are highly recommended for Pinor Noir lovers to try."
   },
   {
     "name": "Loire Valley Cabernet Franc (Chinon)",
@@ -216,7 +268,9 @@
     "body": "Lighter Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Loire Valley Cabernet Franc, especially from Chinon, features notes of red currant, bell pepper, and earthy minerality. It's lighter in body and tannin, with vibrant acidity and a savory profile."
+    "style notes": ["medium body", "elevated acidity", "non-fruit flavors"],
+    "description": "Loire Valley Cabernet Franc, especially from Chinon, features notes of red currant, bell pepper, and earthy minerality.",
+    "description2": "It's lighter in body and tannin, with vibrant acidity and a savory profile."
   },
   {
     "name": "German Pinot Noir (Sp\u00e4tburgunder)",
@@ -224,7 +278,9 @@
     "body": "Lighter Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "German Pinot Noir, or Sp\u00e4tburgunder, is lighter in color with flavors of cherry, cranberry, and subtle earthy spice. It grows well in regions like Baden and the Pfalz, where warmer conditions allow fuller ripening."
+    "style notes": ["light body", "elevated acidity", "non-fruit flavors"],
+    "description": "German Pinot Noir, or Sp\u00e4tburgunder, is lighter in color with flavors of cherry, cranberry, and subtle earthy spice.", 
+    "description2": "This is one of those wines that you have to try if you like lighter, earthy red wines. Some of the best examples rise to the level of premier cru Burgundy."
   },
   {
     "name": "California Syrah",
@@ -232,7 +288,9 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "California Syrah offers bold flavors of blackberry, black pepper, and smoky oak with a rich, full-bodied mouthfeel. It's grown in warm regions like Paso Robles and also in cooler areas like Sonoma Coast for more peppery styles."
+    "style notes": ["full body", "elevated fruit and spice", "moderately dry"],
+    "description": "California Syrah offers bold flavors of blackberry, black pepper, and smoky oak with a rich, full-bodied mouthfeel.", 
+    "description2": "Warmer regions like Paso robles produce a more robust style, while those from the Sonoma Coast can be slightly lighter bodied."
   },
   {
     "name": "Red Bordeaux (blend)",
@@ -240,7 +298,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Red Bordeaux blends combine Merlot, Cabernet Sauvignon, and other varietals to create structured, age-worthy wines with flavors of blackcurrant, plum, and graphite. These wines hail from both Left Bank (Cabernet Sauvignon) and Right Bank (Merlot) regions of Bordeaux. Not all Red Bordeaux's are expensive, and there are many examples of high-quality reds from here that are attractive in price. However, don't be shocked to see many offerings well over $1000."
+    "style notes": ["full body", "elevated dryness", "non-fruit flavors"],
+    "description": "Red Bordeaux blends combine Merlot, Cabernet Sauvignon, and other varietals to create structured, age-worthy wines with flavors of blackcurrant, plum, and graphite.", 
+    "description2": "Not all Red Bordeaux's are expensive, and there are many examples of high-quality reds from here that are attractive in price. Don't be shocked to see many offerings well over $1000!"
   },
   {
     "name": "California Cabernet Sauvignon",
@@ -248,7 +308,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "California Cabernet Sauvignon is known for its bold structure, ripe blackberry and cassis flavors, and firm tannins. Regions like Napa Valley produce powerful, age-worthy versions with oak and spice. These wines are less dry than their Bordeaux counterparts, and are usually defined by their power and weight on the palate. Areas in Sonoma County and the Central Coast produce a slightly lighter version, with a lower pricetag than Napa Valley."
+    "style notes": ["full body", "powerful", "elevated fruit flavors"],
+    "description": "California Cabernet Sauvignon is known for its bold structure, ripe blackberry and cassis flavors, and firm tannins. ",
+    "description2": "Regions like Napa Valley produce powerful, age-worthy versions with oak and spice. These wines are less dry than their Bordeaux counterparts. Areas in Sonoma County produce a slightly lighter version, with a lower pricetag than Napa Valley."
   },
   {
     "name": "California Merlot",
@@ -256,7 +318,9 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "California Merlot delivers smooth tannins with flavors of ripe plum, black cherry, and cocoa. It's a softer red grown widely in Napa and Sonoma, offering approachability and medium body."
+    "style notes": ["full body", "smoother than cabernet", "elevated fruit flavors"],
+    "description": "California Merlot delivers smooth tannins with flavors of ripe plum, black cherry, and cocoa.", 
+    "description2": "It's a softer red grown widely in Napa and Sonoma, offering approachability and medium body."
   },
   {
     "name": "California Zinfandel",
@@ -264,7 +328,9 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "California Zinfandel is a bold red wine with jammy blackberry fruit, spice, and sometimes a touch of sweetness. It thrives in regions like Lodi and Sonoma, often producing high-alcohol, fruit-driven wines."
+    "style notes": ["full body", "ripe fruit", "less dry"],
+    "description": "California Zinfandel is a bold red wine with jammy blackberry fruit, spice, and sometimes a touch of sweetness.", 
+    "description2": "It thrives in regions like Lodi and Sonoma, often producing high-alcohol, fruit-driven wines."
   },
   {
     "name": "Australian Shiraz",
@@ -272,7 +338,9 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "Australian Shiraz is a full-bodied red with intense blackberry, pepper, and dark chocolate flavors. Grown extensively in Barossa Valley and McLaren Vale, it's known for its bold character and aging potential."
+    "style notes": ["full body", "ripe fruit", "less dry"],
+    "description": "Australian Shiraz is a full-bodied red with intense blackberry, pepper, and dark chocolate flavors.", 
+    "description2": "Grown extensively in Barossa Valley and McLaren Vale, it's known for its bold character and aging potential."
   },
   {
     "name": "Ch\u00e2teauneuf-du-Pape (red blend)",
@@ -280,7 +348,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Ch\u00e2teauneuf-du-Pape red blends are Grenache-based wines from the southern Rh\u00f4ne Valley with ripe red fruit, herbs, and spice. These wines can be powerful, very complex, and are often blended with up to a dozen different grape varietals."
+    "style notes": ["medium to full body", "ripe fruit", "moderately dry"],
+    "description": "Ch\u00e2teauneuf-du-Pape red blends are Grenache-based wines from the southern Rh\u00f4ne Valley with ripe red fruit, herbs, and spice.", 
+    "description2": "These wines can be powerful, very complex, and are often blended with up to a dozen different grape varietals."
   },
   {
     "name": "Australian Cabernet Sauvignon",
@@ -288,7 +358,9 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "Australian Cabernet Sauvignon typically offers notes of blackcurrant, mint, and eucalyptus with firm tannins. It's especially prominent in Coonawarra and Margaret River, where cooler climates enhance its structure."
+    "style notes": ["medium to full body", "ripe fruit", "moderately dry"],
+    "description": "Australian Cabernet Sauvignon typically offers notes of blackcurrant, mint, and eucalyptus with firm tannins.", 
+    "description2": "It's especially prominent in Coonawarra and Margaret River, where cooler climates enhance its structure."
   },
   {
     "name": "Argentinian Cabernet Sauvignon",
@@ -296,7 +368,9 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "Argentinian Cabernet Sauvignon displays dark fruit flavors like black cherry and plum with notes of tobacco and spice. Grown in Mendoza at high altitudes, the wines have freshness and concentration."
+    "style notes": ["medium to full body", "ripe fruit", "elevated acidity"],
+    "description": "Argentinian Cabernet Sauvignon displays dark fruit flavors like black cherry and plum with notes of tobacco and spice.", 
+    "description2": "Grown in Mendoza at high altitudes, the wines have freshness and concentration."
   },
   {
     "name": "Argentinian Malbec",
@@ -304,7 +378,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "Argentinian Malbec is known for its deep color, rich blackberry and plum flavors, and smooth, velvety tannins. Mendoza's high-altitude vineyards provide the intensity and balance that define its style."
+    "style notes": ["full body", "ripe fruit", "powerful and smooth"],
+    "description": "Argentinian Malbec is known for its deep color, rich blackberry and plum flavors, and smooth, velvety tannins.", 
+    "description2": "Mendoza's high-altitude vineyards provide the intensity and balance that define its style."
   },
   {
     "name": "Chilean Merlot",
@@ -312,7 +388,9 @@
     "body": "Fuller Body",
     "dryness": "Less Dry",
     "origin": "New World",
-    "description": "Chilean Merlot is a medium-bodied red with flavors of red berries, plum, and subtle herbal notes. Chile's Central Valley provides a consistent climate for producing soft, approachable wines."
+    "style notes": ["medium to full body", "ripe fruit", "herbal tones"],
+    "description": "Chilean Merlot is a medium-bodied red with flavors of red berries, plum, and subtle herbal notes.", 
+    "description2": "Chile's Central Valley provides a consistent climate for producing soft, approachable wines."
   },
   {
     "name": "Chilean Cabernet Sauvignon",
@@ -320,7 +398,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "Chilean Cabernet Sauvignon features ripe cassis, green pepper, and a touch of vanilla oak. Grown in Maipo and Colchagua Valleys, it's known for its structure and value."
+    "style notes": ["full body", "ripe fruit", "herbal tones"],
+    "description": "Chilean Cabernet Sauvignon features ripe cassis, green pepper, and a touch of vanilla oak.",
+    "description2": "Grown in Maipo and Colchagua Valleys, it's known for its structure and value."
   },
   {
     "name": "Washington State Syrah",
@@ -328,7 +408,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "Washington State Syrah combines bold dark fruit with pepper, smoke, and earthy complexity. Grown in Columbia Valley and Walla Walla, it balances ripeness with a cool-climate edge."
+    "style notes": ["medium to full body", "ripe fruit", "spice"],
+    "description": "Washington State Syrah combines bold dark fruit with pepper, smoke, and earthy complexity.", 
+    "description2": "Grown in Columbia Valley and Walla Walla, it balances ripeness with a cool-climate edge."
   },
   {
     "name": "Washington State Merlot",
@@ -336,7 +418,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "Washington State Merlot shows rich plum and black cherry flavors with medium tannins and subtle oak. It thrives in eastern Washington's dry, sunny vineyards and often rivals more expensive Merlot from California."
+    "style notes": ["medium to full body", "ripe fruit", "moderate dryness"],
+    "description": "Washington State Merlot shows rich plum and black cherry flavors with medium tannins and subtle oak.", 
+    "description2": "It thrives in eastern Washington's dry, sunny vineyards and often rivals more expensive Merlot from California."
   },
   {
     "name": "Washington State Cabernet Sauvignon",
@@ -344,7 +428,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "Washington State Cabernet Sauvignon is structured and intense, offering flavors of blackcurrant, cocoa, and herbs. Known for its balance of fruit and acidity, it is grown widely in Columbia Valley."
+    "style notes": ["full body", "ripe fruit", "powerful"],
+    "description": "Washington State Cabernet Sauvignon is structured and intense, offering flavors of blackcurrant, cocoa, and herbs.", 
+    "description2": "Known for its balance of fruit and acidity, it is grown widely in Columbia Valley. Slightly dryer than Napa Valley examples."
   },
   {
     "name": "California Cabernet Sauvignon",
@@ -352,7 +438,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "California Cabernet Sauvignon is rich and full-bodied with flavors of blackcurrant, cedar, and toasted oak. Napa Valley versions are especially known for their power, depth, and long aging potential."
+    "style notes": ["full body", "ripe fruit", "powerful"],
+    "description": "California Cabernet Sauvignon is rich and full-bodied with flavors of blackcurrant, cedar, and toasted oak.", 
+    "description2": "Napa Valley versions are especially known for their power, depth, and long aging potential."
   },
   {
     "name": "Chianti Classico (Sangiovese)",
@@ -360,7 +448,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Chianti Classico is a historic wine region in Tuscany, Italy, centered between Florence and Siena, where Sangiovese is the dominant grape required by law to make up at least 80% of the blend. These wines are known for their bright acidity, firm tannins, and flavors of sour cherry, dried herbs, and earthy spice, often gaining complexity with age and oak maturation."
+    "style notes": ["medium to full body", "elevated dryness", "non-fruit flavors"],
+    "description": "Chianti Classico is a wine region in Tuscany, Italy, where Sangiovese is the dominant grape.", 
+    "description2": "Expect bright acidity, firm tannins, and flavors of sour cherry, dried herbs, and earthy spice."
   },
     {
     "name": "Brunello di Montalcino (Sangiovese)",
@@ -368,7 +458,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Brunello di Montalcino comes from the hilltop town of Montalcino in southern Tuscany and is made exclusively from a specific clone of Sangiovese called Sangiovese Grosso, locally known as Brunello. It produces powerful, age-worthy reds with deep flavors of dark cherry, leather, tobacco, and dried herbs, often requiring several years of aging to reveal their full elegance and structure."
+    "style notes": ["medium to full body", "elevated dryness", "power without weight"],
+    "description": "Brunello di Montalcino comes from southern Tuscany, and is made from a local variant of the Sangiovese grape.",
+    "description2": "It produces powerful, age-worthy reds with deep flavors of dark cherry, leather, tobacco, and dried herbs."
   },
 
   {
@@ -377,7 +469,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Barolo is a prestigious red wine from Piedmont in northwestern Italy, made exclusively from the Nebbiolo grape and often referred to as the “King of Wines.” Known for its firm tannins, high acidity, and complex aromas of rose, tar, cherry, and truffle, Barolo demands aging and rewards patience with remarkable depth and longevity."
+    "style notes": ["medium to full body", "elevated dryness", "power without weight"],
+    "description": "Barolo is a prestigious red wine from Piedmont in northwestern Italy, made exclusively from the Nebbiolo grape.", 
+    "description2": "Known for its firm tannins, high acidity, and complex aromas of rose, tar, cherry, and truffle."
   },
   {
     "name": "Rioja (Tempranillo)",
@@ -385,7 +479,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Spanish Tempranillo from Rioja offers flavors of dried red fruit, tobacco, and spice, often with oak influence. Rioja wines range from fresh and fruity to deeply aged Gran Reservas with complex character."
+    "style notes": ["medium to full body", "elevated dryness", "non-fruit flavors"],
+    "description": "Spanish Tempranillo from Rioja offers flavors of dried red fruit, tobacco, and spice, often with oak influence.", 
+    "description2": "Rioja wines range from fresh and fruity to deeply aged Gran Reservas with complex character."
   },
   {
     "name": "Super Tuscan (blend)",
@@ -393,7 +489,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "Old World",
-    "description": "Super Tuscans are bold red blends from Tuscany that often include Cabernet Sauvignon, Merlot, and Sangiovese. They defy traditional Italian DOC rules to create rich, polished wines with international appeal."
+    "style notes": ["full body", "non-fruit flavors", "powerful and smooth"],
+    "description": "Super Tuscans are bold red blends from Tuscany that often include Cabernet Sauvignon, Merlot, and Sangiovese.", 
+    "description2": "They defy traditional Italian DOC rules to create rich, polished wines with international appeal."
   },
   {
     "name": "South African Red Blend",
@@ -401,7 +499,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "South African Red Blends commonly feature Bordeaux varietals with a mix of ripe dark fruit, earthy spice, and firm structure. These wines reflect the country's diverse terroirs and old-meets-new-world style."
+    "style notes": ["medium to full body", "ripe fruit", "powerful and smooth"],
+    "description": "South African Red Blends commonly feature Bordeaux varietals with a mix of ripe dark fruit, earthy spice, and firm structure.", 
+    "description2": "These wines reflect the country's diverse terroirs and old-meets-new-world style."
   },
   {
     "name": "South African Pinotage",
@@ -409,7 +509,9 @@
     "body": "Fuller Body",
     "dryness": "More Dry",
     "origin": "New World",
-    "description": "South African Pinotage is a uniquely South African grape known for smoky, brambly flavors of dark fruit, coffee, and earth. It's a cross between Pinot Noir and Cinsault, producing bold, rustic reds grown mainly in the Western Cape."
+    "style notes": ["medium to full body", "ripe fruit", "non-fruit flavors"],
+    "description": "South African Pinotage is a uniquely South African grape known for smoky, brambly flavors of dark fruit, coffee, and earth.", 
+    "description2": "It's a cross between Pinot Noir and Cinsault, producing bold, rustic reds grown mainly in the Western Cape."
   },
   {
     "name": "Beaujolais (Gamay from Burgundy)",
@@ -417,6 +519,8 @@
     "body": "Lighter Body",
     "dryness": "Less Dry",
     "origin": "Old World",
-    "description": "Beaujolais is a vibrant red wine from the southern part of Burgundy in eastern France, made primarily from the Gamay grape. Known for its light body, low tannins, and bright flavors of red berries, violets, and subtle spice, it offers a fresh and approachable profile often enjoyed slightly chilled."
+    "style notes": ["light body", "ripe fruit", "fresh and approachable"],
+    "description": "Beaujolais is a vibrant red wine from the southern part of Burgundy in eastern France, made primarily from the Gamay grape.", 
+    "description2": "Known for its light body, low tannins, and bright flavors of red berries, violets, and subtle spice, it offers a fresh and approachable profile often enjoyed slightly chilled."
   }
 ]

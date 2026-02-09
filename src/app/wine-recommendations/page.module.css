@@ -1,0 +1,276 @@
+/* ============================================
+   Wine Recommendations — page.module.css
+   ============================================
+   Mobile-first layout:
+   - Page header with title/subtitle
+   - Filter toggle rows (2 buttons per row)
+   - Reset button
+   - Collapsible wine result cards
+   - Ecosystem link at bottom
+   ============================================ */
+
+.main {
+  padding-top: calc(var(--header-height) + var(--space-xl));
+  padding-bottom: calc(var(--bottom-nav-height) + var(--space-xl));
+  padding-left: var(--space-lg);
+  padding-right: var(--space-lg);
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+/* --- Page Header --- */
+.header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.subtitle {
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+}
+
+/* --- Filter Section --- */
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xl);
+}
+
+/* Each filter row holds 2 toggle buttons side by side */
+.filterRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-sm);
+}
+
+/* --- Filter Toggle Button --- */
+.filterButton {
+  padding: var(--space-sm) var(--space-md);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-base);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.filterButton:hover {
+  background: var(--color-surface-hover);
+  color: var(--color-text-primary);
+}
+
+/* Active filter state — filled, prominent */
+.filterActive {
+  background: var(--color-text-primary);
+  color: var(--color-primary);
+  border-color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.filterActive:hover {
+  background: var(--color-text-secondary);
+  color: var(--color-primary);
+}
+
+/* --- Reset Button --- */
+.resetButton {
+  padding: var(--space-sm) var(--space-md);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  background: transparent;
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+
+.resetButton:hover:not(:disabled) {
+  color: var(--color-text-secondary);
+  border-color: var(--color-border);
+}
+
+.resetButton:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* --- Results Section --- */
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xl);
+}
+
+.noResults {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  padding: var(--space-xl) 0;
+}
+
+/* --- Wine Card (Collapsible) --- */
+.wineCard {
+  background: var(--color-surface-card);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: border-color var(--transition-base),
+    background-color var(--transition-base);
+}
+
+.wineCard:hover {
+  border-color: var(--color-border);
+}
+
+.wineCardExpanded {
+  border-color: var(--color-border);
+  background: var(--color-surface);
+}
+
+/* --- Wine Card Header (clickable toggle) --- */
+.wineHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: var(--space-md) var(--space-lg);
+  text-align: left;
+  color: var(--color-text-primary);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wineHeader:hover {
+  background: var(--color-surface-hover);
+}
+
+.wineName {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* --- Chevron icon (rotates when open) --- */
+.chevron {
+  flex-shrink: 0;
+  color: var(--color-text-muted);
+  transition: transform var(--transition-base),
+    color var(--transition-fast);
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+  color: var(--color-accent);
+}
+
+/* --- Wine Detail Panel (expanded content) --- */
+.wineDetail {
+  padding: 0 var(--space-lg) var(--space-lg);
+  animation: detailSlideIn 250ms ease;
+}
+
+@keyframes detailSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.wineDescription {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--space-sm);
+}
+
+.wineDescription2 {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: var(--space-md);
+  font-style: italic;
+}
+
+/* --- Style Note Tags --- */
+.styleTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.styleTag {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--color-accent);
+  background: rgba(201, 168, 76, 0.1);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  border-radius: 100px;
+}
+
+/* --- Ecosystem Link --- */
+.ecosystemLink {
+  text-align: center;
+  padding: var(--space-lg) 0;
+}
+
+.ecosystemLink p {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.ecosystemLink a {
+  color: var(--color-accent-light);
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.ecosystemLink a:hover {
+  color: var(--color-accent);
+}
+
+/* --- Desktop adjustments --- */
+@media (min-width: 769px) {
+  .main {
+    padding-top: calc(var(--header-height) + var(--space-3xl));
+    padding-bottom: var(--space-3xl);
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  /* Center the filters with a max-width on desktop */
+  .filters {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: var(--space-xl);
+  }
+
+  .wineName {
+    font-size: 1rem;
+  }
+
+  .wineDescription {
+    font-size: 0.9375rem;
+  }
+}

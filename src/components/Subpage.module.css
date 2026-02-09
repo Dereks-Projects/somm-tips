@@ -1,0 +1,309 @@
+/* ============================================
+   Shared Subpage Styles — Subpage.module.css
+   ============================================
+   Reusable layout for all content subpages:
+   - Page header (title + subtitle)
+   - Filter bar (horizontal scrolling pills)
+   - Collapsible cards
+   - Ecosystem footer link
+   
+   Imported by each subpage's page.js so we don't
+   duplicate CSS across 5 nearly identical pages.
+   ============================================ */
+
+/* --- Page Wrapper --- */
+.main {
+  padding-top: calc(var(--header-height) + var(--space-xl));
+  padding-bottom: calc(var(--bottom-nav-height) + var(--space-xl));
+  padding-left: var(--space-lg);
+  padding-right: var(--space-lg);
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+/* --- Page Header --- */
+.header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.subtitle {
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+}
+
+/* --- Filter Bar (horizontal scrolling pills) --- */
+.filterBar {
+  display: flex;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xl);
+  overflow-x: auto;
+  padding-bottom: var(--space-xs);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.filterBar::-webkit-scrollbar {
+  display: none;
+}
+
+.filterPill {
+  flex-shrink: 0;
+  padding: var(--space-sm) var(--space-md);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 100px;
+  transition: all var(--transition-base);
+  -webkit-tap-highlight-color: transparent;
+  white-space: nowrap;
+}
+
+.filterPill:hover {
+  background: var(--color-surface-hover);
+  color: var(--color-text-primary);
+}
+
+.filterPillActive {
+  background: var(--color-text-primary);
+  color: var(--color-primary);
+  border-color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.filterPillActive:hover {
+  background: var(--color-text-secondary);
+  color: var(--color-primary);
+}
+
+/* --- Results List --- */
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xl);
+}
+
+.noResults {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  padding: var(--space-xl) 0;
+}
+
+/* --- Collapsible Card --- */
+.card {
+  background: var(--color-surface-card);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: border-color var(--transition-base),
+    background-color var(--transition-base);
+}
+
+.card:hover {
+  border-color: var(--color-border);
+}
+
+.cardExpanded {
+  border-color: var(--color-border);
+  background: var(--color-surface);
+}
+
+/* --- Card Header (clickable) --- */
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: var(--space-md) var(--space-lg);
+  text-align: left;
+  color: var(--color-text-primary);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.cardHeader:hover {
+  background: var(--color-surface-hover);
+}
+
+.cardName {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.cardMeta {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+/* --- Chevron --- */
+.chevron {
+  flex-shrink: 0;
+  color: var(--color-text-muted);
+  transition: transform var(--transition-base),
+    color var(--transition-fast);
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+  color: var(--color-accent);
+}
+
+/* --- Card Detail (expanded) --- */
+.cardDetail {
+  padding: 0 var(--space-lg) var(--space-lg);
+  animation: slideIn 250ms ease;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Text blocks inside detail */
+.detailPrimary {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--space-sm);
+}
+
+.detailSecondary {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: var(--space-sm);
+  font-style: italic;
+}
+
+.detailHighlight {
+  font-size: 0.8125rem;
+  color: var(--color-accent-light);
+  line-height: 1.6;
+  margin-bottom: var(--space-sm);
+}
+
+/* Tags (reusable pill tags) */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-top: var(--space-sm);
+}
+
+.tag {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--color-accent);
+  background: rgba(201, 168, 76, 0.1);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  border-radius: 100px;
+}
+
+/* Inline list (for recommendations) */
+.inlineList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-top: var(--space-sm);
+}
+
+.inlineListItem {
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  padding-left: var(--space-md);
+  position: relative;
+}
+
+.inlineListItem::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+/* Section divider (for grouping within detail) */
+.detailDivider {
+  height: 1px;
+  background: var(--color-border-light);
+  margin: var(--space-md) 0;
+}
+
+/* Label (small heading within detail) */
+.detailLabel {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-xs);
+}
+
+/* --- Ecosystem Link --- */
+.ecosystemLink {
+  text-align: center;
+  padding: var(--space-lg) 0;
+}
+
+.ecosystemLink p {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.ecosystemLink a {
+  color: var(--color-accent-light);
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.ecosystemLink a:hover {
+  color: var(--color-accent);
+}
+
+/* --- Desktop --- */
+@media (min-width: 769px) {
+  .main {
+    padding-top: calc(var(--header-height) + var(--space-3xl));
+    padding-bottom: var(--space-3xl);
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .filterBar {
+    justify-content: center;
+  }
+
+  .cardName {
+    font-size: 1rem;
+  }
+}
