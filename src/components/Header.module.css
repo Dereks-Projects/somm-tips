@@ -148,3 +148,9 @@
 .dropdownLinkSmall:hover {
   color: var(--color-text-secondary);
 }
+
+@media (min-width: 769px) {
+  .title {
+    font-size: 1.575rem;
+  }
+}

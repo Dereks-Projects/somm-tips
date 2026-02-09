@@ -12,6 +12,14 @@ export default function DesktopFooter() {
           <Link href="/content-policy">Content Policy</Link>
           <Link href="/privacy">Privacy</Link>
           <Link href="/terms">Terms</Link>
+          <Link href="/cookies">Cookies</Link>
+          <a
+            href="mailto:derekengles@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contact
+          </a>
         </div>
         <p className={styles.legal}>
           &copy; {currentYear} Somm.Tips &middot;{" "}

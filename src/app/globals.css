@@ -1,10 +1,6 @@
 /* ============================================
    SOMM.TIPS — Global Design System
-   ============================================
-   This file sets up:
-   - CSS custom properties (variables) for colors, spacing, etc.
-   - A minimal CSS reset for consistent cross-browser behavior
-   - The global gradient background and typography defaults
+
    ============================================ */
 
 /* --- Design Tokens --- */

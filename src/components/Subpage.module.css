@@ -183,14 +183,14 @@
 /* Text blocks inside detail */
 .detailPrimary {
   font-size: 0.875rem;
-  color: var(--color-text-secondary);
+  color: #ffffff;
   line-height: 1.6;
   margin-bottom: var(--space-sm);
 }
 
 .detailSecondary {
   font-size: 0.8125rem;
-  color: var(--color-text-secondary);
+  color: #fafafa;
   line-height: 1.6;
   margin-bottom: var(--space-sm);
   font-style: italic;
@@ -232,7 +232,7 @@
 }
 
 .inlineListItem {
-  font-size: 0.8125rem;
+  font-size: 0.8225rem;
   color: var(--color-text-secondary);
   padding-left: var(--space-md);
   position: relative;

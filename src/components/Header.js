@@ -135,6 +135,13 @@ export default function Header() {
         {menuOpen && (
           <div className={`${styles.dropdown} ${styles.dropdownRight}`}>
             <Link
+              href="/"
+              className={styles.dropdownLink}
+              onClick={() => setMenuOpen(false)}
+            >
+              <span className={styles.linkTitle}>Home</span>
+            </Link>
+            <Link
               href="/about"
               className={styles.dropdownLink}
               onClick={() => setMenuOpen(false)}
@@ -162,6 +169,23 @@ export default function Header() {
             >
               <span className={styles.linkTitle}>Terms</span>
             </Link>
+            <Link
+              href="/cookies"
+              className={styles.dropdownLink}
+              onClick={() => setMenuOpen(false)}
+            >
+              <span className={styles.linkTitle}>Cookies</span>
+            </Link>
+            <div className={styles.dropdownDivider}></div>
+            <a
+              href="mailto:derekengles@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.dropdownLink}
+              onClick={() => setMenuOpen(false)}
+            >
+              <span className={styles.linkTitle}>Contact</span>
+            </a>
           </div>
         )}
       </div>
