@@ -177,7 +177,7 @@
 
 /* --- Wine Detail Panel (expanded content) --- */
 .wineDetail {
-  padding: 0 var(--space-lg) var(--space-lg);
+  padding: var(--space-lg) var(--space-lg) var(--space-lg);
   animation: detailSlideIn 250ms ease;
 }
 
@@ -201,7 +201,7 @@
 
 .wineDescription2 {
   font-size: 0.8125rem;
-  color: var(--color-text-muted);
+  color: var(--color-text-secondary);
   line-height: 1.6;
   margin-bottom: var(--space-md);
   font-style: italic;

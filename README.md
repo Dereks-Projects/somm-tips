@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Somm.Tips
 
-## Getting Started
+**A sommelier in your pocket.** Wine recommendations, classic food pairings, cocktails, and beverage education — no signup required.
 
-First, run the development server:
+## About
+
+Somm.Tips is a content-driven web application that helps users discover wines, learn classic pairings, explore cocktails, and deepen their beverage knowledge. Built with a zero-friction philosophy: no accounts, no popups, no paywalls.
+
+Part of the [Informative Media](https://informativemedia.com) ecosystem, alongside [Somm.Site](https://somm.site), [Beverage.fyi](https://beverage.fyi), and [Backbar.fyi](https://backbar.fyi).
+
+## Stack
+
+- **Framework:** Next.js (App Router)
+- **Styling:** CSS Modules, mobile-first
+- **Font:** Inter (Google Fonts)
+- **Data:** Static JSON
+- **Hosting:** Vercel
+- **Analytics:** Google Analytics (gtag)
+
+## Pages
+
+- `/` — Homepage hub with navigation cards
+- `/wine-recommendations` — Filterable wine recommendation engine
+- `/classic-pairings` — Food and wine pairings by continent
+- `/ordering-wine` — Style-based ordering guidance
+- `/vintages` — Notable vintages by region
+- `/education` — Grapes, regions, and tasting terms
+- `/cocktails` — Recipes organized by base spirit
+- `/about` — App info, philosophy, and ecosystem links
+- `/privacy` — Privacy policy
+- `/terms` — Terms of use
+- `/cookies` — Cookies policy
+- `/content-policy` — Editorial standards
+
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Pushes to `main` auto-deploy via Vercel. The `legacy` branch preserves the previous React/Vite build.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© Informative Media. All rights reserved.
