@@ -5,10 +5,10 @@
 
 /* --- Design Tokens --- */
 :root {
-  /* Primary palette — navy/charcoal from mockup */
-  --color-primary: #1a1f36;
-  --color-primary-light: #252b48;
-  --color-primary-lighter: #2f365a;
+  /* Primary palette */
+  --color-primary: #020026;
+  --color-primary-light: #0a0a3a;
+  --color-primary-lighter: #14144e;
 
   /* Surface colors — for cards, overlays */
   --color-surface: rgba(255, 255, 255, 0.06);
@@ -88,8 +88,9 @@ body {
   background: linear-gradient(
     170deg,
     var(--color-primary) 0%,
-    var(--color-primary-light) 40%,
-    var(--color-primary-lighter) 100%
+    var(--color-primary-light) 30%,
+    var(--color-primary-lighter) 70%,
+    var(--color-primary) 100%
   );
   background-attachment: fixed;
 
