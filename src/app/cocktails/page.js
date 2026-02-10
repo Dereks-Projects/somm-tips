@@ -1,44 +1,64 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import cocktailsData from "@/data/cocktails.json";
+import { useLanguage } from "@/components/LanguageContext";
+import { translations } from "@/data/translations";
+import cocktailsDataEn from "@/data/cocktails.json";
+import cocktailsDataEs from "@/data/cocktails.es.json";
 import styles from "@/components/Subpage.module.css";
 
-const spirits = ["All", "Vodka", "Gin", "Rum", "Tequila", "Whiskey", "More"];
+/*
+  Cocktails — bilingual version.
+  
+  Filter pills display translated labels but compare
+  against English baseSpirit keys in the JSON data.
+*/
+
+const spiritOptions = [
+  { value: "All", labelKey: "all" },
+  { value: "Vodka", labelKey: "vodka" },
+  { value: "Gin", labelKey: "gin" },
+  { value: "Rum", labelKey: "rum" },
+  { value: "Tequila", labelKey: "tequila" },
+  { value: "Whiskey", labelKey: "whiskey" },
+  { value: "More", labelKey: "more" },
+];
 
 export default function CocktailsPage() {
+  const { language } = useLanguage();
+  const t = translations[language].cocktails;
+  const cocktailsData = language === "es" ? cocktailsDataEs : cocktailsDataEn;
+
   const [activeFilter, setActiveFilter] = useState("All");
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   const filtered = useMemo(() => {
     if (activeFilter === "All") return cocktailsData;
     return cocktailsData.filter((item) => item.baseSpirit === activeFilter);
-  }, [activeFilter]);
+  }, [activeFilter, cocktailsData]);
 
-  function handleFilter(spirit) {
-    setActiveFilter(spirit);
+  function handleFilter(value) {
+    setActiveFilter(value);
     setExpandedIndex(null);
   }
 
   return (
     <main className={styles.main}>
       <section className={styles.header}>
-        <h1 className={styles.title}>Cocktails</h1>
-        <p className={styles.subtitle}>
-          Classic and fun libations, organized by base spirit.
-        </p>
+        <h1 className={styles.title}>{t.title}</h1>
+        <p className={styles.subtitle}>{t.subtitle}</p>
       </section>
 
       <div className={styles.filterBar}>
-        {spirits.map((s) => (
+        {spiritOptions.map((opt) => (
           <button
-            key={s}
+            key={opt.value}
             className={`${styles.filterPill} ${
-              activeFilter === s ? styles.filterPillActive : ""
+              activeFilter === opt.value ? styles.filterPillActive : ""
             }`}
-            onClick={() => handleFilter(s)}
+            onClick={() => handleFilter(opt.value)}
           >
-            {s}
+            {t[opt.labelKey]}
           </button>
         ))}
       </div>
@@ -81,10 +101,10 @@ export default function CocktailsPage() {
 
             {expandedIndex === index && (
               <div className={styles.cardDetail}>
-                <p className={styles.detailLabel}>Ingredients</p>
+                <p className={styles.detailLabel}>{t.ingredients}</p>
                 <p className={styles.detailPrimary}>{item.recipe1}</p>
                 <div className={styles.detailDivider}></div>
-                <p className={styles.detailLabel}>Preparation</p>
+                <p className={styles.detailLabel}>{t.preparation}</p>
                 <p className={styles.detailPrimary}>{item.recipe2}</p>
               </div>
             )}
@@ -94,7 +114,7 @@ export default function CocktailsPage() {
 
       <footer className={styles.ecosystemLink}>
         <p>
-          Explore more at{" "}
+          {t.ecosystemText}{" "}
           <a
             href="https://backbar.fyi"
             target="_blank"

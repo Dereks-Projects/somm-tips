@@ -1,24 +1,30 @@
+"use client";
+
 import Link from "next/link";
+import { useLanguage } from "./LanguageContext";
+import { translations } from "@/data/translations";
 import styles from "./DesktopFooter.module.css";
 
 export default function DesktopFooter() {
   const currentYear = new Date().getFullYear();
+  const { language } = useLanguage();
+  const t = translations[language].footer;
 
   return (
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <div className={styles.links}>
-          <Link href="/about">About</Link>
-          <Link href="/content-policy">Content Policy</Link>
-          <Link href="/privacy">Privacy</Link>
-          <Link href="/terms">Terms</Link>
-          <Link href="/cookies">Cookies</Link>
+          <Link href="/about">{t.about}</Link>
+          <Link href="/content-policy">{t.contentPolicy}</Link>
+          <Link href="/privacy">{t.privacy}</Link>
+          <Link href="/terms">{t.terms}</Link>
+          <Link href="/cookies">{t.cookies}</Link>
           <a
             href="mailto:derekengles@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Contact
+            {t.contact}
           </a>
         </div>
         <p className={styles.legal}>

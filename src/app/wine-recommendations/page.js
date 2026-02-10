@@ -1,32 +1,62 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import wineData from "@/data/wineRecommendations.json";
+import { useLanguage } from "@/components/LanguageContext";
+import { translations } from "@/data/translations";
+import wineDataEn from "@/data/wineRecommendations.json";
+import wineDataEs from "@/data/wineRecommendations.es.json";
 import styles from "./page.module.css";
 
 /*
   Wine Recommendations — the flagship subpage.
   
-  How the filter works (like a restaurant POS):
-  - 4 filter categories: Color, Body, Dryness, Origin
-  - Each has 2 options (toggle buttons)
-  - Clicking a button selects it; clicking again deselects
-  - Only one option per category at a time
-  - Wines must match ALL active filters to appear
-  - No filters = show nothing (user needs to make at least one selection)
+  Bilingual approach:
+  - Filter buttons DISPLAY translated labels ("Blanco" / "Tinto")
+  - Filter logic COMPARES against English keys ("White" / "Red")
+    because the JSON data uses English keys for color/body/dryness/origin.
+  - The correct language JSON is loaded for descriptions/style notes.
   
-  Results appear as collapsible cards that expand to show
-  description, description2, and style notes.
+  filterGroups maps each option with:
+  - value: the English key used in JSON data (never changes)
+  - labelKey: the translations.js key for the display text
 */
 
 const filterGroups = [
-  { key: "color", options: ["White", "Red"] },
-  { key: "body", options: ["Lighter Body", "Fuller Body"] },
-  { key: "dryness", options: ["Less Dry", "More Dry"] },
-  { key: "origin", options: ["New World", "Old World"] },
+  {
+    key: "color",
+    options: [
+      { value: "White", labelKey: "white" },
+      { value: "Red", labelKey: "red" },
+    ],
+  },
+  {
+    key: "body",
+    options: [
+      { value: "Lighter Body", labelKey: "lighterBody" },
+      { value: "Fuller Body", labelKey: "fullerBody" },
+    ],
+  },
+  {
+    key: "dryness",
+    options: [
+      { value: "Less Dry", labelKey: "lessDry" },
+      { value: "More Dry", labelKey: "moreDry" },
+    ],
+  },
+  {
+    key: "origin",
+    options: [
+      { value: "New World", labelKey: "newWorld" },
+      { value: "Old World", labelKey: "oldWorld" },
+    ],
+  },
 ];
 
 export default function WineRecommendationsPage() {
+  const { language } = useLanguage();
+  const t = translations[language].wineRecs;
+  const wineData = language === "es" ? wineDataEs : wineDataEn;
+
   /* Filter state — one value per category, or null if unselected */
   const [filters, setFilters] = useState({
     color: null,
@@ -44,7 +74,7 @@ export default function WineRecommendationsPage() {
       ...prev,
       [key]: prev[key] === value ? null : value,
     }));
-    setExpandedIndex(null); /* collapse any open card when filters change */
+    setExpandedIndex(null);
   }
 
   /* Reset all filters */
@@ -56,7 +86,7 @@ export default function WineRecommendationsPage() {
   /* Check if any filter is active */
   const hasActiveFilters = Object.values(filters).some((v) => v !== null);
 
-  /* Filter the wine data */
+  /* Filter the wine data — compares against English keys */
   const filteredWines = useMemo(() => {
     if (!hasActiveFilters) return [];
     return wineData.filter((wine) => {
@@ -66,7 +96,7 @@ export default function WineRecommendationsPage() {
       if (filters.origin && wine.origin !== filters.origin) return false;
       return true;
     });
-  }, [filters, hasActiveFilters]);
+  }, [filters, hasActiveFilters, wineData]);
 
   /* Toggle expanded card */
   function toggleExpand(index) {
@@ -77,10 +107,8 @@ export default function WineRecommendationsPage() {
     <main className={styles.main}>
       {/* Page header */}
       <section className={styles.header}>
-        <h1 className={styles.title}>Wine Recommendations</h1>
-        <p className={styles.subtitle}>
-          Use the filters below to find your next great bottle.
-        </p>
+        <h1 className={styles.title}>{t.title}</h1>
+        <p className={styles.subtitle}>{t.subtitle}</p>
       </section>
 
       {/* Filter toggles */}
@@ -89,13 +117,15 @@ export default function WineRecommendationsPage() {
           <div key={group.key} className={styles.filterRow}>
             {group.options.map((option) => (
               <button
-                key={option}
+                key={option.value}
                 className={`${styles.filterButton} ${
-                  filters[group.key] === option ? styles.filterActive : ""
+                  filters[group.key] === option.value
+                    ? styles.filterActive
+                    : ""
                 }`}
-                onClick={() => handleFilter(group.key, option)}
+                onClick={() => handleFilter(group.key, option.value)}
               >
-                {option}
+                {t[option.labelKey]}
               </button>
             ))}
           </div>
@@ -107,16 +137,14 @@ export default function WineRecommendationsPage() {
           onClick={resetFilters}
           disabled={!hasActiveFilters}
         >
-          Reset
+          {t.reset}
         </button>
       </section>
 
       {/* Results */}
       <section className={styles.results}>
         {hasActiveFilters && filteredWines.length === 0 && (
-          <p className={styles.noResults}>
-            No wines match your current filters. Try adjusting your selections.
-          </p>
+          <p className={styles.noResults}>{t.noResults}</p>
         )}
 
         {filteredWines.map((wine, index) => (
@@ -155,7 +183,9 @@ export default function WineRecommendationsPage() {
               <div className={styles.wineDetail}>
                 <p className={styles.wineDescription}>{wine.description}</p>
                 {wine.description2 && (
-                  <p className={styles.wineDescription2}>{wine.description2}</p>
+                  <p className={styles.wineDescription2}>
+                    {wine.description2}
+                  </p>
                 )}
                 {wine["style notes"] && wine["style notes"].length > 0 && (
                   <div className={styles.styleTags}>
@@ -175,7 +205,7 @@ export default function WineRecommendationsPage() {
       {/* Ecosystem link */}
       <footer className={styles.ecosystemLink}>
         <p>
-          Learn the fundamentals behind these styles on{" "}
+          {t.ecosystemText}{" "}
           <a
             href="https://somm.site"
             target="_blank"

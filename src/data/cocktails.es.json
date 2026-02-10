@@ -1,0 +1,722 @@
+[
+  {
+    "cocktail":"Moscow Mule",
+    "recipe1":"2 oz vodka, 0.5 oz jugo de lima, 4–6 oz cerveza de jengibre",
+    "recipe2":"Añade vodka y jugo de lima a un tarro de cobre con hielo, completa con cerveza de jengibre, revuelve suavemente y decora con lima y menta.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Cosmopolitan",
+    "recipe1":"1.5 oz vodka, 1 oz Cointreau o triple sec, 0.5 oz jugo de lima, 0.5 oz jugo de arándano",
+    "recipe2":"Agita todos los ingredientes con hielo, cuela en una copa coupe o de cóctel fría, y decora con una rodaja de lima o torsión de naranja.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Bloody Mary",
+    "recipe1":"2 oz vodka, 4 oz jugo de tomate, 0.5 oz jugo de limón, 2 gotas de salsa Worcestershire, 2 gotas de salsa picante, pizca de sal y pimienta",
+    "recipe2":"Prepara en un vaso pinta con hielo, revuelve suavemente y decora con apio, limón o pepinillos.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Espresso Martini",
+    "recipe1":"2 oz vodka, 0.5 oz licor de café, 1 oz espresso fresco, 0.25 oz jarabe simple (opcional)",
+    "recipe2":"Agita todos los ingredientes con hielo y cuela en una copa coupe o martini fría, decorada con tres granos de café.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"White Russian",
+    "recipe1":"2 oz vodka, 1 oz licor de café, 1 oz crema espesa o leche",
+    "recipe2":"Prepara sobre hielo en un vaso old fashioned y revuelve suavemente.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Vodka Martini",
+    "recipe1":"2.5 oz vodka, 0.5 oz vermut seco",
+    "recipe2":"Revuelve o agita con hielo, cuela en una copa de cóctel o martini fría, y decora con una torsión de limón o aceituna.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Screwdriver",
+    "recipe1":"2 oz vodka, 4 oz jugo de naranja",
+    "recipe2":"Prepara sobre hielo en un vaso highball, revuelve y decora con una rodaja de naranja.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Sex on the Beach",
+    "recipe1":"1.5 oz vodka, 0.5 oz licor de durazno, 1.5 oz jugo de arándano, 1.5 oz jugo de naranja",
+    "recipe2":"Agita los ingredientes con hielo y cuela en un vaso highball sobre hielo fresco, decorado con una rodaja de naranja o cereza.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Cape Codder",
+    "recipe1":"2 oz vodka, 4 oz jugo de arándano",
+    "recipe2":"Prepara sobre hielo en un vaso highball y decora con una rodaja de lima.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Vodka Collins",
+    "recipe1":"2 oz vodka, 1 oz jugo de limón, 0.5 oz jarabe simple, completar con soda",
+    "recipe2":"Agita vodka, jugo de limón y jarabe con hielo, cuela en un vaso Collins sobre hielo, y completa con soda y limón.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Black Russian",
+    "recipe1":"2 oz vodka, 1 oz licor de café",
+    "recipe2":"Prepara sobre hielo en un vaso old fashioned y revuelve suavemente.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Bay Breeze",
+    "recipe1":"2 oz vodka, 2 oz jugo de arándano, 2 oz jugo de piña",
+    "recipe2":"Prepara sobre hielo en un vaso highball y decora con una rodaja de lima o de piña.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Sea Breeze",
+    "recipe1":"2 oz vodka, 3 oz jugo de arándano, 1 oz jugo de toronja",
+    "recipe2":"Prepara sobre hielo en un vaso highball y decora con una rodaja de lima.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Lemon Drop Martini",
+    "recipe1":"2 oz vodka, 1 oz jugo de limón, 0.5 oz triple sec, 0.5 oz jarabe simple",
+    "recipe2":"Agita con hielo y cuela en una copa martini fría, decora con borde azucarado y torsión de limón.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Salty Dog",
+    "recipe1":"2 oz vodka, 4 oz jugo de toronja",
+    "recipe2":"Agita o prepara en un vaso highball con borde de sal y decora con una rodaja de toronja.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Vodka Tonic",
+    "recipe1":"2 oz vodka, 4 oz agua tónica",
+    "recipe2":"Prepara sobre hielo en un vaso highball y decora con una rodaja de lima.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Kamikaze",
+    "recipe1":"1 oz vodka, 1 oz triple sec, 1 oz jugo de lima",
+    "recipe2":"Agita con hielo y cuela en un vaso de shot frío o sirve en una copa coupe.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Harvey Wallbanger",
+    "recipe1":"1.5 oz vodka, 3 oz jugo de naranja, 0.5 oz Galliano",
+    "recipe2":"Prepara vodka y jugo sobre hielo en un vaso highball, flota el Galliano encima y decora con una rodaja de naranja.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Blue Lagoon",
+    "recipe1":"1.5 oz vodka, 1 oz blue curaçao, 4 oz limonada",
+    "recipe2":"Agita o prepara en un vaso highball sobre hielo y decora con una rodaja de limón o cereza.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Chi Chi",
+    "recipe1":"1.5 oz vodka, 1 oz crema de coco, 2 oz jugo de piña",
+    "recipe2":"Licúa con hielo picado y sirve en un vaso hurricane o highball, decora con piña y cereza.",
+    "baseSpirit":"Vodka"
+  },
+  {
+    "cocktail":"Gin & Tonic",
+    "recipe1":"2 oz ginebra, 4 oz agua tónica",
+    "recipe2":"Prepara sobre hielo en un vaso highball y decora con una rodaja de lima o pepino.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Tom Collins",
+    "recipe1":"2 oz ginebra, 1 oz jugo de limón, 0.5 oz jarabe simple, completar con soda",
+    "recipe2":"Agita ginebra, jugo de limón y jarabe con hielo, cuela en un vaso Collins sobre hielo, y completa con soda y limón.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Negroni",
+    "recipe1":"1 oz ginebra, 1 oz Campari, 1 oz vermut dulce",
+    "recipe2":"Revuelve sobre hielo en un vaso old fashioned y decora con una cáscara de naranja.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Martini (Dry Gin Martini)",
+    "recipe1":"2.5 oz ginebra, 0.5 oz vermut seco",
+    "recipe2":"Revuelve con hielo, cuela en una copa martini fría, y decora con una aceituna o torsión de limón.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Aviation",
+    "recipe1":"2 oz ginebra, 0.5 oz licor de marrasquino, 0.25 oz crème de violette, 0.75 oz jugo de limón",
+    "recipe2":"Agita con hielo, cuela en una copa coupe, y decora con una cereza.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"French 75",
+    "recipe1":"1 oz ginebra, 0.5 oz jugo de limón, 0.5 oz jarabe simple, 3 oz Champagne",
+    "recipe2":"Agita los tres primeros ingredientes con hielo, cuela en una flauta, y completa con Champagne y torsión de limón.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Bee's Knees",
+    "recipe1":"2 oz ginebra, 0.75 oz jugo de limón, 0.75 oz jarabe de miel",
+    "recipe2":"Agita con hielo, cuela en una copa coupe fría, y decora con una torsión de limón.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Last Word",
+    "recipe1":"0.75 oz ginebra, 0.75 oz Chartreuse verde, 0.75 oz licor de marrasquino, 0.75 oz jugo de lima",
+    "recipe2":"Agita con hielo, cuela en una copa coupe, y sirve sin decoración.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Clover Club",
+    "recipe1":"1.5 oz ginebra, 0.5 oz jarabe de frambuesa, 0.75 oz jugo de limón, 1 clara de huevo",
+    "recipe2":"Agita en seco, luego agita con hielo, cuela en una copa coupe, y sirve.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Gimlet",
+    "recipe1":"2 oz ginebra, 1 oz jugo de lima, 0.75 oz jarabe simple",
+    "recipe2":"Agita con hielo y cuela en una copa coupe o de cóctel, decora con una rodaja de lima.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Southside",
+    "recipe1":"2 oz ginebra, 1 oz jugo de lima, 0.75 oz jarabe simple, 6–8 hojas de menta",
+    "recipe2":"Agita con hielo y cuela finamente en una copa coupe, decora con menta.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Gin Fizz",
+    "recipe1":"2 oz ginebra, 1 oz jugo de limón, 0.75 oz jarabe simple, completar con soda",
+    "recipe2":"Agita con hielo, cuela en un vaso Collins sobre hielo fresco, y completa con soda.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Pink Lady",
+    "recipe1":"1.5 oz ginebra, 0.5 oz brandy de manzana, 0.5 oz jugo de limón, 0.25 oz granadina, 1 clara de huevo",
+    "recipe2":"Agita bien todos los ingredientes, cuela en una copa coupe, y sirve.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"White Lady",
+    "recipe1":"1.5 oz ginebra, 0.75 oz triple sec, 0.75 oz jugo de limón",
+    "recipe2":"Agita con hielo, cuela en una copa coupe, y decora con una torsión de limón.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Corpse Reviver #2",
+    "recipe1":"0.75 oz ginebra, 0.75 oz Cointreau, 0.75 oz Lillet Blanc, 0.75 oz jugo de limón, un toque de absenta",
+    "recipe2":"Agita con hielo, cuela en una copa coupe enjuagada con absenta, y sirve de inmediato.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Bramble",
+    "recipe1":"2 oz ginebra, 0.75 oz jugo de limón, 0.5 oz jarabe simple, 0.5 oz crème de mûre",
+    "recipe2":"Agita todo excepto el licor, cuela en un vaso old fashioned con hielo picado, y flota la crème de mûre encima.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Ramos Gin Fizz",
+    "recipe1":"2 oz ginebra, 1 oz crema espesa, 0.5 oz jugo de limón, 0.5 oz jugo de lima, 0.75 oz jarabe simple, 1 clara de huevo, 2 gotas de agua de flor de naranjo, completar con soda",
+    "recipe2":"Agita en seco, luego agita con hielo, cuela en un vaso fizz, y completa con soda.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Gin Rickey",
+    "recipe1":"2 oz ginebra, 0.5 oz jugo de lima, completar con soda",
+    "recipe2":"Prepara sobre hielo en un vaso highball y decora con una rodaja de lima.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"London Mule",
+    "recipe1":"2 oz ginebra, 0.5 oz jugo de lima, 4–6 oz cerveza de jengibre",
+    "recipe2":"Prepara sobre hielo en un tarro de cobre o vaso highball y decora con lima y menta.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Basil Smash",
+    "recipe1":"2 oz ginebra, 1 oz jugo de limón, 0.75 oz jarabe simple, un puñado de hojas de albahaca",
+    "recipe2":"Machaca la albahaca con limón y jarabe, añade ginebra, agita con hielo, cuela en un vaso rocks con hielo, y decora con albahaca.",
+    "baseSpirit":"Gin"
+  },
+  {
+    "cocktail":"Daiquiri",
+    "recipe1":"2 oz ron blanco, 1 oz jugo de lima, 0.75 oz jarabe simple",
+    "recipe2":"Agita con hielo, cuela en una copa coupe, y decora con una rodaja de lima.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Mojito",
+    "recipe1":"2 oz ron blanco, 1 oz jugo de lima, 0.75 oz jarabe simple, 6–8 hojas de menta, soda",
+    "recipe2":"Machaca la menta con lima y jarabe, añade ron, agita ligeramente, cuela en un vaso highball con hielo, y completa con soda.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Mai Tai",
+    "recipe1":"1 oz ron claro, 1 oz ron oscuro, 0.5 oz jugo de lima, 0.5 oz curaçao de naranja, 0.25 oz jarabe de orgeat",
+    "recipe2":"Agita con hielo, cuela en un vaso rocks con hielo picado, y decora con menta y lima.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Piña Colada",
+    "recipe1":"2 oz ron blanco, 1 oz crema de coco, 1 oz crema espesa, 3 oz jugo de piña",
+    "recipe2":"Licúa con hielo picado, sirve en un vaso hurricane, y decora con piña y cereza.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Cuba Libre",
+    "recipe1":"2 oz ron claro, 4 oz cola, 0.5 oz jugo de lima",
+    "recipe2":"Prepara sobre hielo en un vaso highball, revuelve y decora con una rodaja de lima.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Dark 'n' Stormy",
+    "recipe1":"2 oz ron oscuro, 4 oz cerveza de jengibre, 0.5 oz jugo de lima",
+    "recipe2":"Prepara sobre hielo en un vaso highball y decora con lima.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Rum Punch",
+    "recipe1":"1.5 oz ron oscuro, 1.5 oz ron claro, 1 oz jugo de naranja, 1 oz jugo de piña, 0.25 oz granadina",
+    "recipe2":"Agita con hielo, cuela en un vaso hurricane con hielo, y decora con una rodaja de naranja y cereza.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Hemingway Daiquiri",
+    "recipe1":"2 oz ron blanco, 0.75 oz jugo de toronja, 0.5 oz jugo de lima, 0.5 oz licor de marrasquino",
+    "recipe2":"Agita con hielo, cuela en una copa coupe, y decora con lima.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Rum Sour",
+    "recipe1":"2 oz ron añejo, 0.75 oz jugo de limón, 0.5 oz jarabe simple, clara de huevo opcional",
+    "recipe2":"Agita (en seco primero si usas clara de huevo), cuela en una copa coupe, y decora con una torsión de limón.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Planter's Punch",
+    "recipe1":"2 oz ron oscuro, 1 oz jugo de lima, 0.5 oz jarabe simple, 2 gotas de amargo de Angostura",
+    "recipe2":"Agita con hielo, cuela en un vaso highball, y decora con una rodaja de naranja y cereza.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Jungle Bird",
+    "recipe1":"1.5 oz ron oscuro, 0.75 oz Campari, 0.5 oz jugo de lima, 0.5 oz jarabe simple, 1.5 oz jugo de piña",
+    "recipe2":"Agita con hielo, cuela en un vaso rocks con hielo, y decora con piña o lima.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Zombie",
+    "recipe1":"1 oz ron claro, 1 oz ron oscuro, 1 oz ron de alta graduación, 0.5 oz jugo de lima, 0.5 oz jugo de toronja, 0.5 oz jarabe de canela, 0.25 oz granadina",
+    "recipe2":"Agita con hielo, cuela en un vaso tiki o hurricane, y decora con menta y cereza.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Scorpion",
+    "recipe1":"1 oz ron claro, 1 oz brandy, 0.75 oz jugo de lima, 0.5 oz jugo de naranja, 0.5 oz orgeat",
+    "recipe2":"Agita con hielo, cuela en un tarro tiki o vaso rocks con hielo, y decora con naranja y cereza.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Navy Grog",
+    "recipe1":"1 oz ron blanco, 1 oz ron oscuro, 1 oz ron demerara, 0.75 oz jugo de lima, 0.75 oz jugo de toronja, 0.5 oz jarabe de miel",
+    "recipe2":"Agita con hielo, cuela en un vaso rocks con hielo picado, y decora con menta.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"El Presidente",
+    "recipe1":"1.5 oz ron blanco, 0.75 oz vermut seco, 0.25 oz curaçao de naranja, 1 gota de granadina",
+    "recipe2":"Revuelve con hielo, cuela en una copa coupe, y decora con una torsión de naranja.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Ti' Punch",
+    "recipe1":"2 oz rhum agricole, 0.25 oz jarabe de caña, rodaja de lima",
+    "recipe2":"Revuelve con hielo en un vaso rocks y decora con la rodaja de lima.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Hot Buttered Rum",
+    "recipe1":"2 oz ron oscuro, 1 cucharada de mantequilla especiada, 4 oz agua caliente",
+    "recipe2":"Prepara en una taza, revuelve para disolver la mantequilla, y decora con una rama de canela.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Frozen Daiquiri",
+    "recipe1":"2 oz ron blanco, 1 oz jugo de lima, 0.75 oz jarabe simple, 1 taza de hielo picado",
+    "recipe2":"Licúa todos los ingredientes hasta obtener una mezcla suave y sirve en una copa coupe o vaso especial.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Kingston Negroni",
+    "recipe1":"1 oz ron jamaiquino, 1 oz Campari, 1 oz vermut dulce",
+    "recipe2":"Revuelve con hielo, cuela en un vaso rocks sobre hielo, y decora con cáscara de naranja.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Bacardi Cocktail",
+    "recipe1":"1.5 oz ron Bacardi, 0.75 oz jugo de lima, 0.5 oz granadina",
+    "recipe2":"Agita con hielo, cuela en una copa coupe, y decora con lima.",
+    "baseSpirit":"Rum"
+  },
+  {
+    "cocktail":"Margarita",
+    "recipe1":"2 oz tequila, 1 oz jugo de lima, 0.75 oz triple sec o Cointreau",
+    "recipe2":"Agita con hielo, cuela en un vaso rocks con borde de sal, y decora con una rodaja de lima.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Tequila Sunrise",
+    "recipe1":"2 oz tequila, 4 oz jugo de naranja, 0.5 oz granadina",
+    "recipe2":"Prepara tequila y jugo de naranja sobre hielo en un vaso highball, vierte lentamente la granadina para que se hunda, y decora con una rodaja de naranja y cereza.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Paloma",
+    "recipe1":"2 oz tequila, 0.5 oz jugo de lima, pizca de sal, completar con refresco de toronja",
+    "recipe2":"Prepara sobre hielo en un vaso highball y decora con una rodaja de lima.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Ranch Water",
+    "recipe1":"2 oz tequila, 0.5 oz jugo de lima, completar con Topo Chico o agua mineral",
+    "recipe2":"Prepara sobre hielo en un vaso highball y decora con lima.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Tequila Mule",
+    "recipe1":"2 oz tequila, 0.5 oz jugo de lima, 4 oz cerveza de jengibre",
+    "recipe2":"Prepara en un tarro de cobre sobre hielo y decora con lima y menta.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Matador",
+    "recipe1":"2 oz tequila, 1 oz jugo de piña, 0.5 oz jugo de lima",
+    "recipe2":"Agita con hielo, cuela en una copa de cóctel, y decora con lima.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Bloody Maria",
+    "recipe1":"2 oz tequila, 4 oz jugo de tomate, 0.5 oz jugo de lima, 2 gotas de Worcestershire, 2 gotas de salsa picante, sal y pimienta",
+    "recipe2":"Prepara sobre hielo en un vaso pinta, revuelve suavemente y decora con apio y lima.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"El Diablo",
+    "recipe1":"2 oz tequila, 0.5 oz crème de cassis, 0.5 oz jugo de lima, completar con cerveza de jengibre",
+    "recipe2":"Prepara sobre hielo en un vaso highball y decora con una rodaja de lima.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Tequila Sour",
+    "recipe1":"2 oz tequila, 0.75 oz jugo de limón, 0.5 oz jarabe simple, clara de huevo opcional",
+    "recipe2":"Agita (en seco primero si usas clara de huevo), cuela en una copa coupe, y decora con una torsión de limón.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Tequila Collins",
+    "recipe1":"2 oz tequila, 1 oz jugo de limón, 0.5 oz jarabe simple, completar con soda",
+    "recipe2":"Agita los tres primeros ingredientes con hielo, cuela en un vaso Collins, y completa con soda y limón.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Spicy Margarita",
+    "recipe1":"2 oz tequila, 1 oz jugo de lima, 0.75 oz triple sec, 2–3 rodajas de jalapeño",
+    "recipe2":"Machaca el jalapeño, agita todos los ingredientes con hielo, cuela en un vaso rocks, y decora con lima.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Tequila Negroni",
+    "recipe1":"1 oz tequila, 1 oz Campari, 1 oz vermut dulce",
+    "recipe2":"Revuelve con hielo, cuela en un vaso rocks, y decora con cáscara de naranja.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Tequila Smash",
+    "recipe1":"2 oz tequila, 1 oz jugo de lima, 0.75 oz jarabe simple, un puñado de menta o albahaca",
+    "recipe2":"Machaca las hierbas, agita con los demás ingredientes y hielo, cuela en un vaso rocks, y decora con hierbas.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Oaxacan Old Fashioned",
+    "recipe1":"1.5 oz tequila reposado, 0.5 oz mezcal, 1 cucharadita de jarabe de agave, 2 gotas de amargo de Angostura",
+    "recipe2":"Revuelve con hielo, cuela en un vaso rocks, y decora con torsión de naranja.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Rosita",
+    "recipe1":"1.5 oz tequila, 0.5 oz vermut dulce, 0.5 oz vermut seco, 0.5 oz Campari, gota de amargo de Angostura",
+    "recipe2":"Revuelve con hielo, cuela en un vaso rocks, y decora con una torsión de toronja.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Batanga",
+    "recipe1":"2 oz tequila, 0.5 oz jugo de lima, completar con cola",
+    "recipe2":"Prepara sobre hielo en un vaso highball y revuelve con borde de sal.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Tequila Mojito",
+    "recipe1":"2 oz tequila, 0.75 oz jugo de lima, 0.5 oz jarabe simple, 6 hojas de menta, completar con soda",
+    "recipe2":"Machaca la menta, agita con tequila, lima y jarabe, cuela en un vaso highball, y completa con soda.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Tequila Highball",
+    "recipe1":"2 oz tequila, completar con soda",
+    "recipe2":"Prepara sobre hielo en un vaso highball y decora con una rodaja de toronja o lima.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Pepino Margarita",
+    "recipe1":"2 oz tequila, 0.75 oz jugo de lima, 0.5 oz jarabe de agave, 3 rodajas de pepino",
+    "recipe2":"Machaca el pepino, agita con los demás ingredientes y hielo, cuela en un vaso rocks, y decora con una rodaja de pepino.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Cantarito",
+    "recipe1":"2 oz tequila, 1 oz jugo de lima, 1 oz jugo de naranja, 1 oz jugo de toronja, pizca de sal, completar con refresco de toronja",
+    "recipe2":"Prepara en una taza de barro o vaso highball sobre hielo y decora con rodajas de cítricos.",
+    "baseSpirit":"Tequila"
+  },
+  {
+    "cocktail":"Old Fashioned",
+    "recipe1":"2 oz bourbon o rye, 1 terrón de azúcar, 2 gotas de amargo de Angostura, un chorrito de agua",
+    "recipe2":"Machaca el azúcar, el amargo y el agua en un vaso rocks, añade whiskey y hielo, y revuelve con una decoración de cáscara de naranja.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Whiskey Sour",
+    "recipe1":"2 oz bourbon, 0.75 oz jugo de limón, 0.5 oz jarabe simple, clara de huevo opcional",
+    "recipe2":"Agita (en seco primero si usas clara), cuela en un vaso rocks o copa coupe, y decora con una cereza o torsión de limón.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Manhattan",
+    "recipe1":"2 oz whiskey rye, 1 oz vermut dulce, 2 gotas de amargo de Angostura",
+    "recipe2":"Revuelve con hielo, cuela en una copa coupe, y decora con una cereza.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Mint Julep",
+    "recipe1":"2 oz bourbon, 0.5 oz jarabe simple, 8–10 hojas de menta",
+    "recipe2":"Machaca la menta y el jarabe en una taza julep, añade hielo picado y bourbon, y decora con un ramo de menta.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Boulevardier",
+    "recipe1":"1 oz bourbon o rye, 1 oz Campari, 1 oz vermut dulce",
+    "recipe2":"Revuelve con hielo, cuela en un vaso rocks o copa coupe, y decora con una torsión de naranja.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Sazerac",
+    "recipe1":"2 oz whiskey rye, 1 terrón de azúcar, 2 gotas de amargo de Peychaud, enjuague de absenta",
+    "recipe2":"Machaca el azúcar y el amargo, añade whiskey y hielo, revuelve, cuela en un vaso rocks enjuagado con absenta, y decora con cáscara de limón.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Irish Coffee",
+    "recipe1":"1.5 oz whiskey irlandés, 4 oz café caliente, 0.5 oz jarabe demerara, crema batida",
+    "recipe2":"Prepara en una taza caliente, revuelve y flota la crema batida encima.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Rob Roy",
+    "recipe1":"2 oz whisky escocés, 1 oz vermut dulce, 2 gotas de amargo de Angostura",
+    "recipe2":"Revuelve con hielo, cuela en una copa coupe, y decora con una cereza.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Penicillin",
+    "recipe1":"2 oz Scotch blended, 0.75 oz jugo de limón, 0.75 oz jarabe de miel y jengibre, 0.25 oz Scotch de Islay",
+    "recipe2":"Agita y cuela en un vaso rocks con hielo, flota el Scotch de Islay, y decora con jengibre confitado.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Gold Rush",
+    "recipe1":"2 oz bourbon, 0.75 oz jugo de limón, 0.75 oz jarabe de miel",
+    "recipe2":"Agita con hielo, cuela en un vaso rocks, y sirve sobre hielo.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Brown Derby",
+    "recipe1":"1.5 oz bourbon, 1 oz jugo de toronja, 0.5 oz jarabe de miel",
+    "recipe2":"Agita con hielo, cuela en una copa coupe, y decora con una torsión de toronja.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"New York Sour",
+    "recipe1":"2 oz rye o bourbon, 0.75 oz jugo de limón, 0.5 oz jarabe simple, 0.5 oz vino tinto",
+    "recipe2":"Agita whiskey, limón y jarabe con hielo, cuela en un vaso rocks, y flota el vino tinto encima.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Paper Plane",
+    "recipe1":"0.75 oz bourbon, 0.75 oz Aperol, 0.75 oz Amaro Nonino, 0.75 oz jugo de limón",
+    "recipe2":"Agita con hielo, cuela en una copa coupe, y decora con una torsión de limón.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Rusty Nail",
+    "recipe1":"1.5 oz Scotch, 0.75 oz Drambuie",
+    "recipe2":"Prepara en un vaso rocks sobre hielo y revuelve suavemente.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Whiskey Smash",
+    "recipe1":"2 oz bourbon, 0.75 oz jugo de limón, 0.5 oz jarabe simple, 4–6 hojas de menta",
+    "recipe2":"Machaca la menta y el limón, agita con whiskey y hielo, cuela en un vaso rocks, y decora con menta.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"John Collins",
+    "recipe1":"2 oz bourbon o rye, 1 oz jugo de limón, 0.5 oz jarabe simple, completar con soda",
+    "recipe2":"Agita con hielo, cuela en un vaso Collins con hielo, y completa con soda y una rodaja de limón.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Godfather",
+    "recipe1":"1.5 oz Scotch, 0.5 oz amaretto",
+    "recipe2":"Prepara en un vaso rocks sobre hielo y revuelve suavemente.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Brooklyn",
+    "recipe1":"2 oz rye, 0.75 oz vermut seco, 0.25 oz licor de marrasquino, 0.25 oz Amer Picon o Amaro",
+    "recipe2":"Revuelve con hielo, cuela en una copa coupe, y decora con una cereza o torsión de naranja.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Algonquin",
+    "recipe1":"1.5 oz rye, 0.75 oz vermut seco, 0.75 oz jugo de piña",
+    "recipe2":"Agita con hielo, cuela en una copa coupe, y sirve.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"Man o' War",
+    "recipe1":"2 oz bourbon, 0.5 oz Cointreau, 0.5 oz vermut dulce, 0.5 oz jugo de limón",
+    "recipe2":"Agita con hielo, cuela en una copa coupe, y decora con cereza o cáscara de limón.",
+    "baseSpirit":"Whiskey"
+  },
+  {
+    "cocktail":"B-52",
+    "recipe1":"0.5 oz Kahlúa, 0.5 oz Baileys Irish Cream, 0.5 oz Grand Marnier",
+    "recipe2":"Coloca cuidadosamente los ingredientes en capas en un vaso de shot y sirve sin decoración.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Mudslide",
+    "recipe1":"1 oz vodka, 1 oz Kahlúa, 1 oz Baileys Irish Cream",
+    "recipe2":"Agita con hielo, cuela en un vaso rocks con hielo, y decora con virutas de chocolate o jarabe.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"White Russian",
+    "recipe1":"2 oz vodka, 1 oz Kahlúa, 1 oz crema espesa",
+    "recipe2":"Prepara sobre hielo en un vaso rocks y revuelve suavemente.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Black Russian",
+    "recipe1":"2 oz vodka, 1 oz Kahlúa",
+    "recipe2":"Prepara sobre hielo en un vaso rocks y revuelve suavemente.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Espresso Martini",
+    "recipe1":"2 oz vodka, 0.5 oz Kahlúa, 1 oz espresso fresco",
+    "recipe2":"Agita con hielo, cuela en una copa coupe fría, y decora con 3 granos de café.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Amaretto Sour",
+    "recipe1":"2 oz amaretto, 0.75 oz jugo de limón, 0.25 oz jarabe simple",
+    "recipe2":"Agita con hielo, cuela en un vaso rocks, y decora con una cereza y rodaja de limón.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Godmother",
+    "recipe1":"1.5 oz vodka, 0.5 oz amaretto",
+    "recipe2":"Prepara en un vaso rocks con hielo y revuelve suavemente.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Rusty Nail",
+    "recipe1":"1.5 oz Scotch, 0.75 oz Drambuie",
+    "recipe2":"Prepara sobre hielo en un vaso rocks y revuelve suavemente.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Harvey Wallbanger",
+    "recipe1":"1.5 oz vodka, 3 oz jugo de naranja, 0.5 oz Galliano",
+    "recipe2":"Prepara vodka y jugo de naranja en un vaso highball, flota el Galliano encima, y decora con una rodaja de naranja.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Nutty Russian",
+    "recipe1":"1 oz Frangelico, 1 oz vodka, 1 oz crema",
+    "recipe2":"Agita con hielo, cuela en un vaso rocks con hielo, y decora con nuez moscada rallada.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Stinger",
+    "recipe1":"2 oz Cognac, 0.75 oz crème de menthe blanca",
+    "recipe2":"Agita con hielo, cuela en un vaso rocks o copa coupe, y sirve sin decoración.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Grasshopper",
+    "recipe1":"1 oz crème de menthe verde, 1 oz crème de cacao blanca, 1 oz crema",
+    "recipe2":"Agita con hielo, cuela en una copa coupe fría, y decora con menta o chocolate.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Golden Cadillac",
+    "recipe1":"1 oz Galliano, 1 oz crème de cacao blanca, 1 oz crema",
+    "recipe2":"Agita con hielo, cuela en una copa de cóctel fría, y sirve.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Sidecar",
+    "recipe1":"2 oz Cognac, 1 oz licor de naranja (Cointreau), 0.75 oz jugo de limón",
+    "recipe2":"Agita con hielo, cuela en una copa coupe con borde azucarado, y decora con cáscara de naranja.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Between the Sheets",
+    "recipe1":"1 oz Cognac, 1 oz ron, 1 oz Cointreau, 0.75 oz jugo de limón",
+    "recipe2":"Agita con hielo, cuela en una copa coupe, y decora con una torsión de limón.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"French Connection",
+    "recipe1":"1.5 oz Cognac, 0.75 oz amaretto",
+    "recipe2":"Prepara sobre hielo en un vaso rocks y revuelve suavemente.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Midori Sour",
+    "recipe1":"2 oz Midori, 1 oz jugo de limón, 0.5 oz jarabe simple",
+    "recipe2":"Agita con hielo, cuela en un vaso rocks, y decora con una cereza o rodaja de limón.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Baileys White Russian",
+    "recipe1":"1 oz vodka, 1 oz Kahlúa, 1 oz Baileys Irish Cream",
+    "recipe2":"Prepara sobre hielo en un vaso rocks y revuelve suavemente.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Borghetti Martini",
+    "recipe1":"1 oz Caffè Borghetti, 1 oz vodka, 1 oz espresso",
+    "recipe2":"Agita con hielo, cuela en una copa martini fría, y decora con granos de café.",
+    "baseSpirit":"More"
+  },
+  {
+    "cocktail":"Sambuca Coffee Shot",
+    "recipe1":"1.5 oz Sambuca, 3 granos de café",
+    "recipe2":"Sirve la Sambuca en un vaso de shot con 3 granos de café como decoración.",
+    "baseSpirit":"More"
+  }
+]

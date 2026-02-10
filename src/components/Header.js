@@ -2,9 +2,15 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import { useLanguage } from "./LanguageContext";
+import { translations } from "@/data/translations";
+import LanguageToggle from "./LanguageToggle";
 import styles from "./Header.module.css";
 
 export default function Header() {
+  const { language } = useLanguage();
+  const t = translations[language].header;
+
   const [ecosystemOpen, setEcosystemOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const ecosystemRef = useRef(null);
@@ -37,71 +43,74 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      {/* Left — Ecosystem dropdown */}
-      <div className={styles.dropdownWrapper} ref={ecosystemRef}>
-        <button
-          className={styles.iconButton}
-          onClick={toggleEcosystem}
-          aria-label="Explore ecosystem"
-          aria-expanded={ecosystemOpen}
-        >
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+      {/* Left — Ecosystem dropdown + Language Toggle */}
+      <div className={styles.leftGroup}>
+        <div className={styles.dropdownWrapper} ref={ecosystemRef}>
+          <button
+            className={styles.iconButton}
+            onClick={toggleEcosystem}
+            aria-label={t.explore}
+            aria-expanded={ecosystemOpen}
           >
-            <polyline points="6 8 10 12 14 8" />
-          </svg>
-        </button>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <polyline points="6 8 10 12 14 8" />
+            </svg>
+          </button>
 
-        {ecosystemOpen && (
-          <div className={styles.dropdown}>
-            <span className={styles.dropdownLabel}>Explore</span>
-            <a
-              href="https://somm.site"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.dropdownLink}
-            >
-              <span className={styles.linkTitle}>Somm.Site</span>
-              <span className={styles.linkDesc}>Wine education & courses</span>
-            </a>
-            <a
-              href="https://beverage.fyi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.dropdownLink}
-            >
-              <span className={styles.linkTitle}>Beverage.fyi</span>
-              <span className={styles.linkDesc}>
-                Encyclopedic reference
-              </span>
-            </a>
-            <a
-              href="https://backbar.fyi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.dropdownLink}
-            >
-              <span className={styles.linkTitle}>Backbar.fyi</span>
-              <span className={styles.linkDesc}>Spirits & cocktails</span>
-            </a>
-            <div className={styles.dropdownDivider}></div>
-            <a
-              href="https://informativemedia.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.dropdownLinkSmall}
-            >
-              Informative Media
-            </a>
-          </div>
-        )}
+          {ecosystemOpen && (
+            <div className={styles.dropdown}>
+              <span className={styles.dropdownLabel}>{t.explore}</span>
+              <a
+                href="https://somm.site"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.dropdownLink}
+              >
+                <span className={styles.linkTitle}>Somm.Site</span>
+                <span className={styles.linkDesc}>{t.sommSiteDesc}</span>
+              </a>
+              <a
+                href="https://beverage.fyi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.dropdownLink}
+              >
+                <span className={styles.linkTitle}>Beverage.fyi</span>
+                <span className={styles.linkDesc}>{t.beverageFyiDesc}</span>
+              </a>
+              <a
+                href="https://backbar.fyi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.dropdownLink}
+              >
+                <span className={styles.linkTitle}>Backbar.fyi</span>
+                <span className={styles.linkDesc}>{t.backbarFyiDesc}</span>
+              </a>
+              <div className={styles.dropdownDivider}></div>
+              <a
+                href="https://informativemedia.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.dropdownLinkSmall}
+              >
+                Informative Media
+              </a>
+            </div>
+          )}
+        </div>
+
+        {/* Language toggle — sits right next to the chevron */}
+        <LanguageToggle />
       </div>
 
       {/* Center — Site title */}
@@ -110,11 +119,11 @@ export default function Header() {
       </Link>
 
       {/* Right — Hamburger menu */}
-      <div className={styles.dropdownWrapper} ref={menuRef}>
+      <div className={`${styles.dropdownWrapper} ${styles.rightGroup}`} ref={menuRef}>
         <button
           className={styles.iconButton}
           onClick={toggleMenu}
-          aria-label="Open menu"
+          aria-label={language === "en" ? "Open menu" : "Abrir menú"}
           aria-expanded={menuOpen}
         >
           <svg
@@ -139,42 +148,42 @@ export default function Header() {
               className={styles.dropdownLink}
               onClick={() => setMenuOpen(false)}
             >
-              <span className={styles.linkTitle}>Home</span>
+              <span className={styles.linkTitle}>{t.home}</span>
             </Link>
             <Link
               href="/about"
               className={styles.dropdownLink}
               onClick={() => setMenuOpen(false)}
             >
-              <span className={styles.linkTitle}>About</span>
+              <span className={styles.linkTitle}>{t.about}</span>
             </Link>
             <Link
               href="/content-policy"
               className={styles.dropdownLink}
               onClick={() => setMenuOpen(false)}
             >
-              <span className={styles.linkTitle}>Content Policy</span>
+              <span className={styles.linkTitle}>{t.contentPolicy}</span>
             </Link>
             <Link
               href="/privacy"
               className={styles.dropdownLink}
               onClick={() => setMenuOpen(false)}
             >
-              <span className={styles.linkTitle}>Privacy</span>
+              <span className={styles.linkTitle}>{t.privacy}</span>
             </Link>
             <Link
               href="/terms"
               className={styles.dropdownLink}
               onClick={() => setMenuOpen(false)}
             >
-              <span className={styles.linkTitle}>Terms</span>
+              <span className={styles.linkTitle}>{t.terms}</span>
             </Link>
             <Link
               href="/cookies"
               className={styles.dropdownLink}
               onClick={() => setMenuOpen(false)}
             >
-              <span className={styles.linkTitle}>Cookies</span>
+              <span className={styles.linkTitle}>{t.cookies}</span>
             </Link>
             <div className={styles.dropdownDivider}></div>
             <a
@@ -184,7 +193,7 @@ export default function Header() {
               className={styles.dropdownLink}
               onClick={() => setMenuOpen(false)}
             >
-              <span className={styles.linkTitle}>Contact</span>
+              <span className={styles.linkTitle}>{t.contact}</span>
             </a>
           </div>
         )}

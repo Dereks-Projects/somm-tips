@@ -2,7 +2,7 @@
    Header — Header.module.css
    ============================================
    Fixed at top. Three-column grid:
-   left (ecosystem dropdown), center (title), right (hamburger).
+   left (ecosystem dropdown + language toggle), center (title), right (hamburger).
    Glassmorphic backdrop blur for depth.
    ============================================ */
 
@@ -14,13 +14,26 @@
   z-index: 100;
   height: var(--header-height);
   display: grid;
-  grid-template-columns: 48px 1fr 48px;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   padding: 0 var(--space-md);
   background: rgba(2, 0, 38, 0.9);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--color-border-light);
+}
+
+/* --- Left Group (chevron + language toggle) --- */
+.leftGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  justify-self: start;
+}
+
+/* --- Right side alignment (hamburger) --- */
+.rightGroup {
+  justify-self: end;
 }
 
 /* --- Center Title --- */

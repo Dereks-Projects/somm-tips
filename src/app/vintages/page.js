@@ -1,19 +1,24 @@
 "use client";
 
 import { useState } from "react";
-import vintagesData from "@/data/vintages.json";
+import { useLanguage } from "@/components/LanguageContext";
+import { translations } from "@/data/translations";
+import vintagesDataEn from "@/data/vintages.json";
+import vintagesDataEs from "@/data/vintages.es.json";
 import styles from "@/components/Subpage.module.css";
 
 export default function VintagesPage() {
+  const { language } = useLanguage();
+  const t = translations[language].vintages;
+  const vintagesData = language === "es" ? vintagesDataEs : vintagesDataEn;
+
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   return (
     <main className={styles.main}>
       <section className={styles.header}>
-        <h1 className={styles.title}>Vintages</h1>
-        <p className={styles.subtitle}>
-          Notable vintages from the world's most celebrated wine regions.
-        </p>
+        <h1 className={styles.title}>{t.title}</h1>
+        <p className={styles.subtitle}>{t.subtitle}</p>
       </section>
 
       <section className={styles.results}>
@@ -63,7 +68,7 @@ export default function VintagesPage() {
 
       <footer className={styles.ecosystemLink}>
         <p>
-          Visit{" "}
+          {t.ecosystemText}{" "}
           <a
             href="https://beverage.fyi"
             target="_blank"
@@ -71,7 +76,7 @@ export default function VintagesPage() {
           >
             Beverage.fyi
           </a>{" "}
-          for more knowledge on topics like this.
+          {t.ecosystemTextEnd}
         </p>
       </footer>
     </main>

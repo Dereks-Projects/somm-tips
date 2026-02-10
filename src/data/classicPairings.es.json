@@ -1,0 +1,324 @@
+[
+  {
+    "continent": "Americas",
+    "food": "Arepas",
+    "about": "Las arepas son tortillas de maíz venezolanas y colombianas rellenas de carnes, quesos o frijoles. Tienen una corteza crujiente y un interior esponjoso.",
+    "pairing": "Prueba un Tannat de Uruguay o un Syrah de Argentina.",
+    "why": "Un vino de la misma región de donde proviene la comida siempre es una gran idea. Para este plato, mientras más sustancioso sea el relleno, más robusto debe ser el vino."
+  },
+  {
+    "continent": "Americas",
+    "food": "BBQ Ribs",
+    "about": "Este clásico plato sureño de cerdo, frecuente en la zona costera del sur de los Estados Unidos, tiene sabores intensos de dulzura, salado y ahumado.",
+    "pairing": "Prueba un Zinfandel de California o un blend tinto de Paso Robles.",
+    "why": "La uva Zinfandel es de cuerpo más amplio y puede acompañar sabores intensos como las especias y la salsa de barbacoa."
+  },
+  {
+    "continent": "Asia",
+    "food": "Beef Rendang",
+    "about": "El Beef Rendang proviene de Indonesia y es un curry seco cocido lentamente. Ofrece sabores profundos, picantes y ricos en coco tras horas de cocción con especias aromáticas.",
+    "pairing": "Prueba un Zinfandel del condado de Sonoma o un Riesling seco alemán.",
+    "why": "El Zinfandel, preferiblemente uno con menos tratamiento de roble, funciona como maridaje tinto. Sin embargo, un Riesling alemán añejo es perfecto aquí."
+  },
+  {
+    "continent": "Europe",
+    "food": "Beef Stroganoff",
+    "about": "Un plato cremoso y sabroso de Rusia hecho con carne de res salteada, champiñones y crema agria, a menudo servido sobre fideos o arroz. Su sabor es rico, ácido y terroso.",
+    "pairing": "Prueba un Borgoña Blanco o un blend tinto de Europa del Este.",
+    "why": "El Borgoña Blanco tiene acidez elevada, aportando un lado refrescante a este plato sustancioso. Un blend tinto de Austria o Hungría también funcionaría bien aquí."
+  },
+  {
+    "continent": "Asia",
+    "food": "Biryani",
+    "about": "El Biryani es un fragante plato de arroz del subcontinente indio, con capas de carne y especias. Presenta sabores intensos, picantes y aromáticos.",
+    "pairing": "Prueba un Chenin Blanc (Vouvray) o un Grenache australiano.",
+    "why": "El Vouvray del Valle del Loira combina bien con las especias, especialmente los ejemplares con un toque de azúcar residual (dulzura)."
+  },
+  {
+    "continent": "Africa",
+    "food": "Bobotie",
+    "about": "El Bobotie es un gratín sudafricano de carne especiada con una cobertura de huevo. Combina dulce y salado con curry, pasas y una crema horneada.",
+    "pairing": "Prueba un Chenin Blanc sudafricano.",
+    "why": "El Chenin Blanc, también conocido como «Steen», de Sudáfrica funciona bien aquí, y algunos de estos vinos son verdaderos hallazgos."
+  },
+  {
+    "continent": "Europe",
+    "food": "Brie",
+    "about": "Originario de la región de Île-de-France en Francia, el Brie es un queso de corteza blanda con un interior mantecoso y ligeramente anisado.",
+    "pairing": "Prueba un Champagne o un Chablis.",
+    "why": "Un vino de la misma región de donde proviene la comida siempre es una gran idea."
+  },
+  {
+    "continent": "Europe",
+    "food": "Cassoulet",
+    "about": "Un guiso sustancioso y cocido lentamente del sur de Francia, tradicionalmente hecho con alubias blancas, confit de pato y salchicha. Tiene un sabor profundamente sabroso y herbal con texturas ricas.",
+    "pairing": "Prueba un Rosado o un blend tinto de Provenza.",
+    "why": "Un rosado de la zona de donde proviene este plato es un gran maridaje, al igual que la diversa variedad de excelentes tintos que se encuentran en esta región."
+  },
+  {
+    "continent": "Europe",
+    "food": "Ceviche",
+    "about": "El ceviche es un refrescante plato de mariscos popular en la costa de Perú. Presenta pescado crudo marinado en jugo de cítricos, con un sabor brillante, vibrante y ligeramente picante.",
+    "pairing": "Prueba un Albariño o Verdejo de España.",
+    "why": "Ligero, brillante y refrescante (sin roble) es lo que buscamos al maridar con platos delicados."
+  },
+  {
+    "continent": "Asia",
+    "food": "Chicken Tikka Masala",
+    "about": "Este plato de fusión india consiste en pollo a la parrilla en una salsa cremosa de tomate. Es ligeramente picante, rico y reconfortante.",
+    "pairing": "Prueba un Riesling seco alemán o un Beaujolais de Francia.",
+    "why": "Alemania produce excelentes Rieslings secos que irían muy bien con este plato, al igual que el Gamay de Beaujolais."
+  },
+  {
+    "continent": "Americas",
+    "food": "Chiles en Nogada",
+    "about": "Un plato patriótico de México, los Chiles en Nogada presentan chiles poblanos rellenos de carne y cubiertos con salsa de nuez. Equilibra sabores dulces, salados y cremosos.",
+    "pairing": "Prueba un Chenin Blanc o Chardonnay de Baja California.",
+    "why": "La región de Baja en México produce grandes vinos que maridarían bien con este plato."
+  },
+  {
+    "continent": "Europe",
+    "food": "Coq au Vin",
+    "about": "Originario de Francia, el Coq au Vin es un clásico guiso francés de pollo braseado en vino. Presenta sabores ricos y sabrosos con notas terrosas de champiñones y hierbas aromáticas.",
+    "pairing": "Prueba un Pinot Noir de Borgoña.",
+    "why": "Un Borgoña Tinto (Pinot Noir) o Côtes du Rhône funcionaría bien aquí, ya que los sabores sabrosos del vino combinan con el plato."
+  },
+  {
+    "continent": "Americas",
+    "food": "Empanadas",
+    "about": "Las empanadas son pasteles rellenos de carne, queso o verduras, comunes en toda Latinoamérica. Son sabrosas, hojaldradas y muy satisfactorias.",
+    "pairing": "Prueba un Malbec de Argentina o un Tannat de Uruguay.",
+    "why": "Un vino tinto de Sudamérica es lo indicado. Elige un vino más robusto si el relleno es más sustancioso."
+  },
+  {
+    "continent": "Americas",
+    "food": "Feijoada",
+    "about": "La Feijoada es un guiso tradicional brasileño de frijoles negros con cerdo y res. Es sustancioso y rico con sabores ahumados y cárnicos.",
+    "pairing": "Prueba un blanco o tinto portugués.",
+    "why": "Un Vinho Verde como vino blanco refrescante, o un tinto profundo de la región del Dão; cualquiera de los dos maridará bien aquí."
+  },
+  {
+    "continent": "Europe",
+    "food": "Feta",
+    "about": "Originario de Grecia, el feta es un queso blanco en salmuera tradicionalmente hecho con leche de oveja o una mezcla de leche de oveja y cabra. Tiene una textura desmenuzable y un sabor ácido y salado con un final ligeramente cremoso.",
+    "pairing": "Prueba un vino blanco de Grecia (Moscofilero o Assyrtiko).",
+    "why": "Los aromas y sabores salados del queso se encuentran en algunas de las ofertas de vino blanco de todo el país."
+  },
+  {
+    "continent": "Europe",
+    "food": "Fish and Chips",
+    "about": "Un plato clásico británico que surgió en el siglo XIX, el fish and chips consiste en pescado blanco rebozado —típicamente bacalao o eglefino— servido con patatas fritas. El sabor es una reconfortante combinación de rebozado crujiente y dorado, pescado suave y hojaldrado, y patatas fritas ricas y sabrosas.",
+    "pairing": "Prueba un Sauvignon Blanc o Muscadet.",
+    "why": "Un vino blanco fresco funcionará aquí, ya que aporta frescura a un plato de comida frita."
+  },
+  {
+    "continent": "Europe",
+    "food": "Gouda",
+    "about": "Proveniente de los Países Bajos, el Gouda es un queso de leche de vaca de semi-duro a duro, que lleva el nombre de la ciudad holandesa de Gouda. El Gouda joven es suave y delicado con una dulzura mantecosa, mientras que las versiones añejas desarrollan notas de caramelo, nuez y textura cristalina.",
+    "pairing": "Prueba un vino blanco o tinto de las regiones del Jura en Francia.",
+    "why": "Este queso rico marida bien con un vino que tenga características similares, manteniendo frescura en el paladar."
+  },
+  {
+    "continent": "Europe",
+    "food": "Goulash",
+    "about": "El Goulash es un guiso húngaro de res con pimentón y otras especias. Es robusto, picante y reconfortante.",
+    "pairing": "Prueba un Pinot Noir o Merlot del Viejo Mundo.",
+    "why": "Un vino tinto terroso, preferiblemente de Hungría, funciona bien aquí."
+  },
+  {
+    "continent": "Europe",
+    "food": "Gruyère",
+    "about": "Producido en la región de Gruyère en Suiza, este queso de leche de vaca se envejece en cuevas y se usa frecuentemente en fondue y sopa de cebolla francesa. Tiene un cuerpo denso y cremoso con sabores a nuez, ligeramente terrosos, que se intensifican con el envejecimiento.",
+    "pairing": "Prueba un vino tinto ligero de Francia o Suiza.",
+    "why": "Un vino con bajos niveles de roble y un toque de terrosidad funciona bien con este queso."
+  },
+  {
+    "continent": "Americas",
+    "food": "Jerk Chicken",
+    "about": "Un plato ardiente y aromático de Jamaica, el jerk chicken se marina en una mezcla de chiles Scotch bonnet, pimienta de Jamaica, tomillo y otras especias antes de asarse o ahumarse. El sabor es intenso y ahumado con un equilibrio de picante, dulzura y hierbas fragantes.",
+    "pairing": "Prueba un Zinfandel o un Grenache australiano.",
+    "why": "Las especias y los sabores intensos se equilibran con la naturaleza frutal de estos vinos tintos."
+  },
+  {
+    "continent": "Africa",
+    "food": "Jollof Rice",
+    "about": "El Jollof Rice es un plato de arroz con base de tomate de África Occidental con cebollas y chile. Tiene sabores ahumados, picantes y sabrosos.",
+    "pairing": "Prueba un Zinfandel o un Grenache australiano.",
+    "why": "Las especias y los sabores intensos se equilibran con la naturaleza frutal de estos vinos tintos."
+  },
+  {
+    "continent": "Asia",
+    "food": "Kebab",
+    "about": "Los kebabs provienen del Medio Oriente y el sur de Asia, con carnes asadas en brochetas. Son ahumados, especiados y a menudo se sirven con pan plano.",
+    "pairing": "Prueba un Riesling alemán o un Grenache australiano.",
+    "why": "El ahumado y las especias de la carne combinan bien con un vino frutal."
+  },
+  {
+    "continent": "Asia",
+    "food": "Khao Soi",
+    "about": "El Khao Soi es una sopa tailandesa de curry con fideos y leche de coco. Es cremosa, picante y aromática.",
+    "pairing": "Prueba un Torrontés argentino o un Chardonnay australiano.",
+    "why": "El Torrontés aporta aromas a este plato de sabores intensos, mientras que el Chardonnay combina bien con la cremosidad de la sopa."
+  },
+  {
+    "continent": "Asia",
+    "food": "Kimchi Jjigae",
+    "about": "Este guiso coreano se prepara con kimchi fermentado, tofu y cerdo o atún. Tiene un perfil de sabor ácido, picante y lleno de umami.",
+    "pairing": "Prueba un Pinot Gris o Gewürztraminer de Alsacia, ligeramente dulce.",
+    "why": "Un mensaje de servicio público: Cuando un plato es realmente intenso y el maridaje es difícil, recurre a los vinos de Alsacia, Francia."
+  },
+  {
+    "continent": "Africa",
+    "food": "Lamb Tagine",
+    "about": "Originario del norte de África, particularmente de Marruecos, el tagine de cordero es un guiso cocido lentamente en una olla de barro tradicional. Presenta cordero tierno infusionado con especias cálidas como canela, comino y jengibre, equilibrado con notas dulces de frutas secas y una salsa rica y aromática.",
+    "pairing": "Prueba un Syrah de Francia o California.",
+    "why": "Si el plato tiene muchas especias, prueba la versión californiana de Syrah, ya que es ligeramente más robusto y menos seco que sus homólogos franceses."
+  },
+  {
+    "continent": "Americas",
+    "food": "Lobster Roll",
+    "about": "El Lobster Roll es un favorito de Nueva Inglaterra, servido en un panecillo con mantequilla. Ofrece un delicado y dulce sabor a langosta con un aderezo rico de mantequilla o mayonesa.",
+    "pairing": "Prueba un Chardonnay de Borgoña o de Oregón.",
+    "why": "La cremosidad del vino combina bien con los aspectos ricos y cremosos de este plato."
+  },
+  {
+    "continent": "Europe",
+    "food": "Manchego",
+    "about": "Originario de la región de La Mancha en España, el Manchego es un queso de leche de oveja envejecido de 2 meses a más de un año. Ofrece una textura firme pero mantecosa con sabores que van de suaves y anisados en las versiones jóvenes a intensos, herbáceos y ácidos conforme madura.",
+    "pairing": "Prueba un Cava o un vino blanco español.",
+    "why": "Para versiones jóvenes de este queso, prueba un vino espumoso de España. Si el queso es añejo, pasa a un Godello o Chardonnay."
+  },
+  {
+    "continent": "Europe",
+    "food": "Moussaka",
+    "about": "La Moussaka es un plato griego de capas de berenjena y carne, a menudo cubierto con salsa bechamel. Ofrece especias mediterráneas cálidas, carne molida sabrosa y texturas cremosas.",
+    "pairing": "Prueba un Moscofilero o Xinomavro.",
+    "why": "Elige un vino de Grecia aquí, o un ejemplar del Viejo Mundo con poco roble y terrosidad."
+  },
+  {
+    "continent": "Europe",
+    "food": "Mushroom Risotto",
+    "about": "Un plato italiano de arroz del norte de Italia, el risotto de champiñones se prepara con arroz arborio cocido lentamente en caldo y enriquecido con champiñones salteados, cebollas y parmesano. Tiene una textura cremosa y lujosa con sabores terrosos y ricos en umami de los champiñones y una sutil nuez del queso.",
+    "pairing": "Prueba un vino blanco o tinto ligero del norte de Italia.",
+    "why": "Un vino de estilo más ligero va bien con el risotto, ya que el plato es inherentemente más pesado y necesita un equilibrio textural."
+  },
+  {
+    "continent": "Asia",
+    "food": "Okonomiyaki",
+    "about": "Este panqueque salado japonés se prepara con repollo y diversos ingredientes. Es rico en umami, ligeramente dulce y a menudo se adereza con mayonesa y salsa.",
+    "pairing": "Prueba un Sake Junmai o Champagne.",
+    "why": "Muchos platos japoneses maridan bien con Sake o una copa de Champagne."
+  },
+  {
+    "continent": "Asia",
+    "food": "Pad Thai",
+    "about": "El Pad Thai es un plato emblemático de Tailandia conocido por sus fideos salteados. Equilibra sabores dulces, ácidos y salados con un toque de umami del tamarindo y la salsa de pescado.",
+    "pairing": "Prueba un Riesling alemán o un Vouvray (Chenin Blanc).",
+    "why": "Los sabores dulces y picantes del Pad Thai combinan bien con un vino blanco de acidez elevada y un toque de dulzura."
+  },
+  {
+    "continent": "Europe",
+    "food": "Parmigiano-Reggiano",
+    "about": "Elaborado exclusivamente en regiones específicas del norte de Italia, el Parmigiano Reggiano es un queso duro y añejo hecho con leche cruda de vaca y madurado de 12 a 36 meses. Su sabor es profundamente sabroso, anisado y cristalino, con una compleja riqueza umami ideal para rallar.",
+    "pairing": "Prueba un Vermentino o Sangiovese de la Toscana.",
+    "why": "Equilibra la riqueza de este queso con un vino que pueda hacer frente a los sabores intensos y ricos."
+  },
+  {
+    "continent": "Asia",
+    "food": "Peking Duck",
+    "about": "El Pato Pekín es un plato tradicional chino originario de Pekín. Tiene una piel crujiente y carne tierna, generalmente acompañado con salsa hoisin dulce y tortillas suaves.",
+    "pairing": "Prueba un Pinot Noir de California.",
+    "why": "Un vino tinto frutal del Nuevo Mundo funcionará bien con este plato."
+  },
+  {
+    "continent": "Asia",
+    "food": "Pho",
+    "about": "El Pho es una sopa vietnamita de fideos con caldo aromático, fideos de arroz y hierbas. Ofrece sabores sabrosos y herbáceos, a menudo realzados con lima y chile.",
+    "pairing": "Prueba un Riesling seco o un Beaujolais (Gamay).",
+    "why": "Alemania produce excelentes Rieslings secos que irían muy bien con este plato, al igual que el Gamay de Beaujolais."
+  },
+  {
+    "continent": "Europe",
+    "food": "Pierogi",
+    "about": "Los Pierogi son empanadas polacas típicamente rellenas de queso, patatas o carne. Son mantecosos, sustanciosos y a menudo se sirven con crema agria.",
+    "pairing": "Prueba un Grüner Veltliner o un blend tinto de Austria.",
+    "why": "Se prefiere un vino blanco aquí, que muestre cierta terrosidad para equilibrar el final de crema agria del plato."
+  },
+  {
+    "continent": "Europe",
+    "food": "Ratatouille",
+    "about": "Un plato provenzal de verduras del sur de Francia, el ratatouille presenta una mezcla de berenjena, calabacín, pimientos, tomates y hierbas cocidos a fuego lento en aceite de oliva. Ofrece un sabor rústico y terroso con un equilibrio de dulzura, acidez y profundidad herbal.",
+    "pairing": "Prueba un Rosado o un blend tinto de Provenza.",
+    "why": "Un rosado de la zona de donde proviene este plato es un gran maridaje, al igual que la diversa variedad de excelentes tintos que se encuentran en esta región."
+  },
+  {
+    "continent": "Europe",
+    "food": "Roquefort",
+    "about": "Producido en el sur de Francia con leche de oveja, el Roquefort es uno de los quesos azules más antiguos del mundo y se envejece en cuevas naturales de piedra caliza. Tiene una textura cremosa y desmenuzable con un sabor intenso, ácido y marcadamente salado con un moho azul penetrante.",
+    "pairing": "Prueba un Sauternes o un Pinot Gris de Alsacia.",
+    "why": "La intensidad del queso necesita equilibrarse, y un vino blanco con dulzura y textura logra exactamente eso."
+  },
+  {
+    "continent": "Europe",
+    "food": "Sauerbraten",
+    "about": "El Sauerbraten es un asado alemán marinado en vinagre y especias. Tiene un sabor ácido, agridulce y sabroso.",
+    "pairing": "Prueba un Spätburgunder (Pinot Noir de Alemania).",
+    "why": "El Riesling o Spätburgunder equilibra los perfiles de sabor mientras mantiene frescura en el paladar."
+  },
+  {
+    "continent": "Africa",
+    "food": "Shakshuka",
+    "about": "El Shakshuka es un plato norteafricano y del Medio Oriente de huevos pochados en salsa de tomate picante. Es vibrante, sabroso y ligeramente dulce con especias cálidas.",
+    "pairing": "Prueba un Côtes du Rhône blanco o tinto.",
+    "why": "Con platos muy especiados, busca vinos con poco tratamiento de roble y niveles elevados de madurez."
+  },
+  {
+    "continent": "Africa",
+    "food": "Shawarma",
+    "about": "El Shawarma es un wrap del Medio Oriente hecho con carne especiada cortada de un asador giratorio. Está intensamente sazonado, jugoso y a menudo acompañado de salsa de ajo.",
+    "pairing": "Prueba un Côtes du Rhône blanco o tinto.",
+    "why": "Con platos muy especiados, busca vinos con poco tratamiento de roble y niveles elevados de madurez."
+  },
+  {
+    "continent": "Europe",
+    "food": "Spaghetti Bolognese",
+    "about": "Originario de Bolonia, Italia, el Bolognese es una salsa de carne cocida lentamente, tradicionalmente hecha con carne molida de res o cerdo, tomates, vino y leche. Tiene un sabor rico y sabroso con profundas notas umami y una textura suave y aterciopelada que se adhiere a la pasta.",
+    "pairing": "Prueba un Vermentino o Chianti Classico de la Toscana.",
+    "why": "Equilibra la riqueza de este plato con un vino que pueda hacer frente a los sabores intensos y ricos."
+  },
+  {
+    "continent": "Europe",
+    "food": "Spaghetti Carbonara",
+    "about": "Un clásico romano de Italia, los Spaghetti Carbonara presentan pasta mezclada con huevo, queso, panceta y pimienta. El plato es cremoso, salado y rico con umami del cerdo.",
+    "pairing": "Prueba un Vermentino o Sangiovese de la Toscana.",
+    "why": "Equilibra la riqueza de este plato con un vino que pueda hacer frente a los sabores intensos y ricos."
+  },
+  {
+    "continent": "Asia",
+    "food": "Sushi",
+    "about": "El sushi es originario de Japón y consiste en arroz avinagrado con pescado crudo o verduras. Es conocido por sus sabores limpios y delicados con umami y una sutil dulzura.",
+    "pairing": "Prueba un Riesling o un Sake Junmai.",
+    "why": "Elige algo delicado, preferiblemente blanco y sin tratamiento de roble."
+  },
+  {
+    "continent": "Africa",
+    "food": "Tagine",
+    "about": "El Tagine es un guiso cocido lentamente de Marruecos, nombrado por la olla de barro cónica que se utiliza. Combina notas dulces y saladas con especias como canela, azafrán y jengibre.",
+    "pairing": "Prueba un blend blanco o tinto del Valle del Ródano.",
+    "why": "Este plato ahumado y especiado se beneficia de un vino blanco de más cuerpo o un tinto con carácter."
+  },
+  {
+    "continent": "Asia",
+    "food": "Tandoori Chicken",
+    "about": "El Tandoori Chicken proviene de la India, tradicionalmente cocinado en un horno de barro llamado tandoor. Está marinado en yogur y especias, ofreciendo sabores ahumados, picantes y ácidos.",
+    "pairing": "Prueba un Riesling o un Zinfandel de California.",
+    "why": "Este plato ahumado y picante se beneficia de un vino blanco semiseco o un tinto con menos tratamiento de roble."
+  },
+  {
+    "continent": "Europe",
+    "food": "Bangers and Mash",
+    "about": "Este plato británico consiste en salchichas y puré de patatas. Es sustancioso, sabroso y a menudo se sirve con salsa de cebolla.",
+    "pairing": "Prueba un Cabernet Franc de Francia (Chinon).",
+    "why": "Un Cabernet Franc de cuerpo medio del Valle del Loira funciona aquí, ya que la acidez elevada es refrescante, mientras que el toque de sabor salado tanto en la comida como en el vino combinan bien."
+  }
+]

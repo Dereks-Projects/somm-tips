@@ -1,0 +1,92 @@
+[
+  {
+    "category":"New World Light Body Whites",
+    "preferred":"Estilo: Vinos blancos que son más ligeros en el paladar, tienen poco o ningún tratamiento de roble, sequedad moderada y menos color en la copa.",
+    "traits":"Características: Estos bebedores tienden a disfrutar vinos como Sauvignon Blanc de Nueva Zelanda, Pinot Gris de Oregón, Chardonnay sin roble de California y otros vinos blancos más ligeros en el paladar.",
+    "recommendations":[
+      "Pinot Gris de Oregón",
+      "Sauvignon Blanc de Nueva Zelanda",
+      "Chardonnay sin roble"
+    ]
+  },
+  {
+    "category":"New World Full Body Whites",
+    "preferred":"Estilo: Vinos blancos que son más pesados en el paladar, tienen niveles ligeros a moderados de tratamiento de roble, sequedad moderada y más color en la copa.",
+    "traits":"Características: Estos bebedores tienden a disfrutar vinos como Chardonnay de California, Viognier de California, Chardonnay australiano y otros vinos blancos más pesados en el paladar.",
+    "recommendations":[
+      "Chardonnay de California",
+      "Viognier de California",
+      "Chardonnay de Australia"
+    ]
+  },
+  {
+    "category":"Off-Dry Whites",
+    "preferred":"Estilo: Vinos blancos que son menos secos, con considerablemente más sabores frutales que la mayoría de los vinos blancos.",
+    "traits":"Características: Estos bebedores tienden a disfrutar vinos con menos sequedad y niveles abundantes de fruta, como ciertos ejemplares de Riesling, Gewürztraminer y Pinot Gris.",
+    "recommendations":[
+      "Riesling de Alemania",
+      "Riesling del estado de Washington",
+      "Chenin Blanc del Valle del Loira"
+    ]
+  },
+  {
+    "category":"Old World Light Body Whites",
+    "preferred":"Estilo: Vinos blancos que son más ligeros en el paladar, tienen poco o ningún tratamiento de roble, son más secos y tienen menos color en la copa.",
+    "traits":"Características: Estos bebedores tienden a disfrutar vinos más ligeros en cuerpo con un final seco, como Pinot Grigio de Italia, Chablis de Francia y otros vinos blancos europeos sin roble.",
+    "recommendations":[
+      "Sauvignon Blanc de Francia (Sancerre)",
+      "Pinot Grigio de Italia",
+      "Albariño de España"
+    ]
+  },
+  {
+    "category":"Old World Full Body Whites",
+    "preferred":"Estilo: Vinos blancos que son más pesados en el paladar, tienen niveles ligeros a moderados de tratamiento de roble, sequedad considerable y más color en la copa.",
+    "traits":"Características: Estos bebedores tienden a disfrutar vinos blancos con más riqueza y sequedad elevada, como Borgoña Blanco, Burdeos Blanco y otros vinos blancos europeos con tratamiento de roble.",
+    "recommendations":[
+      "Chardonnay de Francia (Borgoña Blanco)",
+      "Blancos del Valle del Ródano",
+      "Blancos de la región del Jura (Francia)"
+    ]
+  },
+  {
+    "category":"New World Light Body Reds",
+    "preferred":"Estilo: Vinos tintos que son más ligeros en el paladar, tienen niveles moderados de roble, menos sequedad y niveles elevados de sabores frutales.",
+    "traits":"Características: Estos bebedores tienden a disfrutar vinos más claros en la copa con menos sequedad, como Pinot Noir de California y Grenache australiano.",
+    "recommendations":[
+      "Pinot Noir de California",
+      "Pinot Noir de Oregón",
+      "Grenache de Australia"
+    ]
+  },
+  {
+    "category":"New World Full Bodied Reds",
+    "preferred":"Estilo: Vinos tintos que son más pesados y ricos en el paladar, tienen un tratamiento de roble perceptible y niveles elevados de sabores frutales.",
+    "traits":"Características: Estos bebedores tienden a disfrutar vinos más oscuros en la copa con niveles elevados de sabor frutal, como Cabernet Sauvignon de California, Merlot de California, Shiraz australiano y Malbec argentino.",
+    "recommendations":[
+      "Cabernet Sauvignon de California",
+      "Blends tintos de California",
+      "Cabernet Sauvignon del estado de Washington"
+    ]
+  },
+  {
+    "category":"Old World Light Body Reds",
+    "preferred":"Estilo: Vinos tintos que son más ligeros en el paladar, tienen niveles moderados de roble, más sequedad y niveles elevados de sabores terrosos.",
+    "traits":"Características: Estos bebedores tienden a disfrutar vinos más claros en la copa con más sequedad, como Pinot Noir y Gamay de Borgoña.",
+    "recommendations":[
+      "Pinot Noir de Borgoña (Borgoña Tinto)",
+      "Cabernet Franc del Valle del Loira",
+      "Gamay de Borgoña"
+    ]
+  },
+  {
+    "category":"Old World Full Bodied Reds",
+    "preferred":"Estilo: Vinos tintos que son más pesados en el paladar, tienen un tratamiento de roble perceptible y niveles elevados de sequedad.",
+    "traits":"Características: Estos bebedores tienden a disfrutar vinos de cuerpo más amplio en el paladar con más sequedad, como los tintos de Burdeos, Francia y Toscana, Italia.",
+    "recommendations":[
+      "Blends tintos de Burdeos",
+      "Blends tintos de Toscana o Véneto",
+      "Blends tintos de Rioja o Ribera del Duero"
+    ]
+  }
+]

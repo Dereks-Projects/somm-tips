@@ -1,55 +1,42 @@
+"use client";
+
+import { useLanguage } from "@/components/LanguageContext";
+import { translations } from "@/data/translations";
 import styles from "@/components/StaticPage.module.css";
 
-export const metadata = {
-  title: "About — Somm.Tips",
-  description: "Learn about Somm.Tips, our philosophy, and the Informative Media ecosystem.",
-};
+/*
+  About page — bilingual version.
+  
+  NOTE: This was previously a server component with export const metadata.
+  Now it's a client component (for useLanguage), so metadata must live
+  in a separate layout.js file in this route folder.
+*/
 
 export default function AboutPage() {
+  const { language } = useLanguage();
+  const t = translations[language].about;
+
   return (
     <main className={styles.main}>
       <section className={styles.header}>
-        <h1 className={styles.title}>About Somm.Tips</h1>
-        <p className={styles.subtitle}>
-          Demystifying wine, one recommendation at a time.
-        </p>
+        <h1 className={styles.title}>{t.title}</h1>
+        <p className={styles.subtitle}>{t.subtitle}</p>
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>About the App</h2>
-        <p className={styles.paragraph}>
-          Somm Tips transforms the often intimidating world of wine into an
-          accessible, enjoyable experience. Whether you're ordering at a
-          restaurant, shopping for a dinner party, or simply curious about wine,
-          our app provides clear, practical guidance without the pretension.
-        </p>
-        <p className={styles.paragraph}>
-          Using simple filters and straightforward language, we help you discover
-          wines that match your taste preferences, learn classic food pairings,
-          and understand what makes certain vintages special — all in the palm of
-          your hand.
-        </p>
+        <h2 className={styles.sectionTitle}>{t.aboutAppTitle}</h2>
+        <p className={styles.paragraph}>{t.aboutAppP1}</p>
+        <p className={styles.paragraph}>{t.aboutAppP2}</p>
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Our Philosophy</h2>
-        <p className={styles.paragraph}>
-          Wine should be a pleasure, not a puzzle. We believe everyone deserves
-          to feel confident when choosing wine, whether you're a complete
-          beginner or an enthusiastic amateur. Our approach strips away
-          unnecessary jargon while preserving the knowledge that actually matters
-          for your enjoyment.
-        </p>
+        <h2 className={styles.sectionTitle}>{t.philosophyTitle}</h2>
+        <p className={styles.paragraph}>{t.philosophyP1}</p>
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>The Ecosystem</h2>
-        <p className={styles.paragraph}>
-          Somm.Tips is part of a larger learning ecosystem dedicated to beverage
-          and hospitality education. Whether you're just getting started or
-          looking to deepen your expertise, our partner sites offer comprehensive
-          resources to continue your journey.
-        </p>
+        <h2 className={styles.sectionTitle}>{t.ecosystemTitle}</h2>
+        <p className={styles.paragraph}>{t.ecosystemP1}</p>
         <div className={styles.ecosystemLinks}>
           <a
             href="https://somm.site"
@@ -59,7 +46,7 @@ export default function AboutPage() {
           >
             Somm.Site
             <span className={styles.ecosystemLinkDesc}>
-              Wine education, articles, and courses
+              {t.sommSiteDesc}
             </span>
           </a>
           <a
@@ -70,7 +57,7 @@ export default function AboutPage() {
           >
             Beverage.fyi
             <span className={styles.ecosystemLinkDesc}>
-              Deep dives into the world of drinks
+              {t.beverageFyiDesc}
             </span>
           </a>
           <a
@@ -81,20 +68,15 @@ export default function AboutPage() {
           >
             Backbar.fyi
             <span className={styles.ecosystemLinkDesc}>
-              Spirits and cocktails
+              {t.backbarFyiDesc}
             </span>
           </a>
         </div>
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Created By</h2>
-        <p className={styles.paragraph}>
-          Derek Engles brings years of wine expertise and a passion for making
-          wine approachable to everyone. His experience spans from restaurant
-          service to wine education, always with a focus on practical, real-world
-          application.
-        </p>
+        <h2 className={styles.sectionTitle}>{t.createdByTitle}</h2>
+        <p className={styles.paragraph}>{t.createdByP1}</p>
         <p className={styles.paragraph}>
           <a
             href="https://www.derekengles.com"
@@ -102,14 +84,14 @@ export default function AboutPage() {
             rel="noopener noreferrer"
             className={styles.link}
           >
-            Learn more at derekengles.com →
+            {t.createdByLink}
           </a>
         </p>
       </section>
 
       <div className={styles.meta}>
         <p>
-          Somm.Tips is a product of{" "}
+          {t.meta}{" "}
           <a
             href="https://informativemedia.com"
             target="_blank"

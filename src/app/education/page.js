@@ -1,18 +1,32 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import educationData from "@/data/wineEducation.json";
+import { useLanguage } from "@/components/LanguageContext";
+import { translations } from "@/data/translations";
+import educationDataEn from "@/data/wineEducation.json";
+import educationDataEs from "@/data/wineEducation.es.json";
 import styles from "@/components/Subpage.module.css";
 
-const categories = [
-  "All",
-  "White Grapes",
-  "Red Grapes",
-  "Wine Regions",
-  "Tasting Terms",
+/*
+  Education — bilingual version.
+  
+  Filter pills display translated labels but compare
+  against English category keys in the JSON data.
+*/
+
+const categoryOptions = [
+  { value: "All", labelKey: "all" },
+  { value: "White Grapes", labelKey: "whiteGrapes" },
+  { value: "Red Grapes", labelKey: "redGrapes" },
+  { value: "Wine Regions", labelKey: "wineRegions" },
+  { value: "Tasting Terms", labelKey: "tastingTerms" },
 ];
 
 export default function EducationPage() {
+  const { language } = useLanguage();
+  const t = translations[language].education;
+  const educationData = language === "es" ? educationDataEs : educationDataEn;
+
   const [activeFilter, setActiveFilter] = useState("All");
   const [expandedIndex, setExpandedIndex] = useState(null);
 
@@ -21,32 +35,30 @@ export default function EducationPage() {
     return educationData.filter(
       (item) => item.category.trim() === activeFilter
     );
-  }, [activeFilter]);
+  }, [activeFilter, educationData]);
 
-  function handleFilter(category) {
-    setActiveFilter(category);
+  function handleFilter(value) {
+    setActiveFilter(value);
     setExpandedIndex(null);
   }
 
   return (
     <main className={styles.main}>
       <section className={styles.header}>
-        <h1 className={styles.title}>Wine Education</h1>
-        <p className={styles.subtitle}>
-          Level up your knowledge of grapes, regions, and tasting.
-        </p>
+        <h1 className={styles.title}>{t.title}</h1>
+        <p className={styles.subtitle}>{t.subtitle}</p>
       </section>
 
       <div className={styles.filterBar}>
-        {categories.map((c) => (
+        {categoryOptions.map((opt) => (
           <button
-            key={c}
+            key={opt.value}
             className={`${styles.filterPill} ${
-              activeFilter === c ? styles.filterPillActive : ""
+              activeFilter === opt.value ? styles.filterPillActive : ""
             }`}
-            onClick={() => handleFilter(c)}
+            onClick={() => handleFilter(opt.value)}
           >
-            {c}
+            {t[opt.labelKey]}
           </button>
         ))}
       </div>
@@ -98,7 +110,7 @@ export default function EducationPage() {
 
       <footer className={styles.ecosystemLink}>
         <p>
-          Learn more in-depth on{" "}
+          {t.ecosystemText}{" "}
           <a
             href="https://somm.site"
             target="_blank"

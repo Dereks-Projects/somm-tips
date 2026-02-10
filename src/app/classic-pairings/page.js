@@ -1,44 +1,62 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import pairingsData from "@/data/classicPairings.json";
+import { useLanguage } from "@/components/LanguageContext";
+import { translations } from "@/data/translations";
+import pairingsDataEn from "@/data/classicPairings.json";
+import pairingsDataEs from "@/data/classicPairings.es.json";
 import styles from "@/components/Subpage.module.css";
 
-const continents = ["All", "Americas", "Europe", "Asia", "Africa"];
+/*
+  Classic Pairings — bilingual version.
+  
+  Filter pills display translated labels but compare
+  against English continent keys in the JSON data.
+*/
+
+const continentOptions = [
+  { value: "All", labelKey: "all" },
+  { value: "Americas", labelKey: "americas" },
+  { value: "Europe", labelKey: "europe" },
+  { value: "Asia", labelKey: "asia" },
+  { value: "Africa", labelKey: "africa" },
+];
 
 export default function ClassicPairingsPage() {
+  const { language } = useLanguage();
+  const t = translations[language].pairings;
+  const pairingsData = language === "es" ? pairingsDataEs : pairingsDataEn;
+
   const [activeFilter, setActiveFilter] = useState("All");
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   const filtered = useMemo(() => {
     if (activeFilter === "All") return pairingsData;
     return pairingsData.filter((item) => item.continent === activeFilter);
-  }, [activeFilter]);
+  }, [activeFilter, pairingsData]);
 
-  function handleFilter(continent) {
-    setActiveFilter(continent);
+  function handleFilter(value) {
+    setActiveFilter(value);
     setExpandedIndex(null);
   }
 
   return (
     <main className={styles.main}>
       <section className={styles.header}>
-        <h1 className={styles.title}>Classic Pairings</h1>
-        <p className={styles.subtitle}>
-          Timeless food and wine combinations from around the world.
-        </p>
+        <h1 className={styles.title}>{t.title}</h1>
+        <p className={styles.subtitle}>{t.subtitle}</p>
       </section>
 
       <div className={styles.filterBar}>
-        {continents.map((c) => (
+        {continentOptions.map((opt) => (
           <button
-            key={c}
+            key={opt.value}
             className={`${styles.filterPill} ${
-              activeFilter === c ? styles.filterPillActive : ""
+              activeFilter === opt.value ? styles.filterPillActive : ""
             }`}
-            onClick={() => handleFilter(c)}
+            onClick={() => handleFilter(opt.value)}
           >
-            {c}
+            {t[opt.labelKey]}
           </button>
         ))}
       </div>
@@ -92,7 +110,7 @@ export default function ClassicPairingsPage() {
 
       <footer className={styles.ecosystemLink}>
         <p>
-          Visit{" "}
+          {t.ecosystemText}{" "}
           <a
             href="https://beverage.fyi"
             target="_blank"
@@ -100,7 +118,7 @@ export default function ClassicPairingsPage() {
           >
             Beverage.fyi
           </a>{" "}
-          for more knowledge on topics like this.
+          {t.ecosystemTextEnd}
         </p>
       </footer>
     </main>

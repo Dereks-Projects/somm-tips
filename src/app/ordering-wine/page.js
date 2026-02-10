@@ -1,20 +1,24 @@
 "use client";
 
 import { useState } from "react";
-import orderingData from "@/data/orderingWine.json";
+import { useLanguage } from "@/components/LanguageContext";
+import { translations } from "@/data/translations";
+import orderingDataEn from "@/data/orderingWine.json";
+import orderingDataEs from "@/data/orderingWine.es.json";
 import styles from "@/components/Subpage.module.css";
 
 export default function OrderingWinePage() {
+  const { language } = useLanguage();
+  const t = translations[language].ordering;
+  const orderingData = language === "es" ? orderingDataEs : orderingDataEn;
+
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   return (
     <main className={styles.main}>
       <section className={styles.header}>
-        <h1 className={styles.title}>Ordering Wine</h1>
-        <p className={styles.subtitle}>
-          Not sure what to order? Find your style and get pointed in the right
-          direction.
-        </p>
+        <h1 className={styles.title}>{t.title}</h1>
+        <p className={styles.subtitle}>{t.subtitle}</p>
       </section>
 
       <section className={styles.results}>
@@ -55,7 +59,7 @@ export default function OrderingWinePage() {
                 <p className={styles.detailPrimary}>{item.preferred}</p>
                 <p className={styles.detailSecondary}>{item.traits}</p>
                 <div className={styles.detailDivider}></div>
-                <p className={styles.detailLabel}>Try these</p>
+                <p className={styles.detailLabel}>{t.tryThese}</p>
                 <div className={styles.inlineList}>
                   {item.recommendations.map((rec) => (
                     <span key={rec} className={styles.inlineListItem}>
@@ -68,13 +72,12 @@ export default function OrderingWinePage() {
           </div>
         ))}
       </section>
-      <p className={styles.tip}>
-        Give the somm or salesperson who is guiding you one of the styles from
-        above, and they will lead you to a great selection!
-      </p>  
+
+      <p className={styles.tip}>{t.tip}</p>
+
       <footer className={styles.ecosystemLink}>
         <p>
-          Learn the fundamentals behind these styles on{" "}
+          {t.ecosystemText}{" "}
           <a
             href="https://somm.site"
             target="_blank"

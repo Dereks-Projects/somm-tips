@@ -1,0 +1,512 @@
+[
+  {
+    "name": "California Chardonnay",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo amplio", "sabores intensos", "tratamiento en roble"],
+    "description": "El Chardonnay de California suele ofrecer sabores de frutas tropicales maduras, textura cremosa y un notable roble del envejecimiento en barrica. Producido en regiones como los condados de Napa y Sonoma, es conocido por su estilo audaz y rico, influenciado por el clima cálido de California.",
+    "description2": "Los ejemplares de esta uva que pasan por roble tendrán los aromas y sabores mantecosos y cremosos que a menudo se asocian con el Chardonnay de California."
+  },
+  {
+    "name": "California Viognier",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo amplio", "sabores frutales", "textura rica"],
+    "description": "El Viognier de California suele ofrecer sabores de frutas tropicales muy maduras, aromas florales intensos y un notable roble del envejecimiento en barrica. Producido en regiones como la Costa Central y el condado de Sonoma, es conocido por su estilo audaz y aromático, influenciado por el clima cálido de California.",
+    "description2": "Si este vino pasa por roble, tendrá los aromas y sabores mantecosos y cremosos que a menudo se asocian con el Chardonnay de California."
+  },
+  {
+    "name": "White Burgundy (Chardonnay)",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo medio", "final seco", "textura rica"],
+    "description": "El Borgoña Blanco, elaborado con uvas Chardonnay en la región de Borgoña en Francia, presenta notas de cítricos, manzana verde y una mineralidad distintiva. Estos vinos suelen reflejar un clima más fresco con acidez refinada y estructura compleja, especialmente en zonas como Chablis o Meursault.",
+    "description2": "Estos vinos pueden tener algunas notas mantecosas y cremosas, ya que a menudo pasan por roble. Tienden a ser ligeramente más ligeros y notablemente más secos que el Chardonnay de California."
+  },
+  {
+    "name": "White Bordeaux (blend)",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo amplio", "aromas no frutales", "tratamiento en roble"],
+    "description": "El Burdeos Blanco es un blend que suele elaborarse con Sauvignon Blanc y Semillon, ofreciendo pomelo, hierbas y un toque de roble.",
+    "description2": "Estos vinos provienen de regiones como Pessac-Léognan y Graves, y equilibran la acidez con la riqueza. Pueden ser extremadamente aromáticos y suelen ser un gusto adquirido."
+  },
+  {
+    "name": "Sancerre (Sauvignon Blanc)",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo ligero", "fresco y refrescante", "moderadamente seco"],
+    "description": "Sancerre es un Sauvignon Blanc del Valle del Loira en Francia, conocido por su acidez vibrante, notas herbáceas y mineralidad pedregosa.",
+    "description2": "Los suelos calcáreos de la región contribuyen a su carácter fresco y refrescante, y es ideal para quienes disfrutan de un estilo de vino blanco más ligero y sin roble."
+  },
+  {
+    "name": "Australian Chardonnay",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo amplio", "textura rica", "tratamiento en roble"],
+    "description": "El Chardonnay australiano varía desde estilos esbeltos y minerales en regiones como Margaret River hasta ricos y con roble en lugares como Hunter Valley.",
+    "description2": "Los sabores comunes incluyen durazno, melón y vainilla con una madurez propia de climas cálidos."
+  },
+  {
+    "name": "California Sauvignon Blanc",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio", "fruta expresiva", "moderadamente seco"],
+    "description": "El Sauvignon Blanc de California es vibrante y frutal, con sabores de lima, pomelo y a veces notas tropicales.",
+    "description2": "Producido en toda California, especialmente en Napa y Sonoma, suele exhibir una acidez vivaz y refrescante."
+  },
+  {
+    "name": "New Zealand Sauvignon Blanc",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo ligero", "fruta expresiva", "moderadamente seco"],
+    "description": "El Sauvignon Blanc de Nueva Zelanda, particularmente de Marlborough, estalla con aromas de maracuyá, grosella espinosa y ralladura de cítricos.",
+    "description2": "Es celebrado por su acidez marcada y su carácter audaz y aromático, moldeado por el clima marítimo fresco."
+  },
+  {
+    "name": "Oregon Pinot Gris",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo ligero", "moderadamente seco", "moderadamente expresivo"],
+    "description": "Nota: esta oferta es ligeramente diferente al Pinot Grigio de Italia en términos de estilo.",
+    "description2": "El Pinot Gris de Oregón ofrece sabores de pera, manzana y cítricos con un final cremoso o ligeramente especiado. El clima fresco de esta zona ayuda a retener la acidez natural de la uva, produciendo vinos frescos y versátiles para acompañar comidas."
+  },
+  {
+    "name": "German Riesling",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "Less Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo ligero", "acidez elevada", "amplia variedad de estilos"],
+    "description": "El Riesling alemán es reconocido por su equilibrio entre dulzura y acidez, a menudo con notas de manzana verde, lima y petróleo en ejemplares añejos.",
+    "description2": "Cultivado a lo largo de los ríos Mosela y Rin, estos vinos reflejan los viñedos empinados de pizarra y el clima fresco. Aunque muchos Rieslings alemanes son dulces, el país produce muchos ejemplares secos de esta uva, que son cada vez más populares y tienen una distribución más amplia actualmente."
+  },
+  {
+    "name": "Alsatian Riesling",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "Less Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo medio", "amplia variedad de estilos", "textura rica"],
+    "description": "Proveniente de la región de Alsacia en Francia, donde los Montes Vosgos crean un clima seco y soleado ideal para producir vinos blancos intensamente aromáticos.",
+    "description2": "Conocido por su pureza y precisión, el Riesling alsaciano a menudo exhibe notas de lima, manzana verde y pedernal, con matices de petróleo y complejidad en capas con el envejecimiento. Estos vinos vienen en una variedad de estilos, pero suelen ser ligeramente semisecos."
+  },
+  {
+    "name": "Argentinian Torrontés",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo ligero", "alta aromaticidad", "moderadamente seco"],
+    "description": "El Torrontés argentino es altamente aromático con notas florales de jazmín, pétalos de rosa y sabores de frutas de hueso.",
+    "description2": "Cultivado principalmente en los viñedos de gran altitud de Salta, es fresco, seco y refrescante a pesar de su nariz perfumada."
+  },
+  {
+    "name": "New Zealand Chardonnay",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio", "textura rica", "moderadamente seco"],
+    "description": "El Chardonnay de Nueva Zelanda típicamente exhibe sabores frescos de cítricos y frutas de hueso, con roble contenido y acidez vibrante.",
+    "description2": "Regiones como Hawke's Bay y Marlborough producen estilos que equilibran la frutosidad con la mineralidad."
+  },
+  {
+    "name": "Vouvray (Chenin Blanc)",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "Old World",
+    "style notes": ["variedad de estilos", "textura rica", "acidez elevada"],
+    "description": "Vouvray es un Chenin Blanc del Valle del Loira que ofrece sabores de membrillo, manzana y miel, a menudo con una textura cerosa.",
+    "description2": "Puede ser seco, semiseco o espumoso, dependiendo del productor y la añada."
+  },
+  {
+    "name": "White Rioja (blend)",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo amplio", "textura rica", "tratamiento en roble"],
+    "description": "La Rioja Blanca se produce principalmente con la uva Viura (también conocida como Macabeo), y a menudo se mezcla con Malvasía o Garnacha Blanca.",
+    "description2": "Los estilos van desde vinos jóvenes frescos y cítricos hasta versiones ricamente texturizadas y envejecidas en roble con sabores de manzana asada, frutos secos, vainilla y un carácter oxidativo distintivo cuando se envejecen de forma tradicional."
+  },
+  {
+    "name": "South African Chenin Blanc",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio", "textura rica", "acidez elevada"],
+    "description": "El Chenin Blanc sudafricano, también conocido como Steen, presenta sabores de manzana amarilla, miel y a veces frutas tropicales.",
+    "description2": "Cultivado principalmente en el Cabo Occidental, puede variar desde fresco y crujiente hasta rico y envejecido en barrica."
+  },
+  {
+    "name": "Muscadet (Loire Valley)",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo ligero", "fresco y refrescante", "acidez elevada"],
+    "description": "El Muscadet del Valle del Loira se elabora con la uva Melon de Bourgogne y es conocido por su cuerpo ligero, mineralidad salina y frescura cítrica.",
+    "description2": "Marida perfectamente con mariscos y refleja bien el clima marítimo de la región del Pays Nantais."
+  },
+  {
+    "name": "Condrieu (Viognier)",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo medio", "textura rica", "acidez moderada"],
+    "description": "Condrieu es un vino basado en Viognier del Valle del Ródano, con sabores exuberantes de albaricoque, durazno y notas florales con una textura amplia y untuosa.",
+    "description2": "Es una uva blanca expresiva, elaborada en una variedad de estilos, y suele ser rica en el paladar y altamente aromática."
+  },
+  {
+    "name": "Rueda (Verdejo)",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo ligero", "aromaticidad moderada", "acidez elevada"],
+    "description": "Rueda es una región vinícola en Castilla y León, España, conocida por sus vinos blancos frescos y aromáticos elaborados principalmente con la uva autóctona Verdejo, que prospera en el clima continental de gran altitud de la región.",
+    "description2": "Estos vinos son típicamente frescos y vibrantes con notas de lima, hinojo y almendra amarga, a menudo mostrando un ligero toque herbáceo y una excelente relación calidad-precio para el disfrute cotidiano."
+  },
+  {
+    "name": "Vermentino",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo medio", "aromaticidad moderada", "acidez elevada"],
+    "description": "Vermentino es una uva blanca mediterránea cultivada extensamente en las regiones costeras de Italia, especialmente en Cerdeña, Liguria y la Maremma toscana.",
+    "description2": "Produce vinos vibrantes con carácter salino, notas de cítricos, hierbas verdes y almendra, a menudo con un sutil amargor y una mineralidad refrescante que reflejan su terroir costero."
+  },
+  {
+    "name": "Aligoté",
+    "color": "White",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo medio", "aromaticidad moderada", "acidez elevada"],
+    "description": "Aligoté es una uva blanca menos conocida de Borgoña, tradicionalmente cultivada en sitios más frescos y eclipsada por el Chardonnay, que produce vinos vivaces y de alta acidez.",
+    "description2": "Su perfil de sabor típicamente incluye manzana verde, cítricos y sutiles notas herbales, con algunos ejemplares modernos mostrando más textura y fineza."
+  },
+  {
+    "name": "Châteauneuf-du-Pape (white blend)",
+    "color": "White",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo amplio", "aromaticidad moderada", "textura rica"],
+    "description": "Los blends blancos de Châteauneuf-du-Pape incluyen uvas como Grenache Blanc, Roussanne y Clairette, produciendo vinos de cuerpo amplio con notas de frutas de hueso, hierbas y miel.",
+    "description2": "Estos blancos del Valle del Ródano son ricos, con mucha textura y aptos para envejecer, ideales para bebedores de Chardonnay y quienes buscan vino blanco para acompañar platos más sustanciosos."
+  },
+  {
+    "name": "Willamette Valley Pinot Noir",
+    "color": "Red",
+    "body": "Lighter Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio", "acidez elevada", "moderadamente seco"],
+    "description": "El Pinot Noir del Valle de Willamette es conocido por su elegancia, sabores de frutas rojas y matices terrosos.",
+    "description2": "El clima fresco de Oregón y sus suelos volcánicos ayudan a producir vinos equilibrados con fineza y complejidad. Estos vinos son algunos de los mejores ejemplares de Pinot Noir producidos en Estados Unidos."
+  },
+  {
+    "name": "California Pinot Noir",
+    "color": "Red",
+    "body": "Lighter Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio", "acidez elevada", "moderadamente seco"],
+    "description": "El Pinot Noir de California ofrece sabores de frutas rojas maduras y cola con niveles variables de roble y especias.",
+    "description2": "Cultivado en regiones costeras como Russian River Valley, Sonoma Coast y Santa Bárbara, tiende a ser más frutal que los ejemplares de Oregón y de Borgoña, Francia."
+  },
+  {
+    "name": "Red Burgundy (Pinot Noir)",
+    "color": "Red",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo medio", "acidez elevada", "sequedad elevada"],
+    "description": "El Borgoña Tinto, elaborado con Pinot Noir, proviene de la Côte d'Or de Francia y muestra sabores de cereza ácida, champiñones y suelo de bosque.",
+    "description2": "El clima más fresco y los suelos calcáreos le otorgan una estructura refinada y terrosa con potencial de envejecimiento. El Borgoña Tinto es el referente del gran Pinot Noir, y los pueblos menos conocidos ofrecen la mejor relación calidad-precio."
+  },
+  {
+    "name": "New Zealand Pinot Noir",
+    "color": "Red",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio", "acidez elevada", "moderadamente seco"],
+    "description": "El Pinot Noir de Nueva Zelanda, particularmente de Central Otago y Martinborough, ofrece sabores de frutas rojas con notas herbales y especiadas.",
+    "description2": "Los vinos tienen una acidez brillante y una textura suave, moldeados por un clima fresco y marítimo. Estos vinos pueden ser un gran hallazgo, y son altamente recomendados para los amantes del Pinot Noir."
+  },
+  {
+    "name": "Loire Valley Cabernet Franc (Chinon)",
+    "color": "Red",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo medio", "acidez elevada", "sabores no frutales"],
+    "description": "El Cabernet Franc del Valle del Loira, especialmente de Chinon, presenta notas de grosella roja, pimiento y mineralidad terrosa.",
+    "description2": "Es más ligero en cuerpo y taninos, con acidez vibrante y un perfil salado."
+  },
+  {
+    "name": "German Pinot Noir (Spätburgunder)",
+    "color": "Red",
+    "body": "Lighter Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo ligero", "acidez elevada", "sabores no frutales"],
+    "description": "El Pinot Noir alemán, o Spätburgunder, es más claro en color con sabores de cereza, arándano rojo y sutiles especias terrosas.",
+    "description2": "Este es uno de esos vinos que hay que probar si te gustan los tintos ligeros y terrosos. Algunos de los mejores ejemplares alcanzan el nivel de un premier cru de Borgoña."
+  },
+  {
+    "name": "California Syrah",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo amplio", "fruta y especias elevadas", "moderadamente seco"],
+    "description": "El Syrah de California ofrece sabores intensos de mora, pimienta negra y roble ahumado con una sensación en boca rica y de cuerpo amplio.",
+    "description2": "Las regiones más cálidas como Paso Robles producen un estilo más robusto, mientras que los de Sonoma Coast pueden ser ligeramente más ligeros."
+  },
+  {
+    "name": "Red Bordeaux (blend)",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo amplio", "sequedad elevada", "sabores no frutales"],
+    "description": "Los blends tintos de Burdeos combinan Merlot, Cabernet Sauvignon y otras variedades para crear vinos estructurados y aptos para envejecer, con sabores de grosella negra, ciruela y grafito.",
+    "description2": "No todos los tintos de Burdeos son caros, y hay muchos ejemplares de alta calidad a precios atractivos. ¡No te sorprendas de ver muchas ofertas por encima de los $1000!"
+  },
+  {
+    "name": "California Cabernet Sauvignon",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo amplio", "potente", "sabores frutales elevados"],
+    "description": "El Cabernet Sauvignon de California es conocido por su estructura audaz, sabores de mora madura y grosella negra, y taninos firmes.",
+    "description2": "Regiones como Napa Valley producen versiones potentes y aptas para envejecer con roble y especias. Estos vinos son menos secos que sus homólogos de Burdeos. Las zonas del condado de Sonoma producen una versión ligeramente más ligera, con un precio menor que Napa Valley."
+  },
+  {
+    "name": "California Merlot",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo amplio", "más suave que el cabernet", "sabores frutales elevados"],
+    "description": "El Merlot de California ofrece taninos suaves con sabores de ciruela madura, cereza negra y cacao.",
+    "description2": "Es un tinto más suave, cultivado ampliamente en Napa y Sonoma, que ofrece accesibilidad y cuerpo medio."
+  },
+  {
+    "name": "California Zinfandel",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo amplio", "fruta madura", "menos seco"],
+    "description": "El Zinfandel de California es un tinto audaz con fruta de mora tipo mermelada, especias y a veces un toque de dulzura.",
+    "description2": "Prospera en regiones como Lodi y Sonoma, produciendo a menudo vinos de alto grado alcohólico y predominancia frutal."
+  },
+  {
+    "name": "Australian Shiraz",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo amplio", "fruta madura", "menos seco"],
+    "description": "El Shiraz australiano es un tinto de cuerpo amplio con intensos sabores de mora, pimienta y chocolate negro.",
+    "description2": "Cultivado extensamente en Barossa Valley y McLaren Vale, es conocido por su carácter audaz y potencial de envejecimiento."
+  },
+  {
+    "name": "Châteauneuf-du-Pape (red blend)",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo medio a amplio", "fruta madura", "moderadamente seco"],
+    "description": "Los blends tintos de Châteauneuf-du-Pape son vinos basados en Grenache del sur del Valle del Ródano, con frutas rojas maduras, hierbas y especias.",
+    "description2": "Estos vinos pueden ser potentes, muy complejos, y a menudo se elaboran con hasta una docena de variedades de uva diferentes."
+  },
+  {
+    "name": "Australian Cabernet Sauvignon",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio a amplio", "fruta madura", "moderadamente seco"],
+    "description": "El Cabernet Sauvignon australiano típicamente ofrece notas de grosella negra, menta y eucalipto con taninos firmes.",
+    "description2": "Es especialmente destacado en Coonawarra y Margaret River, donde los climas más frescos realzan su estructura."
+  },
+  {
+    "name": "Argentinian Cabernet Sauvignon",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio a amplio", "fruta madura", "acidez elevada"],
+    "description": "El Cabernet Sauvignon argentino muestra sabores de frutas oscuras como cereza negra y ciruela con notas de tabaco y especias.",
+    "description2": "Cultivado en Mendoza a gran altitud, los vinos tienen frescura y concentración."
+  },
+  {
+    "name": "Argentinian Malbec",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo amplio", "fruta madura", "potente y suave"],
+    "description": "El Malbec argentino es conocido por su color profundo, ricos sabores de mora y ciruela, y taninos suaves y aterciopelados.",
+    "description2": "Los viñedos de gran altitud de Mendoza proporcionan la intensidad y el equilibrio que definen su estilo."
+  },
+  {
+    "name": "Chilean Merlot",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "Less Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio a amplio", "fruta madura", "tonos herbales"],
+    "description": "El Merlot chileno es un tinto de cuerpo medio con sabores de frutos rojos, ciruela y sutiles notas herbales.",
+    "description2": "El Valle Central de Chile proporciona un clima consistente para producir vinos suaves y accesibles."
+  },
+  {
+    "name": "Chilean Cabernet Sauvignon",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo amplio", "fruta madura", "tonos herbales"],
+    "description": "El Cabernet Sauvignon chileno presenta cassis maduro, pimiento verde y un toque de roble con vainilla.",
+    "description2": "Cultivado en los valles de Maipo y Colchagua, es conocido por su estructura y su excelente relación calidad-precio."
+  },
+  {
+    "name": "Washington State Syrah",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio a amplio", "fruta madura", "especias"],
+    "description": "El Syrah del estado de Washington combina fruta oscura audaz con pimienta, humo y complejidad terrosa.",
+    "description2": "Cultivado en Columbia Valley y Walla Walla, equilibra la madurez con un toque de clima fresco."
+  },
+  {
+    "name": "Washington State Merlot",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio a amplio", "fruta madura", "sequedad moderada"],
+    "description": "El Merlot del estado de Washington muestra ricos sabores de ciruela y cereza negra con taninos medios y sutil roble.",
+    "description2": "Prospera en los viñedos secos y soleados del este de Washington, y a menudo rivaliza con Merlots más caros de California."
+  },
+  {
+    "name": "Washington State Cabernet Sauvignon",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo amplio", "fruta madura", "potente"],
+    "description": "El Cabernet Sauvignon del estado de Washington es estructurado e intenso, ofreciendo sabores de grosella negra, cacao y hierbas.",
+    "description2": "Conocido por su equilibrio entre fruta y acidez, se cultiva ampliamente en Columbia Valley. Ligeramente más seco que los ejemplares de Napa Valley."
+  },
+  {
+    "name": "Chianti Classico (Sangiovese)",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo medio a amplio", "sequedad elevada", "sabores no frutales"],
+    "description": "Chianti Classico es una región vinícola de la Toscana, Italia, donde la Sangiovese es la uva dominante.",
+    "description2": "Espera una acidez brillante, taninos firmes y sabores de cereza ácida, hierbas secas y especias terrosas."
+  },
+  {
+    "name": "Brunello di Montalcino (Sangiovese)",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo medio a amplio", "sequedad elevada", "potencia sin peso"],
+    "description": "Brunello di Montalcino proviene del sur de la Toscana y se elabora con una variante local de la uva Sangiovese.",
+    "description2": "Produce tintos potentes y aptos para el envejecimiento, con sabores profundos de cereza oscura, cuero, tabaco y hierbas secas."
+  },
+  {
+    "name": "Barolo (Nebbiolo)",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo medio a amplio", "sequedad elevada", "potencia sin peso"],
+    "description": "Barolo es un prestigioso vino tinto del Piamonte en el noroeste de Italia, elaborado exclusivamente con la uva Nebbiolo.",
+    "description2": "Conocido por sus taninos firmes, alta acidez y aromas complejos de rosa, alquitrán, cereza y trufa."
+  },
+  {
+    "name": "Rioja (Tempranillo)",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo medio a amplio", "sequedad elevada", "sabores no frutales"],
+    "description": "El Tempranillo español de Rioja ofrece sabores de fruta roja seca, tabaco y especias, a menudo con influencia de roble.",
+    "description2": "Los vinos de Rioja van desde frescos y frutales hasta Gran Reservas profundamente envejecidos con carácter complejo."
+  },
+  {
+    "name": "Super Tuscan (blend)",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo amplio", "sabores no frutales", "potente y suave"],
+    "description": "Los Super Toscanos son blends tintos audaces de la Toscana que a menudo incluyen Cabernet Sauvignon, Merlot y Sangiovese.",
+    "description2": "Desafían las reglas tradicionales italianas de DOC para crear vinos ricos y pulidos con atractivo internacional."
+  },
+  {
+    "name": "South African Red Blend",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio a amplio", "fruta madura", "potente y suave"],
+    "description": "Los blends tintos sudafricanos comúnmente presentan variedades bordelesas con una mezcla de frutas oscuras maduras, especias terrosas y estructura firme.",
+    "description2": "Estos vinos reflejan los diversos terruños del país y un estilo entre el viejo y el nuevo mundo."
+  },
+  {
+    "name": "South African Pinotage",
+    "color": "Red",
+    "body": "Fuller Body",
+    "dryness": "More Dry",
+    "origin": "New World",
+    "style notes": ["cuerpo medio a amplio", "fruta madura", "sabores no frutales"],
+    "description": "El Pinotage sudafricano es una uva exclusivamente sudafricana conocida por sus sabores ahumados y silvestres de fruta oscura, café y tierra.",
+    "description2": "Es un cruce entre Pinot Noir y Cinsault, que produce tintos audaces y rústicos cultivados principalmente en el Cabo Occidental."
+  },
+  {
+    "name": "Beaujolais (Gamay from Burgundy)",
+    "color": "Red",
+    "body": "Lighter Body",
+    "dryness": "Less Dry",
+    "origin": "Old World",
+    "style notes": ["cuerpo ligero", "fruta madura", "fresco y accesible"],
+    "description": "Beaujolais es un vino tinto vibrante de la parte sur de Borgoña en el este de Francia, elaborado principalmente con la uva Gamay.",
+    "description2": "Conocido por su cuerpo ligero, taninos bajos y sabores brillantes de frutos rojos, violetas y sutiles especias, ofrece un perfil fresco y accesible que a menudo se disfruta ligeramente frío."
+  }
+]

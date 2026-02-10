@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import Script from "next/script";
+import { LanguageProvider } from "@/components/LanguageContext";
 import Header from "@/components/Header";
 import BottomNav from "@/components/BottomNav";
 import DesktopFooter from "@/components/DesktopFooter";
@@ -62,10 +63,12 @@ export default function RootLayout({ children }) {
         </Script>
       </head>
       <body>
-        <Header />
-        {children}
-        <DesktopFooter />
-        <BottomNav />
+        <LanguageProvider>
+          <Header />
+          {children}
+          <DesktopFooter />
+          <BottomNav />
+        </LanguageProvider>
       </body>
     </html>
   );

@@ -1,0 +1,297 @@
+[
+  {
+    "category":"White Grapes",
+    "topic":"Chardonnay",
+    "info":"Chardonnay es una de las uvas blancas más cultivadas y versátiles del mundo, capaz de producir estilos que van desde el Chablis fresco y mineral hasta los vinos ricos y mantecosos de California. Su carácter neutro permite a los enólogos darle forma mediante decisiones como el envejecimiento en roble y la fermentación maloláctica, lo que la convierte en una favorita tanto en vinos tranquilos como espumosos (incluido el Champagne). Chardonnay prospera en climas frescos como Borgoña y la Costa de Sonoma, donde a menudo expresa notas de cítricos y manzana verde, mientras que las regiones más cálidas producen frutas tropicales y texturas cremosas."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Sauvignon Blanc",
+    "info":"Sauvignon Blanc es una uva blanca de alta acidez conocida por sus aromas vívidos —piensa en pomelo, grosella espinosa, lima y hierba recién cortada— especialmente en climas frescos como el Valle del Loira y Nueva Zelanda. Típicamente produce vinos secos y vibrantes con una frescura marcada, aunque también puede envejecerse en roble (como en los blends blancos de Burdeos) para añadir textura y complejidad. Apreciado por su frescura estimulante, el Sauvignon Blanc marida bien con alimentos como queso de cabra, ensaladas y mariscos gracias a su acidez refrescante que limpia el paladar."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Riesling",
+    "info":"Riesling es una variedad de uva altamente aromática que varía en estilo desde completamente seco hasta lujosamente dulce, a menudo mostrando sabores de manzana verde, lima, jazmín y un característico toque de petróleo conforme envejece. Rinde mejor en climas frescos como el Mosela de Alemania y la región de Alsacia en Francia, donde su acidez naturalmente alta preserva la estructura del vino y su potencial de envejecimiento. El Riesling es un favorito entre sommeliers porque su equilibrio entre dulzura y acidez lo hace increíblemente versátil con la comida, especialmente con cocina picante como la tailandesa o la india."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Pinot Gris",
+    "info":"Pinot Gris (también conocido como Pinot Grigio en Italia) es una mutación de color gris-púrpura del Pinot Noir que produce vinos de cuerpo ligero a medio con sabores que van desde manzana verde crujiente y ralladura de limón hasta notas más ricas de pera madura y especias, dependiendo de dónde se cultive. En Italia, típicamente se elabora en un estilo ligero y refrescante, mientras que en Alsacia u Oregón, a menudo adquiere más peso, textura y carácter de frutas de hueso. Aunque a menudo se subestima, un Pinot Gris bien elaborado puede ofrecer una excelente versatilidad para maridar y una profundidad sorprendente."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Gewurtztraminer",
+    "info":"Gewürztraminer es una de las uvas blancas más aromáticas, reconocible al instante por su perfume exótico de lichi, pétalos de rosa, jengibre y especias, a menudo acompañado por una textura ligeramente aceitosa y baja acidez. Prospera en climas frescos como Alsacia y partes de Alemania, donde su riqueza se equilibra con niveles moderados de azúcar y alcohol, resultando frecuentemente en estilos semisecos. Gewürztraminer es un acompañante audaz para quesos fuertes y platos picantes, ya que sus aromáticos expresivos y ligera dulzura complementan los sabores intensos."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Chenin Blanc",
+    "info":"Chenin Blanc es una uva camaleónica que puede producir vinos secos, semisecos, espumosos y dulces, con notas características de manzana verde, membrillo, miel y a veces un matiz lanolina o de lana. Se cultiva más famosamente en el Valle del Loira —particularmente en Vouvray y Savennières— pero también prospera en Sudáfrica, donde es la uva más plantada. Conocido por su alta acidez y potencial de envejecimiento, el Chenin Blanc es un favorito entre sommeliers para maridar con una amplia gama de platos, desde pollo asado hasta cocina asiática."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Albariño",
+    "info":"Albariño es una uva blanca fresca y aromática nativa de Galicia en el noroeste de España, particularmente en la región de Rías Baixas, donde prospera en climas costeros y produce vinos con acidez vibrante y sabores de lima, durazno y mineralidad salina. A menudo tiene una textura ligeramente cerosa y notas florales, haciéndolo refrescante y sutilmente complejo. Albariño es un acompañante natural para mariscos —especialmente moluscos— debido a su carácter brillante y con toques marinos."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Grüner Veltliner",
+    "info":"Grüner Veltliner es la uva blanca insignia de Austria, apreciada por su acidez vibrante, especias de pimienta blanca y sabores de manzana verde, lima y rábano, a menudo con una columna mineral. Puede variar de ligero y vivaz a más robusto y apto para envejecer, con las mejores expresiones provenientes de regiones como Wachau, Kamptal y Kremstal. El Grüner es un favorito entre sommeliers por su capacidad de maridar con verduras difíciles como los espárragos y su adaptabilidad a una amplia gama de cocinas."
+  },
+  {
+    "category":"White Grapes",
+    "topic":"Viognier",
+    "info":"Viognier es una uva blanca exuberante y de cuerpo amplio conocida por sus aromáticos seductores —piensa en madreselva, albaricoque y durazno maduro— con una textura redondeada, a veces aceitosa, y menor acidez. Está tradicionalmente asociada con el Valle del Ródano en Francia, particularmente con Condrieu, pero también se cultiva exitosamente en California y Australia. Viognier brilla cuando se sirve ligeramente frío y marida bien con platos ricamente especiados, salsas cremosas y aves asadas."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Cabernet Sauvignon",
+    "info":"Cabernet Sauvignon es la uva tinta más plantada del mundo, conocida por sus taninos audaces, color profundo y sabores clásicos de grosella negra, cedro y tabaco. Prospera en climas cálidos como Napa Valley y la Margen Izquierda de Burdeos, donde produce vinos estructurados con excelente potencial de envejecimiento. Su carácter fuerte lo convierte en una uva popular para mezclas y un acompañante natural para carnes a la parrilla y platos sustanciosos."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Merlot",
+    "info":"Merlot es una uva tinta suave y accesible que produce vinos de cuerpo medio a amplio con taninos suaves y sabores de ciruela, cereza negra y chocolate. A menudo se usa en mezclas con Cabernet Sauvignon —especialmente en la Margen Derecha de Burdeos— pero también destaca por sí solo, ofreciendo una alternativa más flexible y frutal. El estilo accesible del Merlot lo convierte en un favorito entre los nuevos bebedores de vino y un maridaje confiable para aves asadas, cerdo y platos de pasta."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Pinot Noir",
+    "info":"Pinot Noir es una uva de piel fina y temperamental que produce vinos tintos de cuerpo ligero a medio con alta acidez y sabores de cereza roja, frambuesa y matices terrosos como champiñones o suelo de bosque. Sobresale en climas frescos como Borgoña, Oregón y Nueva Zelanda, donde refleja los sutiles matices del terruño con elegancia y fineza. La acidez brillante y los taninos suaves del Pinot Noir lo hacen un maridaje versátil para todo, desde salmón hasta pato."
+  },
+  {
+    "category":"Red Grapes ",
+    "topic":"Syrah",
+    "info":"Syrah (llamado Shiraz en Australia) produce vinos oscuros y audaces con sabores de mora, pimienta negra, carne ahumada y tapenade de aceitunas, a menudo con una textura aterciopelada y taninos firmes. En el Valle del Ródano de Francia, es la estrella de Hermitage y Côte-Rôtie; en Australia, produce versiones más frutales y robustas de regiones como Barossa Valley. La intensidad y el carácter salado del Syrah lo hacen un gran compañero para carnes a la parrilla, guisos y platos sustanciosos."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Grenache",
+    "info":"Grenache (Garnacha en España) es una uva tinta de clima cálido conocida por sus sabores jugosos de frutas rojas —como fresa y frambuesa— junto con toques de pimienta blanca y hierbas secas. Desempeña un papel central en los blends del sur del Ródano y en regiones españolas como el Priorat, donde aporta cuerpo, dulzura y alcohol. A pesar de su suavidad, el Grenache puede envejecer bien y marida maravillosamente con cocina mediterránea, verduras a la parrilla y platos picantes."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Syrah",
+    "info":"Syrah, también conocido como Shiraz en Australia, es una uva de piel oscura que se cree originaria del Valle del Ródano en Francia, donde produce vinos tintos audaces, especiados y de cuerpo amplio. Prospera en climas cálidos a moderados como el norte del Ródano, Barossa Valley en Australia y partes de California y Sudáfrica, expresando sabores que van desde pimienta negra y ciruela hasta carne ahumada y hierbas. Syrah marida excepcionalmente bien con carnes a la parrilla, platos de cordero y guisos sustanciosos, complementando alimentos sabrosos de sabores ricos."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Tempranillo",
+    "info":"Tempranillo es la uva tinta insignia de España, central en los vinos de Rioja y Ribera del Duero, ofreciendo sabores de cereza roja, ciruela, tabaco y cuero con un cuerpo medio a amplio. A menudo se envejece en roble americano, que imparte notas de vainilla y eneldo, especialmente en los estilos tradicionales de Rioja. Conocido por su compatibilidad con la comida, el Tempranillo marida maravillosamente con carnes a la parrilla, tapas y jamón curado."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Malbec",
+    "info":"Malbec es una uva tinta de color profundo y perfil frutal, originaria de Francia pero ahora más famosamente cultivada en Argentina, donde prospera en los viñedos de gran altitud de Mendoza. Sus sabores audaces de mora, ciruela, cacao y especias a menudo van acompañados de taninos suaves y un final aterciopelado. Malbec es un vino que complace a todos y marida sin esfuerzo con bistecs a la parrilla, barbacoa y platos robustos."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Sangiovese",
+    "info":"Sangiovese es la uva tinta más plantada de Italia y la columna vertebral del Chianti, Brunello di Montalcino y otros vinos toscanos, conocida por su alta acidez, taninos firmes y sabores de cereza ácida, hoja de tomate y hierbas. A menudo expresa un carácter sabroso y terroso que refleja el encanto rústico de la cocina del centro de Italia. Sangiovese es un acompañante natural para platos con base de tomate, verduras a la parrilla y quesos añejos."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Nebbiolo",
+    "info":"Nebbiolo es una uva de altos taninos y alta acidez responsable de algunos de los vinos más potentes y longevos de Italia, incluyendo Barolo y Barbaresco, con aromas distintivos de alquitrán, rosas, cereza y trufa. A pesar de su color pálido, los vinos de Nebbiolo son de cuerpo amplio y estructurados, requiriendo a menudo envejecimiento para suavizar su intensidad. Es un maridaje clásico para la rica cocina del norte de Italia, especialmente carnes braseadas y platos con trufa."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Zinfandel",
+    "info":"Zinfandel, conocido como Primitivo en Italia, es una uva audaz y frutal que produce vinos que estallan con sabores de mora, ciruela, pimienta negra y especias, a menudo con una riqueza tipo mermelada y alcohol elevado. En California, se ha convertido en una variedad emblemática, especialmente en regiones como Sonoma y Lodi, donde las viñas viejas producen vinos concentrados y complejos. El perfil maduro y especiado del Zinfandel lo hace un gran acompañante para barbacoa, hamburguesas y platos con elementos ahumados o dulces."
+  },
+  {
+    "category":"Red Grapes",
+    "topic":"Gamay",
+    "info":"Gamay es una uva tinta de cuerpo ligero asociada principalmente con Beaujolais en el este de Francia, conocida por producir vinos frescos y frutales con acidez vibrante y taninos bajos. Prospera en suelos graníticos y climas más frescos, particularmente en los crus de Beaujolais como Morgon y Fleurie, y también se cultiva en partes del Valle del Loira y cada vez más en Oregón y Canadá. Gamay marida maravillosamente con pollo asado, charcutería, verduras a la parrilla y platos con champiñones o hierbas terrosas."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Bordeaux, France",
+    "info":"Burdeos, ubicado en el suroeste de Francia, es una de las regiones vinícolas más famosas del mundo, conocida por sus elegantes y longevos blends tintos. La región está dividida por el río Gironda en la Margen Izquierda (con vinos dominados por Cabernet Sauvignon de áreas como Médoc y Graves) y la Margen Derecha (con vinos impulsados por Merlot de lugares como Saint-Émilion y Pomerol). Burdeos también produce excepcionales blancos secos y vinos dulces, particularmente de la región de Sauternes. Estos vinos mariadan maravillosamente con todo, desde carnes asadas y guisos hasta mariscos y quesos ricos, haciendo de Burdeos una región versátil y esencial para cualquier amante del vino."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Champagne, France",
+    "info":"Champagne está ubicada en el noreste de Francia, a unos 150 kilómetros de París. La región se caracteriza por su clima continental fresco y suelos calcáreos ricos en minerales que ayudan a preservar la acidez en las uvas. Champagne es conocida por sus vinos espumosos elaborados principalmente con Chardonnay, Pinot Noir y Meunier, producidos generalmente usando el método tradicional de segunda fermentación en botella. Estos vinos mariadan excepcionalmente bien con ostras, caviar, frituras, quesos suaves como Brie, e incluso platos ricos como pollo asado o risotto de trufa gracias a su acidez brillante y efervescencia."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Burgundy, France",
+    "info":"Borgoña está situada en el este de Francia y se extiende desde Chablis en el norte hasta Mâconnais en el sur. La región presenta un paisaje variado de colinas ondulantes y suelos ricos en piedra caliza, con un clima predominantemente continental que favorece una maduración lenta. Borgoña es venerada por sus elegantes tintos de Pinot Noir y sus complejos blancos de Chardonnay, ambos expresando los matices del terruño a través de un mosaico de denominaciones específicas de viñedo. Estos vinos son ideales con platos refinados como pechuga de pato, coq au vin, salmón a la parrilla, risotto de champiñones o quesos cremosos como Époisses."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Rhône Valley, France ",
+    "info":"El Valle del Ródano en Francia es una reconocida región vinícola dividida en dos partes distintas: el norte del Ródano y el sur del Ródano. El norte es famoso por los vinos monovarietales de Syrah de subregiones como Côte-Rôtie y Hermitage, que son audaces, con pimienta y elegantes. En el sur, dominan los blends — Grenache lidera el camino en vinos cálidos y frutales de áreas como Châteauneuf-du-Pape y Côtes du Rhône. Los vinos del Ródano mariadan bien con carnes a la parrilla, guisos sustanciosos y platos mediterráneos, haciéndolos accesibles y versátiles con la comida para amantes del vino de cualquier nivel."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Rioja, Spain",
+    "info":"Rioja se encuentra en el centro-norte de España, asentada a lo largo del río Ebro y bordeada por las montañas de la Sierra de Cantabria. Su geografía diversa incluye tres zonas principales — Rioja Alta, Rioja Alavesa y Rioja Oriental — cada una ofreciendo elevaciones, suelos y microclimas ligeramente diferentes. La región es reconocida por sus vinos tintos aptos para envejecer, elaborados principalmente con Tempranillo, a menudo mezclados con Garnacha y madurados en roble americano, produciendo sabores de cereza seca, vainilla y cuero. Los vinos de Rioja mariadan maravillosamente con cordero a la parrilla, jamón ibérico, queso Manchego y guisos sustanciosos como cordero o rabo de toro."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Ribera del Duero, Spain",
+    "info":"Ribera del Duero se extiende a lo largo del valle del río Duero en la región de Castilla y León en el centro-norte de España, situada en una meseta elevada entre 750-900 metros de altitud con paisajes áridos y austeros salpicados por valles fluviales. El clima continental extremo con días de verano de 40°C y noches cercanas a la congelación crea condiciones de alto estrés para las viñas de Tempranillo, que combinadas con suelos de caliza y arcilla producen vinos intensamente concentrados con taninos potentes que requieren un extenso envejecimiento en roble, típicamente 12-24 meses en barricas americanas y francesas. Estos tintos audaces y estructurados son perfectos con el cordero asado tradicional de la región (lechazo), morcilla de Burgos y quesos castellanos añejos, prefiriendo los locales maridar las añadas más viejas con carnes de caza y guisos cocidos lentamente durante los duros inviernos de la meseta."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Tuscany, Italy",
+    "info":"La Toscana está en el centro de Italia, con viñedos extendidos por colinas ondulantes y laderas bañadas por el sol entre Florencia y Siena. La región se beneficia de un clima mediterráneo y suelos de arcilla-caliza, ofreciendo condiciones óptimas para la uva Sangiovese. El Chianti (y Chianti Classico) tiende a ser brillante y versátil con la comida, mientras que Brunello di Montalcino y Vino Nobile de la zona de Montepulciano ofrecen más potencia, profundidad y potencial de envejecimiento — cada uno expresando la Sangiovese de manera diferente a través de sus terruños locales. Estos vinos complementan la cocina italiana clásica como la Bistecca alla Fiorentina, pastas con base de tomate, Pecorino añejo y carnes de caza asadas."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Piedmont, Italy ",
+    "info":"El Piamonte está ubicado en el noroeste de Italia al pie de los Alpes, con Barolo y Barbaresco centrados alrededor de las colinas de Langhe cerca de Alba. La región tiene un clima continental con mañanas neblinosas y suelos de marga calcárea ideales para la delicada uva Nebbiolo. Barolo y Barbaresco son ambos vinos tintos potentes y complejos, marcados por taninos firmes, alta acidez y aromas de rosa, alquitrán, cereza y trufa. Estos vinos son mejores con platos ricos y terrosos como carne braseada, risotto de setas silvestres, pasta con trufa o quesos añejos como el Parmigiano-Reggiano."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Austria",
+    "info":"Las regiones vinícolas de Austria se concentran a lo largo de las fronteras orientales con Hungría, Eslovaquia y Eslovenia, particularmente en Baja Austria, Burgenland y Estiria, donde el río Danubio y la llanura panónica crean microclimas diversos que van desde el continental fresco hasta condiciones cálidas influenciadas por lagos. La revolución vinícola del país se ha centrado en controles de calidad estrictos y variedades autóctonas cultivadas en suelos complejos incluyendo loess, roca primaria y caliza, con productores defendiendo estilos secos y precisos usando fermentación controlada en acero inoxidable y roble neutro, además del sistema de clasificación DAC (Districtus Austriae Controllatus) que enfatiza la tipicidad regional. Los vinos austríacos son inseparables de la cocina del país, con el fresco Grüner Veltliner cortando perfectamente la grasa del Wiener Schnitzel y el cremoso Tafelspitz, mientras que los Rieslings más ricos y el elegante Blaufränkisch acompañan platos más sustanciosos como goulash y cerdo asado, y los locales religiosa­mente mariadan los dulces Ausbruch y Beerenauslese con Sachertorte y Apfelstrudel en los cafés tradicionales de Viena."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Germany",
+    "info":"Las regiones vinícolas de Alemania se extienden a lo largo de empinados valles fluviales, principalmente los ríos Rin y Mosela, donde las laderas orientadas al sur en el suroeste del país capturan la máxima luz solar en estas latitudes norteñas de 49-50°N, convirtiéndola en una de las regiones vinícolas más septentrionales del mundo. La combinación de suelos de pizarra en el Mosela y variados suelos de caliza, loess y volcánicos a lo largo del Rin, junto con largas y frescas temporadas de crecimiento, produce vinos de excepcional acidez y precisión mineral, con productores que van desde especialistas tradicionales en vinos dulces hasta innovadores modernos de vinos secos usando acero inoxidable y barricas de roble antiguas. Los Rieslings alemanes, desde el completamente seco Trocken hasta los lujosamente dulces estilos Auslese, son legendarios con la cocina local: las versiones secas acompañando espárragos blancos con holandesa, schnitzel y pescado de río, mientras que los estilos más dulces equilibran la riqueza del codillo de cerdo, sauerbraten y quesos alemanes fuertes, con los locales disfrutando particularmente el Spätlese con cocina asiática picante."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Hungary",
+    "info":"Las regiones vinícolas de Hungría abarcan desde las colinas volcánicas de Tokaj en el noreste hasta las cálidas orillas del Lago Balatón en el oeste, con terruños diversos incluyendo la Villány rica en caliza en el sur y la histórica región de Eger en las montañas del norte, todo influenciado por el clima continental panónico. El país equilibra antiguas tradiciones vinícolas, particularmente los legendarios vinos botritizados Tokaji Aszú elaborados en suelos volcánicos usando métodos centenarios de agregar pasta de bayas con podredumbre noble al vino base, con una revolución moderna en vinos secos de variedades autóctonas como Furmint y Kékfrankos (Blaufränkisch), producidos tanto en barricas de roble tradicionales como en instalaciones modernas con temperatura controlada. Los vinos húngaros brillan con la cocina nacional especiada con pimentón, con el Furmint seco y el fresco Olaszrizling cortando el rico goulash y la sopa de pescador (halászlé), mientras que el Tokaji Aszú tradicionalmente acompaña foie gras (Hungría es el segundo productor mundial) y postres como la torta Dobos, aunque los locales cada vez más lo disfrutan con queso azul y platos asiáticos picantes."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Napa Valley, California",
+    "info":"Napa Valley está ubicado en el norte de California, justo al norte de San Francisco, y es una de las regiones vinícolas más prestigiosas de Estados Unidos. El valle se extiende unos 48 kilómetros de largo con una gama de microclimas y suelos volcánicos, aluviales y de influencia marina ideales para la viticultura premium. Napa es reconocido globalmente por su audaz y robusto Cabernet Sauvignon, junto con Merlot, Chardonnay y Sauvignon Blanc, a menudo elaborados en un estilo rico con influencia de roble. Estos vinos mariadan mejor con platos ricos y proteicos como bistecs madurados, costillas cortas, portobello a la parrilla y quesos cheddar añejos o quesos azules."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Sonoma County, California ",
+    "info":"El condado de Sonoma se encuentra justo al oeste de Napa Valley y se extiende desde la costa del Pacífico hasta las montañas del interior, ofreciendo condiciones de cultivo diversas en 19 AVAs. Sus áreas costeras más frescas y la influencia de la niebla lo hacen ideal para Pinot Noir y Chardonnay, mientras que las regiones interiores más cálidas favorecen el Zinfandel, Cabernet y Syrah. Los vinos de Sonoma son a menudo más contenidos y enfocados en el terruño comparados con Napa, ofreciendo acidez equilibrada y complejidad matizada en todos los estilos. Los maridajes van desde salmón en tabla de cedro y confit de pato hasta ensaladas con queso de cabra, pollo asado y costillas de cerdo a la barbacoa."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Willamette Valley, Oregon",
+    "info":"El Valle de Willamette se extiende al sur desde Portland a través de la cordillera costera de Oregón, flanqueado por las montañas Cascade y refrescado por brisas del Pacífico. La región tiene un clima fresco y húmedo con suelos volcánicos y sedimentarios que son perfectos para cultivar Pinot Noir, la uva insignia del área. Los vinos del Valle de Willamette son conocidos por su elegancia, acidez brillante y pureza de fruta, especialmente en Pinot Noir y Chardonnay, con un enfoque creciente en vinos espumosos y Gamay. Estos vinos brillan con platos como pollo asado, risotto de champiñones, salmón a la parrilla, lomo de cerdo y quesos suaves como Camembert o chèvre."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Mendoza, Argentina ",
+    "info":"Mendoza está ubicada en el lado oriental de la cordillera de los Andes en el oeste de Argentina, a altitudes que van desde los 600 hasta más de 1.500 metros sobre el nivel del mar. La región se beneficia de intensa luz solar, condiciones secas similares al desierto e irrigación de deshielo glacial, creando condiciones ideales para madurar las uvas mientras se preserva la acidez. Mendoza es más conocida por el Malbec, que aquí muestra color profundo, fruta rica y taninos suaves, así como expresiones de gran altitud de Cabernet Sauvignon, Bonarda y Torrontés. Estos vinos mariadan maravillosamente con carnes a la parrilla (especialmente el asado argentino), empanadas, quesos duros y platos con elementos ahumados o picantes."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Barossa Valley, Australia",
+    "info":"Barossa Valley está ubicado en el sur de Australia, al noreste de Adelaida, y presenta condiciones cálidas y secas con poca lluvia y suelos arcillosos ricos en hierro y arenosos. Su clima mediterráneo permite una maduración completa, produciendo vinos potentes y concentrados. Barossa es famoso por su Shiraz de viñas viejas, a menudo audaz, maduro y especiado, así como Grenache, Mataro (Mourvèdre) y ricos blends GSM; blancos como Semillon y Riesling también se cultivan. Estos vinos robustos acompañan bien platos sustanciosos como cordero a la parrilla, carnes a la barbacoa, salchichas especiadas o quesos cheddar y Gouda añejos."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Coastal Region, South Africa ",
+    "info":"La Región Costera de Sudáfrica abarca áreas como Stellenbosch, Paarl y Swartland, todas cerca de la influencia refrescante del Atlántico y False Bay. El clima mediterráneo de la región, las laderas montañosas y los suelos diversos contribuyen a una acidez fresca y estructura audaz en vinos tanto tintos como blancos. El área es conocida por Chenin Blanc, Cabernet Sauvignon y Syrah, junto con Pinotage y blends estilo Burdeos cada vez más respetados. Estos vinos mariadan bien con caza a la parrilla, pollo peri-peri, curry Cape Malay y platos con especias terrosas o salsas a base de frutas."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Chile",
+    "info":"Las regiones vinícolas de Chile forman una franja estrecha de 1.200 kilómetros entre el Océano Pacífico y la cordillera de los Andes, con la mayoría de los viñedos premium concentrados en el Valle Central entre Santiago y Concepción, donde valles fluviales transversales canalizan brisas refrescantes del Pacífico hacia el interior. El clima mediterráneo prácticamente sin lluvia durante la temporada de crecimiento elimina la presión de enfermedades, mientras que las dramáticas oscilaciones de temperatura diurna de días calurosos a noches frías (a menudo con 20°C de variación) preservan la acidez, con productores enfocándose cada vez más en sitios de clima fresco, plantaciones en laderas y viñas viejas de secano para crear vinos más elegantes e impulsados por el terruño más allá del estilo frutal de los años 90. Los vinos chilenos mariadan naturalmente con la cocina centrada en mariscos del país, con fresco Sauvignon Blanc y Chardonnay costero acompañando ceviche y pescado a la parrilla, mientras que el Carmenère y los blends basados en Cabernet complementan platos tradicionales como pastel de choclo, empanadas y asado, prefiriendo los locales a menudo vinos jóvenes y frutales en lugar de botellas extensamente añejadas."
+  },
+  {
+    "category":"Wine Regions",
+    "topic":"Uruguay",
+    "info":"Las regiones vinícolas de Uruguay se agrupan a lo largo de la costa atlántica y el estuario del Río de la Plata, principalmente alrededor de Montevideo y las zonas de playa de Canelones y Maldonado, donde la influencia marítima modera las temperaturas en esta latitud subtropical de 35°S. El clima atlántico húmedo presenta desafíos vitícolas con lluvias en época de cosecha y presión de enfermedades, requiriendo un manejo cuidadoso del follaje y selección de sitios en suelos bien drenados de arcilla-caliza, con productores adoptando cada vez más prácticas sostenibles y enfocándose en sitios de influencia marítima que muestran mineralidad sobre potencia. El Tannat insignia de Uruguay marida perfectamente con la cultura gastronómica obsesionada con la carne del país, particularmente los asados con todo tipo de cortes imaginables, morcilla y provoleta a la parrilla, mientras que el Albariño más ligero y los frescos rosados de Tannat complementan la cultura de mariscos costeros, prefiriendo los locales tintos jóvenes y jugosos servidos ligeramente fríos para sus legendarias parrilladas de fin de semana."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Dry",
+    "info":"Un vino seco contiene poco o ningún azúcar residual, lo que significa que todo o casi todo el azúcar natural de la uva se ha fermentado en alcohol. Esto resulta en un final fresco y limpio sin percepción de dulzura en el paladar."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Sweet",
+    "info":"Los vinos dulces retienen una cantidad notable de azúcar residual, ya sea por una fermentación detenida o por técnicas de concentración de la uva como el secado o la congelación. Este azúcar crea una cualidad tipo postre, equilibrando la acidez y a menudo amplificando los sabores frutales."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Off-Dry",
+    "info":"Los vinos semisecos tienen una pequeña pero perceptible cantidad de azúcar residual — más que los secos, pero menos que los dulces. Esta ligera dulzura puede suavizar la acidez y mejorar la accesibilidad, especialmente en vinos blancos aromáticos como el Riesling."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Bone Dry",
+    "info":"Los vinos completamente secos no tienen azúcar residual detectable y a menudo un alto nivel de acidez o tanino. Pueden sentirse austeros o afilados en el paladar, enfatizando la mineralidad, los cítricos o los sabores salados."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Viscous",
+    "info":"Los vinos viscosos son espesos y almíbarados en textura, a menudo debido al alto contenido de azúcar o alcohol. Esta cualidad que recubre la boca contribuye a un final rico y prolongado y una percepción de peso y opulencia."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Light Body",
+    "info":"Los vinos de cuerpo ligero se sienten finos y delicados en el paladar, a menudo con menor alcohol y taninos. Esto los hace refrescantes y fáciles de beber, ideales para maridar con comidas más ligeras o servir fríos."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Full Body",
+    "info":"Los vinos de cuerpo amplio son densos y pesados, típicamente con mayor alcohol, taninos o extracto. Crean una experiencia audaz que llena la boca y son ideales para platos ricos o grasos que pueden hacer frente a su intensidad."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Legs/Tears",
+    "info":"Las piernas (o lágrimas) son las gotas que se forman y descienden lentamente por el interior de una copa de vino después de agitarla. Aunque a menudo se malinterpretan, generalmente indican niveles más altos de alcohol o azúcar, que pueden relacionarse con el cuerpo y la viscosidad."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Fruit-forward",
+    "info":"Los vinos de estilo más maduro a menudo tienen aromas y sabores frutales más abundantes. Estos vinos suelen provenir de regiones más cálidas, con mayor madurez en las uvas al momento de la cosecha."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Residual Sugar",
+    "info":"El azúcar residual es el azúcar natural de la uva no fermentado que permanece en el vino después de la fermentación. Afecta directamente el nivel de dulzura y también puede contribuir a la textura del vino y a la percepción de riqueza."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Tannin",
+    "info":"Los taninos son compuestos naturales que se encuentran en las pieles, semillas y tallos de la uva, contribuyendo a una sensación seca y astringente en la boca. Añaden estructura y amargor a los vinos tintos, ayudándolos a envejecer y a maridar bien con alimentos ricos en proteínas."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Acidity",
+    "info":"El componente fresco y ácido del vino que le da vivacidad y equilibrio, a menudo percibido como una nitidez que hace agua la boca."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"ABV (Alcohol by Volume)",
+    "info":"El porcentaje de alcohol en un vino, que afecta su cuerpo, calidez y dulzura percibida."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Oak Treatment",
+    "info":"El uso de barricas de roble (o alternativas) para envejecer el vino, lo cual puede agregar sabores como vainilla, especias, tostado o ahumado."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Fermentation",
+    "info":"El proceso donde la levadura convierte el azúcar de la uva en alcohol y dióxido de carbono, transformando el jugo de uva en vino."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Malolactic Fermentation",
+    "info":"Una fermentación secundaria que suaviza la acidez del vino al convertir el ácido málico agrio en ácido láctico cremoso — común en muchos Chardonnays."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Lees",
+    "info":"Células de levadura muertas y partículas de uva que se asientan durante la fermentación; el envejecimiento sobre las lías puede agregar textura y un sabor tostado y a nuez."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Body",
+    "info":"El peso o amplitud de un vino en la boca, a menudo influenciado por los niveles de alcohol, azúcar y taninos."
+  },
+  {
+    "category":"Tasting Terms",
+    "topic":"Vintage",
+    "info":"El año en que se cosecharon las uvas, lo cual puede influir en el estilo y la calidad del vino dependiendo del clima de esa temporada."
+  }
+]
