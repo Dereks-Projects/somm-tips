@@ -68,7 +68,10 @@ export default function OrderingWinePage() {
           </div>
         ))}
       </section>
-
+      <p className={styles.tip}>
+        Give the somm or salesperson who is guiding you one of the styles from
+        above, and they will lead you to a great selection!
+      </p>  
       <footer className={styles.ecosystemLink}>
         <p>
           Learn the fundamentals behind these styles on{" "}

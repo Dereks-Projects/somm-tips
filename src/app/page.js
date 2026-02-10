@@ -27,7 +27,7 @@ const secondaryCards = [
   },
   {
     title: "Ordering Wine",
-    desc: "Guidance for every palate",
+    desc: "Asking the somm for assistance",
     href: "/ordering-wine",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -51,8 +51,8 @@ const secondaryCards = [
     ),
   },
   {
-    title: "Education",
-    desc: "Level up your knowledge",
+    title: "Reference",
+    desc: "Grapes, reions and key terms",
     href: "/education",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
