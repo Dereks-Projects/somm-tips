@@ -483,16 +483,25 @@
     "style notes": ["full body", "non-fruit flavors", "powerful and smooth"],
     "description": "Super Tuscans are bold red blends from Tuscany that often include Cabernet Sauvignon, Merlot, and Sangiovese.", 
     "description2": "They defy traditional Italian DOC rules to create rich, polished wines with international appeal."
+  },{
+    "name": "Beaujolais (Gamay from Burgundy)",
+    "color": "Red",
+    "body": "Lighter Body",
+    "dryness": "Less Dry",
+    "origin": "Old World",
+    "style notes": ["light body", "ripe fruit", "fresh and approachable"],
+    "description": "Beaujolais is a vibrant red wine from the southern part of Burgundy in eastern France, made primarily from the Gamay grape.", 
+    "description2": "Known for its light body, low tannins, and bright flavors of red berries, violets, and subtle spice, it offers a fresh and approachable profile often enjoyed slightly chilled."
   },
   {
-    "name": "South African Red Blend",
+    "name": "Amarone della Valpolicella (blend)",
     "color": "Red",
     "body": "Fuller Body",
     "dryness": "More Dry",
-    "origin": "New World",
+    "origin": "Old World",
     "style notes": ["medium to full body", "ripe fruit", "powerful and smooth"],
-    "description": "South African Red Blends commonly feature Bordeaux varietals with a mix of ripe dark fruit, earthy spice, and firm structure.", 
-    "description2": "These wines reflect the country's diverse terroirs and old-meets-new-world style."
+    "description": "Amarone is a velvety wine produced mostly from Corvina grapes, grown in the hills of the Veneto region in Italy.", 
+    "description2": "This wine is quite powerful, with elevated levels of alcohol and glycerine. Amarone often calls for a rich dish to balance the power of the wine."
   },
   {
     "name": "South African Pinotage",

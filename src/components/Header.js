@@ -157,35 +157,6 @@ export default function Header() {
             >
               <span className={styles.linkTitle}>{t.about}</span>
             </Link>
-            <Link
-              href="/content-policy"
-              className={styles.dropdownLink}
-              onClick={() => setMenuOpen(false)}
-            >
-              <span className={styles.linkTitle}>{t.contentPolicy}</span>
-            </Link>
-            <Link
-              href="/privacy"
-              className={styles.dropdownLink}
-              onClick={() => setMenuOpen(false)}
-            >
-              <span className={styles.linkTitle}>{t.privacy}</span>
-            </Link>
-            <Link
-              href="/terms"
-              className={styles.dropdownLink}
-              onClick={() => setMenuOpen(false)}
-            >
-              <span className={styles.linkTitle}>{t.terms}</span>
-            </Link>
-            <Link
-              href="/cookies"
-              className={styles.dropdownLink}
-              onClick={() => setMenuOpen(false)}
-            >
-              <span className={styles.linkTitle}>{t.cookies}</span>
-            </Link>
-            <div className={styles.dropdownDivider}></div>
             <a
               href="mailto:derekengles@gmail.com"
               target="_blank"
@@ -195,6 +166,35 @@ export default function Header() {
             >
               <span className={styles.linkTitle}>{t.contact}</span>
             </a>
+            <div className={styles.dropdownAccent}></div>
+            <Link
+              href="/privacy"
+              className={styles.legalLink}
+              onClick={() => setMenuOpen(false)}
+            >
+              {t.privacy}
+            </Link>
+            <Link
+              href="/cookies"
+              className={styles.legalLink}
+              onClick={() => setMenuOpen(false)}
+            >
+              {t.cookies}
+            </Link>
+            <Link
+              href="/terms"
+              className={styles.legalLink}
+              onClick={() => setMenuOpen(false)}
+            >
+              {t.terms}
+            </Link>
+            <Link
+              href="/content-policy"
+              className={styles.legalLink}
+              onClick={() => setMenuOpen(false)}
+            >
+              {t.contentPolicy}
+            </Link>
           </div>
         )}
       </div>

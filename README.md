@@ -13,9 +13,21 @@ Part of the [Informative Media](https://informativemedia.com) ecosystem, alongsi
 - **Framework:** Next.js (App Router)
 - **Styling:** CSS Modules, mobile-first
 - **Font:** Inter (Google Fonts)
-- **Data:** Static JSON
+- **Data:** Static JSON (English + Spanish)
 - **Hosting:** Vercel
 - **Analytics:** Google Analytics (gtag)
+- **i18n:** Custom bilingual system (EN/ES) via React Context
+
+## Bilingual Support
+
+The app supports English and Spanish via a toggle in the header. The system uses:
+
+- **`LanguageContext.js`** — React Context provider storing the active language (session-only, defaults to English)
+- **`LanguageToggle.js`** — Header toggle button that switches between EN and ES
+- **`translations.js`** — All UI strings (buttons, headings, labels) in both languages
+- **`.es.json` data files** — Full Spanish translations of all wine, pairing, cocktail, vintage, and education content
+
+Filter logic uses English keys internally so data matching works regardless of display language.
 
 ## Pages
 
