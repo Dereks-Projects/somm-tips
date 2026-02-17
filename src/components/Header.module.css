@@ -38,7 +38,7 @@
 
 /* --- Center Title --- */
 .title {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: -0.01em;
   text-align: center;
@@ -185,6 +185,6 @@
 
 @media (min-width: 769px) {
   .title {
-    font-size: 1.575rem;
+    font-size: 1.8rem;
   }
 }

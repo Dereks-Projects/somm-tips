@@ -8,7 +8,7 @@
   /* Primary palette — pure black + dark grays */
   --color-primary: #000000;
   --color-primary-light: #111111;
-  --color-primary-lighter: #161616;
+  --color-primary-lighter: #202020;
 
   /* Surface colors — for cards, overlays */
   --color-surface: rgba(255, 255, 255, 0.06);
