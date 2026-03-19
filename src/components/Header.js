@@ -150,7 +150,7 @@ export default function Header() {
               <span className={styles.linkTitle}>{t.about}</span>
             </Link>
             <a
-              href="mailto:derekengles@gmail.com"
+              href="mailto:derek@informativemedia.com"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.dropdownLink}

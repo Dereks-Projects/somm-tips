@@ -20,7 +20,7 @@ export default function DesktopFooter() {
           <Link href="/terms">{t.terms}</Link>
           <Link href="/cookies">{t.cookies}</Link>
           <a
-            href="mailto:derekengles@gmail.com"
+            href="mailto:derek@informativemedia.com"
             target="_blank"
             rel="noopener noreferrer"
           >

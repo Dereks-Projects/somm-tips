@@ -20,9 +20,9 @@ export const translations = {
        Header
        ────────────────────────────────────── */
     header: {
-      explore: "Explore",
-      sommSiteDesc: "Wine education & courses",
-      beverageFyiDesc: "Encyclopedic reference",
+      explore: "OUR PARTNERS",
+      sommSiteDesc: "Explore Wine Culture",
+      beverageFyiDesc: "Online Magazine",
       backbarFyiDesc: "Spirits & cocktails",
       home: "Home",
       about: "About",
