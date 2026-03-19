@@ -116,11 +116,11 @@ export default function CocktailsPage() {
         <p>
           {t.ecosystemText}{" "}
           <a
-            href="https://backbar.fyi"
+            href="https://www.beverage.fyi"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Backbar.fyi
+            Beverage.fyi
           </a>
           .
         </p>

@@ -87,6 +87,15 @@ export default function Header() {
                 <span className={styles.linkTitle}>Beverage.fyi</span>
                 <span className={styles.linkDesc}>{t.beverageFyiDesc}</span>
               </a>
+              <a
+                href="https://www.hospitality.fyi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.dropdownLink}
+              >
+                <span className={styles.linkTitle}>Hospitality.fyi</span>
+                <span className={styles.linkDesc}>{t.hospitalityFyiDesc}</span>
+              </a>
               
               <div className={styles.dropdownDivider}></div>
               <a
