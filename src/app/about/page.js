@@ -60,17 +60,6 @@ export default function AboutPage() {
               {t.beverageFyiDesc}
             </span>
           </a>
-          <a
-            href="https://backbar.fyi"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.ecosystemLink}
-          >
-            Backbar.fyi
-            <span className={styles.ecosystemLinkDesc}>
-              {t.backbarFyiDesc}
-            </span>
-          </a>
         </div>
       </section>
 
