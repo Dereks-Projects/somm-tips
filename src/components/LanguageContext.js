@@ -1,17 +1,16 @@
+/* src/components/LanguageContext.js */
+
 "use client";
 
-import { createContext, useContext, useState, useCallback } from "react";
+import { createContext, useContext, useState, useCallback, useEffect } from "react";
 
 /*
   LanguageContext — the single source of truth for the active language.
 
-  How it works (restaurant analogy):
-  - Think of this as the host stand deciding whether to hand guests
-    an English or Spanish menu.
   - The LanguageProvider wraps the entire app in layout.js.
   - Any component can call useLanguage() to read the current language
     or toggle it.
-  - State lives in React only (session-based) — refreshing the page
+  - State lives in React only (session-based). Refreshing the page
     resets to English. No localStorage, no cookies.
 
   Usage in any component:
@@ -30,6 +29,16 @@ export function LanguageProvider({ children }) {
   const toggleLanguage = useCallback(() => {
     setLanguage((prev) => (prev === "en" ? "es" : "en"));
   }, []);
+
+  /*
+    layout.js renders <html lang="en"> on the server and cannot
+    know the client language, so we keep the document attribute
+    in sync here. Without this, assistive technology and crawlers
+    read Spanish content as English.
+  */
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
 
   return (
     <LanguageContext.Provider value={{ language, toggleLanguage }}>

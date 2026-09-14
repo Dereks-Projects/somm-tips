@@ -1,12 +1,17 @@
+/* src/app/page.module.css */
+
 /* ============================================
    Homepage — page.module.css
    ============================================
-   Mobile-first layout:
-   - Hero tagline
-   - Full-width Wine Recommendations card (dominant)
-   - 2-column grid of secondary cards
-   
-   Desktop: cards get slightly larger, grid stays 2-col
+   Mobile first:
+   - Tagline
+   - Dominant Wine Recommendations card
+   - Five compact rail rows
+   - Portfolio band hidden
+
+   Desktop (769px+):
+   - Two column grid, lead on the left, rail on the right
+   - Portfolio band appears full width below
    ============================================ */
 
 .main {
@@ -18,192 +23,387 @@
   margin: 0 auto;
 }
 
-/* --- Hero Section --- */
-.hero {
-  text-align: center;
-  margin-bottom: var(--space-xl);
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+/* --- Lead Column --- */
+.lead {
+  display: flex;
+  flex-direction: column;
 }
 
 .tagline {
-  font-size: 1.625rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
   color: var(--color-text-primary);
-  line-height: 1.25;
-  max-width: 260px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: var(--space-lg);
+  max-width: 16ch;
 }
 
 /* --- Primary Card (Wine Recommendations) --- */
-.primarySection {
-  margin-bottom: var(--space-lg);
-}
-
+/* This is the one loud element on the page. Gold border at rest,
+   gold wash from the top left, oversized glass bleeding off the
+   top right, and a filled gold button as the brightest thing
+   in the viewport. Everything else stays quiet. */
 .primaryCard {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 210px;
   padding: var(--space-lg);
-  background: var(--color-surface-card);
-  border: 1px solid var(--color-border);
+  background-color: var(--color-surface-card);
+  background-image: radial-gradient(
+    130% 100% at 0% 0%,
+    rgba(221, 184, 83, 0.16) 0%,
+    rgba(221, 184, 83, 0.04) 40%,
+    transparent 70%
+  );
+  border: 1px solid var(--color-accent-border);
   border-radius: var(--radius-lg);
-  transition: background-color var(--transition-base),
-    border-color var(--transition-base),
-    transform var(--transition-base);
+  box-shadow: var(--shadow-lg);
+  transition: border-color var(--transition-base),
+    box-shadow var(--transition-base), transform var(--transition-base);
 }
 
 .primaryCard:hover {
-  background: var(--color-surface-hover);
-  border-color: rgba(255, 255, 255, 0.15);
-  transform: translateY(-2px);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 28px rgba(221, 184, 83, 0.14), var(--shadow-lg);
+  transform: translateY(-3px);
 }
 
 .primaryCard:active {
   transform: translateY(0);
 }
 
-.primaryContent {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xs);
+/* Oversized glass watermark. z-index -1 sits above the card's own
+   background but below its in-flow content, which is why the card
+   sets isolation: isolate. */
+.primaryWatermark {
+  position: absolute;
+  top: -34px;
+  right: -34px;
+  width: 175px;
+  height: 175px;
+  z-index: -1;
+  color: var(--color-accent);
+  opacity: 0.12;
+  pointer-events: none;
 }
 
 .primaryIcon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
-  background: var(--color-surface);
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  margin-bottom: var(--space-sm);
+  background: var(--color-accent-soft);
+  border: 1px solid var(--color-accent-border);
   border-radius: var(--radius-md);
   color: var(--color-accent);
-  margin-bottom: var(--space-sm);
+  transition: background-color var(--transition-base),
+    border-color var(--transition-base);
+}
+
+.primaryCard:hover .primaryIcon {
+  background: rgba(221, 184, 83, 0.2);
+  border-color: var(--color-accent);
 }
 
 .primaryTitle {
-  font-size: 1.25rem;
+  font-size: 1.375rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.primaryDesc {
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  color: var(--color-text-secondary);
+  max-width: 34ch;
+}
+
+.primaryCta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  margin-top: auto;
+  padding-top: var(--space-md);
+  align-self: flex-end;
+  box-sizing: content-box;
+  color: var(--color-primary);
+  transition: transform var(--transition-base);
+}
+
+/* The filled disc is drawn on an inner box so the top padding
+   above can push it to the bottom without stretching the circle. */
+.primaryCta svg {
+  width: 38px;
+  height: 38px;
+  padding: 12px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  box-shadow: 0 4px 14px rgba(221, 184, 83, 0.28);
+  transition: box-shadow var(--transition-base);
+}
+
+.primaryCard:hover .primaryCta {
+  transform: translateX(4px);
+}
+
+.primaryCard:hover .primaryCta svg {
+  box-shadow: 0 6px 22px rgba(221, 184, 83, 0.45);
+}
+
+/* --- Rail (the other five sections) --- */
+.rail {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.railItem {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  background: var(--color-surface-card);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-md);
+  transition: background-color var(--transition-base),
+    border-color var(--transition-base);
+}
+
+.railItem:hover {
+  background: var(--color-surface-hover);
+  border-color: var(--color-border);
+}
+
+.railIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: var(--color-text-muted);
+  transition: color var(--transition-fast);
+}
+
+.railItem:hover .railIcon {
+  color: var(--color-accent);
+}
+
+.railBody {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.railTitle {
+  font-size: 0.9375rem;
   font-weight: 600;
   letter-spacing: -0.01em;
   color: var(--color-text-primary);
 }
 
-.primaryDesc {
-  font-size: 0.9375rem;
-  color: var(--color-text-secondary);
-  line-height: 1.4;
-}
-
-.primaryArrow {
-  flex-shrink: 0;
+.railDesc {
+  font-size: 0.75rem;
+  line-height: 1.35;
   color: var(--color-text-muted);
-  transition: color var(--transition-fast),
-    transform var(--transition-fast);
 }
 
-.primaryCard:hover .primaryArrow {
+.railChevron {
+  flex-shrink: 0;
+  color: var(--color-text-faint);
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.railItem:hover .railChevron {
   color: var(--color-accent);
-  transform: translateX(3px);
+  transform: translateX(2px);
 }
 
-/* --- Secondary Cards Grid --- */
-.grid {
+/* --- Portfolio Band --- */
+/* Hidden on mobile. Restored at the desktop breakpoint below. */
+.portfolio {
+  display: none;
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--color-border-light);
+}
+
+.portfolioLabel {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-faint);
+  margin-bottom: var(--space-md);
+}
+
+.portfolioGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-md);
+  grid-template-columns: 1fr;
+  gap: var(--space-sm);
 }
 
-.card {
+.portfolioCard {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: var(--space-lg) var(--space-md);
-  min-height: 140px;
-  background: var(--color-surface-card);
+  gap: 2px;
+  padding: var(--space-md);
+  background: var(--color-surface);
   border: 1px solid var(--color-border-light);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
   transition: background-color var(--transition-base),
-    border-color var(--transition-base),
-    transform var(--transition-base);
+    border-color var(--transition-base);
 }
 
-.card:hover {
+.portfolioCard:hover {
   background: var(--color-surface-hover);
-  border-color: var(--color-border);
-  transform: translateY(-2px);
+  border-color: var(--color-accent-border);
 }
 
-.card:active {
-  transform: translateY(0);
-}
-
-.cardIcon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-text-secondary);
-  margin-bottom: var(--space-sm);
+.portfolioName {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--color-text-primary);
   transition: color var(--transition-fast);
 }
 
-.card:hover .cardIcon {
+.portfolioCard:hover .portfolioName {
   color: var(--color-accent);
 }
 
-.cardTitle {
-  font-size: 0.9375rem;
-  font-weight: 600;
-  color: var(--color-text-primary);
-  margin-bottom: 2px;
-}
-
-.cardDesc {
+.portfolioDesc {
   font-size: 0.75rem;
-  color: var(--color-text-muted);
   line-height: 1.35;
+  color: var(--color-text-muted);
 }
 
-/* --- Desktop adjustments --- */
+.portfolioParent {
+  margin-top: var(--space-md);
+  font-size: 0.75rem;
+  color: var(--color-text-faint);
+}
+
+.portfolioParent a {
+  color: var(--color-text-muted);
+  transition: color var(--transition-fast);
+}
+
+.portfolioParent a:hover {
+  color: var(--color-accent);
+}
+
+/* --- Desktop --- */
 @media (min-width: 769px) {
   .main {
+    /* Wider than the global 960px token, which is tuned for
+       single column reading. The homepage is a composition. */
+    max-width: 1120px;
     padding-top: calc(var(--header-height) + var(--space-3xl));
     padding-bottom: var(--space-3xl);
+    padding-left: var(--space-xl);
+    padding-right: var(--space-xl);
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: var(--space-2xl);
+    align-items: start;
+  }
+
+  .lead {
+    justify-content: center;
   }
 
   .tagline {
-    font-size: 2rem;
-    max-width: none;
+    font-size: 2.5rem;
+    letter-spacing: -0.03em;
+    line-height: 1.08;
+    margin-bottom: var(--space-xl);
+    max-width: 14ch;
   }
 
   .primaryCard {
+    min-height: 280px;
     padding: var(--space-xl);
   }
 
+  .primaryWatermark {
+    top: -44px;
+    right: -44px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .primaryIcon {
+    width: 60px;
+    height: 60px;
+  }
+
   .primaryTitle {
-    font-size: 1.375rem;
+    font-size: 1.75rem;
   }
 
-  .grid {
-    gap: var(--space-lg);
-  }
-
-  .card {
-    min-height: 160px;
-    padding: var(--space-xl) var(--space-lg);
-  }
-
-  .cardTitle {
+  .primaryDesc {
     font-size: 1rem;
   }
 
-  .cardDesc {
+  .primaryCta,
+  .primaryCta svg {
+    width: 52px;
+    height: 52px;
+  }
+
+  .primaryCta svg {
+    padding: 14px;
+  }
+
+  .railItem {
+    padding: var(--space-md) var(--space-lg);
+  }
+
+  .railTitle {
+    font-size: 1rem;
+  }
+
+  .railDesc {
     font-size: 0.8125rem;
   }
-}
 
-/* Odd card (5th) spans full width on mobile to avoid orphan */
-.card:last-child:nth-child(odd) {
-  grid-column: 1 / -1;
+  .portfolio {
+    display: block;
+    margin-top: var(--space-3xl);
+  }
+
+  .portfolioGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+  }
+
+  .portfolioCard {
+    padding: var(--space-lg);
+  }
 }

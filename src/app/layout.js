@@ -1,3 +1,5 @@
+/* src/app/layout.js */
+
 import { Inter } from "next/font/google";
 import Script from "next/script";
 import { LanguageProvider } from "@/components/LanguageContext";
@@ -13,6 +15,7 @@ const inter = Inter({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://somm.tips"),
   title: "Somm.Tips — A Sommelier in Your Pocket",
   description:
     "Wine recommendations, classic pairings, cocktails, and beverage education. No signup required.",
@@ -43,6 +46,19 @@ export const metadata = {
       "Wine recommendations, classic pairings, cocktails, and beverage education. No signup required.",
     images: ["/somm-socialcard.png"],
   },
+};
+
+/*
+  viewportFit: "cover" is required for env(safe-area-inset-bottom)
+  to resolve to a real value on notched devices. Without it the
+  bottom nav padding in BottomNav.module.css resolves to 0px.
+*/
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: "#000000",
+  colorScheme: "dark",
 };
 
 export default function RootLayout({ children }) {
