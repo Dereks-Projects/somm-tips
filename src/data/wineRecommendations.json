@@ -512,15 +512,5 @@
     "style notes": ["medium to full body", "ripe fruit", "non-fruit flavors"],
     "description": "South African Pinotage is a uniquely South African grape known for smoky, brambly flavors of dark fruit, coffee, and earth.", 
     "description2": "It's a cross between Pinot Noir and Cinsault, producing bold, rustic reds grown mainly in the Western Cape."
-  },
-  {
-    "name": "Beaujolais (Gamay from Burgundy)",
-    "color": "Red",
-    "body": "Lighter Body",
-    "dryness": "Less Dry",
-    "origin": "Old World",
-    "style notes": ["light body", "ripe fruit", "fresh and approachable"],
-    "description": "Beaujolais is a vibrant red wine from the southern part of Burgundy in eastern France, made primarily from the Gamay grape.", 
-    "description2": "Known for its light body, low tannins, and bright flavors of red berries, violets, and subtle spice, it offers a fresh and approachable profile often enjoyed slightly chilled."
-  }
+  }  
 ]

@@ -1,3 +1,5 @@
+/* src/app/wine-recommendations/page.js */
+
 "use client";
 
 import { useState, useMemo } from "react";
@@ -9,21 +11,22 @@ import styles from "./page.module.css";
 
 /*
   Wine Recommendations — the flagship subpage.
-  
-  Bilingual approach:
-  - Filter buttons DISPLAY translated labels ("Blanco" / "Tinto")
+
+  Four questions, two answers each. Each pair renders as one segmented
+  control so it reads as a single either/or choice rather than two
+  unrelated buttons.
+
+  Bilingual approach, unchanged:
+  - Buttons DISPLAY translated labels ("Blanco" / "Tinto")
   - Filter logic COMPARES against English keys ("White" / "Red")
     because the JSON data uses English keys for color/body/dryness/origin.
-  - The correct language JSON is loaded for descriptions/style notes.
-  
-  filterGroups maps each option with:
-  - value: the English key used in JSON data (never changes)
-  - labelKey: the translations.js key for the display text
+  - The correct language JSON supplies descriptions and style notes.
 */
 
 const filterGroups = [
   {
     key: "color",
+    groupLabelKey: "groupColor",
     options: [
       { value: "White", labelKey: "white" },
       { value: "Red", labelKey: "red" },
@@ -31,6 +34,7 @@ const filterGroups = [
   },
   {
     key: "body",
+    groupLabelKey: "groupBody",
     options: [
       { value: "Lighter Body", labelKey: "lighterBody" },
       { value: "Fuller Body", labelKey: "fullerBody" },
@@ -38,6 +42,7 @@ const filterGroups = [
   },
   {
     key: "dryness",
+    groupLabelKey: "groupDryness",
     options: [
       { value: "Less Dry", labelKey: "lessDry" },
       { value: "More Dry", labelKey: "moreDry" },
@@ -45,6 +50,7 @@ const filterGroups = [
   },
   {
     key: "origin",
+    groupLabelKey: "groupOrigin",
     options: [
       { value: "New World", labelKey: "newWorld" },
       { value: "Old World", labelKey: "oldWorld" },
@@ -52,42 +58,40 @@ const filterGroups = [
   },
 ];
 
+const emptyFilters = {
+  color: null,
+  body: null,
+  dryness: null,
+  origin: null,
+};
+
 export default function WineRecommendationsPage() {
   const { language } = useLanguage();
   const t = translations[language].wineRecs;
   const wineData = language === "es" ? wineDataEs : wineDataEn;
 
-  /* Filter state — one value per category, or null if unselected */
-  const [filters, setFilters] = useState({
-    color: null,
-    body: null,
-    dryness: null,
-    origin: null,
-  });
+  const [filters, setFilters] = useState(emptyFilters);
 
-  /* Track which wine card is expanded (by index) */
-  const [expandedIndex, setExpandedIndex] = useState(null);
+  /* Track the expanded card by name rather than index, so the open
+     card cannot follow a stale position when the result set changes. */
+  const [expandedName, setExpandedName] = useState(null);
 
-  /* Toggle a filter value on/off */
   function handleFilter(key, value) {
     setFilters((prev) => ({
       ...prev,
       [key]: prev[key] === value ? null : value,
     }));
-    setExpandedIndex(null);
+    setExpandedName(null);
   }
 
-  /* Reset all filters */
   function resetFilters() {
-    setFilters({ color: null, body: null, dryness: null, origin: null });
-    setExpandedIndex(null);
+    setFilters(emptyFilters);
+    setExpandedName(null);
   }
 
-  /* Check if any filter is active */
   const hasActiveFilters = Object.values(filters).some((v) => v !== null);
 
-  /* Filter the wine data — compares against English keys */
-  const filteredWines = useMemo(() => {
+  const matches = useMemo(() => {
     if (!hasActiveFilters) return [];
     return wineData.filter((wine) => {
       if (filters.color && wine.color !== filters.color) return false;
@@ -98,124 +102,146 @@ export default function WineRecommendationsPage() {
     });
   }, [filters, hasActiveFilters, wineData]);
 
-  /* Toggle expanded card */
-  function toggleExpand(index) {
-    setExpandedIndex((prev) => (prev === index ? null : index));
+  function toggleExpand(name) {
+    setExpandedName((prev) => (prev === name ? null : name));
   }
 
   return (
     <main className={styles.main}>
-      {/* Page header */}
       <section className={styles.header}>
         <h1 className={styles.title}>{t.title}</h1>
         <p className={styles.subtitle}>{t.subtitle}</p>
       </section>
 
-      {/* Filter toggles */}
-      <section className={styles.filters}>
-        {filterGroups.map((group) => (
-          <div key={group.key} className={styles.filterRow}>
-            {group.options.map((option) => (
-              <button
-                key={option.value}
-                className={`${styles.filterButton} ${
-                  filters[group.key] === option.value
-                    ? styles.filterActive
-                    : ""
-                }`}
-                onClick={() => handleFilter(group.key, option.value)}
+      {/* Four questions */}
+      <section className={styles.groups}>
+        {filterGroups.map((group) => {
+          const groupLabel = t[group.groupLabelKey];
+          return (
+            <div key={group.key} className={styles.group}>
+              <span className={styles.groupLabel}>{groupLabel}</span>
+              <div
+                className={styles.segment}
+                role="group"
+                aria-label={groupLabel}
               >
-                {t[option.labelKey]}
-              </button>
-            ))}
-          </div>
-        ))}
-
-        {/* Reset button */}
-        <button
-          className={styles.resetButton}
-          onClick={resetFilters}
-          disabled={!hasActiveFilters}
-        >
-          {t.reset}
-        </button>
+                {group.options.map((option) => {
+                  const isActive = filters[group.key] === option.value;
+                  return (
+                    <button
+                      key={option.value}
+                      type="button"
+                      className={`${styles.segmentButton} ${
+                        isActive ? styles.segmentActive : ""
+                      }`}
+                      aria-pressed={isActive}
+                      onClick={() => handleFilter(group.key, option.value)}
+                    >
+                      {t[option.labelKey]}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
       </section>
 
-      {/* Results */}
-      <section className={styles.results}>
-        {hasActiveFilters && filteredWines.length === 0 && (
-          <p className={styles.noResults}>{t.noResults}</p>
-        )}
-
-        {filteredWines.map((wine, index) => (
-          <div
-            key={wine.name}
-            className={`${styles.wineCard} ${
-              expandedIndex === index ? styles.wineCardExpanded : ""
-            }`}
+      {/* Reset appears only once something is selected */}
+      {hasActiveFilters && (
+        <div className={styles.resetRow}>
+          <button
+            type="button"
+            className={styles.resetButton}
+            onClick={resetFilters}
           >
-            {/* Clickable header row */}
-            <button
-              className={styles.wineHeader}
-              onClick={() => toggleExpand(index)}
-              aria-expanded={expandedIndex === index}
-            >
-              <span className={styles.wineName}>{wine.name}</span>
-              <svg
-                className={`${styles.chevron} ${
-                  expandedIndex === index ? styles.chevronOpen : ""
-                }`}
-                width="18"
-                height="18"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </button>
+            {t.reset}
+          </button>
+        </div>
+      )}
 
-            {/* Expandable detail panel */}
-            {expandedIndex === index && (
-              <div className={styles.wineDetail}>
-                <p className={styles.wineDescription}>{wine.description}</p>
-                {wine.description2 && (
-                  <p className={styles.wineDescription2}>
-                    {wine.description2}
-                  </p>
-                )}
-                {wine["style notes"] && wine["style notes"].length > 0 && (
-                  <div className={styles.styleTags}>
-                    {wine["style notes"].map((note) => (
-                      <span key={note} className={styles.styleTag}>
-                        {note}
-                      </span>
-                    ))}
+      {/* Results */}
+      {!hasActiveFilters ? (
+        <section className={styles.empty} aria-hidden="true">
+          <svg
+            className={styles.emptyGlass}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="0.75"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M8 2h8l-1 9a5 5 0 01-10 0L8 2z" />
+            <path d="M7 6.5h10" />
+            <path d="M12 11v8" />
+            <path d="M8 22h8" />
+          </svg>
+        </section>
+      ) : matches.length === 0 ? (
+        <section className={styles.empty}>
+          <p className={styles.emptyText}>{t.noResults}</p>
+        </section>
+      ) : (
+        <section className={styles.results}>
+          {matches.map((wine) => {
+            const isOpen = expandedName === wine.name;
+            return (
+              <div
+                key={wine.name}
+                className={`${styles.wineCard} ${
+                  isOpen ? styles.wineCardExpanded : ""
+                }`}
+              >
+                <button
+                  type="button"
+                  className={styles.wineHeader}
+                  onClick={() => toggleExpand(wine.name)}
+                  aria-expanded={isOpen}
+                >
+                  <span className={styles.wineName}>{wine.name}</span>
+                  <svg
+                    className={`${styles.chevron} ${
+                      isOpen ? styles.chevronOpen : ""
+                    }`}
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <polyline points="6 9 12 15 18 9" />
+                  </svg>
+                </button>
+
+                {isOpen && (
+                  <div className={styles.wineDetail}>
+                    <p className={styles.wineDescription}>{wine.description}</p>
+                    {wine.description2 && (
+                      <p className={styles.wineDescription2}>
+                        {wine.description2}
+                      </p>
+                    )}
+                    {wine["style notes"] && wine["style notes"].length > 0 && (
+                      <div className={styles.styleTags}>
+                        {wine["style notes"].map((note) => (
+                          <span key={note} className={styles.styleTag}>
+                            {note}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
-            )}
-          </div>
-        ))}
-      </section>
-
-      {/* Ecosystem link */}
-      <footer className={styles.ecosystemLink}>
-        <p>
-          {t.ecosystemText}{" "}
-          <a
-            href="https://somm.site"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Somm.Site
-          </a>
-          .
-        </p>
-      </footer>
+            );
+          })}
+        </section>
+      )}
     </main>
   );
 }

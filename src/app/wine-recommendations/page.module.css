@@ -1,12 +1,18 @@
+/* src/app/wine-recommendations/page.module.css */
+
 /* ============================================
    Wine Recommendations — page.module.css
    ============================================
-   Mobile-first layout:
-   - Page header with title/subtitle
-   - Filter toggle rows (2 buttons per row)
-   - Reset button
-   - Collapsible wine result cards
-   - Ecosystem link at bottom
+   Mobile first:
+   - Title and subtitle
+   - Four labeled segmented controls, stacked
+   - Result cards in one column
+
+   Desktop (769px+):
+   - Stays at the 960px content width. Four controls
+     strung across 1120px read as empty space.
+   - Four questions across in one band
+   - Results in two columns
    ============================================ */
 
 .main {
@@ -27,86 +33,131 @@
 .title {
   font-size: 1.5rem;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
   color: var(--color-text-primary);
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-sm);
 }
 
+/* This line is the instruction, so it carries real weight
+   rather than sitting back as caption text. */
 .subtitle {
-  font-size: 0.9375rem;
+  font-size: 1rem;
+  line-height: 1.45;
   color: var(--color-text-secondary);
-  line-height: 1.4;
+  max-width: 40ch;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* --- Filter Section --- */
-.filters {
+/* --- The Four Questions --- */
+.groups {
   display: flex;
   flex-direction: column;
-  gap: var(--space-sm);
-  margin-bottom: var(--space-xl);
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
 }
 
-/* Each filter row holds 2 toggle buttons side by side */
-.filterRow {
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  min-width: 0;
+}
+
+.groupLabel {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-faint);
+}
+
+/* One bar, split down the middle. Half of it lights up. */
+.segment {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--space-sm);
-}
-
-/* --- Filter Toggle Button --- */
-.filterButton {
-  padding: var(--space-sm) var(--space-md);
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #ffffff;
-  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  transition: all var(--transition-base);
+  overflow: hidden;
+}
+
+.segmentButton {
+  padding: var(--space-sm) var(--space-xs);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--color-text-secondary);
+  background: var(--color-surface);
+  transition: background-color var(--transition-fast),
+    color var(--transition-fast);
   -webkit-tap-highlight-color: transparent;
 }
 
-.filterButton:hover {
+.segmentButton + .segmentButton {
+  border-left: 1px solid var(--color-border);
+}
+
+.segmentButton:hover {
   background: var(--color-surface-hover);
   color: var(--color-text-primary);
 }
 
-/* Active filter state — filled, prominent */
-.filterActive {
-  background: var(--color-text-primary);
-  color: var(--color-primary);
-  border-color: var(--color-text-primary);
+.segmentActive {
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
   font-weight: 600;
 }
 
-.filterActive:hover {
-  background: var(--color-text-secondary);
-  color: var(--color-primary);
+.segmentActive:hover {
+  background: rgba(221, 184, 83, 0.18);
+  color: var(--color-accent);
 }
 
-/* --- Reset Button --- */
+/* --- Reset --- */
+/* Hidden until something is selected, rather than sitting disabled. */
+.resetRow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--space-lg);
+}
+
 .resetButton {
-  padding: var(--space-sm) var(--space-md);
+  padding: var(--space-xs) var(--space-md);
   font-size: 0.8125rem;
   font-weight: 500;
   color: var(--color-text-muted);
-  background: transparent;
-  border: 1px solid var(--color-border-light);
-  border-radius: var(--radius-md);
-  transition: all var(--transition-fast);
+  border-radius: var(--radius-sm);
+  transition: color var(--transition-fast);
 }
 
-.resetButton:hover:not(:disabled) {
-  color: var(--color-text-secondary);
-  border-color: var(--color-border);
+.resetButton:hover {
+  color: var(--color-accent);
 }
 
-.resetButton:disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
+/* --- Empty / No Results --- */
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: var(--space-xl) 0 var(--space-2xl);
 }
 
-/* --- Results Section --- */
+.emptyGlass {
+  width: 64px;
+  height: 64px;
+  color: var(--color-accent);
+  opacity: 0.18;
+}
+
+.emptyText {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+  max-width: 34ch;
+}
+
+/* --- Results --- */
 .results {
   display: flex;
   flex-direction: column;
@@ -114,14 +165,7 @@
   margin-bottom: var(--space-xl);
 }
 
-.noResults {
-  text-align: center;
-  font-size: 0.875rem;
-  color: var(--color-text-muted);
-  padding: var(--space-xl) 0;
-}
-
-/* --- Wine Card (Collapsible) --- */
+/* --- Wine Card (collapsible) --- */
 .wineCard {
   background: var(--color-surface-card);
   border: 1px solid var(--color-border-light);
@@ -136,15 +180,15 @@
 }
 
 .wineCardExpanded {
-  border-color: var(--color-border);
+  border-color: var(--color-accent-border);
   background: var(--color-surface);
 }
 
-/* --- Wine Card Header (clickable toggle) --- */
 .wineHeader {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--space-sm);
   width: 100%;
   padding: var(--space-md) var(--space-lg);
   text-align: left;
@@ -162,12 +206,10 @@
   letter-spacing: -0.01em;
 }
 
-/* --- Chevron icon (rotates when open) --- */
 .chevron {
   flex-shrink: 0;
-  color: var(--color-text-muted);
-  transition: transform var(--transition-base),
-    color var(--transition-fast);
+  color: var(--color-text-faint);
+  transition: transform var(--transition-base), color var(--transition-fast);
 }
 
 .chevronOpen {
@@ -175,9 +217,9 @@
   color: var(--color-accent);
 }
 
-/* --- Wine Detail Panel (expanded content) --- */
+/* --- Wine Detail Panel --- */
 .wineDetail {
-  padding: var(--space-lg) var(--space-lg) var(--space-lg);
+  padding: 10px var(--space-lg) var(--space-lg);
   animation: detailSlideIn 250ms ease;
 }
 
@@ -194,17 +236,17 @@
 
 .wineDescription {
   font-size: 0.875rem;
-  color: #ffffff;
   line-height: 1.6;
+  color: var(--color-text-primary);
   margin-bottom: var(--space-sm);
 }
 
 .wineDescription2 {
   font-size: 0.8125rem;
-  color: #fafafa;
   line-height: 1.6;
-  margin-bottom: var(--space-md);
+  color: var(--color-text-secondary);
   font-style: italic;
+  margin-bottom: var(--space-md);
 }
 
 /* --- Style Note Tags --- */
@@ -221,49 +263,42 @@
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--color-accent);
-  background: rgba(201, 168, 76, 0.1);
-  border: 1px solid rgba(201, 168, 76, 0.2);
+  background: var(--color-accent-soft);
+  border: 1px solid var(--color-accent-border);
   border-radius: 100px;
 }
 
-/* --- Ecosystem Link --- */
-.ecosystemLink {
-  text-align: center;
-  padding: var(--space-lg) 0;
-}
-
-.ecosystemLink p {
-  font-size: 0.8125rem;
-  color: var(--color-text-muted);
-}
-
-.ecosystemLink a {
-  color: var(--color-accent-light);
-  font-weight: 500;
-  transition: color var(--transition-fast);
-}
-
-.ecosystemLink a:hover {
-  color: var(--color-accent);
-}
-
-/* --- Desktop adjustments --- */
+/* --- Desktop --- */
 @media (min-width: 769px) {
   .main {
-    padding-top: calc(var(--header-height) + var(--space-3xl));
-    padding-bottom: var(--space-3xl);
+    padding-top: calc(var(--header-height) + var(--space-2xl));
+    padding-bottom: var(--space-2xl);
   }
 
   .title {
-    font-size: 1.75rem;
+    font-size: 1.875rem;
   }
 
-  /* Center the filters with a max-width on desktop */
-  .filters {
-    max-width: 480px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: var(--space-xl);
+  .subtitle {
+    font-size: 1.0625rem;
+  }
+
+  /* Four questions across, held at the 960px content width */
+  .groups {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--space-md);
+  }
+
+  .segmentButton {
+    font-size: 0.875rem;
+  }
+
+  .results {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    align-items: start;
   }
 
   .wineName {
